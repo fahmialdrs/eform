@@ -49,7 +49,6 @@ Partial Class Pembelian
         Me.mandiri = New System.Windows.Forms.RadioButton()
         Me.bca = New System.Windows.Forms.RadioButton()
         Me.Label28 = New System.Windows.Forms.Label()
-        Me.note = New System.Windows.Forms.TextBox()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
@@ -75,6 +74,7 @@ Partial Class Pembelian
         Me.ordered = New System.Windows.Forms.TextBox()
         Me.proceeded = New System.Windows.Forms.TextBox()
         Me.Label31 = New System.Windows.Forms.Label()
+        Me.catatan = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -259,6 +259,7 @@ Partial Class Pembelian
         '
         'Panel2
         '
+        Me.Panel2.Controls.Add(Me.catatan)
         Me.Panel2.Controls.Add(Me.datainput)
         Me.Panel2.Controls.Add(Me.finalcheck)
         Me.Panel2.Controls.Add(Me.Label30)
@@ -267,7 +268,6 @@ Partial Class Pembelian
         Me.Panel2.Controls.Add(Me.mandiri)
         Me.Panel2.Controls.Add(Me.bca)
         Me.Panel2.Controls.Add(Me.Label28)
-        Me.Panel2.Controls.Add(Me.note)
         Me.Panel2.Controls.Add(Me.Label27)
         Me.Panel2.Location = New System.Drawing.Point(37, 590)
         Me.Panel2.Name = "Panel2"
@@ -359,15 +359,6 @@ Partial Class Pembelian
         Me.Label28.Size = New System.Drawing.Size(115, 16)
         Me.Label28.TabIndex = 34
         Me.Label28.Text = "Payment Method :"
-        '
-        'note
-        '
-        Me.note.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.note.Location = New System.Drawing.Point(127, 25)
-        Me.note.Name = "note"
-        Me.note.Size = New System.Drawing.Size(304, 22)
-        Me.note.TabIndex = 10
-        Me.note.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label27
         '
@@ -639,6 +630,14 @@ Partial Class Pembelian
         Me.Label31.TabIndex = 78
         Me.Label31.Text = "BACK TO MEMBER MENU"
         '
+        'catatan
+        '
+        Me.catatan.Location = New System.Drawing.Point(124, 21)
+        Me.catatan.Name = "catatan"
+        Me.catatan.Size = New System.Drawing.Size(307, 20)
+        Me.catatan.TabIndex = 79
+        Me.catatan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'Pembelian
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -705,7 +704,6 @@ Partial Class Pembelian
     Friend WithEvents mandiri As RadioButton
     Friend WithEvents bca As RadioButton
     Friend WithEvents Label28 As Label
-    Friend WithEvents note As TextBox
     Friend WithEvents Label27 As Label
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
@@ -731,4 +729,5 @@ Partial Class Pembelian
     Friend WithEvents Label9 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label31 As Label
+    Friend WithEvents catatan As TextBox
 End Class

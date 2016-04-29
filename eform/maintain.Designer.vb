@@ -33,7 +33,7 @@ Partial Class maintain
         Me.mandiri = New System.Windows.Forms.RadioButton()
         Me.bca = New System.Windows.Forms.RadioButton()
         Me.Label28 = New System.Windows.Forms.Label()
-        Me.note = New System.Windows.Forms.TextBox()
+        Me.catatan = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.noform = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -114,7 +114,7 @@ Partial Class maintain
         Me.Panel2.Controls.Add(Me.mandiri)
         Me.Panel2.Controls.Add(Me.bca)
         Me.Panel2.Controls.Add(Me.Label28)
-        Me.Panel2.Controls.Add(Me.note)
+        Me.Panel2.Controls.Add(Me.catatan)
         Me.Panel2.Controls.Add(Me.Label27)
         Me.Panel2.Location = New System.Drawing.Point(41, 616)
         Me.Panel2.Name = "Panel2"
@@ -204,13 +204,13 @@ Partial Class maintain
         Me.Label28.TabIndex = 34
         Me.Label28.Text = "Payment Method :"
         '
-        'note
+        'catatan
         '
-        Me.note.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.note.Location = New System.Drawing.Point(127, 25)
-        Me.note.Name = "note"
-        Me.note.Size = New System.Drawing.Size(304, 22)
-        Me.note.TabIndex = 33
+        Me.catatan.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.catatan.Location = New System.Drawing.Point(127, 25)
+        Me.catatan.Name = "catatan"
+        Me.catatan.Size = New System.Drawing.Size(304, 22)
+        Me.catatan.TabIndex = 33
         '
         'Label7
         '
@@ -836,7 +836,7 @@ Partial Class maintain
     Friend WithEvents mandiri As RadioButton
     Friend WithEvents bca As RadioButton
     Friend WithEvents Label28 As Label
-    Friend WithEvents note As TextBox
+    Friend WithEvents catatan As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents noform As TextBox
     Friend WithEvents Label2 As Label

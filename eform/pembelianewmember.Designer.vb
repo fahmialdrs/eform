@@ -65,7 +65,7 @@ Partial Class pembelianewmember
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.bca = New System.Windows.Forms.RadioButton()
         Me.Label28 = New System.Windows.Forms.Label()
-        Me.note = New System.Windows.Forms.TextBox()
+        Me.catatan = New System.Windows.Forms.TextBox()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
@@ -497,7 +497,7 @@ Partial Class pembelianewmember
         Me.Panel2.Controls.Add(Me.mandiri)
         Me.Panel2.Controls.Add(Me.bca)
         Me.Panel2.Controls.Add(Me.Label28)
-        Me.Panel2.Controls.Add(Me.note)
+        Me.Panel2.Controls.Add(Me.catatan)
         Me.Panel2.Controls.Add(Me.Label27)
         Me.Panel2.Location = New System.Drawing.Point(50, 591)
         Me.Panel2.Name = "Panel2"
@@ -526,13 +526,13 @@ Partial Class pembelianewmember
         Me.Label28.TabIndex = 34
         Me.Label28.Text = "Payment Method :"
         '
-        'note
+        'catatan
         '
-        Me.note.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.note.Location = New System.Drawing.Point(127, 25)
-        Me.note.Name = "note"
-        Me.note.Size = New System.Drawing.Size(304, 22)
-        Me.note.TabIndex = 33
+        Me.catatan.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.catatan.Location = New System.Drawing.Point(127, 25)
+        Me.catatan.Name = "catatan"
+        Me.catatan.Size = New System.Drawing.Size(304, 22)
+        Me.catatan.TabIndex = 33
         '
         'Label27
         '
@@ -707,7 +707,7 @@ Partial Class pembelianewmember
     Friend WithEvents Panel2 As Panel
     Friend WithEvents bca As RadioButton
     Friend WithEvents Label28 As Label
-    Friend WithEvents note As TextBox
+    Friend WithEvents catatan As TextBox
     Friend WithEvents Label27 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label22 As Label
