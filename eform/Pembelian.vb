@@ -120,4 +120,10 @@ Public Class Pembelian
         End If
     End Sub
 
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        Button3.Visible = False
+        PrintForm1.PrintAction = Printing.PrintAction.PrintToPreview
+        PrintForm1.Print()
+        Button3.Visible = True
+    End Sub
 End Class

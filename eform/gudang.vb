@@ -8,7 +8,6 @@
     Private Sub gudang_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         'TODO: This line of code loads data into the 'DatabaseDataSet.e_form' table. You can move, or remove it, as needed.
         Me.E_formTableAdapter.Fill(Me.DatabaseDataSet.e_form)
-
         Me.ReportViewer1.RefreshReport()
     End Sub
 
