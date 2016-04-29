@@ -52,6 +52,7 @@
   <ItemGroup>
     <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
     <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -82,6 +83,12 @@
       <DependentUpon>adminmenu.vb</DependentUpon>
     </Compile>
     <Compile Include="adminmenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="backup.Designer.vb">
+      <DependentUpon>backup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="backup.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="databaseDataSet.Designer.vb">
@@ -174,6 +181,10 @@
     <Compile Include="pembelianewmember.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="printpembelian.Designer.vb">
+      <DependentUpon>printpembelian.vb</DependentUpon>
+    </Compile>
+    <Compile Include="printpembelian.vb" />
     <Compile Include="register.Designer.vb">
       <DependentUpon>register.vb</DependentUpon>
     </Compile>
@@ -196,6 +207,9 @@
   <ItemGroup>
     <EmbeddedResource Include="adminmenu.resx">
       <DependentUpon>adminmenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="backup.resx">
+      <DependentUpon>backup.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="finance.resx">
       <DependentUpon>finance.vb</DependentUpon>
@@ -235,6 +249,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="pembelianewmember.resx">
       <DependentUpon>pembelianewmember.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printpembelian.resx">
+      <DependentUpon>printpembelian.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="register.resx">
       <DependentUpon>register.vb</DependentUpon>
