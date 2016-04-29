@@ -37,12 +37,12 @@ Partial Class finance
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
-        Me.databaseDataSet = New eform.databaseDataSet()
+        Me.databaseDataSet1 = New eform.databaseDataSet1()
         Me.e_formBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.e_formTableAdapter = New eform.databaseDataSetTableAdapters.e_formTableAdapter()
+        Me.e_formTableAdapter = New eform.databaseDataSet1TableAdapters.e_formTableAdapter()
         Me.MenuStrip.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.databaseDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.databaseDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -165,15 +165,15 @@ Partial Class finance
         Me.ReportViewer1.Size = New System.Drawing.Size(1143, 255)
         Me.ReportViewer1.TabIndex = 76
         '
-        'databaseDataSet
+        'databaseDataSet1
         '
-        Me.databaseDataSet.DataSetName = "databaseDataSet"
-        Me.databaseDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        Me.databaseDataSet1.DataSetName = "databaseDataSet1"
+        Me.databaseDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'e_formBindingSource
         '
         Me.e_formBindingSource.DataMember = "e_form"
-        Me.e_formBindingSource.DataSource = Me.databaseDataSet
+        Me.e_formBindingSource.DataSource = Me.databaseDataSet1
         '
         'e_formTableAdapter
         '
@@ -201,7 +201,7 @@ Partial Class finance
         Me.MenuStrip.ResumeLayout(False)
         Me.MenuStrip.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.databaseDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.databaseDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -220,7 +220,7 @@ Partial Class finance
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents ReportViewer1 As Microsoft.Reporting.WinForms.ReportViewer
+    Friend WithEvents databaseDataSet1 As eform.databaseDataSet1
     Friend WithEvents e_formBindingSource As System.Windows.Forms.BindingSource
-    Friend WithEvents databaseDataSet As eform.databaseDataSet
-    Friend WithEvents e_formTableAdapter As eform.databaseDataSetTableAdapters.e_formTableAdapter
+    Friend WithEvents e_formTableAdapter As eform.databaseDataSet1TableAdapters.e_formTableAdapter
 End Class

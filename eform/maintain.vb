@@ -98,8 +98,7 @@ Public Class maintain
         Else
             Dim simpan As String
             Me.Cursor = Cursors.WaitCursor
-            simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3,Total_pcs,Total_set, Amount , catatan , Final_Check, Data_Input , Ordered_by, Proceed_by,saldo_maintainRM,saldo_maintainIDR,kurang_bayar ) VALUES 
-                                   ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & firmax3r.Text & "', '" & o2max3r.Text & "', '" & totalpcs.Text & "','" & totalset.Text & "', '" & amountr.Text & "', '" & catatan.Text & "', '" & finalcheck.Text & "', '" & datainput.Text & "','" & ordered.Text & "','" & proceeded.Text & "', '" & saldomaintainrm.Text & "','" & saldomaintainidr.Text & "','" & kurangbayar.Text & "') "
+            simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3,Total_pcs,Total_set, Amount , catatan , Final_Check, Data_Input , Ordered_by, Proceed_by,saldo_maintainRM,saldo_maintainIDR,kurang_bayar ) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & firmax3r.Text & "', '" & o2max3r.Text & "', '" & totalpcs.Text & "','" & totalset.Text & "', '" & amountr.Text & "', '" & catatan.Text & "', '" & finalcheck.Text & "', '" & datainput.Text & "','" & ordered.Text & "','" & proceeded.Text & "', '" & saldomaintainrm.Text & "','" & saldomaintainidr.Text & "','" & kurangbayar.Text & "') "
             jalankansql(simpan)
             noform.Focus()
             Me.Cursor = Cursors.Default
