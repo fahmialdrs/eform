@@ -1,12 +1,20 @@
-﻿Imports System.Data.OleDb
+﻿
 Public Class pembelianewmember
-    Dim con As New OleDbConnection
-    Sub Open_Koneksi()
-        con.ConnectionString = "Provider=microsoft.jet.oledb.4.0" & _
-                               ";Data Source=database.mdb;" & _
-                               "Persist Security Info=False;"
-        con.Open()
+    Private Sub jalankansql(ByVal sQl As String)
+        Dim objcmd As New System.Data.OleDb.OleDbCommand
+        Call konek()
+        Try
+            objcmd.Connection = conn
+            objcmd.CommandType = CommandType.Text
+            objcmd.CommandText = sQl
+            objcmd.ExecuteNonQuery()
+            objcmd.Dispose()
+            MsgBox("Data Sudah Disimpan", vbInformation)
+        Catch ex As Exception
+            MsgBox("Tidak Bisa Menyimpan data ke Database" & ex.Message)
+        End Try
     End Sub
+
     Private Sub back_Click(sender As Object, e As EventArgs)
         newmembermenu.Show()
         Me.Hide()
@@ -38,7 +46,7 @@ Public Class pembelianewmember
         totalpcs.Text = ""
         totalset.Text = ""
         amountr.Text = ""
-        note.Text = ""
+        catatan.Text = ""
         finalcheck.Text = ""
         datainput.Text = ""
     End Sub
@@ -77,42 +85,13 @@ Public Class pembelianewmember
             proceeded.Focus()
             Exit Sub
         Else
-            Dim myCommand As New OleDbCommand
-            Dim SQL As String
-            Try
-                If Not con.State = ConnectionState.Open Then Open_Koneksi()
-                SQL = "INSERT INTO Form-Pembelian-lama (Tanggal, User_ID, Nama, No_Telp, Prod_firmax3-R, Prod_O2_max3-R, TOTAL_pcs-R, TOTAL_set-R, Amount-R, Note, Final_Check, Data_Input, Ordered_By, Proceed_By) VALUES " &
-                          "('" & tanggal.Text & "', '" & userid.Text & "', '" & nama.Text & "', '" & notelpon.Text & "', '" & firmax3r.Value & "', '" & o2max3r.Value & "', '" & totalpcs.Text & "', '" & totalset.Text & "', '" & amountr.Text & "', '" & note.Text & "', '" & finalcheck.Text & "', '" & datainput.Text & "', '" & ordered.Text & "', '" & proceeded.Text & "')"
-
-
-                myCommand.Connection = con
-                myCommand.CommandText = SQL
-                myCommand.ExecuteNonQuery()
-
-                MsgBox("Data baru tersimpan")
-
-                noform.Text = String.Empty
-                userid.Text = String.Empty
-                nama.Text = String.Empty
-                notelpon.Text = String.Empty
-                firmax3r.Value = String.Empty
-                o2max3r.Value = String.Empty
-                totalpcs.Text = String.Empty
-                totalset.Text = String.Empty
-                amountr.Text = String.Empty
-                ordered.Text = String.Empty
-                proceeded.Text = String.Empty
-                note.Text = String.Empty
-                finalcheck.Text = String.Empty
-                datainput.Text = String.Empty
-
-                con.Close()
-
-            Catch myerror As OleDbException
-                MessageBox.Show("Error: " & myerror.Message)
-            Finally
-                con.Dispose()
-            End Try
+            Dim simpan As String
+            Me.Cursor = Cursors.WaitCursor
+            simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3,Total_pcs,Total_set, Amount , catatan , Final_Check, Data_Input , Ordered_by, Proceed_by ) VALUES 
+                                   ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & firmax3r.Text & "', '" & o2max3r.Text & "', '" & totalpcs.Text & "','" & totalset.Text & "', '" & amountr.Text & "', '" & catatan.Text & "', '" & finalcheck.Text & "', '" & datainput.Text & "','" & ordered.Text & "','" & proceeded.Text & "') "
+            jalankansql(simpan)
+            noform.Focus()
+            Me.Cursor = Cursors.Default
         End If
     End Sub
 End Class

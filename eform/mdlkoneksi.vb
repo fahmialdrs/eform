@@ -1,6 +1,6 @@
 ﻿Imports System.Data
 Imports System.Data.OleDb
-Module mdlkoneksi
+Module MdlKoneksi
     Public conn As OleDbConnection
     Public CMD As OleDbCommand
     Public DS As New DataSet

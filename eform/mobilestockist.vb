@@ -1,11 +1,18 @@
-﻿Imports System.Data.OleDb
+﻿
 Public Class mobilestockist
-    Dim con As New OleDbConnection
-    Sub Open_Koneksi()
-        con.ConnectionString = "Provider=microsoft.jet.oledb.4.0" & _
-                               ";Data Source=database.mdb;" & _
-                               "Persist Security Info=False;"
-        con.Open()
+    Private Sub jalankansql(ByVal sQl As String)
+        Dim objcmd As New System.Data.OleDb.OleDbCommand
+        Call konek()
+        Try
+            objcmd.Connection = conn
+            objcmd.CommandType = CommandType.Text
+            objcmd.CommandText = sQl
+            objcmd.ExecuteNonQuery()
+            objcmd.Dispose()
+            MsgBox("Data Sudah Disimpan", vbInformation)
+        Catch ex As Exception
+            MsgBox("Tidak Bisa Menyimpan data ke Database" & ex.Message)
+        End Try
     End Sub
     Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
         membermenu.Show()
@@ -75,39 +82,18 @@ Public Class mobilestockist
             proceeded.Focus()
             Exit Sub
         Else
-            Dim myCommand As New OleDbCommand
-            Dim SQL As String
-            Try
-                If Not con.State = ConnectionState.Open Then Open_Koneksi()
-                SQL = "INSERT INTO Form-Pembelian-(Mobile-Stockist) (Tanggal, user_id, nama, No_Telp, Prod_Firmax3-R, Prod_O2max3-R, Total_pcsR, Total_setR, AmountR, TransferR_wallet, Ordered_By, Proceed_By) VALUES " &
-                          "('" & tanggal.Text & "', '" & userid.Text & "', '" & nama.Text & "', '" & notelpon.Text & "', '" & firmax3r.Value & "', '" & o2max3r.Value & "', '" & totalpcs.Text & "', '" & totalset.Text & "', '" & amountr.Text & "', '" & transferrwallet.Text & "', '" & ordered.Text & "', '" & proceeded.Text & "')"
+            Dim simpan As String
+            Me.Cursor = Cursors.WaitCursor
+            simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3,Total_pcs,Total_set, Amount , trsf_wallet , Ordered_by, Proceed_by ) VALUES 
+                                   ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & firmax3r.Text & "', '" & o2max3r.Text & "', '" & totalpcs.Text & "','" & totalset.Text & "', '" & amountr.Text & "', '" & transferrwallet.Text & "','" & ordered.Text & "','" & proceeded.Text & "') "
+            jalankansql(simpan)
+            noform.Focus()
+            Me.Cursor = Cursors.Default
 
-
-                myCommand.Connection = con
-                myCommand.CommandText = SQL
-                myCommand.ExecuteNonQuery()
-
-                MsgBox("Data baru tersimpan")
-
-                noform.Text = String.Empty
-                userid.Text = String.Empty
-                nama.Text = String.Empty
-                notelpon.Text = String.Empty
-                firmax3r.Value = String.Empty
-                o2max3r.Value = String.Empty
-                totalpcs.Text = String.Empty
-                totalset.Text = String.Empty
-                amountr.Text = String.Empty
-                ordered.Text = String.Empty
-                proceeded.Text = String.Empty
-
-                con.Close()
-
-            Catch myerror As OleDbException
-                MessageBox.Show("Error: " & myerror.Message)
-            Finally
-                con.Dispose()
-            End Try
         End If
+    End Sub
+
+    Private Sub transferrwallet_TextChanged(sender As Object, e As EventArgs) Handles transferrwallet.TextChanged
+
     End Sub
 End Class
