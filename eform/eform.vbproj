@@ -184,7 +184,9 @@
     <Compile Include="printpembelian.Designer.vb">
       <DependentUpon>printpembelian.vb</DependentUpon>
     </Compile>
-    <Compile Include="printpembelian.vb" />
+    <Compile Include="printpembelian.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="register.Designer.vb">
       <DependentUpon>register.vb</DependentUpon>
     </Compile>
