@@ -30,6 +30,11 @@ Partial Class backup
         Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.btn_backup = New System.Windows.Forms.Button()
+        Me.btn_browser = New System.Windows.Forms.Button()
+        Me.txt_filename = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip.SuspendLayout()
         Me.SuspendLayout()
@@ -101,6 +106,42 @@ Partial Class backup
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
+        'btn_backup
+        '
+        Me.btn_backup.Location = New System.Drawing.Point(590, 399)
+        Me.btn_backup.Name = "btn_backup"
+        Me.btn_backup.Size = New System.Drawing.Size(125, 54)
+        Me.btn_backup.TabIndex = 41
+        Me.btn_backup.Text = "BACKUP"
+        Me.btn_backup.UseVisualStyleBackColor = True
+        '
+        'btn_browser
+        '
+        Me.btn_browser.Location = New System.Drawing.Point(856, 343)
+        Me.btn_browser.Name = "btn_browser"
+        Me.btn_browser.Size = New System.Drawing.Size(119, 27)
+        Me.btn_browser.TabIndex = 42
+        Me.btn_browser.Text = "Browse"
+        Me.btn_browser.UseVisualStyleBackColor = True
+        '
+        'txt_filename
+        '
+        Me.txt_filename.Location = New System.Drawing.Point(468, 347)
+        Me.txt_filename.Name = "txt_filename"
+        Me.txt_filename.Size = New System.Drawing.Size(382, 20)
+        Me.txt_filename.TabIndex = 43
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(506, 223)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(367, 39)
+        Me.Label1.TabIndex = 44
+        Me.Label1.Text = "BACKUP DATABASE"
+        '
         'backup
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -108,6 +149,10 @@ Partial Class backup
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.txt_filename)
+        Me.Controls.Add(Me.btn_browser)
+        Me.Controls.Add(Me.btn_backup)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.TextBox2)
         Me.Controls.Add(Me.TextBox1)
@@ -128,4 +173,9 @@ Partial Class backup
     Friend WithEvents LoginToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SettingToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents btn_backup As System.Windows.Forms.Button
+    Friend WithEvents btn_browser As System.Windows.Forms.Button
+    Friend WithEvents txt_filename As System.Windows.Forms.TextBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents FolderBrowserDialog1 As System.Windows.Forms.FolderBrowserDialog
 End Class

@@ -25,6 +25,8 @@ Partial Class finance
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(finance))
         Dim ReportDataSource1 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
+        Me.e_formBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.databaseDataSet1 = New eform.databaseDataSet1()
         Me.MenuStrip = New System.Windows.Forms.MenuStrip()
         Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BackupDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -37,14 +39,22 @@ Partial Class finance
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
-        Me.databaseDataSet1 = New eform.databaseDataSet1()
-        Me.e_formBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.e_formTableAdapter = New eform.databaseDataSet1TableAdapters.e_formTableAdapter()
+        CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.databaseDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.databaseDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'e_formBindingSource
+        '
+        Me.e_formBindingSource.DataMember = "e_form"
+        Me.e_formBindingSource.DataSource = Me.databaseDataSet1
+        '
+        'databaseDataSet1
+        '
+        Me.databaseDataSet1.DataSetName = "databaseDataSet1"
+        Me.databaseDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'MenuStrip
         '
@@ -165,16 +175,6 @@ Partial Class finance
         Me.ReportViewer1.Size = New System.Drawing.Size(1143, 255)
         Me.ReportViewer1.TabIndex = 76
         '
-        'databaseDataSet1
-        '
-        Me.databaseDataSet1.DataSetName = "databaseDataSet1"
-        Me.databaseDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'e_formBindingSource
-        '
-        Me.e_formBindingSource.DataMember = "e_form"
-        Me.e_formBindingSource.DataSource = Me.databaseDataSet1
-        '
         'e_formTableAdapter
         '
         Me.e_formTableAdapter.ClearBeforeFill = True
@@ -198,11 +198,11 @@ Partial Class finance
         Me.Name = "finance"
         Me.Text = "finance"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.databaseDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip.ResumeLayout(False)
         Me.MenuStrip.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.databaseDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

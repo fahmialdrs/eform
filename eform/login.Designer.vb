@@ -162,7 +162,7 @@ Partial Class login
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(897, 19)
         Me.TextBox3.TabIndex = 68
-        Me.TextBox3.Text = "Gedung Gajah Unit AP - Jl. Dr. Sahardjo No.111, Tebet Barat, Tebet 12810 Jakarta " &
+        Me.TextBox3.Text = "Gedung Gajah Unit AP - Jl. Dr. Sahardjo No.111, Tebet Barat, Tebet 12810 Jakarta " & _
     "Selatan Telp. 021-8310351"
         '
         'TextBox4
