@@ -25,6 +25,8 @@ Partial Class finance
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(finance))
         Dim ReportDataSource1 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
+        Me.e_formBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.databaseDataSet1 = New eform.databaseDataSet1()
         Me.MenuStrip = New System.Windows.Forms.MenuStrip()
         Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BackupDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -37,17 +39,24 @@ Partial Class finance
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
-        Me.akunting1 = New eform.akunting()
-        Me.e_formBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.databaseDataSet1 = New eform.databaseDataSet1()
         Me.e_formTableAdapter = New eform.databaseDataSet1TableAdapters.e_formTableAdapter()
         Me.CrystalReportViewer1 = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
-        Me.akunting2 = New eform.akunting()
-        Me.MenuStrip.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.gudangreport1 = New eform.gudangreport()
         CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.databaseDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.MenuStrip.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'e_formBindingSource
+        '
+        Me.e_formBindingSource.DataMember = "e_form"
+        Me.e_formBindingSource.DataSource = Me.databaseDataSet1
+        '
+        'databaseDataSet1
+        '
+        Me.databaseDataSet1.DataSetName = "databaseDataSet1"
+        Me.databaseDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'MenuStrip
         '
@@ -165,18 +174,8 @@ Partial Class finance
         Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "eform.Report2.rdlc"
         Me.ReportViewer1.Location = New System.Drawing.Point(102, 256)
         Me.ReportViewer1.Name = "ReportViewer1"
-        Me.ReportViewer1.Size = New System.Drawing.Size(603, 258)
+        Me.ReportViewer1.Size = New System.Drawing.Size(538, 258)
         Me.ReportViewer1.TabIndex = 76
-        '
-        'e_formBindingSource
-        '
-        Me.e_formBindingSource.DataMember = "e_form"
-        Me.e_formBindingSource.DataSource = Me.databaseDataSet1
-        '
-        'databaseDataSet1
-        '
-        Me.databaseDataSet1.DataSetName = "databaseDataSet1"
-        Me.databaseDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'e_formTableAdapter
         '
@@ -187,12 +186,12 @@ Partial Class finance
         Me.CrystalReportViewer1.ActiveViewIndex = 0
         Me.CrystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.CrystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default
-        Me.CrystalReportViewer1.Location = New System.Drawing.Point(756, 245)
+        Me.CrystalReportViewer1.Location = New System.Drawing.Point(730, 287)
         Me.CrystalReportViewer1.Name = "CrystalReportViewer1"
-        Me.CrystalReportViewer1.ReportSource = Me.akunting2
-        Me.CrystalReportViewer1.Size = New System.Drawing.Size(565, 382)
+        Me.CrystalReportViewer1.ReportSource = Me.gudangreport1
+        Me.CrystalReportViewer1.Size = New System.Drawing.Size(452, 199)
         Me.CrystalReportViewer1.TabIndex = 77
-        Me.CrystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.ParameterPanel
+        Me.CrystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None
         '
         'finance
         '
@@ -214,11 +213,11 @@ Partial Class finance
         Me.Name = "finance"
         Me.Text = "finance"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.databaseDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip.ResumeLayout(False)
         Me.MenuStrip.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.databaseDataSet1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -239,7 +238,6 @@ Partial Class finance
     Friend WithEvents databaseDataSet1 As eform.databaseDataSet1
     Friend WithEvents e_formBindingSource As System.Windows.Forms.BindingSource
     Friend WithEvents e_formTableAdapter As eform.databaseDataSet1TableAdapters.e_formTableAdapter
-    Friend WithEvents akunting1 As eform.akunting
     Friend WithEvents CrystalReportViewer1 As CrystalDecisions.Windows.Forms.CrystalReportViewer
-    Friend WithEvents akunting2 As eform.akunting
+    Friend WithEvents gudangreport1 As eform.gudangreport
 End Class

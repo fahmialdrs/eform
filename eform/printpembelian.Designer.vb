@@ -47,135 +47,135 @@ Partial Class printpembelian
         Me.datainput.AutoSize = True
         Me.datainput.Location = New System.Drawing.Point(523, 648)
         Me.datainput.Name = "datainput"
-        Me.datainput.Size = New System.Drawing.Size(45, 13)
+        Me.datainput.Size = New System.Drawing.Size(10, 13)
         Me.datainput.TabIndex = 29
-        Me.datainput.Text = "Label14"
+        Me.datainput.Text = " "
         '
         'finalcheck
         '
         Me.finalcheck.AutoSize = True
         Me.finalcheck.Location = New System.Drawing.Point(310, 648)
         Me.finalcheck.Name = "finalcheck"
-        Me.finalcheck.Size = New System.Drawing.Size(45, 13)
+        Me.finalcheck.Size = New System.Drawing.Size(10, 13)
         Me.finalcheck.TabIndex = 28
-        Me.finalcheck.Text = "Label14"
+        Me.finalcheck.Text = " "
         '
         'note
         '
         Me.note.AutoSize = True
         Me.note.Location = New System.Drawing.Point(116, 648)
         Me.note.Name = "note"
-        Me.note.Size = New System.Drawing.Size(45, 13)
+        Me.note.Size = New System.Drawing.Size(10, 13)
         Me.note.TabIndex = 27
-        Me.note.Text = "Label13"
+        Me.note.Text = " "
         '
         'proceededby
         '
         Me.proceededby.AutoSize = True
         Me.proceededby.Location = New System.Drawing.Point(523, 537)
         Me.proceededby.Name = "proceededby"
-        Me.proceededby.Size = New System.Drawing.Size(45, 13)
+        Me.proceededby.Size = New System.Drawing.Size(10, 13)
         Me.proceededby.TabIndex = 26
-        Me.proceededby.Text = "Label12"
+        Me.proceededby.Text = " "
         '
         'orderedby
         '
         Me.orderedby.AutoSize = True
         Me.orderedby.Location = New System.Drawing.Point(231, 537)
         Me.orderedby.Name = "orderedby"
-        Me.orderedby.Size = New System.Drawing.Size(45, 13)
+        Me.orderedby.Size = New System.Drawing.Size(10, 13)
         Me.orderedby.TabIndex = 25
-        Me.orderedby.Text = "Label11"
+        Me.orderedby.Text = " "
         '
         'amount
         '
         Me.amount.AutoSize = True
         Me.amount.Location = New System.Drawing.Point(396, 400)
         Me.amount.Name = "amount"
-        Me.amount.Size = New System.Drawing.Size(45, 13)
+        Me.amount.Size = New System.Drawing.Size(10, 13)
         Me.amount.TabIndex = 24
-        Me.amount.Text = "Label10"
+        Me.amount.Text = " "
         '
         'totalset
         '
         Me.totalset.AutoSize = True
         Me.totalset.Location = New System.Drawing.Point(396, 362)
         Me.totalset.Name = "totalset"
-        Me.totalset.Size = New System.Drawing.Size(39, 13)
+        Me.totalset.Size = New System.Drawing.Size(10, 13)
         Me.totalset.TabIndex = 23
-        Me.totalset.Text = "Label9"
+        Me.totalset.Text = " "
         '
         'totalpcs
         '
         Me.totalpcs.AutoSize = True
         Me.totalpcs.Location = New System.Drawing.Point(396, 321)
         Me.totalpcs.Name = "totalpcs"
-        Me.totalpcs.Size = New System.Drawing.Size(39, 13)
+        Me.totalpcs.Size = New System.Drawing.Size(10, 13)
         Me.totalpcs.TabIndex = 22
-        Me.totalpcs.Text = "Label8"
+        Me.totalpcs.Text = " "
         '
         'o2max3
         '
         Me.o2max3.AutoSize = True
         Me.o2max3.Location = New System.Drawing.Point(474, 268)
         Me.o2max3.Name = "o2max3"
-        Me.o2max3.Size = New System.Drawing.Size(39, 13)
+        Me.o2max3.Size = New System.Drawing.Size(10, 13)
         Me.o2max3.TabIndex = 21
-        Me.o2max3.Text = "Label7"
+        Me.o2max3.Text = " "
         '
         'firmax3
         '
         Me.firmax3.AutoSize = True
         Me.firmax3.Location = New System.Drawing.Point(325, 268)
         Me.firmax3.Name = "firmax3"
-        Me.firmax3.Size = New System.Drawing.Size(39, 13)
+        Me.firmax3.Size = New System.Drawing.Size(10, 13)
         Me.firmax3.TabIndex = 20
-        Me.firmax3.Text = "Label6"
+        Me.firmax3.Text = " "
         '
         'notelfon
         '
         Me.notelfon.AutoSize = True
         Me.notelfon.Location = New System.Drawing.Point(194, 215)
         Me.notelfon.Name = "notelfon"
-        Me.notelfon.Size = New System.Drawing.Size(39, 13)
+        Me.notelfon.Size = New System.Drawing.Size(10, 13)
         Me.notelfon.TabIndex = 19
-        Me.notelfon.Text = "Label5"
+        Me.notelfon.Text = " "
         '
         'nama
         '
         Me.nama.AutoSize = True
         Me.nama.Location = New System.Drawing.Point(194, 183)
         Me.nama.Name = "nama"
-        Me.nama.Size = New System.Drawing.Size(39, 13)
+        Me.nama.Size = New System.Drawing.Size(10, 13)
         Me.nama.TabIndex = 18
-        Me.nama.Text = "Label4"
+        Me.nama.Text = " "
         '
         'userid
         '
         Me.userid.AutoSize = True
         Me.userid.Location = New System.Drawing.Point(194, 153)
         Me.userid.Name = "userid"
-        Me.userid.Size = New System.Drawing.Size(39, 13)
+        Me.userid.Size = New System.Drawing.Size(10, 13)
         Me.userid.TabIndex = 17
-        Me.userid.Text = "Label3"
+        Me.userid.Text = " "
         '
         'tanggal
         '
         Me.tanggal.AutoSize = True
         Me.tanggal.Location = New System.Drawing.Point(194, 120)
         Me.tanggal.Name = "tanggal"
-        Me.tanggal.Size = New System.Drawing.Size(39, 13)
+        Me.tanggal.Size = New System.Drawing.Size(10, 13)
         Me.tanggal.TabIndex = 16
-        Me.tanggal.Text = "Label2"
+        Me.tanggal.Text = " "
         '
         'noform
         '
         Me.noform.AutoSize = True
-        Me.noform.Location = New System.Drawing.Point(339, 72)
+        Me.noform.Location = New System.Drawing.Point(95, 47)
         Me.noform.Name = "noform"
-        Me.noform.Size = New System.Drawing.Size(39, 13)
+        Me.noform.Size = New System.Drawing.Size(10, 13)
         Me.noform.TabIndex = 15
-        Me.noform.Text = "Label1"
+        Me.noform.Text = " "
         '
         'PrintForm1
         '

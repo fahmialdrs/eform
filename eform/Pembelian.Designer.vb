@@ -22,6 +22,7 @@ Partial Class Pembelian
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Pembelian))
         Me.noform = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -41,6 +42,7 @@ Partial Class Pembelian
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.catatan = New System.Windows.Forms.TextBox()
         Me.datainput = New System.Windows.Forms.TextBox()
         Me.finalcheck = New System.Windows.Forms.TextBox()
         Me.Label30 = New System.Windows.Forms.Label()
@@ -74,7 +76,7 @@ Partial Class Pembelian
         Me.ordered = New System.Windows.Forms.TextBox()
         Me.proceeded = New System.Windows.Forms.TextBox()
         Me.Label31 = New System.Windows.Forms.Label()
-        Me.catatan = New System.Windows.Forms.TextBox()
+        Me.PrintForm1 = New Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -273,6 +275,14 @@ Partial Class Pembelian
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(968, 92)
         Me.Panel2.TabIndex = 32
+        '
+        'catatan
+        '
+        Me.catatan.Location = New System.Drawing.Point(124, 21)
+        Me.catatan.Name = "catatan"
+        Me.catatan.Size = New System.Drawing.Size(307, 20)
+        Me.catatan.TabIndex = 79
+        Me.catatan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'datainput
         '
@@ -630,13 +640,13 @@ Partial Class Pembelian
         Me.Label31.TabIndex = 78
         Me.Label31.Text = "BACK TO MEMBER MENU"
         '
-        'catatan
+        'PrintForm1
         '
-        Me.catatan.Location = New System.Drawing.Point(124, 21)
-        Me.catatan.Name = "catatan"
-        Me.catatan.Size = New System.Drawing.Size(307, 20)
-        Me.catatan.TabIndex = 79
-        Me.catatan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.PrintForm1.DocumentName = "document"
+        Me.PrintForm1.Form = Me
+        Me.PrintForm1.PrintAction = System.Drawing.Printing.PrintAction.PrintToPrinter
+        Me.PrintForm1.PrinterSettings = CType(resources.GetObject("PrintForm1.PrinterSettings"), System.Drawing.Printing.PrinterSettings)
+        Me.PrintForm1.PrintFileName = Nothing
         '
         'Pembelian
         '
@@ -730,4 +740,5 @@ Partial Class Pembelian
     Friend WithEvents Label8 As Label
     Friend WithEvents Label31 As Label
     Friend WithEvents catatan As TextBox
+    Friend WithEvents PrintForm1 As Microsoft.VisualBasic.PowerPacks.Printing.PrintForm
 End Class
