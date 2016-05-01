@@ -24,7 +24,7 @@ Partial Class gudang
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(gudang))
-        Dim ReportDataSource1 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
+        Dim ReportDataSource2 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
         Me.e_formBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.databaseDataSet1 = New eform.databaseDataSet1()
         Me.MenuStrip = New System.Windows.Forms.MenuStrip()
@@ -40,6 +40,8 @@ Partial Class gudang
         Me.back = New System.Windows.Forms.Button()
         Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
         Me.e_formTableAdapter = New eform.databaseDataSet1TableAdapters.e_formTableAdapter()
+        Me.CrystalReportViewer1 = New CrystalDecisions.Windows.Forms.CrystalReportViewer()
+        Me.gudangreport1 = New eform.gudangreport()
         CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.databaseDataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip.SuspendLayout()
@@ -166,18 +168,29 @@ Partial Class gudang
         '
         'ReportViewer1
         '
-        ReportDataSource1.Name = "DataSet1"
-        ReportDataSource1.Value = Me.e_formBindingSource
-        Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource1)
+        ReportDataSource2.Name = "DataSet1"
+        ReportDataSource2.Value = Me.e_formBindingSource
+        Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource2)
         Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "eform.Report1.rdlc"
         Me.ReportViewer1.Location = New System.Drawing.Point(99, 250)
         Me.ReportViewer1.Name = "ReportViewer1"
-        Me.ReportViewer1.Size = New System.Drawing.Size(1119, 269)
+        Me.ReportViewer1.Size = New System.Drawing.Size(695, 269)
         Me.ReportViewer1.TabIndex = 90
         '
         'e_formTableAdapter
         '
         Me.e_formTableAdapter.ClearBeforeFill = True
+        '
+        'CrystalReportViewer1
+        '
+        Me.CrystalReportViewer1.ActiveViewIndex = 0
+        Me.CrystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.CrystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default
+        Me.CrystalReportViewer1.Location = New System.Drawing.Point(965, 167)
+        Me.CrystalReportViewer1.Name = "CrystalReportViewer1"
+        Me.CrystalReportViewer1.ReportSource = Me.gudangreport1
+        Me.CrystalReportViewer1.Size = New System.Drawing.Size(150, 150)
+        Me.CrystalReportViewer1.TabIndex = 91
         '
         'gudang
         '
@@ -186,6 +199,7 @@ Partial Class gudang
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.CrystalReportViewer1)
         Me.Controls.Add(Me.ReportViewer1)
         Me.Controls.Add(Me.MenuStrip)
         Me.Controls.Add(Me.PictureBox1)
@@ -221,4 +235,6 @@ Partial Class gudang
     Friend WithEvents ReportViewer1 As Microsoft.Reporting.WinForms.ReportViewer
     Friend WithEvents e_formBindingSource As System.Windows.Forms.BindingSource
     Friend WithEvents e_formTableAdapter As eform.databaseDataSet1TableAdapters.e_formTableAdapter
+    Friend WithEvents CrystalReportViewer1 As CrystalDecisions.Windows.Forms.CrystalReportViewer
+    Friend WithEvents gudangreport1 As eform.gudangreport
 End Class
