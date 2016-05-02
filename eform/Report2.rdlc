@@ -42,7 +42,7 @@
               <Width>1in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.53125in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1in</Width>
@@ -496,7 +496,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>total uang msk</Value>
+                              <Value>Total Uang Masuk</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -998,14 +998,14 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="total_uang_msk">
+                    <Textbox Name="Amount1">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Sum(Fields!total_uang_msk.Value)</Value>
+                              <Value>=Sum(Fields!Amount.Value)</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <Color>#4d4d4d</Color>
@@ -1015,7 +1015,7 @@
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>total_uang_msk</rd:DefaultName>
+                      <rd:DefaultName>Amount1</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>#e5e5e5</Color>
@@ -1130,7 +1130,7 @@
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
         <Height>0.5in</Height>
-        <Width>15in</Width>
+        <Width>15.53125in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1141,7 +1141,7 @@
     <Height>2in</Height>
     <Style />
   </Body>
-  <Width>15in</Width>
+  <Width>15.53125in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>
@@ -1151,18 +1151,18 @@
   </Page>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
-    <DataSource Name="databaseDataSet1">
+    <DataSource Name="databaseDataSet">
       <ConnectionProperties>
         <DataProvider>System.Data.DataSet</DataProvider>
         <ConnectString>/* Local Connection */</ConnectString>
       </ConnectionProperties>
-      <rd:DataSourceID>1d65f585-145b-47bf-8f53-daf0fde1f7b0</rd:DataSourceID>
+      <rd:DataSourceID>ca41a083-c4d4-4d57-b5a2-7dfa48cc3481</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
     <DataSet Name="DataSet1">
       <Query>
-        <DataSourceName>databaseDataSet1</DataSourceName>
+        <DataSourceName>databaseDataSet</DataSourceName>
         <CommandText>/* Local Query */</CommandText>
       </Query>
       <Fields>
@@ -1280,8 +1280,8 @@
         </Field>
       </Fields>
       <rd:DataSetInfo>
-        <rd:DataSetName>databaseDataSet1</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\databaseDataSet1.xsd</rd:SchemaPath>
+        <rd:DataSetName>databaseDataSet</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\databaseDataSet.xsd</rd:SchemaPath>
         <rd:TableName>e_form</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -1290,5 +1290,5 @@
     </DataSet>
   </DataSets>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
-  <rd:ReportID>ea042857-7a7a-4baa-abe8-63cd35c2c83c</rd:ReportID>
+  <rd:ReportID>75e2acff-70b5-4096-b53f-5232fb692c0e</rd:ReportID>
 </Report>

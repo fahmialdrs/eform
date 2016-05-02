@@ -57,7 +57,7 @@ Partial Class backup
         Me.TextBox2.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(225, 691)
+        Me.TextBox2.Location = New System.Drawing.Point(225, 636)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(897, 19)
         Me.TextBox2.TabIndex = 39
@@ -69,10 +69,9 @@ Partial Class backup
         Me.TextBox1.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(497, 654)
-        Me.TextBox1.Multiline = True
+        Me.TextBox1.Location = New System.Drawing.Point(497, 599)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(353, 31)
+        Me.TextBox1.Size = New System.Drawing.Size(353, 28)
         Me.TextBox1.TabIndex = 38
         Me.TextBox1.Text = "PT. RF3 WORLD INDONESIA "
         '

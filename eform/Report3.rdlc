@@ -496,7 +496,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>total brg klr</Value>
+                              <Value>Total pcs</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -998,14 +998,14 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="total_brg_klr">
+                    <Textbox Name="Total_pcs1">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
                       <Paragraphs>
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Sum(Fields!total_brg_klr.Value)</Value>
+                              <Value>=Count(Fields!Total_pcs.Value)</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <Color>#4d4d4d</Color>
@@ -1015,7 +1015,7 @@
                           <Style />
                         </Paragraph>
                       </Paragraphs>
-                      <rd:DefaultName>total_brg_klr</rd:DefaultName>
+                      <rd:DefaultName>Total_pcs1</rd:DefaultName>
                       <Style>
                         <Border>
                           <Color>#e5e5e5</Color>
@@ -1156,7 +1156,7 @@
         <DataProvider>System.Data.DataSet</DataProvider>
         <ConnectString>/* Local Connection */</ConnectString>
       </ConnectionProperties>
-      <rd:DataSourceID>b540c62c-7773-4208-b115-eaa659f94b22</rd:DataSourceID>
+      <rd:DataSourceID>55cc2c40-f8c4-4fa2-99df-545a0b208490</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
@@ -1290,5 +1290,5 @@
     </DataSet>
   </DataSets>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
-  <rd:ReportID>12145efd-6047-422d-8f5e-9bf86f047ae0</rd:ReportID>
+  <rd:ReportID>bc727f0a-84ab-46bf-933d-3bb3d5444230</rd:ReportID>
 </Report>

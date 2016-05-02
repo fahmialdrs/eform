@@ -233,24 +233,7 @@
               <Mapping SourceColumn="Ordered_By" DataSetColumn="Ordered_By" />
               <Mapping SourceColumn="Proceed_By" DataSetColumn="Proceed_By" />
             </Mappings>
-            <Sources>
-              <DbSource ConnectionRef="databaseConnectionString (MySettings)" DbObjectName="e_form" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillAkunting" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataAkunting" GeneratorSourceName="FillAkunting" GetMethodModifier="Public" GetMethodName="GetDataAkunting" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataAkunting" UserSourceName="FillAkunting">
-                <SelectCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="true">
-                    <CommandText>SELECT [No], NoForm, Tanggal, User_ID, Nama, No_Telp, Prod_firmax3, Prod_O2_max3, Total_pcs, Total_set, Amount, Catatan, total_uang_msk, Ordered_By, Proceed_By FROM e_form</CommandText>
-                    <Parameters />
-                  </DbCommand>
-                </SelectCommand>
-              </DbSource>
-              <DbSource ConnectionRef="databaseConnectionString (MySettings)" DbObjectName="e_form" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillGudang" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataGudang" GeneratorSourceName="FillGudang" GetMethodModifier="Public" GetMethodName="GetDataGudang" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataGudang" UserSourceName="FillGudang">
-                <SelectCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="true">
-                    <CommandText>SELECT [No], NoForm, Tanggal, User_ID, Nama, No_Telp, Prod_firmax3, Prod_O2_max3, Total_pcs, Total_set, Amount, Catatan, total_brg_klr, Ordered_By, Proceed_By FROM e_form</CommandText>
-                    <Parameters />
-                  </DbCommand>
-                </SelectCommand>
-              </DbSource>
-            </Sources>
+            <Sources />
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Form-RegisterTableAdapter" GeneratorDataComponentClassName="Form_RegisterTableAdapter" Name="Form-Register" UserDataComponentName="Form-RegisterTableAdapter">
             <MainSource>
@@ -298,7 +281,7 @@
   <xs:element name="databaseDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="databaseDataSet" msprop:Generator_UserDSName="databaseDataSet">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="e_form" msprop:Generator_TableClassName="e_formDataTable" msprop:Generator_TableVarName="tablee_form" msprop:Generator_RowChangedName="e_formRowChanged" msprop:Generator_TablePropName="e_form" msprop:Generator_RowDeletingName="e_formRowDeleting" msprop:Generator_RowChangingName="e_formRowChanging" msprop:Generator_RowEvHandlerName="e_formRowChangeEventHandler" msprop:Generator_RowDeletedName="e_formRowDeleted" msprop:Generator_RowClassName="e_formRow" msprop:Generator_UserTableName="e_form" msprop:Generator_RowEvArgName="e_formRowChangeEvent">
+        <xs:element name="e_form" msprop:Generator_TableClassName="e_formDataTable" msprop:Generator_TableVarName="tablee_form" msprop:Generator_TablePropName="e_form" msprop:Generator_RowDeletingName="e_formRowDeleting" msprop:Generator_RowChangingName="e_formRowChanging" msprop:Generator_RowEvHandlerName="e_formRowChangeEventHandler" msprop:Generator_RowDeletedName="e_formRowDeleted" msprop:Generator_UserTableName="e_form" msprop:Generator_RowChangedName="e_formRowChanged" msprop:Generator_RowEvArgName="e_formRowChangeEvent" msprop:Generator_RowClassName="e_formRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="No" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnNo" msprop:Generator_ColumnPropNameInRow="No" msprop:Generator_ColumnPropNameInTable="NoColumn" msprop:Generator_UserColumnName="No" type="xs:int" />
@@ -398,7 +381,7 @@
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="Form-Register" msprop:Generator_TableClassName="_Form_RegisterDataTable" msprop:Generator_TableVarName="_tableForm_Register" msprop:Generator_RowChangedName="_Form_RegisterRowChanged" msprop:Generator_TablePropName="_Form_Register" msprop:Generator_RowDeletingName="_Form_RegisterRowDeleting" msprop:Generator_RowChangingName="_Form_RegisterRowChanging" msprop:Generator_RowEvHandlerName="_Form_RegisterRowChangeEventHandler" msprop:Generator_RowDeletedName="_Form_RegisterRowDeleted" msprop:Generator_RowClassName="_Form_RegisterRow" msprop:Generator_UserTableName="Form-Register" msprop:Generator_RowEvArgName="_Form_RegisterRowChangeEvent">
+        <xs:element name="Form-Register" msprop:Generator_TableClassName="_Form_RegisterDataTable" msprop:Generator_TableVarName="_tableForm_Register" msprop:Generator_TablePropName="_Form_Register" msprop:Generator_RowDeletingName="_Form_RegisterRowDeleting" msprop:Generator_RowChangingName="_Form_RegisterRowChanging" msprop:Generator_RowEvHandlerName="_Form_RegisterRowChangeEventHandler" msprop:Generator_RowDeletedName="_Form_RegisterRowDeleted" msprop:Generator_UserTableName="Form-Register" msprop:Generator_RowChangedName="_Form_RegisterRowChanged" msprop:Generator_RowEvArgName="_Form_RegisterRowChangeEvent" msprop:Generator_RowClassName="_Form_RegisterRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />

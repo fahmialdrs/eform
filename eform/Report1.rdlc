@@ -36,7 +36,7 @@
               <Width>1in</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>1in</Width>
+              <Width>1.67708in</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>1in</Width>
@@ -424,7 +424,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Amount</Value>
+                              <Value>Total Barang Keluar</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -460,7 +460,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>Catatan</Value>
+                              <Value>Amount</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -496,7 +496,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>total brg klr</Value>
+                              <Value>Catatan</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <FontSize>11pt</FontSize>
@@ -763,6 +763,7 @@
                         <PaddingBottom>2pt</PaddingBottom>
                       </Style>
                     </Textbox>
+                    <rd:Selected>true</rd:Selected>
                   </CellContents>
                 </TablixCell>
                 <TablixCell>
@@ -774,7 +775,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!No_Telp.Value</Value>
+                              <Value>=Sum(Fields!No_Telp.Value)</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <Color>#4d4d4d</Color>
@@ -932,6 +933,39 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
+                    <Textbox Name="Total_pcs1">
+                      <CanGrow>true</CanGrow>
+                      <KeepTogether>true</KeepTogether>
+                      <Paragraphs>
+                        <Paragraph>
+                          <TextRuns>
+                            <TextRun>
+                              <Value>=Count(Fields!Total_pcs.Value)</Value>
+                              <Style>
+                                <FontFamily>Tahoma</FontFamily>
+                                <Color>#4d4d4d</Color>
+                              </Style>
+                            </TextRun>
+                          </TextRuns>
+                          <Style />
+                        </Paragraph>
+                      </Paragraphs>
+                      <rd:DefaultName>Total_pcs1</rd:DefaultName>
+                      <Style>
+                        <Border>
+                          <Color>#e5e5e5</Color>
+                          <Style>Solid</Style>
+                        </Border>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                    </Textbox>
+                  </CellContents>
+                </TablixCell>
+                <TablixCell>
+                  <CellContents>
                     <Textbox Name="Amount">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
@@ -972,7 +1006,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!Catatan.Value</Value>
+                              <Value>=Sum(Fields!Catatan.Value)</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <Color>#4d4d4d</Color>
@@ -998,39 +1032,6 @@
                 </TablixCell>
                 <TablixCell>
                   <CellContents>
-                    <Textbox Name="total_brg_klr">
-                      <CanGrow>true</CanGrow>
-                      <KeepTogether>true</KeepTogether>
-                      <Paragraphs>
-                        <Paragraph>
-                          <TextRuns>
-                            <TextRun>
-                              <Value>=Sum(Fields!total_brg_klr.Value)</Value>
-                              <Style>
-                                <FontFamily>Tahoma</FontFamily>
-                                <Color>#4d4d4d</Color>
-                              </Style>
-                            </TextRun>
-                          </TextRuns>
-                          <Style />
-                        </Paragraph>
-                      </Paragraphs>
-                      <rd:DefaultName>total_brg_klr</rd:DefaultName>
-                      <Style>
-                        <Border>
-                          <Color>#e5e5e5</Color>
-                          <Style>Solid</Style>
-                        </Border>
-                        <PaddingLeft>2pt</PaddingLeft>
-                        <PaddingRight>2pt</PaddingRight>
-                        <PaddingTop>2pt</PaddingTop>
-                        <PaddingBottom>2pt</PaddingBottom>
-                      </Style>
-                    </Textbox>
-                  </CellContents>
-                </TablixCell>
-                <TablixCell>
-                  <CellContents>
                     <Textbox Name="Ordered_By">
                       <CanGrow>true</CanGrow>
                       <KeepTogether>true</KeepTogether>
@@ -1038,7 +1039,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!Ordered_By.Value</Value>
+                              <Value>=Sum(Fields!Ordered_By.Value)</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <Color>#4d4d4d</Color>
@@ -1071,7 +1072,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>=Fields!Proceed_By.Value</Value>
+                              <Value>=Sum(Fields!Proceed_By.Value)</Value>
                               <Style>
                                 <FontFamily>Tahoma</FontFamily>
                                 <Color>#4d4d4d</Color>
@@ -1120,17 +1121,13 @@
         </TablixColumnHierarchy>
         <TablixRowHierarchy>
           <TablixMembers>
-            <TablixMember>
-              <KeepWithGroup>After</KeepWithGroup>
-            </TablixMember>
-            <TablixMember>
-              <Group Name="Details" />
-            </TablixMember>
+            <TablixMember />
+            <TablixMember />
           </TablixMembers>
         </TablixRowHierarchy>
         <DataSetName>DataSet1</DataSetName>
         <Height>0.5in</Height>
-        <Width>15in</Width>
+        <Width>15.67708in</Width>
         <Style>
           <Border>
             <Style>None</Style>
@@ -1141,7 +1138,7 @@
     <Height>2in</Height>
     <Style />
   </Body>
-  <Width>15in</Width>
+  <Width>15.67708in</Width>
   <Page>
     <LeftMargin>1in</LeftMargin>
     <RightMargin>1in</RightMargin>
@@ -1151,18 +1148,18 @@
   </Page>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
-    <DataSource Name="databaseDataSet1">
+    <DataSource Name="databaseDataSet">
       <ConnectionProperties>
         <DataProvider>System.Data.DataSet</DataProvider>
         <ConnectString>/* Local Connection */</ConnectString>
       </ConnectionProperties>
-      <rd:DataSourceID>dfaa11ea-4b1c-454b-a3b0-1ed11589b593</rd:DataSourceID>
+      <rd:DataSourceID>603de56b-5966-439b-892f-63867cb08efa</rd:DataSourceID>
     </DataSource>
   </DataSources>
   <DataSets>
     <DataSet Name="DataSet1">
       <Query>
-        <DataSourceName>databaseDataSet1</DataSourceName>
+        <DataSourceName>databaseDataSet</DataSourceName>
         <CommandText>/* Local Query */</CommandText>
       </Query>
       <Fields>
@@ -1280,8 +1277,8 @@
         </Field>
       </Fields>
       <rd:DataSetInfo>
-        <rd:DataSetName>databaseDataSet1</rd:DataSetName>
-        <rd:SchemaPath>C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\databaseDataSet1.xsd</rd:SchemaPath>
+        <rd:DataSetName>databaseDataSet</rd:DataSetName>
+        <rd:SchemaPath>C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\databaseDataSet.xsd</rd:SchemaPath>
         <rd:TableName>e_form</rd:TableName>
         <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
         <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
@@ -1290,5 +1287,5 @@
     </DataSet>
   </DataSets>
   <rd:ReportUnitType>Inch</rd:ReportUnitType>
-  <rd:ReportID>6cb272b0-404d-49c1-828c-65d4e89ebc8d</rd:ReportID>
+  <rd:ReportID>fa6e84ed-0d11-478f-8fe8-15224079dc4f</rd:ReportID>
 </Report>
