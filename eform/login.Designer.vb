@@ -35,8 +35,8 @@ Partial Class login
         Me.BackupDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip.SuspendLayout()
         Me.SuspendLayout()
@@ -153,29 +153,30 @@ Partial Class login
         Me.Button1.Text = "SIGN IN"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'TextBox3
+        'Label4
         '
-        Me.TextBox3.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(223, 610)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(897, 19)
-        Me.TextBox3.TabIndex = 68
-        Me.TextBox3.Text = "Gedung Gajah Unit AP - Jl. Dr. Sahardjo No.111, Tebet Barat, Tebet 12810 Jakarta " & _
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(203, 634)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(897, 20)
+        Me.Label4.TabIndex = 80
+        Me.Label4.Text = "Gedung Gajah Unit AP - Jl. Dr. Sahardjo No.111, Tebet Barat, Tebet 12810 Jakarta " & _
     "Selatan Telp. 021-8310351"
         '
-        'TextBox4
+        'Label5
         '
-        Me.TextBox4.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(495, 573)
-        Me.TextBox4.Multiline = True
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(353, 31)
-        Me.TextBox4.TabIndex = 67
-        Me.TextBox4.Text = "PT. RF3 WORLD INDONESIA "
+        Me.Label5.AutoSize = True
+        Me.Label5.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(445, 591)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(413, 31)
+        Me.Label5.TabIndex = 79
+        Me.Label5.Text = "PT. RF3 WORLD INDONESIA "
         '
         'login
         '
@@ -184,8 +185,8 @@ Partial Class login
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1354, 733)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.MenuStrip)
         Me.Controls.Add(Me.Label3)
@@ -217,6 +218,6 @@ Partial Class login
     Friend WithEvents BackupDatabaseToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Button1 As Button
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
 End Class

@@ -32,9 +32,9 @@ Partial Class mainmenu
         Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BackupDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.MenuStrip.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -135,30 +135,6 @@ Partial Class mainmenu
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
-        'TextBox1
-        '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(497, 632)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(353, 31)
-        Me.TextBox1.TabIndex = 20
-        Me.TextBox1.Text = "PT. RF3 WORLD INDONESIA "
-        '
-        'TextBox2
-        '
-        Me.TextBox2.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(225, 669)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(897, 19)
-        Me.TextBox2.TabIndex = 21
-        Me.TextBox2.Text = "Gedung Gajah Unit AP - Jl. Dr. Sahardjo No.111, Tebet Barat, Tebet 12810 Jakarta " & _
-    "Selatan Telp. 021-8310351"
-        '
         'PictureBox1
         '
         Me.PictureBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -172,6 +148,31 @@ Partial Class mainmenu
         Me.PictureBox1.TabIndex = 36
         Me.PictureBox1.TabStop = False
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(455, 603)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(413, 31)
+        Me.Label3.TabIndex = 37
+        Me.Label3.Text = "PT. RF3 WORLD INDONESIA "
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(213, 646)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(897, 20)
+        Me.Label4.TabIndex = 38
+        Me.Label4.Text = "Gedung Gajah Unit AP - Jl. Dr. Sahardjo No.111, Tebet Barat, Tebet 12810 Jakarta " & _
+    "Selatan Telp. 021-8310351"
+        '
         'mainmenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -179,9 +180,9 @@ Partial Class mainmenu
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.newmember)
         Me.Controls.Add(Me.Label1)
@@ -208,7 +209,7 @@ Partial Class mainmenu
     Friend WithEvents BackupDatabaseToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents LoginToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label4 As System.Windows.Forms.Label
 End Class

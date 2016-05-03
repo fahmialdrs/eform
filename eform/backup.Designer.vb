@@ -24,8 +24,6 @@ Partial Class backup
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(backup))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.MenuStrip = New System.Windows.Forms.MenuStrip()
         Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LoginToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -35,6 +33,8 @@ Partial Class backup
         Me.txt_filename = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip.SuspendLayout()
         Me.SuspendLayout()
@@ -51,29 +51,6 @@ Partial Class backup
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
         Me.PictureBox1.TabIndex = 40
         Me.PictureBox1.TabStop = False
-        '
-        'TextBox2
-        '
-        Me.TextBox2.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(225, 636)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(897, 19)
-        Me.TextBox2.TabIndex = 39
-        Me.TextBox2.Text = "Gedung Gajah Unit AP - Jl. Dr. Sahardjo No.111, Tebet Barat, Tebet 12810 Jakarta " & _
-    "Selatan Telp. 021-8310351"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(497, 599)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(353, 28)
-        Me.TextBox1.TabIndex = 38
-        Me.TextBox1.Text = "PT. RF3 WORLD INDONESIA "
         '
         'MenuStrip
         '
@@ -116,12 +93,13 @@ Partial Class backup
         '
         'btn_browser
         '
+        Me.btn_browser.BackColor = System.Drawing.Color.Transparent
         Me.btn_browser.Location = New System.Drawing.Point(856, 343)
         Me.btn_browser.Name = "btn_browser"
         Me.btn_browser.Size = New System.Drawing.Size(119, 27)
         Me.btn_browser.TabIndex = 42
         Me.btn_browser.Text = "Browse"
-        Me.btn_browser.UseVisualStyleBackColor = True
+        Me.btn_browser.UseVisualStyleBackColor = False
         '
         'txt_filename
         '
@@ -135,11 +113,36 @@ Partial Class backup
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(506, 223)
+        Me.Label1.Location = New System.Drawing.Point(483, 222)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(367, 39)
         Me.Label1.TabIndex = 44
         Me.Label1.Text = "BACKUP DATABASE"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(195, 601)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(897, 20)
+        Me.Label4.TabIndex = 46
+        Me.Label4.Text = "Gedung Gajah Unit AP - Jl. Dr. Sahardjo No.111, Tebet Barat, Tebet 12810 Jakarta " & _
+    "Selatan Telp. 021-8310351"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(437, 558)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(413, 31)
+        Me.Label3.TabIndex = 45
+        Me.Label3.Text = "PT. RF3 WORLD INDONESIA "
         '
         'backup
         '
@@ -148,13 +151,13 @@ Partial Class backup
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.txt_filename)
         Me.Controls.Add(Me.btn_browser)
         Me.Controls.Add(Me.btn_backup)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.MenuStrip)
         Me.Name = "backup"
         Me.Text = "backup"
@@ -166,8 +169,6 @@ Partial Class backup
 
     End Sub
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
     Friend WithEvents MenuStrip As System.Windows.Forms.MenuStrip
     Friend WithEvents LoginToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SettingToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
@@ -177,4 +178,6 @@ Partial Class backup
     Friend WithEvents txt_filename As System.Windows.Forms.TextBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents FolderBrowserDialog1 As System.Windows.Forms.FolderBrowserDialog
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
 End Class

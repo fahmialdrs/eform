@@ -25,6 +25,8 @@ Partial Class finance
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(finance))
         Dim ReportDataSource1 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
+        Me.e_formBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.databaseDataSet = New eform.databaseDataSet()
         Me.MenuStrip = New System.Windows.Forms.MenuStrip()
         Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BackupDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -33,18 +35,26 @@ Partial Class finance
         Me.Label31 = New System.Windows.Forms.Label()
         Me.back = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
-        Me.databaseDataSet = New eform.databaseDataSet()
-        Me.e_formBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.e_formTableAdapter = New eform.databaseDataSetTableAdapters.e_formTableAdapter()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.databaseDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.databaseDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'e_formBindingSource
+        '
+        Me.e_formBindingSource.DataMember = "e_form"
+        Me.e_formBindingSource.DataSource = Me.databaseDataSet
+        '
+        'databaseDataSet
+        '
+        Me.databaseDataSet.DataSetName = "databaseDataSet"
+        Me.databaseDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'MenuStrip
         '
@@ -117,30 +127,6 @@ Partial Class finance
         Me.Label3.TabIndex = 72
         Me.Label3.Text = "LAPORAN AKUNTING"
         '
-        'TextBox2
-        '
-        Me.TextBox2.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(191, 678)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(897, 19)
-        Me.TextBox2.TabIndex = 74
-        Me.TextBox2.Text = "Gedung Gajah Unit AP - Jl. Dr. Sahardjo No.111, Tebet Barat, Tebet 12810 Jakarta " & _
-    "Selatan Telp. 021-8310351"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.AppWorkspace
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(463, 641)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(353, 31)
-        Me.TextBox1.TabIndex = 73
-        Me.TextBox1.Text = "PT. RF3 WORLD INDONESIA "
-        '
         'PictureBox1
         '
         Me.PictureBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -165,19 +151,34 @@ Partial Class finance
         Me.ReportViewer1.Size = New System.Drawing.Size(1112, 301)
         Me.ReportViewer1.TabIndex = 76
         '
-        'databaseDataSet
-        '
-        Me.databaseDataSet.DataSetName = "databaseDataSet"
-        Me.databaseDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
-        '
-        'e_formBindingSource
-        '
-        Me.e_formBindingSource.DataMember = "e_form"
-        Me.e_formBindingSource.DataSource = Me.databaseDataSet
-        '
         'e_formTableAdapter
         '
         Me.e_formTableAdapter.ClearBeforeFill = True
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(215, 679)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(897, 20)
+        Me.Label4.TabIndex = 78
+        Me.Label4.Text = "Gedung Gajah Unit AP - Jl. Dr. Sahardjo No.111, Tebet Barat, Tebet 12810 Jakarta " & _
+    "Selatan Telp. 021-8310351"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(457, 636)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(413, 31)
+        Me.Label1.TabIndex = 77
+        Me.Label1.Text = "PT. RF3 WORLD INDONESIA "
         '
         'finance
         '
@@ -187,10 +188,10 @@ Partial Class finance
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ReportViewer1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label31)
         Me.Controls.Add(Me.back)
@@ -198,11 +199,11 @@ Partial Class finance
         Me.Name = "finance"
         Me.Text = "finance"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
+        CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.databaseDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip.ResumeLayout(False)
         Me.MenuStrip.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.databaseDataSet, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -216,11 +217,11 @@ Partial Class finance
     Friend WithEvents Label31 As Label
     Friend WithEvents back As Button
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents ReportViewer1 As Microsoft.Reporting.WinForms.ReportViewer
     Friend WithEvents e_formBindingSource As System.Windows.Forms.BindingSource
     Friend WithEvents databaseDataSet As eform.databaseDataSet
     Friend WithEvents e_formTableAdapter As eform.databaseDataSetTableAdapters.e_formTableAdapter
+    Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
 End Class
