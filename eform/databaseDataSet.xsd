@@ -233,7 +233,24 @@
               <Mapping SourceColumn="Ordered_By" DataSetColumn="Ordered_By" />
               <Mapping SourceColumn="Proceed_By" DataSetColumn="Proceed_By" />
             </Mappings>
-            <Sources />
+            <Sources>
+              <DbSource ConnectionRef="databaseConnectionString (MySettings)" DbObjectName="e_form" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillAkunting" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataAkunting" GeneratorSourceName="FillAkunting" GetMethodModifier="Public" GetMethodName="GetDataAkunting" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataAkunting" UserSourceName="FillAkunting">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT [No], NoForm, Tanggal, User_ID, Nama, No_Telp, Prod_firmax3, Prod_O2_max3, Total_pcs, Total_set, Amount, Catatan, total_uang_msk, Ordered_By, Proceed_By FROM e_form</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="databaseConnectionString (MySettings)" DbObjectName="e_form" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="FillGudang" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetDataGudang" GeneratorSourceName="FillGudang" GetMethodModifier="Public" GetMethodName="GetDataGudang" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataGudang" UserSourceName="FillGudang">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT [No], NoForm, Tanggal, User_ID, Nama, No_Telp, Prod_firmax3, Prod_O2_max3, Total_pcs, Total_set, Amount, Catatan, total_brg_klr, Ordered_By, Proceed_By FROM e_form</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
           </TableAdapter>
           <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Form-RegisterTableAdapter" GeneratorDataComponentClassName="Form_RegisterTableAdapter" Name="Form-Register" UserDataComponentName="Form-RegisterTableAdapter">
             <MainSource>

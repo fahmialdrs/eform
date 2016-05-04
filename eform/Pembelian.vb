@@ -115,10 +115,10 @@
         printpembelian.finalcheck.Text = Me.finalcheck.Text
         printpembelian.datainput.Text = Me.datainput.Text
 
-        printpembelian.Show()
+        'printpembelian.Show()
         'print
-        printpembelian.PrintForm1.PrintAction = Printing.PrintAction.PrintToPreview
-        printpembelian.PrintForm1.Print()
-        printpembelian.Hide()
+        PrintForm1.PrintAction = Printing.PrintAction.PrintToPreview
+        PrintForm1.Print()
+        'printpembelian.Hide()
     End Sub
 End Class

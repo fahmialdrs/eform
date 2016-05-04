@@ -275,9 +275,9 @@
     <EmbeddedResource Include="register.resx">
       <DependentUpon>register.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Report1.rdlc" />
-    <EmbeddedResource Include="Report2.rdlc" />
-    <EmbeddedResource Include="Report3.rdlc" />
+    <EmbeddedResource Include="gudang.rdlc" />
+    <EmbeddedResource Include="akunting.rdlc" />
+    <EmbeddedResource Include="gudang1.rdlc" />
     <EmbeddedResource Include="SplashScreen1.resx">
       <DependentUpon>SplashScreen1.vb</DependentUpon>
     </EmbeddedResource>

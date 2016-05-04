@@ -145,7 +145,7 @@ Partial Class finance
         ReportDataSource1.Name = "DataSet1"
         ReportDataSource1.Value = Me.e_formBindingSource
         Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource1)
-        Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "eform.Report2.rdlc"
+        Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "eform.akunting.rdlc"
         Me.ReportViewer1.Location = New System.Drawing.Point(117, 229)
         Me.ReportViewer1.Name = "ReportViewer1"
         Me.ReportViewer1.Size = New System.Drawing.Size(1112, 301)

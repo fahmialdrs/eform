@@ -37,9 +37,9 @@ Partial Class gudang
         Me.Label31 = New System.Windows.Forms.Label()
         Me.back = New System.Windows.Forms.Button()
         Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
-        Me.e_formTableAdapter = New eform.databaseDataSetTableAdapters.e_formTableAdapter()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.e_formTableAdapter = New eform.databaseDataSetTableAdapters.e_formTableAdapter()
         CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.databaseDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip.SuspendLayout()
@@ -145,15 +145,11 @@ Partial Class gudang
         ReportDataSource1.Name = "DataSet1"
         ReportDataSource1.Value = Me.e_formBindingSource
         Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource1)
-        Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "eform.Report3.rdlc"
+        Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "eform.gudang1.rdlc"
         Me.ReportViewer1.Location = New System.Drawing.Point(100, 233)
         Me.ReportViewer1.Name = "ReportViewer1"
-        Me.ReportViewer1.Size = New System.Drawing.Size(1139, 299)
+        Me.ReportViewer1.Size = New System.Drawing.Size(1144, 299)
         Me.ReportViewer1.TabIndex = 88
-        '
-        'e_formTableAdapter
-        '
-        Me.e_formTableAdapter.ClearBeforeFill = True
         '
         'Label4
         '
@@ -179,6 +175,10 @@ Partial Class gudang
         Me.Label1.Size = New System.Drawing.Size(413, 31)
         Me.Label1.TabIndex = 89
         Me.Label1.Text = "PT. RF3 WORLD INDONESIA "
+        '
+        'e_formTableAdapter
+        '
+        Me.e_formTableAdapter.ClearBeforeFill = True
         '
         'gudang
         '

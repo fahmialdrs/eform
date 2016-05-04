@@ -33,7 +33,7 @@ Public Class backup
             sBackUpFile &= "\database.mdb"
 
             If File.Exists(sDBFile) Then
-                Dim db As New dao.DBEngine
+                Dim db As New DAO.DBEngine
 
                 db.CompactDatabase(sDBFile, sBackUpFile)
             End If
@@ -46,5 +46,29 @@ Public Class backup
         End Try
         MsgBox("Database berhasil di backup", MsgBoxStyle.Information)
 
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Try
+            Dim sDBFile As String = txt_filename.Text
+            Dim sBackUpFile As String = "C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\database.mdb"
+            If Not System.IO.Directory.Exists(sDBFile) Then
+                System.IO.Directory.CreateDirectory(sDBFile)
+            End If
+            sDBFile &= "\database.mdb"
+
+            If File.Exists(sDBFile) Then
+                Dim db As New DAO.DBEngine
+
+                db.CompactDatabase(sDBFile, sBackUpFile)
+            End If
+
+            If File.Exists(sBackUpFile) Then
+                File.Copy(sBackUpFile, sDBFile, True)
+            End If
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
+        MsgBox("Database berhasil di Restore", MsgBoxStyle.Information)
     End Sub
 End Class
