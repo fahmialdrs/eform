@@ -342,14 +342,6 @@ Partial Public Class databaseDataSet
         
         Private columnCatatan As Global.System.Data.DataColumn
         
-        Private columnFinal_Check As Global.System.Data.DataColumn
-        
-        Private columnData_Input As Global.System.Data.DataColumn
-        
-        Private columntotal_brg_klr As Global.System.Data.DataColumn
-        
-        Private columntotal_uang_msk As Global.System.Data.DataColumn
-        
         Private columntrsf_wallet As Global.System.Data.DataColumn
         
         Private columnsaldo_maintainRM As Global.System.Data.DataColumn
@@ -507,38 +499,6 @@ Partial Public Class databaseDataSet
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public ReadOnly Property Final_CheckColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columnFinal_Check
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public ReadOnly Property Data_InputColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columnData_Input
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public ReadOnly Property total_brg_klrColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columntotal_brg_klr
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public ReadOnly Property total_uang_mskColumn() As Global.System.Data.DataColumn
-            Get
-                Return Me.columntotal_uang_msk
-            End Get
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public ReadOnly Property trsf_walletColumn() As Global.System.Data.DataColumn
             Get
                 Return Me.columntrsf_wallet
@@ -682,10 +642,6 @@ Partial Public Class databaseDataSet
                     ByVal Total_set As Integer,  _
                     ByVal Amount As Integer,  _
                     ByVal Catatan As String,  _
-                    ByVal Final_Check As String,  _
-                    ByVal Data_Input As String,  _
-                    ByVal total_brg_klr As Integer,  _
-                    ByVal total_uang_msk As Integer,  _
                     ByVal trsf_wallet As Integer,  _
                     ByVal saldo_maintainRM As Integer,  _
                     ByVal saldo_maintainIDR As Integer,  _
@@ -699,7 +655,7 @@ Partial Public Class databaseDataSet
                     ByVal Ordered_By As String,  _
                     ByVal Proceed_By As String) As e_formRow
             Dim rowe_formRow As e_formRow = CType(Me.NewRow,e_formRow)
-            Dim columnValuesArray() As Object = New Object() {Nothing, NoForm, Tanggal, User_ID, Nama, No_Telp, Prod_firmax3, Prod_O2_max3, Total_pcs, Total_set, Amount, Catatan, Final_Check, Data_Input, total_brg_klr, total_uang_msk, trsf_wallet, saldo_maintainRM, saldo_maintainIDR, member_id, m_wallet, r_walletterpakai, totalrm, totalrp, yang_dibayar, kurang_bayar, Ordered_By, Proceed_By}
+            Dim columnValuesArray() As Object = New Object() {Nothing, NoForm, Tanggal, User_ID, Nama, No_Telp, Prod_firmax3, Prod_O2_max3, Total_pcs, Total_set, Amount, Catatan, trsf_wallet, saldo_maintainRM, saldo_maintainIDR, member_id, m_wallet, r_walletterpakai, totalrm, totalrp, yang_dibayar, kurang_bayar, Ordered_By, Proceed_By}
             rowe_formRow.ItemArray = columnValuesArray
             Me.Rows.Add(rowe_formRow)
             Return rowe_formRow
@@ -740,10 +696,6 @@ Partial Public Class databaseDataSet
             Me.columnTotal_set = MyBase.Columns("Total_set")
             Me.columnAmount = MyBase.Columns("Amount")
             Me.columnCatatan = MyBase.Columns("Catatan")
-            Me.columnFinal_Check = MyBase.Columns("Final_Check")
-            Me.columnData_Input = MyBase.Columns("Data_Input")
-            Me.columntotal_brg_klr = MyBase.Columns("total_brg_klr")
-            Me.columntotal_uang_msk = MyBase.Columns("total_uang_msk")
             Me.columntrsf_wallet = MyBase.Columns("trsf_wallet")
             Me.columnsaldo_maintainRM = MyBase.Columns("saldo_maintainRM")
             Me.columnsaldo_maintainIDR = MyBase.Columns("saldo_maintainIDR")
@@ -785,14 +737,6 @@ Partial Public Class databaseDataSet
             MyBase.Columns.Add(Me.columnAmount)
             Me.columnCatatan = New Global.System.Data.DataColumn("Catatan", GetType(String), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columnCatatan)
-            Me.columnFinal_Check = New Global.System.Data.DataColumn("Final_Check", GetType(String), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnFinal_Check)
-            Me.columnData_Input = New Global.System.Data.DataColumn("Data_Input", GetType(String), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columnData_Input)
-            Me.columntotal_brg_klr = New Global.System.Data.DataColumn("total_brg_klr", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columntotal_brg_klr)
-            Me.columntotal_uang_msk = New Global.System.Data.DataColumn("total_uang_msk", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
-            MyBase.Columns.Add(Me.columntotal_uang_msk)
             Me.columntrsf_wallet = New Global.System.Data.DataColumn("trsf_wallet", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
             MyBase.Columns.Add(Me.columntrsf_wallet)
             Me.columnsaldo_maintainRM = New Global.System.Data.DataColumn("saldo_maintainRM", GetType(Integer), Nothing, Global.System.Data.MappingType.Element)
@@ -829,8 +773,6 @@ Partial Public Class databaseDataSet
             Me.columnNama.MaxLength = 30
             Me.columnNo_Telp.MaxLength = 255
             Me.columnCatatan.MaxLength = 255
-            Me.columnFinal_Check.MaxLength = 255
-            Me.columnData_Input.MaxLength = 255
             Me.columnmember_id.MaxLength = 255
             Me.columnOrdered_By.MaxLength = 255
             Me.columnProceed_By.MaxLength = 255
@@ -1422,66 +1364,6 @@ Partial Public Class databaseDataSet
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Property Final_Check() As String
-            Get
-                Try 
-                    Return CType(Me(Me.tablee_form.Final_CheckColumn),String)
-                Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'Final_Check' in table 'e_form' is DBNull.", e)
-                End Try
-            End Get
-            Set
-                Me(Me.tablee_form.Final_CheckColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Property Data_Input() As String
-            Get
-                Try 
-                    Return CType(Me(Me.tablee_form.Data_InputColumn),String)
-                Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'Data_Input' in table 'e_form' is DBNull.", e)
-                End Try
-            End Get
-            Set
-                Me(Me.tablee_form.Data_InputColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Property total_brg_klr() As Integer
-            Get
-                Try 
-                    Return CType(Me(Me.tablee_form.total_brg_klrColumn),Integer)
-                Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'total_brg_klr' in table 'e_form' is DBNull.", e)
-                End Try
-            End Get
-            Set
-                Me(Me.tablee_form.total_brg_klrColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Property total_uang_msk() As Integer
-            Get
-                Try 
-                    Return CType(Me(Me.tablee_form.total_uang_mskColumn),Integer)
-                Catch e As Global.System.InvalidCastException
-                    Throw New Global.System.Data.StrongTypingException("The value for column 'total_uang_msk' in table 'e_form' is DBNull.", e)
-                End Try
-            End Get
-            Set
-                Me(Me.tablee_form.total_uang_mskColumn) = value
-            End Set
-        End Property
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Property trsf_wallet() As Integer
             Get
                 Try 
@@ -1790,54 +1672,6 @@ Partial Public Class databaseDataSet
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Public Sub SetCatatanNull()
             Me(Me.tablee_form.CatatanColumn) = Global.System.Convert.DBNull
-        End Sub
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Function IsFinal_CheckNull() As Boolean
-            Return Me.IsNull(Me.tablee_form.Final_CheckColumn)
-        End Function
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Sub SetFinal_CheckNull()
-            Me(Me.tablee_form.Final_CheckColumn) = Global.System.Convert.DBNull
-        End Sub
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Function IsData_InputNull() As Boolean
-            Return Me.IsNull(Me.tablee_form.Data_InputColumn)
-        End Function
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Sub SetData_InputNull()
-            Me(Me.tablee_form.Data_InputColumn) = Global.System.Convert.DBNull
-        End Sub
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Function Istotal_brg_klrNull() As Boolean
-            Return Me.IsNull(Me.tablee_form.total_brg_klrColumn)
-        End Function
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Sub Settotal_brg_klrNull()
-            Me(Me.tablee_form.total_brg_klrColumn) = Global.System.Convert.DBNull
-        End Sub
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Function Istotal_uang_mskNull() As Boolean
-            Return Me.IsNull(Me.tablee_form.total_uang_mskColumn)
-        End Function
-        
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
-        Public Sub Settotal_uang_mskNull()
-            Me(Me.tablee_form.total_uang_mskColumn) = Global.System.Convert.DBNull
         End Sub
         
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
@@ -2226,10 +2060,6 @@ Namespace databaseDataSetTableAdapters
             tableMapping.ColumnMappings.Add("Total_set", "Total_set")
             tableMapping.ColumnMappings.Add("Amount", "Amount")
             tableMapping.ColumnMappings.Add("Catatan", "Catatan")
-            tableMapping.ColumnMappings.Add("Final_Check", "Final_Check")
-            tableMapping.ColumnMappings.Add("Data_Input", "Data_Input")
-            tableMapping.ColumnMappings.Add("total_brg_klr", "total_brg_klr")
-            tableMapping.ColumnMappings.Add("total_uang_msk", "total_uang_msk")
             tableMapping.ColumnMappings.Add("trsf_wallet", "trsf_wallet")
             tableMapping.ColumnMappings.Add("saldo_maintainRM", "saldo_maintainRM")
             tableMapping.ColumnMappings.Add("saldo_maintainIDR", "saldo_maintainIDR")
@@ -2253,20 +2083,16 @@ Namespace databaseDataSetTableAdapters
                 " IS NULL) OR (`Prod_O2_max3` = ?)) AND ((? = 1 AND `Total_pcs` IS NULL) OR (`Tot"& _ 
                 "al_pcs` = ?)) AND ((? = 1 AND `Total_set` IS NULL) OR (`Total_set` = ?)) AND ((?"& _ 
                 " = 1 AND `Amount` IS NULL) OR (`Amount` = ?)) AND ((? = 1 AND `Catatan` IS NULL)"& _ 
-                " OR (`Catatan` = ?)) AND ((? = 1 AND `Final_Check` IS NULL) OR (`Final_Check` = "& _ 
-                "?)) AND ((? = 1 AND `Data_Input` IS NULL) OR (`Data_Input` = ?)) AND ((? = 1 AND"& _ 
-                " `total_brg_klr` IS NULL) OR (`total_brg_klr` = ?)) AND ((? = 1 AND `total_uang_"& _ 
-                "msk` IS NULL) OR (`total_uang_msk` = ?)) AND ((? = 1 AND `trsf_wallet` IS NULL) "& _ 
-                "OR (`trsf_wallet` = ?)) AND ((? = 1 AND `saldo_maintainRM` IS NULL) OR (`saldo_m"& _ 
-                "aintainRM` = ?)) AND ((? = 1 AND `saldo_maintainIDR` IS NULL) OR (`saldo_maintai"& _ 
-                "nIDR` = ?)) AND ((? = 1 AND `member_id` IS NULL) OR (`member_id` = ?)) AND ((? ="& _ 
-                " 1 AND `m_wallet` IS NULL) OR (`m_wallet` = ?)) AND ((? = 1 AND `r_walletterpaka"& _ 
-                "i` IS NULL) OR (`r_walletterpakai` = ?)) AND ((? = 1 AND `totalrm` IS NULL) OR ("& _ 
-                "`totalrm` = ?)) AND ((? = 1 AND `totalrp` IS NULL) OR (`totalrp` = ?)) AND ((? ="& _ 
-                " 1 AND `yang_dibayar` IS NULL) OR (`yang_dibayar` = ?)) AND ((? = 1 AND `kurang_"& _ 
-                "bayar` IS NULL) OR (`kurang_bayar` = ?)) AND ((? = 1 AND `Ordered_By` IS NULL) O"& _ 
-                "R (`Ordered_By` = ?)) AND ((? = 1 AND `Proceed_By` IS NULL) OR (`Proceed_By` = ?"& _ 
-                ")))"
+                " OR (`Catatan` = ?)) AND ((? = 1 AND `trsf_wallet` IS NULL) OR (`trsf_wallet` = "& _ 
+                "?)) AND ((? = 1 AND `saldo_maintainRM` IS NULL) OR (`saldo_maintainRM` = ?)) AND"& _ 
+                " ((? = 1 AND `saldo_maintainIDR` IS NULL) OR (`saldo_maintainIDR` = ?)) AND ((? "& _ 
+                "= 1 AND `member_id` IS NULL) OR (`member_id` = ?)) AND ((? = 1 AND `m_wallet` IS"& _ 
+                " NULL) OR (`m_wallet` = ?)) AND ((? = 1 AND `r_walletterpakai` IS NULL) OR (`r_w"& _ 
+                "alletterpakai` = ?)) AND ((? = 1 AND `totalrm` IS NULL) OR (`totalrm` = ?)) AND "& _ 
+                "((? = 1 AND `totalrp` IS NULL) OR (`totalrp` = ?)) AND ((? = 1 AND `yang_dibayar"& _ 
+                "` IS NULL) OR (`yang_dibayar` = ?)) AND ((? = 1 AND `kurang_bayar` IS NULL) OR ("& _ 
+                "`kurang_bayar` = ?)) AND ((? = 1 AND `Ordered_By` IS NULL) OR (`Ordered_By` = ?)"& _ 
+                ") AND ((? = 1 AND `Proceed_By` IS NULL) OR (`Proceed_By` = ?)))"
             Me._adapter.DeleteCommand.CommandType = Global.System.Data.CommandType.Text
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Original_No", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "No", Global.System.Data.DataRowVersion.Original, false, Nothing))
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("IsNull_NoForm", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "NoForm", Global.System.Data.DataRowVersion.Original, true, Nothing))
@@ -2291,14 +2117,6 @@ Namespace databaseDataSetTableAdapters
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Original_Amount", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Amount", Global.System.Data.DataRowVersion.Original, false, Nothing))
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("IsNull_Catatan", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Catatan", Global.System.Data.DataRowVersion.Original, true, Nothing))
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Original_Catatan", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Catatan", Global.System.Data.DataRowVersion.Original, false, Nothing))
-            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("IsNull_Final_Check", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Final_Check", Global.System.Data.DataRowVersion.Original, true, Nothing))
-            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Original_Final_Check", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Final_Check", Global.System.Data.DataRowVersion.Original, false, Nothing))
-            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("IsNull_Data_Input", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Data_Input", Global.System.Data.DataRowVersion.Original, true, Nothing))
-            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Original_Data_Input", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Data_Input", Global.System.Data.DataRowVersion.Original, false, Nothing))
-            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("IsNull_total_brg_klr", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "total_brg_klr", Global.System.Data.DataRowVersion.Original, true, Nothing))
-            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Original_total_brg_klr", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "total_brg_klr", Global.System.Data.DataRowVersion.Original, false, Nothing))
-            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("IsNull_total_uang_msk", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "total_uang_msk", Global.System.Data.DataRowVersion.Original, true, Nothing))
-            Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Original_total_uang_msk", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "total_uang_msk", Global.System.Data.DataRowVersion.Original, false, Nothing))
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("IsNull_trsf_wallet", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "trsf_wallet", Global.System.Data.DataRowVersion.Original, true, Nothing))
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Original_trsf_wallet", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "trsf_wallet", Global.System.Data.DataRowVersion.Original, false, Nothing))
             Me._adapter.DeleteCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("IsNull_saldo_maintainRM", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "saldo_maintainRM", Global.System.Data.DataRowVersion.Original, true, Nothing))
@@ -2326,12 +2144,11 @@ Namespace databaseDataSetTableAdapters
             Me._adapter.InsertCommand = New Global.System.Data.OleDb.OleDbCommand()
             Me._adapter.InsertCommand.Connection = Me.Connection
             Me._adapter.InsertCommand.CommandText = "INSERT INTO `e_form` (`NoForm`, `Tanggal`, `User_ID`, `Nama`, `No_Telp`, `Prod_fi"& _ 
-                "rmax3`, `Prod_O2_max3`, `Total_pcs`, `Total_set`, `Amount`, `Catatan`, `Final_Ch"& _ 
-                "eck`, `Data_Input`, `total_brg_klr`, `total_uang_msk`, `trsf_wallet`, `saldo_mai"& _ 
-                "ntainRM`, `saldo_maintainIDR`, `member_id`, `m_wallet`, `r_walletterpakai`, `tot"& _ 
-                "alrm`, `totalrp`, `yang_dibayar`, `kurang_bayar`, `Ordered_By`, `Proceed_By`) VA"& _ 
-                "LUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,"& _ 
-                " ?, ?)"
+                "rmax3`, `Prod_O2_max3`, `Total_pcs`, `Total_set`, `Amount`, `Catatan`, `trsf_wal"& _ 
+                "let`, `saldo_maintainRM`, `saldo_maintainIDR`, `member_id`, `m_wallet`, `r_walle"& _ 
+                "tterpakai`, `totalrm`, `totalrp`, `yang_dibayar`, `kurang_bayar`, `Ordered_By`, "& _ 
+                "`Proceed_By`) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?"& _ 
+                ", ?, ?, ?)"
             Me._adapter.InsertCommand.CommandType = Global.System.Data.CommandType.Text
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("NoForm", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "NoForm", Global.System.Data.DataRowVersion.Current, false, Nothing))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Tanggal", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Tanggal", Global.System.Data.DataRowVersion.Current, false, Nothing))
@@ -2344,10 +2161,6 @@ Namespace databaseDataSetTableAdapters
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Total_set", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Total_set", Global.System.Data.DataRowVersion.Current, false, Nothing))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Amount", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Amount", Global.System.Data.DataRowVersion.Current, false, Nothing))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Catatan", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Catatan", Global.System.Data.DataRowVersion.Current, false, Nothing))
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Final_Check", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Final_Check", Global.System.Data.DataRowVersion.Current, false, Nothing))
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Data_Input", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Data_Input", Global.System.Data.DataRowVersion.Current, false, Nothing))
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("total_brg_klr", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "total_brg_klr", Global.System.Data.DataRowVersion.Current, false, Nothing))
-            Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("total_uang_msk", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "total_uang_msk", Global.System.Data.DataRowVersion.Current, false, Nothing))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("trsf_wallet", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "trsf_wallet", Global.System.Data.DataRowVersion.Current, false, Nothing))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("saldo_maintainRM", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "saldo_maintainRM", Global.System.Data.DataRowVersion.Current, false, Nothing))
             Me._adapter.InsertCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("saldo_maintainIDR", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "saldo_maintainIDR", Global.System.Data.DataRowVersion.Current, false, Nothing))
@@ -2364,8 +2177,7 @@ Namespace databaseDataSetTableAdapters
             Me._adapter.UpdateCommand.Connection = Me.Connection
             Me._adapter.UpdateCommand.CommandText = "UPDATE `e_form` SET `NoForm` = ?, `Tanggal` = ?, `User_ID` = ?, `Nama` = ?, `No_T"& _ 
                 "elp` = ?, `Prod_firmax3` = ?, `Prod_O2_max3` = ?, `Total_pcs` = ?, `Total_set` ="& _ 
-                " ?, `Amount` = ?, `Catatan` = ?, `Final_Check` = ?, `Data_Input` = ?, `total_brg"& _ 
-                "_klr` = ?, `total_uang_msk` = ?, `trsf_wallet` = ?, `saldo_maintainRM` = ?, `sal"& _ 
+                " ?, `Amount` = ?, `Catatan` = ?, `trsf_wallet` = ?, `saldo_maintainRM` = ?, `sal"& _ 
                 "do_maintainIDR` = ?, `member_id` = ?, `m_wallet` = ?, `r_walletterpakai` = ?, `t"& _ 
                 "otalrm` = ?, `totalrp` = ?, `yang_dibayar` = ?, `kurang_bayar` = ?, `Ordered_By`"& _ 
                 " = ?, `Proceed_By` = ? WHERE ((`No` = ?) AND ((? = 1 AND `NoForm` IS NULL) OR (`"& _ 
@@ -2376,20 +2188,16 @@ Namespace databaseDataSetTableAdapters
                 "x3` IS NULL) OR (`Prod_O2_max3` = ?)) AND ((? = 1 AND `Total_pcs` IS NULL) OR (`"& _ 
                 "Total_pcs` = ?)) AND ((? = 1 AND `Total_set` IS NULL) OR (`Total_set` = ?)) AND "& _ 
                 "((? = 1 AND `Amount` IS NULL) OR (`Amount` = ?)) AND ((? = 1 AND `Catatan` IS NU"& _ 
-                "LL) OR (`Catatan` = ?)) AND ((? = 1 AND `Final_Check` IS NULL) OR (`Final_Check`"& _ 
-                " = ?)) AND ((? = 1 AND `Data_Input` IS NULL) OR (`Data_Input` = ?)) AND ((? = 1 "& _ 
-                "AND `total_brg_klr` IS NULL) OR (`total_brg_klr` = ?)) AND ((? = 1 AND `total_ua"& _ 
-                "ng_msk` IS NULL) OR (`total_uang_msk` = ?)) AND ((? = 1 AND `trsf_wallet` IS NUL"& _ 
-                "L) OR (`trsf_wallet` = ?)) AND ((? = 1 AND `saldo_maintainRM` IS NULL) OR (`sald"& _ 
-                "o_maintainRM` = ?)) AND ((? = 1 AND `saldo_maintainIDR` IS NULL) OR (`saldo_main"& _ 
-                "tainIDR` = ?)) AND ((? = 1 AND `member_id` IS NULL) OR (`member_id` = ?)) AND (("& _ 
-                "? = 1 AND `m_wallet` IS NULL) OR (`m_wallet` = ?)) AND ((? = 1 AND `r_walletterp"& _ 
-                "akai` IS NULL) OR (`r_walletterpakai` = ?)) AND ((? = 1 AND `totalrm` IS NULL) O"& _ 
-                "R (`totalrm` = ?)) AND ((? = 1 AND `totalrp` IS NULL) OR (`totalrp` = ?)) AND (("& _ 
-                "? = 1 AND `yang_dibayar` IS NULL) OR (`yang_dibayar` = ?)) AND ((? = 1 AND `kura"& _ 
-                "ng_bayar` IS NULL) OR (`kurang_bayar` = ?)) AND ((? = 1 AND `Ordered_By` IS NULL"& _ 
-                ") OR (`Ordered_By` = ?)) AND ((? = 1 AND `Proceed_By` IS NULL) OR (`Proceed_By` "& _ 
-                "= ?)))"
+                "LL) OR (`Catatan` = ?)) AND ((? = 1 AND `trsf_wallet` IS NULL) OR (`trsf_wallet`"& _ 
+                " = ?)) AND ((? = 1 AND `saldo_maintainRM` IS NULL) OR (`saldo_maintainRM` = ?)) "& _ 
+                "AND ((? = 1 AND `saldo_maintainIDR` IS NULL) OR (`saldo_maintainIDR` = ?)) AND ("& _ 
+                "(? = 1 AND `member_id` IS NULL) OR (`member_id` = ?)) AND ((? = 1 AND `m_wallet`"& _ 
+                " IS NULL) OR (`m_wallet` = ?)) AND ((? = 1 AND `r_walletterpakai` IS NULL) OR (`"& _ 
+                "r_walletterpakai` = ?)) AND ((? = 1 AND `totalrm` IS NULL) OR (`totalrm` = ?)) A"& _ 
+                "ND ((? = 1 AND `totalrp` IS NULL) OR (`totalrp` = ?)) AND ((? = 1 AND `yang_diba"& _ 
+                "yar` IS NULL) OR (`yang_dibayar` = ?)) AND ((? = 1 AND `kurang_bayar` IS NULL) O"& _ 
+                "R (`kurang_bayar` = ?)) AND ((? = 1 AND `Ordered_By` IS NULL) OR (`Ordered_By` ="& _ 
+                " ?)) AND ((? = 1 AND `Proceed_By` IS NULL) OR (`Proceed_By` = ?)))"
             Me._adapter.UpdateCommand.CommandType = Global.System.Data.CommandType.Text
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("NoForm", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "NoForm", Global.System.Data.DataRowVersion.Current, false, Nothing))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Tanggal", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Tanggal", Global.System.Data.DataRowVersion.Current, false, Nothing))
@@ -2402,10 +2210,6 @@ Namespace databaseDataSetTableAdapters
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Total_set", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Total_set", Global.System.Data.DataRowVersion.Current, false, Nothing))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Amount", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Amount", Global.System.Data.DataRowVersion.Current, false, Nothing))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Catatan", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Catatan", Global.System.Data.DataRowVersion.Current, false, Nothing))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Final_Check", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Final_Check", Global.System.Data.DataRowVersion.Current, false, Nothing))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Data_Input", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Data_Input", Global.System.Data.DataRowVersion.Current, false, Nothing))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("total_brg_klr", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "total_brg_klr", Global.System.Data.DataRowVersion.Current, false, Nothing))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("total_uang_msk", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "total_uang_msk", Global.System.Data.DataRowVersion.Current, false, Nothing))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("trsf_wallet", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "trsf_wallet", Global.System.Data.DataRowVersion.Current, false, Nothing))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("saldo_maintainRM", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "saldo_maintainRM", Global.System.Data.DataRowVersion.Current, false, Nothing))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("saldo_maintainIDR", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "saldo_maintainIDR", Global.System.Data.DataRowVersion.Current, false, Nothing))
@@ -2441,14 +2245,6 @@ Namespace databaseDataSetTableAdapters
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Original_Amount", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Amount", Global.System.Data.DataRowVersion.Original, false, Nothing))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("IsNull_Catatan", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Catatan", Global.System.Data.DataRowVersion.Original, true, Nothing))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Original_Catatan", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Catatan", Global.System.Data.DataRowVersion.Original, false, Nothing))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("IsNull_Final_Check", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Final_Check", Global.System.Data.DataRowVersion.Original, true, Nothing))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Original_Final_Check", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Final_Check", Global.System.Data.DataRowVersion.Original, false, Nothing))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("IsNull_Data_Input", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Data_Input", Global.System.Data.DataRowVersion.Original, true, Nothing))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Original_Data_Input", Global.System.Data.OleDb.OleDbType.VarWChar, 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "Data_Input", Global.System.Data.DataRowVersion.Original, false, Nothing))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("IsNull_total_brg_klr", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "total_brg_klr", Global.System.Data.DataRowVersion.Original, true, Nothing))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Original_total_brg_klr", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "total_brg_klr", Global.System.Data.DataRowVersion.Original, false, Nothing))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("IsNull_total_uang_msk", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "total_uang_msk", Global.System.Data.DataRowVersion.Original, true, Nothing))
-            Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Original_total_uang_msk", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "total_uang_msk", Global.System.Data.DataRowVersion.Original, false, Nothing))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("IsNull_trsf_wallet", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "trsf_wallet", Global.System.Data.DataRowVersion.Original, true, Nothing))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("Original_trsf_wallet", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "trsf_wallet", Global.System.Data.DataRowVersion.Original, false, Nothing))
             Me._adapter.UpdateCommand.Parameters.Add(New Global.System.Data.OleDb.OleDbParameter("IsNull_saldo_maintainRM", Global.System.Data.OleDb.OleDbType.[Integer], 0, Global.System.Data.ParameterDirection.Input, CType(0,Byte), CType(0,Byte), "saldo_maintainRM", Global.System.Data.DataRowVersion.Original, true, Nothing))
@@ -2485,105 +2281,44 @@ Namespace databaseDataSetTableAdapters
         <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>  _
         Private Sub InitCommandCollection()
-            Me._commandCollection = New Global.System.Data.OleDb.OleDbCommand(2) {}
+            Me._commandCollection = New Global.System.Data.OleDb.OleDbCommand(0) {}
             Me._commandCollection(0) = New Global.System.Data.OleDb.OleDbCommand()
             Me._commandCollection(0).Connection = Me.Connection
-            Me._commandCollection(0).CommandText = "SELECT [No], NoForm, Tanggal, User_ID, Nama, No_Telp, Prod_firmax3, Prod_O2_max3," & _
-                " Total_pcs, Total_set, Amount, Catatan, Final_Check, Data_Input, total_brg_klr, " & _
-                "total_uang_msk, trsf_wallet, saldo_maintainRM, saldo_maintainIDR, member_id, m_w" & _
-                "allet, r_walletterpakai, totalrm, totalrp, yang_dibayar, kurang_bayar, Ordered_B" & _
-                "y, Proceed_By FROM e_form"
+            Me._commandCollection(0).CommandText = "SELECT [No], NoForm, Tanggal, User_ID, Nama, No_Telp, Prod_firmax3, Prod_O2_max3,"& _ 
+                " Total_pcs, Total_set, Amount, Catatan, trsf_wallet, saldo_maintainRM, saldo_mai"& _ 
+                "ntainIDR, member_id, m_wallet, r_walletterpakai, totalrm, totalrp, yang_dibayar,"& _ 
+                " kurang_bayar, Ordered_By, Proceed_By FROM e_form"
             Me._commandCollection(0).CommandType = Global.System.Data.CommandType.Text
-            Me._commandCollection(1) = New Global.System.Data.OleDb.OleDbCommand()
-            Me._commandCollection(1).Connection = Me.Connection
-            Me._commandCollection(1).CommandText = "SELECT [No], NoForm, Tanggal, User_ID, Nama, No_Telp, Prod_firmax3, Prod_O2_max3," & _
-                " Total_pcs, Total_set, Amount, Catatan, total_uang_msk, Ordered_By, Proceed_By F" & _
-                "ROM e_form"
-            Me._commandCollection(1).CommandType = Global.System.Data.CommandType.Text
-            Me._commandCollection(2) = New Global.System.Data.OleDb.OleDbCommand()
-            Me._commandCollection(2).Connection = Me.Connection
-            Me._commandCollection(2).CommandText = "SELECT [No], NoForm, Tanggal, User_ID, Nama, No_Telp, Prod_firmax3, Prod_O2_max3," & _
-                " Total_pcs, Total_set, Amount, Catatan, total_brg_klr, Ordered_By, Proceed_By FR" & _
-                "OM e_form"
-            Me._commandCollection(2).CommandType = Global.System.Data.CommandType.Text
         End Sub
-
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0"), _
-         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"), _
-         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Fill, True)> _
-        Public Overridable Overloads Function Fill(ByVal dataTable As databaseDataSet.e_formDataTable) As Integer
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
+         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Fill, true)>  _
+        Public Overloads Overridable Function Fill(ByVal dataTable As databaseDataSet.e_formDataTable) As Integer
             Me.Adapter.SelectCommand = Me.CommandCollection(0)
-            If (Me.ClearBeforeFill = True) Then
-                dataTable.Clear()
+            If (Me.ClearBeforeFill = true) Then
+                dataTable.Clear
             End If
             Dim returnValue As Integer = Me.Adapter.Fill(dataTable)
             Return returnValue
         End Function
-
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0"), _
-         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"), _
-         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.[Select], True)> _
-        Public Overridable Overloads Function GetData() As databaseDataSet.e_formDataTable
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"),  _
+         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.[Select], true)>  _
+        Public Overloads Overridable Function GetData() As databaseDataSet.e_formDataTable
             Me.Adapter.SelectCommand = Me.CommandCollection(0)
             Dim dataTable As databaseDataSet.e_formDataTable = New databaseDataSet.e_formDataTable()
             Me.Adapter.Fill(dataTable)
             Return dataTable
         End Function
-
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0"), _
-         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"), _
-         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Fill, False)> _
-        Public Overridable Overloads Function FillAkunting(ByVal dataTable As databaseDataSet.e_formDataTable) As Integer
-            Me.Adapter.SelectCommand = Me.CommandCollection(1)
-            If (Me.ClearBeforeFill = True) Then
-                dataTable.Clear()
-            End If
-            Dim returnValue As Integer = Me.Adapter.Fill(dataTable)
-            Return returnValue
-        End Function
-
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0"), _
-         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"), _
-         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.[Select], False)> _
-        Public Overridable Overloads Function GetDataAkunting() As databaseDataSet.e_formDataTable
-            Me.Adapter.SelectCommand = Me.CommandCollection(1)
-            Dim dataTable As databaseDataSet.e_formDataTable = New databaseDataSet.e_formDataTable()
-            Me.Adapter.Fill(dataTable)
-            Return dataTable
-        End Function
-
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0"), _
-         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"), _
-         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.Fill, False)> _
-        Public Overridable Overloads Function FillGudang(ByVal dataTable As databaseDataSet.e_formDataTable) As Integer
-            Me.Adapter.SelectCommand = Me.CommandCollection(2)
-            If (Me.ClearBeforeFill = True) Then
-                dataTable.Clear()
-            End If
-            Dim returnValue As Integer = Me.Adapter.Fill(dataTable)
-            Return returnValue
-        End Function
-
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0"), _
-         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter"), _
-         Global.System.ComponentModel.DataObjectMethodAttribute(Global.System.ComponentModel.DataObjectMethodType.[Select], False)> _
-        Public Overridable Overloads Function GetDataGudang() As databaseDataSet.e_formDataTable
-            Me.Adapter.SelectCommand = Me.CommandCollection(2)
-            Dim dataTable As databaseDataSet.e_formDataTable = New databaseDataSet.e_formDataTable()
-            Me.Adapter.Fill(dataTable)
-            Return dataTable
-        End Function
-
-        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), _
-         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0"), _
-         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")> _
-        Public Overridable Overloads Function Update(ByVal dataTable As databaseDataSet.e_formDataTable) As Integer
+        
+        <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0"),  _
+         Global.System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")>  _
+        Public Overloads Overridable Function Update(ByVal dataTable As databaseDataSet.e_formDataTable) As Integer
             Return Me.Adapter.Update(dataTable)
         End Function
         
@@ -2625,10 +2360,6 @@ Namespace databaseDataSetTableAdapters
                     ByVal Original_Total_set As Global.System.Nullable(Of Integer),  _
                     ByVal Original_Amount As Global.System.Nullable(Of Integer),  _
                     ByVal Original_Catatan As String,  _
-                    ByVal Original_Final_Check As String,  _
-                    ByVal Original_Data_Input As String,  _
-                    ByVal Original_total_brg_klr As Global.System.Nullable(Of Integer),  _
-                    ByVal Original_total_uang_msk As Global.System.Nullable(Of Integer),  _
                     ByVal Original_trsf_wallet As Global.System.Nullable(Of Integer),  _
                     ByVal Original_saldo_maintainRM As Global.System.Nullable(Of Integer),  _
                     ByVal Original_saldo_maintainIDR As Global.System.Nullable(Of Integer),  _
@@ -2719,117 +2450,89 @@ Namespace databaseDataSetTableAdapters
                 Me.Adapter.DeleteCommand.Parameters(21).Value = CType(0,Object)
                 Me.Adapter.DeleteCommand.Parameters(22).Value = CType(Original_Catatan,String)
             End If
-            If (Original_Final_Check Is Nothing) Then
+            If (Original_trsf_wallet.HasValue = true) Then
+                Me.Adapter.DeleteCommand.Parameters(23).Value = CType(0,Object)
+                Me.Adapter.DeleteCommand.Parameters(24).Value = CType(Original_trsf_wallet.Value,Integer)
+            Else
                 Me.Adapter.DeleteCommand.Parameters(23).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(24).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.DeleteCommand.Parameters(23).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(24).Value = CType(Original_Final_Check,String)
             End If
-            If (Original_Data_Input Is Nothing) Then
+            If (Original_saldo_maintainRM.HasValue = true) Then
+                Me.Adapter.DeleteCommand.Parameters(25).Value = CType(0,Object)
+                Me.Adapter.DeleteCommand.Parameters(26).Value = CType(Original_saldo_maintainRM.Value,Integer)
+            Else
                 Me.Adapter.DeleteCommand.Parameters(25).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(26).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.DeleteCommand.Parameters(25).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(26).Value = CType(Original_Data_Input,String)
             End If
-            If (Original_total_brg_klr.HasValue = true) Then
+            If (Original_saldo_maintainIDR.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(27).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(28).Value = CType(Original_total_brg_klr.Value,Integer)
+                Me.Adapter.DeleteCommand.Parameters(28).Value = CType(Original_saldo_maintainIDR.Value,Integer)
             Else
                 Me.Adapter.DeleteCommand.Parameters(27).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(28).Value = Global.System.DBNull.Value
             End If
-            If (Original_total_uang_msk.HasValue = true) Then
-                Me.Adapter.DeleteCommand.Parameters(29).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(30).Value = CType(Original_total_uang_msk.Value,Integer)
-            Else
+            If (Original_member_id Is Nothing) Then
                 Me.Adapter.DeleteCommand.Parameters(29).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(30).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.DeleteCommand.Parameters(29).Value = CType(0,Object)
+                Me.Adapter.DeleteCommand.Parameters(30).Value = CType(Original_member_id,String)
             End If
-            If (Original_trsf_wallet.HasValue = true) Then
+            If (Original_m_wallet.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(31).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(32).Value = CType(Original_trsf_wallet.Value,Integer)
+                Me.Adapter.DeleteCommand.Parameters(32).Value = CType(Original_m_wallet.Value,Integer)
             Else
                 Me.Adapter.DeleteCommand.Parameters(31).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(32).Value = Global.System.DBNull.Value
             End If
-            If (Original_saldo_maintainRM.HasValue = true) Then
+            If (Original_r_walletterpakai.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(33).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(34).Value = CType(Original_saldo_maintainRM.Value,Integer)
+                Me.Adapter.DeleteCommand.Parameters(34).Value = CType(Original_r_walletterpakai.Value,Integer)
             Else
                 Me.Adapter.DeleteCommand.Parameters(33).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(34).Value = Global.System.DBNull.Value
             End If
-            If (Original_saldo_maintainIDR.HasValue = true) Then
+            If (Original_totalrm.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(35).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(36).Value = CType(Original_saldo_maintainIDR.Value,Integer)
+                Me.Adapter.DeleteCommand.Parameters(36).Value = CType(Original_totalrm.Value,Integer)
             Else
                 Me.Adapter.DeleteCommand.Parameters(35).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(36).Value = Global.System.DBNull.Value
             End If
-            If (Original_member_id Is Nothing) Then
+            If (Original_totalrp.HasValue = true) Then
+                Me.Adapter.DeleteCommand.Parameters(37).Value = CType(0,Object)
+                Me.Adapter.DeleteCommand.Parameters(38).Value = CType(Original_totalrp.Value,Integer)
+            Else
                 Me.Adapter.DeleteCommand.Parameters(37).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(38).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.DeleteCommand.Parameters(37).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(38).Value = CType(Original_member_id,String)
             End If
-            If (Original_m_wallet.HasValue = true) Then
+            If (Original_yang_dibayar.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(39).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(40).Value = CType(Original_m_wallet.Value,Integer)
+                Me.Adapter.DeleteCommand.Parameters(40).Value = CType(Original_yang_dibayar.Value,Integer)
             Else
                 Me.Adapter.DeleteCommand.Parameters(39).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(40).Value = Global.System.DBNull.Value
             End If
-            If (Original_r_walletterpakai.HasValue = true) Then
+            If (Original_kurang_bayar.HasValue = true) Then
                 Me.Adapter.DeleteCommand.Parameters(41).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(42).Value = CType(Original_r_walletterpakai.Value,Integer)
+                Me.Adapter.DeleteCommand.Parameters(42).Value = CType(Original_kurang_bayar.Value,Integer)
             Else
                 Me.Adapter.DeleteCommand.Parameters(41).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(42).Value = Global.System.DBNull.Value
             End If
-            If (Original_totalrm.HasValue = true) Then
-                Me.Adapter.DeleteCommand.Parameters(43).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(44).Value = CType(Original_totalrm.Value,Integer)
-            Else
+            If (Original_Ordered_By Is Nothing) Then
                 Me.Adapter.DeleteCommand.Parameters(43).Value = CType(1,Object)
                 Me.Adapter.DeleteCommand.Parameters(44).Value = Global.System.DBNull.Value
-            End If
-            If (Original_totalrp.HasValue = true) Then
-                Me.Adapter.DeleteCommand.Parameters(45).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(46).Value = CType(Original_totalrp.Value,Integer)
             Else
-                Me.Adapter.DeleteCommand.Parameters(45).Value = CType(1,Object)
-                Me.Adapter.DeleteCommand.Parameters(46).Value = Global.System.DBNull.Value
-            End If
-            If (Original_yang_dibayar.HasValue = true) Then
-                Me.Adapter.DeleteCommand.Parameters(47).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(48).Value = CType(Original_yang_dibayar.Value,Integer)
-            Else
-                Me.Adapter.DeleteCommand.Parameters(47).Value = CType(1,Object)
-                Me.Adapter.DeleteCommand.Parameters(48).Value = Global.System.DBNull.Value
-            End If
-            If (Original_kurang_bayar.HasValue = true) Then
-                Me.Adapter.DeleteCommand.Parameters(49).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(50).Value = CType(Original_kurang_bayar.Value,Integer)
-            Else
-                Me.Adapter.DeleteCommand.Parameters(49).Value = CType(1,Object)
-                Me.Adapter.DeleteCommand.Parameters(50).Value = Global.System.DBNull.Value
-            End If
-            If (Original_Ordered_By Is Nothing) Then
-                Me.Adapter.DeleteCommand.Parameters(51).Value = CType(1,Object)
-                Me.Adapter.DeleteCommand.Parameters(52).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.DeleteCommand.Parameters(51).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(52).Value = CType(Original_Ordered_By,String)
+                Me.Adapter.DeleteCommand.Parameters(43).Value = CType(0,Object)
+                Me.Adapter.DeleteCommand.Parameters(44).Value = CType(Original_Ordered_By,String)
             End If
             If (Original_Proceed_By Is Nothing) Then
-                Me.Adapter.DeleteCommand.Parameters(53).Value = CType(1,Object)
-                Me.Adapter.DeleteCommand.Parameters(54).Value = Global.System.DBNull.Value
+                Me.Adapter.DeleteCommand.Parameters(45).Value = CType(1,Object)
+                Me.Adapter.DeleteCommand.Parameters(46).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.DeleteCommand.Parameters(53).Value = CType(0,Object)
-                Me.Adapter.DeleteCommand.Parameters(54).Value = CType(Original_Proceed_By,String)
+                Me.Adapter.DeleteCommand.Parameters(45).Value = CType(0,Object)
+                Me.Adapter.DeleteCommand.Parameters(46).Value = CType(Original_Proceed_By,String)
             End If
             Dim previousConnectionState As Global.System.Data.ConnectionState = Me.Adapter.DeleteCommand.Connection.State
             If ((Me.Adapter.DeleteCommand.Connection.State And Global.System.Data.ConnectionState.Open)  _
@@ -2862,10 +2565,6 @@ Namespace databaseDataSetTableAdapters
                     ByVal Total_set As Global.System.Nullable(Of Integer),  _
                     ByVal Amount As Global.System.Nullable(Of Integer),  _
                     ByVal Catatan As String,  _
-                    ByVal Final_Check As String,  _
-                    ByVal Data_Input As String,  _
-                    ByVal total_brg_klr As Global.System.Nullable(Of Integer),  _
-                    ByVal total_uang_msk As Global.System.Nullable(Of Integer),  _
                     ByVal trsf_wallet As Global.System.Nullable(Of Integer),  _
                     ByVal saldo_maintainRM As Global.System.Nullable(Of Integer),  _
                     ByVal saldo_maintainIDR As Global.System.Nullable(Of Integer),  _
@@ -2933,85 +2632,65 @@ Namespace databaseDataSetTableAdapters
             Else
                 Me.Adapter.InsertCommand.Parameters(10).Value = CType(Catatan,String)
             End If
-            If (Final_Check Is Nothing) Then
+            If (trsf_wallet.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(11).Value = CType(trsf_wallet.Value,Integer)
+            Else
                 Me.Adapter.InsertCommand.Parameters(11).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.InsertCommand.Parameters(11).Value = CType(Final_Check,String)
             End If
-            If (Data_Input Is Nothing) Then
+            If (saldo_maintainRM.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(12).Value = CType(saldo_maintainRM.Value,Integer)
+            Else
                 Me.Adapter.InsertCommand.Parameters(12).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.InsertCommand.Parameters(12).Value = CType(Data_Input,String)
             End If
-            If (total_brg_klr.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(13).Value = CType(total_brg_klr.Value,Integer)
+            If (saldo_maintainIDR.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(13).Value = CType(saldo_maintainIDR.Value,Integer)
             Else
                 Me.Adapter.InsertCommand.Parameters(13).Value = Global.System.DBNull.Value
             End If
-            If (total_uang_msk.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(14).Value = CType(total_uang_msk.Value,Integer)
-            Else
+            If (member_id Is Nothing) Then
                 Me.Adapter.InsertCommand.Parameters(14).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.InsertCommand.Parameters(14).Value = CType(member_id,String)
             End If
-            If (trsf_wallet.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(15).Value = CType(trsf_wallet.Value,Integer)
+            If (m_wallet.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(15).Value = CType(m_wallet.Value,Integer)
             Else
                 Me.Adapter.InsertCommand.Parameters(15).Value = Global.System.DBNull.Value
             End If
-            If (saldo_maintainRM.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(16).Value = CType(saldo_maintainRM.Value,Integer)
+            If (r_walletterpakai.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(16).Value = CType(r_walletterpakai.Value,Integer)
             Else
                 Me.Adapter.InsertCommand.Parameters(16).Value = Global.System.DBNull.Value
             End If
-            If (saldo_maintainIDR.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(17).Value = CType(saldo_maintainIDR.Value,Integer)
+            If (totalrm.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(17).Value = CType(totalrm.Value,Integer)
             Else
                 Me.Adapter.InsertCommand.Parameters(17).Value = Global.System.DBNull.Value
             End If
-            If (member_id Is Nothing) Then
-                Me.Adapter.InsertCommand.Parameters(18).Value = Global.System.DBNull.Value
+            If (totalrp.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(18).Value = CType(totalrp.Value,Integer)
             Else
-                Me.Adapter.InsertCommand.Parameters(18).Value = CType(member_id,String)
+                Me.Adapter.InsertCommand.Parameters(18).Value = Global.System.DBNull.Value
             End If
-            If (m_wallet.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(19).Value = CType(m_wallet.Value,Integer)
+            If (yang_dibayar.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(19).Value = CType(yang_dibayar.Value,Integer)
             Else
                 Me.Adapter.InsertCommand.Parameters(19).Value = Global.System.DBNull.Value
             End If
-            If (r_walletterpakai.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(20).Value = CType(r_walletterpakai.Value,Integer)
+            If (kurang_bayar.HasValue = true) Then
+                Me.Adapter.InsertCommand.Parameters(20).Value = CType(kurang_bayar.Value,Integer)
             Else
                 Me.Adapter.InsertCommand.Parameters(20).Value = Global.System.DBNull.Value
             End If
-            If (totalrm.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(21).Value = CType(totalrm.Value,Integer)
-            Else
-                Me.Adapter.InsertCommand.Parameters(21).Value = Global.System.DBNull.Value
-            End If
-            If (totalrp.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(22).Value = CType(totalrp.Value,Integer)
-            Else
-                Me.Adapter.InsertCommand.Parameters(22).Value = Global.System.DBNull.Value
-            End If
-            If (yang_dibayar.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(23).Value = CType(yang_dibayar.Value,Integer)
-            Else
-                Me.Adapter.InsertCommand.Parameters(23).Value = Global.System.DBNull.Value
-            End If
-            If (kurang_bayar.HasValue = true) Then
-                Me.Adapter.InsertCommand.Parameters(24).Value = CType(kurang_bayar.Value,Integer)
-            Else
-                Me.Adapter.InsertCommand.Parameters(24).Value = Global.System.DBNull.Value
-            End If
             If (Ordered_By Is Nothing) Then
-                Me.Adapter.InsertCommand.Parameters(25).Value = Global.System.DBNull.Value
+                Me.Adapter.InsertCommand.Parameters(21).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.InsertCommand.Parameters(25).Value = CType(Ordered_By,String)
+                Me.Adapter.InsertCommand.Parameters(21).Value = CType(Ordered_By,String)
             End If
             If (Proceed_By Is Nothing) Then
-                Me.Adapter.InsertCommand.Parameters(26).Value = Global.System.DBNull.Value
+                Me.Adapter.InsertCommand.Parameters(22).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.InsertCommand.Parameters(26).Value = CType(Proceed_By,String)
+                Me.Adapter.InsertCommand.Parameters(22).Value = CType(Proceed_By,String)
             End If
             Dim previousConnectionState As Global.System.Data.ConnectionState = Me.Adapter.InsertCommand.Connection.State
             If ((Me.Adapter.InsertCommand.Connection.State And Global.System.Data.ConnectionState.Open)  _
@@ -3044,10 +2723,6 @@ Namespace databaseDataSetTableAdapters
                     ByVal Total_set As Global.System.Nullable(Of Integer),  _
                     ByVal Amount As Global.System.Nullable(Of Integer),  _
                     ByVal Catatan As String,  _
-                    ByVal Final_Check As String,  _
-                    ByVal Data_Input As String,  _
-                    ByVal total_brg_klr As Global.System.Nullable(Of Integer),  _
-                    ByVal total_uang_msk As Global.System.Nullable(Of Integer),  _
                     ByVal trsf_wallet As Global.System.Nullable(Of Integer),  _
                     ByVal saldo_maintainRM As Global.System.Nullable(Of Integer),  _
                     ByVal saldo_maintainIDR As Global.System.Nullable(Of Integer),  _
@@ -3072,10 +2747,6 @@ Namespace databaseDataSetTableAdapters
                     ByVal Original_Total_set As Global.System.Nullable(Of Integer),  _
                     ByVal Original_Amount As Global.System.Nullable(Of Integer),  _
                     ByVal Original_Catatan As String,  _
-                    ByVal Original_Final_Check As String,  _
-                    ByVal Original_Data_Input As String,  _
-                    ByVal Original_total_brg_klr As Global.System.Nullable(Of Integer),  _
-                    ByVal Original_total_uang_msk As Global.System.Nullable(Of Integer),  _
                     ByVal Original_trsf_wallet As Global.System.Nullable(Of Integer),  _
                     ByVal Original_saldo_maintainRM As Global.System.Nullable(Of Integer),  _
                     ByVal Original_saldo_maintainIDR As Global.System.Nullable(Of Integer),  _
@@ -3143,275 +2814,227 @@ Namespace databaseDataSetTableAdapters
             Else
                 Me.Adapter.UpdateCommand.Parameters(10).Value = CType(Catatan,String)
             End If
-            If (Final_Check Is Nothing) Then
+            If (trsf_wallet.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(11).Value = CType(trsf_wallet.Value,Integer)
+            Else
                 Me.Adapter.UpdateCommand.Parameters(11).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.UpdateCommand.Parameters(11).Value = CType(Final_Check,String)
             End If
-            If (Data_Input Is Nothing) Then
+            If (saldo_maintainRM.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(12).Value = CType(saldo_maintainRM.Value,Integer)
+            Else
                 Me.Adapter.UpdateCommand.Parameters(12).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.UpdateCommand.Parameters(12).Value = CType(Data_Input,String)
             End If
-            If (total_brg_klr.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(13).Value = CType(total_brg_klr.Value,Integer)
+            If (saldo_maintainIDR.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(13).Value = CType(saldo_maintainIDR.Value,Integer)
             Else
                 Me.Adapter.UpdateCommand.Parameters(13).Value = Global.System.DBNull.Value
             End If
-            If (total_uang_msk.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(14).Value = CType(total_uang_msk.Value,Integer)
-            Else
+            If (member_id Is Nothing) Then
                 Me.Adapter.UpdateCommand.Parameters(14).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.UpdateCommand.Parameters(14).Value = CType(member_id,String)
             End If
-            If (trsf_wallet.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(15).Value = CType(trsf_wallet.Value,Integer)
+            If (m_wallet.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(15).Value = CType(m_wallet.Value,Integer)
             Else
                 Me.Adapter.UpdateCommand.Parameters(15).Value = Global.System.DBNull.Value
             End If
-            If (saldo_maintainRM.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(16).Value = CType(saldo_maintainRM.Value,Integer)
+            If (r_walletterpakai.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(16).Value = CType(r_walletterpakai.Value,Integer)
             Else
                 Me.Adapter.UpdateCommand.Parameters(16).Value = Global.System.DBNull.Value
             End If
-            If (saldo_maintainIDR.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(17).Value = CType(saldo_maintainIDR.Value,Integer)
+            If (totalrm.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(17).Value = CType(totalrm.Value,Integer)
             Else
                 Me.Adapter.UpdateCommand.Parameters(17).Value = Global.System.DBNull.Value
             End If
-            If (member_id Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(18).Value = Global.System.DBNull.Value
+            If (totalrp.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(18).Value = CType(totalrp.Value,Integer)
             Else
-                Me.Adapter.UpdateCommand.Parameters(18).Value = CType(member_id,String)
+                Me.Adapter.UpdateCommand.Parameters(18).Value = Global.System.DBNull.Value
             End If
-            If (m_wallet.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(19).Value = CType(m_wallet.Value,Integer)
+            If (yang_dibayar.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(19).Value = CType(yang_dibayar.Value,Integer)
             Else
                 Me.Adapter.UpdateCommand.Parameters(19).Value = Global.System.DBNull.Value
             End If
-            If (r_walletterpakai.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(20).Value = CType(r_walletterpakai.Value,Integer)
+            If (kurang_bayar.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(20).Value = CType(kurang_bayar.Value,Integer)
             Else
                 Me.Adapter.UpdateCommand.Parameters(20).Value = Global.System.DBNull.Value
             End If
-            If (totalrm.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(21).Value = CType(totalrm.Value,Integer)
-            Else
-                Me.Adapter.UpdateCommand.Parameters(21).Value = Global.System.DBNull.Value
-            End If
-            If (totalrp.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(22).Value = CType(totalrp.Value,Integer)
-            Else
-                Me.Adapter.UpdateCommand.Parameters(22).Value = Global.System.DBNull.Value
-            End If
-            If (yang_dibayar.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(23).Value = CType(yang_dibayar.Value,Integer)
-            Else
-                Me.Adapter.UpdateCommand.Parameters(23).Value = Global.System.DBNull.Value
-            End If
-            If (kurang_bayar.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(24).Value = CType(kurang_bayar.Value,Integer)
-            Else
-                Me.Adapter.UpdateCommand.Parameters(24).Value = Global.System.DBNull.Value
-            End If
             If (Ordered_By Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(25).Value = Global.System.DBNull.Value
+                Me.Adapter.UpdateCommand.Parameters(21).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.UpdateCommand.Parameters(25).Value = CType(Ordered_By,String)
+                Me.Adapter.UpdateCommand.Parameters(21).Value = CType(Ordered_By,String)
             End If
             If (Proceed_By Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(26).Value = Global.System.DBNull.Value
+                Me.Adapter.UpdateCommand.Parameters(22).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.UpdateCommand.Parameters(26).Value = CType(Proceed_By,String)
+                Me.Adapter.UpdateCommand.Parameters(22).Value = CType(Proceed_By,String)
             End If
-            Me.Adapter.UpdateCommand.Parameters(27).Value = CType(Original_No,Integer)
+            Me.Adapter.UpdateCommand.Parameters(23).Value = CType(Original_No,Integer)
             If (Original_NoForm Is Nothing) Then
+                Me.Adapter.UpdateCommand.Parameters(24).Value = CType(1,Object)
+                Me.Adapter.UpdateCommand.Parameters(25).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.UpdateCommand.Parameters(24).Value = CType(0,Object)
+                Me.Adapter.UpdateCommand.Parameters(25).Value = CType(Original_NoForm,String)
+            End If
+            If (Original_Tanggal Is Nothing) Then
+                Me.Adapter.UpdateCommand.Parameters(26).Value = CType(1,Object)
+                Me.Adapter.UpdateCommand.Parameters(27).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.UpdateCommand.Parameters(26).Value = CType(0,Object)
+                Me.Adapter.UpdateCommand.Parameters(27).Value = CType(Original_Tanggal,String)
+            End If
+            If (Original_User_ID Is Nothing) Then
                 Me.Adapter.UpdateCommand.Parameters(28).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(29).Value = Global.System.DBNull.Value
             Else
                 Me.Adapter.UpdateCommand.Parameters(28).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(29).Value = CType(Original_NoForm,String)
+                Me.Adapter.UpdateCommand.Parameters(29).Value = CType(Original_User_ID,String)
             End If
-            If (Original_Tanggal Is Nothing) Then
+            If (Original_Nama Is Nothing) Then
                 Me.Adapter.UpdateCommand.Parameters(30).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(31).Value = Global.System.DBNull.Value
             Else
                 Me.Adapter.UpdateCommand.Parameters(30).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(31).Value = CType(Original_Tanggal,String)
+                Me.Adapter.UpdateCommand.Parameters(31).Value = CType(Original_Nama,String)
             End If
-            If (Original_User_ID Is Nothing) Then
+            If (Original_No_Telp Is Nothing) Then
                 Me.Adapter.UpdateCommand.Parameters(32).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(33).Value = Global.System.DBNull.Value
             Else
                 Me.Adapter.UpdateCommand.Parameters(32).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(33).Value = CType(Original_User_ID,String)
-            End If
-            If (Original_Nama Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(34).Value = CType(1,Object)
-                Me.Adapter.UpdateCommand.Parameters(35).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.UpdateCommand.Parameters(34).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(35).Value = CType(Original_Nama,String)
-            End If
-            If (Original_No_Telp Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(36).Value = CType(1,Object)
-                Me.Adapter.UpdateCommand.Parameters(37).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.UpdateCommand.Parameters(36).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(37).Value = CType(Original_No_Telp,String)
+                Me.Adapter.UpdateCommand.Parameters(33).Value = CType(Original_No_Telp,String)
             End If
             If (Original_Prod_firmax3.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(34).Value = CType(0,Object)
+                Me.Adapter.UpdateCommand.Parameters(35).Value = CType(Original_Prod_firmax3.Value,Integer)
+            Else
+                Me.Adapter.UpdateCommand.Parameters(34).Value = CType(1,Object)
+                Me.Adapter.UpdateCommand.Parameters(35).Value = Global.System.DBNull.Value
+            End If
+            If (Original_Prod_O2_max3.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(36).Value = CType(0,Object)
+                Me.Adapter.UpdateCommand.Parameters(37).Value = CType(Original_Prod_O2_max3.Value,Integer)
+            Else
+                Me.Adapter.UpdateCommand.Parameters(36).Value = CType(1,Object)
+                Me.Adapter.UpdateCommand.Parameters(37).Value = Global.System.DBNull.Value
+            End If
+            If (Original_Total_pcs.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(38).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(39).Value = CType(Original_Prod_firmax3.Value,Integer)
+                Me.Adapter.UpdateCommand.Parameters(39).Value = CType(Original_Total_pcs.Value,Integer)
             Else
                 Me.Adapter.UpdateCommand.Parameters(38).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(39).Value = Global.System.DBNull.Value
             End If
-            If (Original_Prod_O2_max3.HasValue = true) Then
+            If (Original_Total_set.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(40).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(41).Value = CType(Original_Prod_O2_max3.Value,Integer)
+                Me.Adapter.UpdateCommand.Parameters(41).Value = CType(Original_Total_set.Value,Integer)
             Else
                 Me.Adapter.UpdateCommand.Parameters(40).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(41).Value = Global.System.DBNull.Value
             End If
-            If (Original_Total_pcs.HasValue = true) Then
+            If (Original_Amount.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(42).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(43).Value = CType(Original_Total_pcs.Value,Integer)
+                Me.Adapter.UpdateCommand.Parameters(43).Value = CType(Original_Amount.Value,Integer)
             Else
                 Me.Adapter.UpdateCommand.Parameters(42).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(43).Value = Global.System.DBNull.Value
             End If
-            If (Original_Total_set.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(44).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(45).Value = CType(Original_Total_set.Value,Integer)
-            Else
+            If (Original_Catatan Is Nothing) Then
                 Me.Adapter.UpdateCommand.Parameters(44).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(45).Value = Global.System.DBNull.Value
+            Else
+                Me.Adapter.UpdateCommand.Parameters(44).Value = CType(0,Object)
+                Me.Adapter.UpdateCommand.Parameters(45).Value = CType(Original_Catatan,String)
             End If
-            If (Original_Amount.HasValue = true) Then
+            If (Original_trsf_wallet.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(46).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(47).Value = CType(Original_Amount.Value,Integer)
+                Me.Adapter.UpdateCommand.Parameters(47).Value = CType(Original_trsf_wallet.Value,Integer)
             Else
                 Me.Adapter.UpdateCommand.Parameters(46).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(47).Value = Global.System.DBNull.Value
             End If
-            If (Original_Catatan Is Nothing) Then
+            If (Original_saldo_maintainRM.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(48).Value = CType(0,Object)
+                Me.Adapter.UpdateCommand.Parameters(49).Value = CType(Original_saldo_maintainRM.Value,Integer)
+            Else
                 Me.Adapter.UpdateCommand.Parameters(48).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(49).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.UpdateCommand.Parameters(48).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(49).Value = CType(Original_Catatan,String)
             End If
-            If (Original_Final_Check Is Nothing) Then
+            If (Original_saldo_maintainIDR.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(50).Value = CType(0,Object)
+                Me.Adapter.UpdateCommand.Parameters(51).Value = CType(Original_saldo_maintainIDR.Value,Integer)
+            Else
                 Me.Adapter.UpdateCommand.Parameters(50).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(51).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.UpdateCommand.Parameters(50).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(51).Value = CType(Original_Final_Check,String)
             End If
-            If (Original_Data_Input Is Nothing) Then
+            If (Original_member_id Is Nothing) Then
                 Me.Adapter.UpdateCommand.Parameters(52).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(53).Value = Global.System.DBNull.Value
             Else
                 Me.Adapter.UpdateCommand.Parameters(52).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(53).Value = CType(Original_Data_Input,String)
+                Me.Adapter.UpdateCommand.Parameters(53).Value = CType(Original_member_id,String)
             End If
-            If (Original_total_brg_klr.HasValue = true) Then
+            If (Original_m_wallet.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(54).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(55).Value = CType(Original_total_brg_klr.Value,Integer)
+                Me.Adapter.UpdateCommand.Parameters(55).Value = CType(Original_m_wallet.Value,Integer)
             Else
                 Me.Adapter.UpdateCommand.Parameters(54).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(55).Value = Global.System.DBNull.Value
             End If
-            If (Original_total_uang_msk.HasValue = true) Then
+            If (Original_r_walletterpakai.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(56).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(57).Value = CType(Original_total_uang_msk.Value,Integer)
+                Me.Adapter.UpdateCommand.Parameters(57).Value = CType(Original_r_walletterpakai.Value,Integer)
             Else
                 Me.Adapter.UpdateCommand.Parameters(56).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(57).Value = Global.System.DBNull.Value
             End If
-            If (Original_trsf_wallet.HasValue = true) Then
+            If (Original_totalrm.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(58).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(59).Value = CType(Original_trsf_wallet.Value,Integer)
+                Me.Adapter.UpdateCommand.Parameters(59).Value = CType(Original_totalrm.Value,Integer)
             Else
                 Me.Adapter.UpdateCommand.Parameters(58).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(59).Value = Global.System.DBNull.Value
             End If
-            If (Original_saldo_maintainRM.HasValue = true) Then
+            If (Original_totalrp.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(60).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(61).Value = CType(Original_saldo_maintainRM.Value,Integer)
+                Me.Adapter.UpdateCommand.Parameters(61).Value = CType(Original_totalrp.Value,Integer)
             Else
                 Me.Adapter.UpdateCommand.Parameters(60).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(61).Value = Global.System.DBNull.Value
             End If
-            If (Original_saldo_maintainIDR.HasValue = true) Then
+            If (Original_yang_dibayar.HasValue = true) Then
                 Me.Adapter.UpdateCommand.Parameters(62).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(63).Value = CType(Original_saldo_maintainIDR.Value,Integer)
+                Me.Adapter.UpdateCommand.Parameters(63).Value = CType(Original_yang_dibayar.Value,Integer)
             Else
                 Me.Adapter.UpdateCommand.Parameters(62).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(63).Value = Global.System.DBNull.Value
             End If
-            If (Original_member_id Is Nothing) Then
+            If (Original_kurang_bayar.HasValue = true) Then
+                Me.Adapter.UpdateCommand.Parameters(64).Value = CType(0,Object)
+                Me.Adapter.UpdateCommand.Parameters(65).Value = CType(Original_kurang_bayar.Value,Integer)
+            Else
                 Me.Adapter.UpdateCommand.Parameters(64).Value = CType(1,Object)
                 Me.Adapter.UpdateCommand.Parameters(65).Value = Global.System.DBNull.Value
-            Else
-                Me.Adapter.UpdateCommand.Parameters(64).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(65).Value = CType(Original_member_id,String)
-            End If
-            If (Original_m_wallet.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(66).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(67).Value = CType(Original_m_wallet.Value,Integer)
-            Else
-                Me.Adapter.UpdateCommand.Parameters(66).Value = CType(1,Object)
-                Me.Adapter.UpdateCommand.Parameters(67).Value = Global.System.DBNull.Value
-            End If
-            If (Original_r_walletterpakai.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(68).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(69).Value = CType(Original_r_walletterpakai.Value,Integer)
-            Else
-                Me.Adapter.UpdateCommand.Parameters(68).Value = CType(1,Object)
-                Me.Adapter.UpdateCommand.Parameters(69).Value = Global.System.DBNull.Value
-            End If
-            If (Original_totalrm.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(70).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(71).Value = CType(Original_totalrm.Value,Integer)
-            Else
-                Me.Adapter.UpdateCommand.Parameters(70).Value = CType(1,Object)
-                Me.Adapter.UpdateCommand.Parameters(71).Value = Global.System.DBNull.Value
-            End If
-            If (Original_totalrp.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(72).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(73).Value = CType(Original_totalrp.Value,Integer)
-            Else
-                Me.Adapter.UpdateCommand.Parameters(72).Value = CType(1,Object)
-                Me.Adapter.UpdateCommand.Parameters(73).Value = Global.System.DBNull.Value
-            End If
-            If (Original_yang_dibayar.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(74).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(75).Value = CType(Original_yang_dibayar.Value,Integer)
-            Else
-                Me.Adapter.UpdateCommand.Parameters(74).Value = CType(1,Object)
-                Me.Adapter.UpdateCommand.Parameters(75).Value = Global.System.DBNull.Value
-            End If
-            If (Original_kurang_bayar.HasValue = true) Then
-                Me.Adapter.UpdateCommand.Parameters(76).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(77).Value = CType(Original_kurang_bayar.Value,Integer)
-            Else
-                Me.Adapter.UpdateCommand.Parameters(76).Value = CType(1,Object)
-                Me.Adapter.UpdateCommand.Parameters(77).Value = Global.System.DBNull.Value
             End If
             If (Original_Ordered_By Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(78).Value = CType(1,Object)
-                Me.Adapter.UpdateCommand.Parameters(79).Value = Global.System.DBNull.Value
+                Me.Adapter.UpdateCommand.Parameters(66).Value = CType(1,Object)
+                Me.Adapter.UpdateCommand.Parameters(67).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.UpdateCommand.Parameters(78).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(79).Value = CType(Original_Ordered_By,String)
+                Me.Adapter.UpdateCommand.Parameters(66).Value = CType(0,Object)
+                Me.Adapter.UpdateCommand.Parameters(67).Value = CType(Original_Ordered_By,String)
             End If
             If (Original_Proceed_By Is Nothing) Then
-                Me.Adapter.UpdateCommand.Parameters(80).Value = CType(1,Object)
-                Me.Adapter.UpdateCommand.Parameters(81).Value = Global.System.DBNull.Value
+                Me.Adapter.UpdateCommand.Parameters(68).Value = CType(1,Object)
+                Me.Adapter.UpdateCommand.Parameters(69).Value = Global.System.DBNull.Value
             Else
-                Me.Adapter.UpdateCommand.Parameters(80).Value = CType(0,Object)
-                Me.Adapter.UpdateCommand.Parameters(81).Value = CType(Original_Proceed_By,String)
+                Me.Adapter.UpdateCommand.Parameters(68).Value = CType(0,Object)
+                Me.Adapter.UpdateCommand.Parameters(69).Value = CType(Original_Proceed_By,String)
             End If
             Dim previousConnectionState As Global.System.Data.ConnectionState = Me.Adapter.UpdateCommand.Connection.State
             If ((Me.Adapter.UpdateCommand.Connection.State And Global.System.Data.ConnectionState.Open)  _

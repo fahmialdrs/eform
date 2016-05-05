@@ -108,6 +108,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>databaseDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="databaseDataSet.vb">
+      <DependentUpon>databaseDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="finance.Designer.vb">
       <DependentUpon>finance.vb</DependentUpon>
     </Compile>

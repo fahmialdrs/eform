@@ -44,6 +44,9 @@ Partial Class membermenu
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.mobiletmember = New System.Windows.Forms.Button()
         Me.MenuStrip.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -54,7 +57,7 @@ Partial Class membermenu
         Me.Label2.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(800, 191)
+        Me.Label2.Location = New System.Drawing.Point(608, 196)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(270, 31)
         Me.Label2.TabIndex = 22
@@ -71,7 +74,7 @@ Partial Class membermenu
         Me.mobilemember.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.mobilemember.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.mobilemember.Image = CType(resources.GetObject("mobilemember.Image"), System.Drawing.Image)
-        Me.mobilemember.Location = New System.Drawing.Point(870, 254)
+        Me.mobilemember.Location = New System.Drawing.Point(678, 259)
         Me.mobilemember.Name = "mobilemember"
         Me.mobilemember.Size = New System.Drawing.Size(136, 136)
         Me.mobilemember.TabIndex = 21
@@ -88,7 +91,7 @@ Partial Class membermenu
         Me.pembelianmember.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
         Me.pembelianmember.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.pembelianmember.Image = CType(resources.GetObject("pembelianmember.Image"), System.Drawing.Image)
-        Me.pembelianmember.Location = New System.Drawing.Point(456, 254)
+        Me.pembelianmember.Location = New System.Drawing.Point(318, 259)
         Me.pembelianmember.Name = "pembelianmember"
         Me.pembelianmember.Size = New System.Drawing.Size(136, 136)
         Me.pembelianmember.TabIndex = 19
@@ -100,7 +103,7 @@ Partial Class membermenu
         Me.Label3.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(395, 191)
+        Me.Label3.Location = New System.Drawing.Point(257, 196)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(270, 31)
         Me.Label3.TabIndex = 24
@@ -111,11 +114,11 @@ Partial Class membermenu
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(848, 222)
+        Me.Label4.Location = New System.Drawing.Point(617, 227)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(179, 18)
+        Me.Label4.Size = New System.Drawing.Size(254, 18)
         Me.Label4.TabIndex = 25
-        Me.Label4.Text = "( MOBILE STOCKIST )"
+        Me.Label4.Text = "( MOBILE STOCKIST  R- Wallet)"
         '
         'Label5
         '
@@ -295,6 +298,46 @@ Partial Class membermenu
         Me.Label10.TabIndex = 79
         Me.Label10.Text = "PT. RF3 WORLD INDONESIA "
         '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(958, 227)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(252, 18)
+        Me.Label11.TabIndex = 83
+        Me.Label11.Text = "( MOBILE STOCKIST  T- Wallet)"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(949, 196)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(270, 31)
+        Me.Label12.TabIndex = 82
+        Me.Label12.Text = "FORM PEMBELIAN"
+        '
+        'mobiletmember
+        '
+        Me.mobiletmember.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.mobiletmember.AutoSize = True
+        Me.mobiletmember.BackColor = System.Drawing.SystemColors.Window
+        Me.mobiletmember.BackgroundImage = CType(resources.GetObject("mobiletmember.BackgroundImage"), System.Drawing.Image)
+        Me.mobiletmember.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.mobiletmember.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.mobiletmember.Image = CType(resources.GetObject("mobiletmember.Image"), System.Drawing.Image)
+        Me.mobiletmember.Location = New System.Drawing.Point(1019, 259)
+        Me.mobiletmember.Name = "mobiletmember"
+        Me.mobiletmember.Size = New System.Drawing.Size(136, 136)
+        Me.mobiletmember.TabIndex = 81
+        Me.mobiletmember.UseVisualStyleBackColor = False
+        '
         'membermenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -302,6 +345,9 @@ Partial Class membermenu
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.mobiletmember)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label10)
         Me.Controls.Add(Me.PictureBox1)
@@ -351,4 +397,7 @@ Partial Class membermenu
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents Label12 As System.Windows.Forms.Label
+    Friend WithEvents mobiletmember As System.Windows.Forms.Button
 End Class
