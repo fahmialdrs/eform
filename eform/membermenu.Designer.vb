@@ -47,6 +47,11 @@ Partial Class membermenu
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
         Me.mobiletmember = New System.Windows.Forms.Button()
+        Me.lblpembelian = New System.Windows.Forms.Label()
+        Me.lblmobiler = New System.Windows.Forms.Label()
+        Me.lblmobilet = New System.Windows.Forms.Label()
+        Me.lblmaintain = New System.Windows.Forms.Label()
+        Me.lblclaim = New System.Windows.Forms.Label()
         Me.MenuStrip.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -72,7 +77,6 @@ Partial Class membermenu
         Me.mobilemember.BackColor = System.Drawing.SystemColors.Window
         Me.mobilemember.BackgroundImage = CType(resources.GetObject("mobilemember.BackgroundImage"), System.Drawing.Image)
         Me.mobilemember.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.mobilemember.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.mobilemember.Image = CType(resources.GetObject("mobilemember.Image"), System.Drawing.Image)
         Me.mobilemember.Location = New System.Drawing.Point(678, 259)
         Me.mobilemember.Name = "mobilemember"
@@ -89,7 +93,6 @@ Partial Class membermenu
         Me.pembelianmember.BackColor = System.Drawing.SystemColors.ControlDark
         Me.pembelianmember.BackgroundImage = CType(resources.GetObject("pembelianmember.BackgroundImage"), System.Drawing.Image)
         Me.pembelianmember.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.pembelianmember.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.pembelianmember.Image = CType(resources.GetObject("pembelianmember.Image"), System.Drawing.Image)
         Me.pembelianmember.Location = New System.Drawing.Point(318, 259)
         Me.pembelianmember.Name = "pembelianmember"
@@ -164,7 +167,6 @@ Partial Class membermenu
         Me.claimmember.BackColor = System.Drawing.SystemColors.Window
         Me.claimmember.BackgroundImage = CType(resources.GetObject("claimmember.BackgroundImage"), System.Drawing.Image)
         Me.claimmember.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.claimmember.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.claimmember.Image = CType(resources.GetObject("claimmember.Image"), System.Drawing.Image)
         Me.claimmember.Location = New System.Drawing.Point(865, 486)
         Me.claimmember.Name = "claimmember"
@@ -181,7 +183,6 @@ Partial Class membermenu
         Me.maintainmember.BackColor = System.Drawing.SystemColors.ControlDark
         Me.maintainmember.BackgroundImage = CType(resources.GetObject("maintainmember.BackgroundImage"), System.Drawing.Image)
         Me.maintainmember.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.maintainmember.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.maintainmember.Image = CType(resources.GetObject("maintainmember.Image"), System.Drawing.Image)
         Me.maintainmember.Location = New System.Drawing.Point(456, 486)
         Me.maintainmember.Name = "maintainmember"
@@ -203,6 +204,7 @@ Partial Class membermenu
         'back
         '
         Me.back.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.back.BackgroundImage = CType(resources.GetObject("back.BackgroundImage"), System.Drawing.Image)
         Me.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.back.Image = CType(resources.GetObject("back.Image"), System.Drawing.Image)
         Me.back.Location = New System.Drawing.Point(77, 518)
@@ -330,13 +332,62 @@ Partial Class membermenu
         Me.mobiletmember.BackColor = System.Drawing.SystemColors.Window
         Me.mobiletmember.BackgroundImage = CType(resources.GetObject("mobiletmember.BackgroundImage"), System.Drawing.Image)
         Me.mobiletmember.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.mobiletmember.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.mobiletmember.Image = CType(resources.GetObject("mobiletmember.Image"), System.Drawing.Image)
         Me.mobiletmember.Location = New System.Drawing.Point(1019, 259)
         Me.mobiletmember.Name = "mobiletmember"
         Me.mobiletmember.Size = New System.Drawing.Size(136, 136)
         Me.mobiletmember.TabIndex = 81
         Me.mobiletmember.UseVisualStyleBackColor = False
+        '
+        'lblpembelian
+        '
+        Me.lblpembelian.AutoSize = True
+        Me.lblpembelian.Location = New System.Drawing.Point(466, 269)
+        Me.lblpembelian.Name = "lblpembelian"
+        Me.lblpembelian.Size = New System.Drawing.Size(82, 13)
+        Me.lblpembelian.TabIndex = 84
+        Me.lblpembelian.Text = "Form Pembelian"
+        Me.lblpembelian.Visible = False
+        '
+        'lblmobiler
+        '
+        Me.lblmobiler.AutoSize = True
+        Me.lblmobiler.Location = New System.Drawing.Point(820, 286)
+        Me.lblmobiler.Name = "lblmobiler"
+        Me.lblmobiler.Size = New System.Drawing.Size(82, 13)
+        Me.lblmobiler.TabIndex = 85
+        Me.lblmobiler.Text = "Form Pembelian"
+        Me.lblmobiler.Visible = False
+        '
+        'lblmobilet
+        '
+        Me.lblmobilet.AutoSize = True
+        Me.lblmobilet.Location = New System.Drawing.Point(1161, 286)
+        Me.lblmobilet.Name = "lblmobilet"
+        Me.lblmobilet.Size = New System.Drawing.Size(82, 13)
+        Me.lblmobilet.TabIndex = 86
+        Me.lblmobilet.Text = "Form Pembelian"
+        Me.lblmobilet.Visible = False
+        '
+        'lblmaintain
+        '
+        Me.lblmaintain.AutoSize = True
+        Me.lblmaintain.Location = New System.Drawing.Point(598, 537)
+        Me.lblmaintain.Name = "lblmaintain"
+        Me.lblmaintain.Size = New System.Drawing.Size(82, 13)
+        Me.lblmaintain.TabIndex = 87
+        Me.lblmaintain.Text = "Form Pembelian"
+        Me.lblmaintain.Visible = False
+        '
+        'lblclaim
+        '
+        Me.lblclaim.AutoSize = True
+        Me.lblclaim.Location = New System.Drawing.Point(1025, 537)
+        Me.lblclaim.Name = "lblclaim"
+        Me.lblclaim.Size = New System.Drawing.Size(82, 13)
+        Me.lblclaim.TabIndex = 88
+        Me.lblclaim.Text = "Form Pembelian"
+        Me.lblclaim.Visible = False
         '
         'membermenu
         '
@@ -345,6 +396,11 @@ Partial Class membermenu
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.lblclaim)
+        Me.Controls.Add(Me.lblmaintain)
+        Me.Controls.Add(Me.lblmobilet)
+        Me.Controls.Add(Me.lblmobiler)
+        Me.Controls.Add(Me.lblpembelian)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.mobiletmember)
@@ -400,4 +456,9 @@ Partial Class membermenu
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents Label12 As System.Windows.Forms.Label
     Friend WithEvents mobiletmember As System.Windows.Forms.Button
+    Friend WithEvents lblpembelian As System.Windows.Forms.Label
+    Friend WithEvents lblmobiler As System.Windows.Forms.Label
+    Friend WithEvents lblmobilet As System.Windows.Forms.Label
+    Friend WithEvents lblmaintain As System.Windows.Forms.Label
+    Friend WithEvents lblclaim As System.Windows.Forms.Label
 End Class

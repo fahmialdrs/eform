@@ -369,7 +369,7 @@ Partial Class Pembelian
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
         Me.Button1.Location = New System.Drawing.Point(1162, 265)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(98, 97)
+        Me.Button1.Size = New System.Drawing.Size(104, 97)
         Me.Button1.TabIndex = 16
         Me.Button1.Text = "Submit"
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -378,11 +378,11 @@ Partial Class Pembelian
         '
         'Button2
         '
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
         Me.Button2.Location = New System.Drawing.Point(1162, 368)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(98, 97)
+        Me.Button2.Size = New System.Drawing.Size(104, 97)
         Me.Button2.TabIndex = 17
         Me.Button2.Text = "Clear"
         Me.Button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
@@ -394,7 +394,7 @@ Partial Class Pembelian
         Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
         Me.Button3.Location = New System.Drawing.Point(1162, 468)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(98, 97)
+        Me.Button3.Size = New System.Drawing.Size(104, 97)
         Me.Button3.TabIndex = 18
         Me.Button3.Text = "Print"
         Me.Button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter

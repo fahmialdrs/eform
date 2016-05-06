@@ -15,25 +15,14 @@ Public Class pembelianewmember
         End Try
     End Sub
 
-    Private Sub back_Click(sender As Object, e As EventArgs)
-        newmembermenu.Show()
-        Me.Hide()
+
+    Private Sub Pembelian_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 
-    Private Sub back_Click_1(sender As Object, e As EventArgs) Handles back.Click
-        newmembermenu.Show()
+    Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
+        membermenu.Show()
         Me.Hide()
-    End Sub
-    Private Sub firmax3r_ValueChanged(sender As Object, e As EventArgs) Handles firmax3r.ValueChanged
-        totalpcs.Text = firmax3r.Value + o2max3r.Value
-        totalset.Text = totalpcs.Text / 2
-        amountr.Text = totalset.Text * 1300000
-    End Sub
-
-    Private Sub o2max3r_ValueChanged(sender As Object, e As EventArgs) Handles o2max3r.ValueChanged
-        totalpcs.Text = firmax3r.Value + o2max3r.Value
-        totalset.Text = totalpcs.Text / 2
-        amountr.Text = totalset.Text * 1300000
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -46,9 +35,21 @@ Public Class pembelianewmember
         totalpcs.Text = ""
         totalset.Text = ""
         amountr.Text = ""
+        ordered.Text = ""
+        proceeded.Text = ""
         catatan.Text = ""
-        finalcheck.Text = ""
-        datainput.Text = ""
+    End Sub
+
+    Private Sub firmax3r_ValueChanged(sender As Object, e As EventArgs) Handles firmax3r.ValueChanged
+        totalpcs.Text = firmax3r.Value + o2max3r.Value
+        totalset.Text = totalpcs.Text / 2
+        amountr.Text = totalset.Text * 1000000
+    End Sub
+
+    Private Sub o2max3r_ValueChanged(sender As Object, e As EventArgs) Handles o2max3r.ValueChanged
+        totalpcs.Text = firmax3r.Value + o2max3r.Value
+        totalset.Text = totalpcs.Text / 2
+        amountr.Text = totalset.Text * 1000000
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -68,14 +69,19 @@ Public Class pembelianewmember
             MessageBox.Show("No Telpon tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
             notelpon.Focus()
             Exit Sub
-        ElseIf firmax3r.Value = 0 Then
+            'ElseIf totalpcs.Text = totalpcs.Text Mod 2 <> 0 Then
+            'MessageBox.Show("Pembelian minimal 1 pcs Firmax3 dan 1 pcs O2 MAX3 ...", "Peringatan", MessageBoxButtons.OK)
+            'notelpon.Focus()
+            'Exit Sub
+        ElseIf ((firmax3r.Value + o2max3r.Value) Mod 2 <> 0) Then
             MessageBox.Show("Pembelian FIRMAX3 minimal 1 ...", "Peringatan", MessageBoxButtons.OK)
             firmax3r.Focus()
-            Exit Sub
-        ElseIf o2max3r.Value = 0 Then
-            MessageBox.Show("Pembelian O2 MAX3 minimal 1 ...", "Peringatan", MessageBoxButtons.OK)
             o2max3r.Focus()
             Exit Sub
+            'ElseIf o2max3r.Value = 0 Then
+            'MessageBox.Show("Pembelian O2 MAX3 minimal 1 ...", "Peringatan", MessageBoxButtons.OK)
+            'o2max3r.Focus()
+            'Exit Sub
         ElseIf ordered.Text = "" Then
             MessageBox.Show("Kolom Nama Ordered By tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
             ordered.Focus()
@@ -84,13 +90,88 @@ Public Class pembelianewmember
             MessageBox.Show("Kolom Nama Proceeded By tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
             proceeded.Focus()
             Exit Sub
+        ElseIf catatan.Text = "" Then
+            MessageBox.Show("Kolom Note By tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
+            catatan.Focus()
+            Exit Sub
+            'ElseIf bca.Checked = False Or mandiri.Checked = False Or tunai.Checked = False Then
+            'MessageBox.Show("Kolom Payment Method By tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
+            'Exit Sub
+            'ElseIf pickup.Checked = False Or delivery.Checked = False Then
+            'MessageBox.Show("Kolom Shipping Method By tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
+            'Exit Sub
         Else
             Dim simpan As String
             Me.Cursor = Cursors.WaitCursor
-            simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3,Total_pcs,Total_set, Amount , catatan , Final_Check, Data_Input , Ordered_by, Proceed_by ) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & firmax3r.Text & "', '" & o2max3r.Text & "', '" & totalpcs.Text & "','" & totalset.Text & "', '" & amountr.Text & "', '" & catatan.Text & "', '" & finalcheck.Text & "', '" & datainput.Text & "','" & ordered.Text & "','" & proceeded.Text & "') "
+            simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3,Total_pcs,Total_set, Amount , catatan , Ordered_by, Proceed_by ) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & firmax3r.Text & "', '" & o2max3r.Text & "', '" & totalpcs.Text & "','" & totalset.Text & "', '" & amountr.Text & "', '" & catatan.Text & "', '" & ordered.Text & "','" & proceeded.Text & "') "
             jalankansql(simpan)
             noform.Focus()
             Me.Cursor = Cursors.Default
+            gudang.ReportViewer1.Refresh()
+            finance.ReportViewer1.RefreshReport()
+        End If
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        'transfer value to form pembelian
+        printpembelian.noform.Text = Me.noform.Text
+        printpembelian.userid.Text = Me.userid.Text
+        printpembelian.nama.Text = Me.nama.Text
+        printpembelian.notelfon.Text = Me.notelpon.Text
+        printpembelian.firmax3.Text = Me.firmax3r.Value
+        printpembelian.o2max3.Text = Me.o2max3r.Value
+        printpembelian.totalpcs.Text = Me.totalpcs.Text
+        printpembelian.totalset.Text = Me.totalset.Text
+        printpembelian.amount.Text = Me.amountr.Text
+        printpembelian.orderedby.Text = Me.ordered.Text
+        printpembelian.proceededby.Text = Me.proceeded.Text
+        printpembelian.note.Text = Me.catatan.Text
+
+        printpembelian.Show()
+        'print
+        printpembelian.PrintForm1.PrintAction = Printing.PrintAction.PrintToPreview
+        printpembelian.PrintForm1.Print()
+        'printpembelian.Hide()
+    End Sub
+
+    Private Sub bca_CheckedChanged(sender As Object, e As EventArgs) Handles bca.CheckedChanged
+        If bca.Checked = True Then
+            catatan.Text &= " \\ Transfer BCA"
+        ElseIf bca.Checked = False Then
+            catatan.Text &= " "
+
+        End If
+    End Sub
+
+    Private Sub mandiri_CheckedChanged(sender As Object, e As EventArgs) Handles mandiri.CheckedChanged
+        If mandiri.Checked = True Then
+            catatan.Text &= " \\ Transfer Mandiri"
+        ElseIf mandiri.Checked = False Then
+            catatan.Text &= " "
+        End If
+    End Sub
+
+    Private Sub tunai_CheckedChanged(sender As Object, e As EventArgs) Handles tunai.CheckedChanged
+        If tunai.Checked = True Then
+            catatan.Text &= " \\ Tunai"
+        ElseIf tunai.Checked = False Then
+            catatan.Text &= " "
+        End If
+    End Sub
+
+    Private Sub pickup_CheckedChanged(sender As Object, e As EventArgs) Handles pickup.CheckedChanged
+        If pickup.Checked = True Then
+            catatan.Text &= " \\ Pick Up"
+        ElseIf pickup.Checked = False Then
+            catatan.Text &= " "
+        End If
+    End Sub
+
+    Private Sub delivery_CheckedChanged(sender As Object, e As EventArgs) Handles delivery.CheckedChanged
+        If delivery.Checked = True Then
+            catatan.Text &= " \\ Delivery"
+        ElseIf delivery.Checked = False Then
+            catatan.Text &= " "
         End If
     End Sub
 End Class

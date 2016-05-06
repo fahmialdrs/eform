@@ -60,7 +60,6 @@ Partial Class mainmenu
         Me.newmember.BackColor = System.Drawing.SystemColors.Window
         Me.newmember.BackgroundImage = CType(resources.GetObject("newmember.BackgroundImage"), System.Drawing.Image)
         Me.newmember.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.newmember.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.newmember.Image = CType(resources.GetObject("newmember.Image"), System.Drawing.Image)
         Me.newmember.Location = New System.Drawing.Point(685, 285)
         Me.newmember.Name = "newmember"
@@ -89,7 +88,6 @@ Partial Class mainmenu
         Me.member.BackColor = System.Drawing.SystemColors.ControlDark
         Me.member.BackgroundImage = CType(resources.GetObject("member.BackgroundImage"), System.Drawing.Image)
         Me.member.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.member.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.member.Image = CType(resources.GetObject("member.Image"), System.Drawing.Image)
         Me.member.Location = New System.Drawing.Point(276, 285)
         Me.member.Name = "member"

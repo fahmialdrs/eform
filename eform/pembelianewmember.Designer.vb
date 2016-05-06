@@ -22,11 +22,8 @@ Partial Class pembelianewmember
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(pembelianewmember))
-        Me.datainput = New System.Windows.Forms.TextBox()
-        Me.finalcheck = New System.Windows.Forms.TextBox()
-        Me.Label30 = New System.Windows.Forms.Label()
-        Me.tunai = New System.Windows.Forms.RadioButton()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
@@ -49,8 +46,6 @@ Partial Class pembelianewmember
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Label29 = New System.Windows.Forms.Label()
-        Me.mandiri = New System.Windows.Forms.RadioButton()
         Me.noform = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -62,11 +57,6 @@ Partial Class pembelianewmember
         Me.userid = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.bca = New System.Windows.Forms.RadioButton()
-        Me.Label28 = New System.Windows.Forms.Label()
-        Me.catatan = New System.Windows.Forms.TextBox()
-        Me.Label27 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label24 = New System.Windows.Forms.Label()
@@ -75,53 +65,26 @@ Partial Class pembelianewmember
         Me.nama = New System.Windows.Forms.TextBox()
         Me.proceeded = New System.Windows.Forms.TextBox()
         Me.ordered = New System.Windows.Forms.TextBox()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.delivery = New System.Windows.Forms.RadioButton()
+        Me.pickup = New System.Windows.Forms.RadioButton()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.catatan = New System.Windows.Forms.TextBox()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.tunai = New System.Windows.Forms.RadioButton()
+        Me.mandiri = New System.Windows.Forms.RadioButton()
+        Me.bca = New System.Windows.Forms.RadioButton()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.PrintForm1 = New Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(Me.components)
         Me.Panel3.SuspendLayout()
         CType(Me.o2max3r, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.firmax3r, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'datainput
-        '
-        Me.datainput.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.datainput.Location = New System.Drawing.Point(705, 25)
-        Me.datainput.Multiline = True
-        Me.datainput.Name = "datainput"
-        Me.datainput.Size = New System.Drawing.Size(217, 56)
-        Me.datainput.TabIndex = 35
-        '
-        'finalcheck
-        '
-        Me.finalcheck.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.finalcheck.Location = New System.Drawing.Point(460, 25)
-        Me.finalcheck.Multiline = True
-        Me.finalcheck.Name = "finalcheck"
-        Me.finalcheck.Size = New System.Drawing.Size(217, 56)
-        Me.finalcheck.TabIndex = 34
-        '
-        'Label30
-        '
-        Me.Label30.AutoSize = True
-        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.Location = New System.Drawing.Point(784, 6)
-        Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(68, 16)
-        Me.Label30.TabIndex = 35
-        Me.Label30.Text = "Data Input"
-        '
-        'tunai
-        '
-        Me.tunai.AutoSize = True
-        Me.tunai.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tunai.Location = New System.Drawing.Point(371, 59)
-        Me.tunai.Name = "tunai"
-        Me.tunai.Size = New System.Drawing.Size(60, 20)
-        Me.tunai.TabIndex = 34
-        Me.tunai.TabStop = True
-        Me.tunai.Text = "Tunai"
-        Me.tunai.UseVisualStyleBackColor = True
         '
         'Panel3
         '
@@ -153,7 +116,7 @@ Partial Class pembelianewmember
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.Location = New System.Drawing.Point(174, 165)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(32, 16)
+        Me.Label10.Size = New System.Drawing.Size(34, 16)
         Me.Label10.TabIndex = 71
         Me.Label10.Text = "Rp."
         '
@@ -204,7 +167,7 @@ Partial Class pembelianewmember
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.Location = New System.Drawing.Point(409, 31)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(75, 16)
+        Me.Label17.Size = New System.Drawing.Size(84, 16)
         Me.Label17.TabIndex = 57
         Me.Label17.Text = "FIRMAX 3"
         '
@@ -214,7 +177,7 @@ Partial Class pembelianewmember
         Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.Location = New System.Drawing.Point(40, 87)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(86, 16)
+        Me.Label26.Size = New System.Drawing.Size(90, 16)
         Me.Label26.TabIndex = 62
         Me.Label26.Text = "TOTAL pcs"
         '
@@ -234,7 +197,7 @@ Partial Class pembelianewmember
         Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.Location = New System.Drawing.Point(40, 122)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(84, 16)
+        Me.Label21.Size = New System.Drawing.Size(89, 16)
         Me.Label21.TabIndex = 61
         Me.Label21.Text = "TOTAL Set"
         '
@@ -244,7 +207,7 @@ Partial Class pembelianewmember
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.Location = New System.Drawing.Point(40, 43)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(57, 16)
+        Me.Label18.Size = New System.Drawing.Size(58, 16)
         Me.Label18.TabIndex = 58
         Me.Label18.Text = "Produk"
         '
@@ -262,7 +225,7 @@ Partial Class pembelianewmember
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.Location = New System.Drawing.Point(40, 159)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(59, 16)
+        Me.Label19.Size = New System.Drawing.Size(60, 16)
         Me.Label19.TabIndex = 63
         Me.Label19.Text = "Amount"
         '
@@ -282,7 +245,7 @@ Partial Class pembelianewmember
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.Location = New System.Drawing.Point(713, 31)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(70, 16)
+        Me.Label20.Size = New System.Drawing.Size(78, 16)
         Me.Label20.TabIndex = 59
         Me.Label20.Text = "O2 MAX3"
         '
@@ -328,7 +291,7 @@ Partial Class pembelianewmember
         '
         'Button3
         '
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
         Me.Button3.Location = New System.Drawing.Point(1167, 440)
         Me.Button3.Name = "Button3"
@@ -363,28 +326,6 @@ Partial Class pembelianewmember
         Me.Button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.Button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText
         Me.Button1.UseVisualStyleBackColor = True
-        '
-        'Label29
-        '
-        Me.Label29.AutoSize = True
-        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label29.Location = New System.Drawing.Point(515, 6)
-        Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(78, 16)
-        Me.Label29.TabIndex = 34
-        Me.Label29.Text = "Final Check"
-        '
-        'mandiri
-        '
-        Me.mandiri.AutoSize = True
-        Me.mandiri.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.mandiri.Location = New System.Drawing.Point(236, 59)
-        Me.mandiri.Name = "mandiri"
-        Me.mandiri.Size = New System.Drawing.Size(123, 20)
-        Me.mandiri.TabIndex = 34
-        Me.mandiri.TabStop = True
-        Me.mandiri.Text = "Transfer Mandiri"
-        Me.mandiri.UseVisualStyleBackColor = True
         '
         'noform
         '
@@ -437,7 +378,7 @@ Partial Class pembelianewmember
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(3, 3)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(74, 16)
+        Me.Label3.Size = New System.Drawing.Size(76, 16)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Tanggal :"
         '
@@ -447,7 +388,7 @@ Partial Class pembelianewmember
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(3, 29)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(68, 16)
+        Me.Label4.Size = New System.Drawing.Size(74, 16)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "User ID :"
         '
@@ -473,7 +414,7 @@ Partial Class pembelianewmember
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(3, 84)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(93, 16)
+        Me.Label6.Size = New System.Drawing.Size(98, 16)
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "No. Telpon :"
         '
@@ -483,66 +424,9 @@ Partial Class pembelianewmember
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(3, 55)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(57, 16)
+        Me.Label5.Size = New System.Drawing.Size(60, 16)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Nama :"
-        '
-        'Panel2
-        '
-        Me.Panel2.Controls.Add(Me.datainput)
-        Me.Panel2.Controls.Add(Me.finalcheck)
-        Me.Panel2.Controls.Add(Me.Label30)
-        Me.Panel2.Controls.Add(Me.Label29)
-        Me.Panel2.Controls.Add(Me.tunai)
-        Me.Panel2.Controls.Add(Me.mandiri)
-        Me.Panel2.Controls.Add(Me.bca)
-        Me.Panel2.Controls.Add(Me.Label28)
-        Me.Panel2.Controls.Add(Me.catatan)
-        Me.Panel2.Controls.Add(Me.Label27)
-        Me.Panel2.Location = New System.Drawing.Point(50, 591)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(968, 92)
-        Me.Panel2.TabIndex = 48
-        '
-        'bca
-        '
-        Me.bca.AutoSize = True
-        Me.bca.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bca.Location = New System.Drawing.Point(124, 59)
-        Me.bca.Name = "bca"
-        Me.bca.Size = New System.Drawing.Size(106, 20)
-        Me.bca.TabIndex = 33
-        Me.bca.TabStop = True
-        Me.bca.Text = "Transfer BCA"
-        Me.bca.UseVisualStyleBackColor = True
-        '
-        'Label28
-        '
-        Me.Label28.AutoSize = True
-        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.Location = New System.Drawing.Point(3, 61)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(115, 16)
-        Me.Label28.TabIndex = 34
-        Me.Label28.Text = "Payment Method :"
-        '
-        'catatan
-        '
-        Me.catatan.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.catatan.Location = New System.Drawing.Point(127, 25)
-        Me.catatan.Name = "catatan"
-        Me.catatan.Size = New System.Drawing.Size(304, 22)
-        Me.catatan.TabIndex = 33
-        '
-        'Label27
-        '
-        Me.Label27.AutoSize = True
-        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.Location = New System.Drawing.Point(3, 25)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(43, 16)
-        Me.Label27.TabIndex = 33
-        Me.Label27.Text = "Note :"
         '
         'Label7
         '
@@ -626,6 +510,150 @@ Partial Class pembelianewmember
         Me.ordered.TabIndex = 55
         Me.ordered.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
+        'Panel2
+        '
+        Me.Panel2.Controls.Add(Me.delivery)
+        Me.Panel2.Controls.Add(Me.pickup)
+        Me.Panel2.Controls.Add(Me.Label11)
+        Me.Panel2.Controls.Add(Me.catatan)
+        Me.Panel2.Controls.Add(Me.Label30)
+        Me.Panel2.Controls.Add(Me.Label29)
+        Me.Panel2.Controls.Add(Me.tunai)
+        Me.Panel2.Controls.Add(Me.mandiri)
+        Me.Panel2.Controls.Add(Me.bca)
+        Me.Panel2.Controls.Add(Me.Label28)
+        Me.Panel2.Controls.Add(Me.Label27)
+        Me.Panel2.Location = New System.Drawing.Point(68, 604)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(968, 95)
+        Me.Panel2.TabIndex = 57
+        '
+        'delivery
+        '
+        Me.delivery.AutoSize = True
+        Me.delivery.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.delivery.Location = New System.Drawing.Point(237, 66)
+        Me.delivery.Name = "delivery"
+        Me.delivery.Size = New System.Drawing.Size(76, 20)
+        Me.delivery.TabIndex = 81
+        Me.delivery.TabStop = True
+        Me.delivery.Text = "Delivery"
+        Me.delivery.UseVisualStyleBackColor = True
+        '
+        'pickup
+        '
+        Me.pickup.AutoSize = True
+        Me.pickup.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.pickup.Location = New System.Drawing.Point(125, 66)
+        Me.pickup.Name = "pickup"
+        Me.pickup.Size = New System.Drawing.Size(73, 20)
+        Me.pickup.TabIndex = 80
+        Me.pickup.TabStop = True
+        Me.pickup.Text = "Pick Up"
+        Me.pickup.UseVisualStyleBackColor = True
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(4, 68)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(115, 16)
+        Me.Label11.TabIndex = 82
+        Me.Label11.Text = "Shipping Method :"
+        '
+        'catatan
+        '
+        Me.catatan.Location = New System.Drawing.Point(124, 3)
+        Me.catatan.Name = "catatan"
+        Me.catatan.Size = New System.Drawing.Size(307, 20)
+        Me.catatan.TabIndex = 79
+        Me.catatan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.Location = New System.Drawing.Point(783, 3)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(68, 16)
+        Me.Label30.TabIndex = 35
+        Me.Label30.Text = "Data Input"
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.Location = New System.Drawing.Point(525, 3)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(78, 16)
+        Me.Label29.TabIndex = 34
+        Me.Label29.Text = "Final Check"
+        '
+        'tunai
+        '
+        Me.tunai.AutoSize = True
+        Me.tunai.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tunai.Location = New System.Drawing.Point(371, 41)
+        Me.tunai.Name = "tunai"
+        Me.tunai.Size = New System.Drawing.Size(60, 20)
+        Me.tunai.TabIndex = 13
+        Me.tunai.TabStop = True
+        Me.tunai.Text = "Tunai"
+        Me.tunai.UseVisualStyleBackColor = True
+        '
+        'mandiri
+        '
+        Me.mandiri.AutoSize = True
+        Me.mandiri.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.mandiri.Location = New System.Drawing.Point(236, 41)
+        Me.mandiri.Name = "mandiri"
+        Me.mandiri.Size = New System.Drawing.Size(123, 20)
+        Me.mandiri.TabIndex = 12
+        Me.mandiri.TabStop = True
+        Me.mandiri.Text = "Transfer Mandiri"
+        Me.mandiri.UseVisualStyleBackColor = True
+        '
+        'bca
+        '
+        Me.bca.AutoSize = True
+        Me.bca.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bca.Location = New System.Drawing.Point(124, 41)
+        Me.bca.Name = "bca"
+        Me.bca.Size = New System.Drawing.Size(106, 20)
+        Me.bca.TabIndex = 11
+        Me.bca.TabStop = True
+        Me.bca.Text = "Transfer BCA"
+        Me.bca.UseVisualStyleBackColor = True
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.Location = New System.Drawing.Point(3, 43)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(115, 16)
+        Me.Label28.TabIndex = 34
+        Me.Label28.Text = "Payment Method :"
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(3, 7)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(43, 16)
+        Me.Label27.TabIndex = 33
+        Me.Label27.Text = "Note :"
+        '
+        'PrintForm1
+        '
+        Me.PrintForm1.DocumentName = "document"
+        Me.PrintForm1.Form = Me
+        Me.PrintForm1.PrintAction = System.Drawing.Printing.PrintAction.PrintToPrinter
+        Me.PrintForm1.PrinterSettings = CType(resources.GetObject("PrintForm1.PrinterSettings"), System.Drawing.Printing.PrinterSettings)
+        Me.PrintForm1.PrintFileName = Nothing
+        '
         'pembelianewmember
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -633,6 +661,7 @@ Partial Class pembelianewmember
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.proceeded)
         Me.Controls.Add(Me.ordered)
         Me.Controls.Add(Me.Panel3)
@@ -645,7 +674,6 @@ Partial Class pembelianewmember
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Label22)
         Me.Controls.Add(Me.Label24)
@@ -659,19 +687,15 @@ Partial Class pembelianewmember
         CType(Me.o2max3r, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.firmax3r, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents datainput As TextBox
-    Friend WithEvents finalcheck As TextBox
-    Friend WithEvents Label30 As Label
-    Friend WithEvents tunai As RadioButton
     Friend WithEvents Panel3 As Panel
     Friend WithEvents Label16 As Label
     Friend WithEvents Label15 As Label
@@ -691,8 +715,6 @@ Partial Class pembelianewmember
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
-    Friend WithEvents Label29 As Label
-    Friend WithEvents mandiri As RadioButton
     Friend WithEvents noform As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
@@ -704,11 +726,6 @@ Partial Class pembelianewmember
     Friend WithEvents userid As TextBox
     Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
-    Friend WithEvents Panel2 As Panel
-    Friend WithEvents bca As RadioButton
-    Friend WithEvents Label28 As Label
-    Friend WithEvents catatan As TextBox
-    Friend WithEvents Label27 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label22 As Label
     Friend WithEvents Label24 As Label
@@ -720,4 +737,17 @@ Partial Class pembelianewmember
     Friend WithEvents Label8 As Label
     Friend WithEvents proceeded As TextBox
     Friend WithEvents ordered As TextBox
+    Friend WithEvents Panel2 As System.Windows.Forms.Panel
+    Friend WithEvents delivery As System.Windows.Forms.RadioButton
+    Friend WithEvents pickup As System.Windows.Forms.RadioButton
+    Friend WithEvents Label11 As System.Windows.Forms.Label
+    Friend WithEvents catatan As System.Windows.Forms.TextBox
+    Friend WithEvents Label30 As System.Windows.Forms.Label
+    Friend WithEvents Label29 As System.Windows.Forms.Label
+    Friend WithEvents tunai As System.Windows.Forms.RadioButton
+    Friend WithEvents mandiri As System.Windows.Forms.RadioButton
+    Friend WithEvents bca As System.Windows.Forms.RadioButton
+    Friend WithEvents Label28 As System.Windows.Forms.Label
+    Friend WithEvents Label27 As System.Windows.Forms.Label
+    Friend WithEvents PrintForm1 As Microsoft.VisualBasic.PowerPacks.Printing.PrintForm
 End Class

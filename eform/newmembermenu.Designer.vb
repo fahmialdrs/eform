@@ -75,7 +75,6 @@ Partial Class newmembermenu
         Me.pembeliannewmember.BackColor = System.Drawing.SystemColors.Window
         Me.pembeliannewmember.BackgroundImage = CType(resources.GetObject("pembeliannewmember.BackgroundImage"), System.Drawing.Image)
         Me.pembeliannewmember.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.pembeliannewmember.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.pembeliannewmember.Image = CType(resources.GetObject("pembeliannewmember.Image"), System.Drawing.Image)
         Me.pembeliannewmember.Location = New System.Drawing.Point(651, 307)
         Me.pembeliannewmember.Name = "pembeliannewmember"
@@ -154,7 +153,6 @@ Partial Class newmembermenu
         '
         Me.back.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.back.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.back.Image = CType(resources.GetObject("back.Image"), System.Drawing.Image)
         Me.back.Location = New System.Drawing.Point(137, 449)
         Me.back.Name = "back"
