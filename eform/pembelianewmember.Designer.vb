@@ -189,6 +189,7 @@ Partial Class pembelianewmember
         Me.amountr.ReadOnly = True
         Me.amountr.Size = New System.Drawing.Size(846, 22)
         Me.amountr.TabIndex = 67
+        Me.amountr.Text = "0"
         Me.amountr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label21
@@ -237,6 +238,7 @@ Partial Class pembelianewmember
         Me.totalpcs.ReadOnly = True
         Me.totalpcs.Size = New System.Drawing.Size(846, 22)
         Me.totalpcs.TabIndex = 60
+        Me.totalpcs.Text = "0"
         Me.totalpcs.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label20
@@ -265,6 +267,7 @@ Partial Class pembelianewmember
         Me.totalset.ReadOnly = True
         Me.totalset.Size = New System.Drawing.Size(846, 22)
         Me.totalset.TabIndex = 64
+        Me.totalset.Text = "0"
         Me.totalset.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label31

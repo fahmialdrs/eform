@@ -14,11 +14,6 @@ Public Class maintain
             MsgBox("Tidak Bisa Menyimpan data ke Database" & ex.Message)
         End Try
     End Sub
-
-    Private Sub maintain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-    End Sub
-
     Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
         membermenu.Show()
         Me.Hide()
@@ -54,8 +49,6 @@ Public Class maintain
         amountr.Text = ""
         ordered.Text = ""
         proceeded.Text = ""
-        finalcheck.Text = ""
-        datainput.Text = ""
     End Sub
 
     Private Sub TableLayoutPanel1_Paint(sender As Object, e As PaintEventArgs) Handles TableLayoutPanel1.Paint
@@ -79,12 +72,13 @@ Public Class maintain
             MessageBox.Show("No Telpon tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
             notelpon.Focus()
             Exit Sub
-        ElseIf firmax3r.Value = 0 Then
-            MessageBox.Show("Pembelian FIRMAX3 minimal 1 ...", "Peringatan", MessageBoxButtons.OK)
-            firmax3r.Focus()
+        ElseIf totalpcs.Text Mod 2 <> 0 Then
+            MessageBox.Show("Pembelian minimal 1 pcs Firmax3 dan 1 pcs O2 MAX3 ...", "Peringatan", MessageBoxButtons.OK)
+            notelpon.Focus()
             Exit Sub
-        ElseIf o2max3r.Value = 0 Then
-            MessageBox.Show("Pembelian O2 MAX3 minimal 1 ...", "Peringatan", MessageBoxButtons.OK)
+        ElseIf (firmax3r.Value + o2max3r.Value) = 0 Then
+            MessageBox.Show("Pembelian minimal 1 pcs Firmax3 dan 1 pcs O2 MAX3 ...", "Peringatan", MessageBoxButtons.OK)
+            firmax3r.Focus()
             o2max3r.Focus()
             Exit Sub
         ElseIf ordered.Text = "" Then
@@ -98,10 +92,51 @@ Public Class maintain
         Else
             Dim simpan As String
             Me.Cursor = Cursors.WaitCursor
-            simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3,Total_pcs,Total_set, Amount , catatan , Final_Check, Data_Input , Ordered_by, Proceed_by,saldo_maintainRM,saldo_maintainIDR,kurang_bayar ) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & firmax3r.Text & "', '" & o2max3r.Text & "', '" & totalpcs.Text & "','" & totalset.Text & "', '" & amountr.Text & "', '" & catatan.Text & "', '" & finalcheck.Text & "', '" & datainput.Text & "','" & ordered.Text & "','" & proceeded.Text & "', '" & saldomaintainrm.Text & "','" & saldomaintainidr.Text & "','" & kurangbayar.Text & "') "
+            simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3,Total_pcs,Total_set, Amount , catatan , Ordered_by, Proceed_by,saldo_maintainRM,saldo_maintainIDR,kurang_bayar ) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & firmax3r.Text & "', '" & o2max3r.Text & "', '" & totalpcs.Text & "','" & totalset.Text & "', '" & amountr.Text & "', '" & catatan.Text & "', '" & ordered.Text & "','" & proceeded.Text & "', '" & saldomaintainrm.Text & "','" & saldomaintainidr.Text & "','" & kurangbayar.Text & "') "
             jalankansql(simpan)
             noform.Focus()
             Me.Cursor = Cursors.Default
+        End If
+    End Sub
+
+    Private Sub bca_CheckedChanged(sender As Object, e As EventArgs) Handles bca.CheckedChanged
+        If bca.Checked = True Then
+            catatan.Text &= " \\ Transfer BCA"
+        ElseIf bca.Checked = False Then
+            catatan.Text &= " "
+
+        End If
+    End Sub
+
+    Private Sub mandiri_CheckedChanged(sender As Object, e As EventArgs) Handles mandiri.CheckedChanged
+        If mandiri.Checked = True Then
+            catatan.Text &= " \\ Transfer Mandiri"
+        ElseIf mandiri.Checked = False Then
+            catatan.Text &= " "
+        End If
+    End Sub
+
+    Private Sub tunai_CheckedChanged(sender As Object, e As EventArgs) Handles tunai.CheckedChanged
+        If tunai.Checked = True Then
+            catatan.Text &= " \\ Tunai"
+        ElseIf tunai.Checked = False Then
+            catatan.Text &= " "
+        End If
+    End Sub
+
+    Private Sub pickup_CheckedChanged(sender As Object, e As EventArgs) Handles pickup.CheckedChanged
+        If pickup.Checked = True Then
+            catatan.Text &= " \\ Pick Up"
+        ElseIf pickup.Checked = False Then
+            catatan.Text &= " "
+        End If
+    End Sub
+
+    Private Sub delivery_CheckedChanged(sender As Object, e As EventArgs) Handles delivery.CheckedChanged
+        If delivery.Checked = True Then
+            catatan.Text &= " \\ Delivery"
+        ElseIf delivery.Checked = False Then
+            catatan.Text &= " "
         End If
     End Sub
 End Class

@@ -97,11 +97,15 @@ Partial Class mobilestockist
         '
         'noform
         '
+        Me.noform.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.noform.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.noform.Location = New System.Drawing.Point(472, 84)
         Me.noform.Name = "noform"
         Me.noform.Size = New System.Drawing.Size(253, 22)
         Me.noform.TabIndex = 41
+        Me.noform.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label2
         '
@@ -146,7 +150,7 @@ Partial Class mobilestockist
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(3, 3)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(74, 16)
+        Me.Label3.Size = New System.Drawing.Size(76, 16)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Tanggal :"
         '
@@ -156,17 +160,21 @@ Partial Class mobilestockist
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(3, 29)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(68, 16)
+        Me.Label4.Size = New System.Drawing.Size(74, 16)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "User ID :"
         '
         'userid
         '
+        Me.userid.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.userid.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.userid.Location = New System.Drawing.Point(199, 29)
         Me.userid.Name = "userid"
         Me.userid.Size = New System.Drawing.Size(840, 22)
         Me.userid.TabIndex = 7
+        Me.userid.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label6
         '
@@ -174,7 +182,7 @@ Partial Class mobilestockist
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(3, 84)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(93, 16)
+        Me.Label6.Size = New System.Drawing.Size(98, 16)
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "No. Telpon :"
         '
@@ -184,17 +192,21 @@ Partial Class mobilestockist
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(3, 55)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(57, 16)
+        Me.Label5.Size = New System.Drawing.Size(60, 16)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Nama :"
         '
         'nama
         '
+        Me.nama.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.nama.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.nama.Location = New System.Drawing.Point(199, 55)
         Me.nama.Name = "nama"
         Me.nama.Size = New System.Drawing.Size(840, 22)
         Me.nama.TabIndex = 9
+        Me.nama.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label24
         '
@@ -233,11 +245,15 @@ Partial Class mobilestockist
         '
         'notelpon
         '
+        Me.notelpon.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.notelpon.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.notelpon.Location = New System.Drawing.Point(199, 81)
         Me.notelpon.Name = "notelpon"
         Me.notelpon.Size = New System.Drawing.Size(840, 22)
         Me.notelpon.TabIndex = 11
+        Me.notelpon.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label32
         '
@@ -331,7 +347,7 @@ Partial Class mobilestockist
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.Location = New System.Drawing.Point(206, 222)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(31, 16)
+        Me.Label11.Size = New System.Drawing.Size(33, 16)
         Me.Label11.TabIndex = 67
         Me.Label11.Text = "RM"
         '
@@ -342,7 +358,7 @@ Partial Class mobilestockist
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.Location = New System.Drawing.Point(206, 181)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(32, 16)
+        Me.Label10.Size = New System.Drawing.Size(34, 16)
         Me.Label10.TabIndex = 66
         Me.Label10.Text = "Rp."
         '
@@ -359,11 +375,16 @@ Partial Class mobilestockist
         '
         'transferrwallet
         '
+        Me.transferrwallet.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.transferrwallet.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.transferrwallet.Location = New System.Drawing.Point(199, 219)
         Me.transferrwallet.Name = "transferrwallet"
+        Me.transferrwallet.ReadOnly = True
         Me.transferrwallet.Size = New System.Drawing.Size(840, 22)
         Me.transferrwallet.TabIndex = 72
+        Me.transferrwallet.Text = "0"
         Me.transferrwallet.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label8
@@ -383,7 +404,7 @@ Partial Class mobilestockist
         Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label28.Location = New System.Drawing.Point(28, 234)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(130, 16)
+        Me.Label28.Size = New System.Drawing.Size(134, 16)
         Me.Label28.TabIndex = 71
         Me.Label28.Text = "Transfer R-Wallet"
         '
@@ -403,18 +424,22 @@ Partial Class mobilestockist
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.Location = New System.Drawing.Point(336, 36)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(75, 16)
+        Me.Label17.Size = New System.Drawing.Size(84, 16)
         Me.Label17.TabIndex = 59
         Me.Label17.Text = "FIRMAX 3"
         '
         'amountr
         '
+        Me.amountr.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.amountr.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.amountr.Location = New System.Drawing.Point(199, 178)
         Me.amountr.Name = "amountr"
         Me.amountr.ReadOnly = True
         Me.amountr.Size = New System.Drawing.Size(840, 22)
         Me.amountr.TabIndex = 69
+        Me.amountr.Text = "0"
         Me.amountr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label18
@@ -423,7 +448,7 @@ Partial Class mobilestockist
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.Location = New System.Drawing.Point(49, 42)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(57, 16)
+        Me.Label18.Size = New System.Drawing.Size(58, 16)
         Me.Label18.TabIndex = 60
         Me.Label18.Text = "Produk"
         '
@@ -433,7 +458,7 @@ Partial Class mobilestockist
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.Location = New System.Drawing.Point(49, 184)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(59, 16)
+        Me.Label19.Size = New System.Drawing.Size(60, 16)
         Me.Label19.TabIndex = 65
         Me.Label19.Text = "Amount"
         '
@@ -443,45 +468,61 @@ Partial Class mobilestockist
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.Location = New System.Drawing.Point(640, 36)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(70, 16)
+        Me.Label20.Size = New System.Drawing.Size(78, 16)
         Me.Label20.TabIndex = 61
         Me.Label20.Text = "O2 MAX3"
         '
         'totalset
         '
+        Me.totalset.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.totalset.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.totalset.Location = New System.Drawing.Point(199, 141)
         Me.totalset.Name = "totalset"
         Me.totalset.ReadOnly = True
         Me.totalset.Size = New System.Drawing.Size(840, 22)
         Me.totalset.TabIndex = 66
+        Me.totalset.Text = "0"
         Me.totalset.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'firmax3r
         '
+        Me.firmax3r.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.firmax3r.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.firmax3r.Location = New System.Drawing.Point(243, 63)
         Me.firmax3r.Name = "firmax3r"
         Me.firmax3r.Size = New System.Drawing.Size(260, 22)
         Me.firmax3r.TabIndex = 67
+        Me.firmax3r.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'totalpcs
         '
+        Me.totalpcs.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.totalpcs.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.totalpcs.Location = New System.Drawing.Point(199, 102)
         Me.totalpcs.Name = "totalpcs"
         Me.totalpcs.ReadOnly = True
         Me.totalpcs.Size = New System.Drawing.Size(840, 22)
         Me.totalpcs.TabIndex = 62
+        Me.totalpcs.Text = "0"
         Me.totalpcs.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'o2max3r
         '
+        Me.o2max3r.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.o2max3r.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.o2max3r.Location = New System.Drawing.Point(537, 63)
         Me.o2max3r.Name = "o2max3r"
         Me.o2max3r.Size = New System.Drawing.Size(262, 22)
         Me.o2max3r.TabIndex = 70
+        Me.o2max3r.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label21
         '
@@ -489,7 +530,7 @@ Partial Class mobilestockist
         Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.Location = New System.Drawing.Point(49, 147)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(84, 16)
+        Me.Label21.Size = New System.Drawing.Size(89, 16)
         Me.Label21.TabIndex = 63
         Me.Label21.Text = "TOTAL Set"
         '
@@ -499,7 +540,7 @@ Partial Class mobilestockist
         Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.Location = New System.Drawing.Point(49, 112)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(86, 16)
+        Me.Label26.Size = New System.Drawing.Size(90, 16)
         Me.Label26.TabIndex = 64
         Me.Label26.Text = "TOTAL pcs"
         '
@@ -515,6 +556,9 @@ Partial Class mobilestockist
         '
         'proceeded
         '
+        Me.proceeded.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.proceeded.Location = New System.Drawing.Point(685, 652)
         Me.proceeded.Name = "proceeded"
         Me.proceeded.Size = New System.Drawing.Size(188, 20)
@@ -523,6 +567,9 @@ Partial Class mobilestockist
         '
         'ordered
         '
+        Me.ordered.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ordered.Location = New System.Drawing.Point(175, 652)
         Me.ordered.Name = "ordered"
         Me.ordered.Size = New System.Drawing.Size(172, 20)

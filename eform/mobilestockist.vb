@@ -65,12 +65,13 @@ Public Class mobilestockist
             MessageBox.Show("No Telpon tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
             notelpon.Focus()
             Exit Sub
-        ElseIf firmax3r.Value = 0 Then
-            MessageBox.Show("Pembelian FIRMAX3 minimal 1 ...", "Peringatan", MessageBoxButtons.OK)
-            firmax3r.Focus()
+        ElseIf totalpcs.Text Mod 2 <> 0 Then
+            MessageBox.Show("Pembelian minimal 1 pcs Firmax3 dan 1 pcs O2 MAX3 ...", "Peringatan", MessageBoxButtons.OK)
+            notelpon.Focus()
             Exit Sub
-        ElseIf o2max3r.Value = 0 Then
-            MessageBox.Show("Pembelian O2 MAX3 minimal 1 ...", "Peringatan", MessageBoxButtons.OK)
+        ElseIf (firmax3r.Value + o2max3r.Value) = 0 Then
+            MessageBox.Show("Pembelian minimal 1 pcs Firmax3 dan 1 pcs O2 MAX3 ...", "Peringatan", MessageBoxButtons.OK)
+            firmax3r.Focus()
             o2max3r.Focus()
             Exit Sub
         ElseIf ordered.Text = "" Then

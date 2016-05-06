@@ -42,6 +42,9 @@ Partial Class Pembelian
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.delivery = New System.Windows.Forms.RadioButton()
+        Me.pickup = New System.Windows.Forms.RadioButton()
+        Me.Label11 = New System.Windows.Forms.Label()
         Me.catatan = New System.Windows.Forms.TextBox()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
@@ -75,9 +78,6 @@ Partial Class Pembelian
         Me.proceeded = New System.Windows.Forms.TextBox()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.PrintForm1 = New Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(Me.components)
-        Me.delivery = New System.Windows.Forms.RadioButton()
-        Me.pickup = New System.Windows.Forms.RadioButton()
-        Me.Label11 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
@@ -277,6 +277,40 @@ Partial Class Pembelian
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(968, 95)
         Me.Panel2.TabIndex = 32
+        '
+        'delivery
+        '
+        Me.delivery.AutoSize = True
+        Me.delivery.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.delivery.Location = New System.Drawing.Point(237, 66)
+        Me.delivery.Name = "delivery"
+        Me.delivery.Size = New System.Drawing.Size(76, 20)
+        Me.delivery.TabIndex = 81
+        Me.delivery.TabStop = True
+        Me.delivery.Text = "Delivery"
+        Me.delivery.UseVisualStyleBackColor = True
+        '
+        'pickup
+        '
+        Me.pickup.AutoSize = True
+        Me.pickup.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.pickup.Location = New System.Drawing.Point(125, 66)
+        Me.pickup.Name = "pickup"
+        Me.pickup.Size = New System.Drawing.Size(73, 20)
+        Me.pickup.TabIndex = 80
+        Me.pickup.TabStop = True
+        Me.pickup.Text = "Pick Up"
+        Me.pickup.UseVisualStyleBackColor = True
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(4, 68)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(115, 16)
+        Me.Label11.TabIndex = 82
+        Me.Label11.Text = "Shipping Method :"
         '
         'catatan
         '
@@ -515,6 +549,7 @@ Partial Class Pembelian
         Me.amountr.Size = New System.Drawing.Size(846, 22)
         Me.amountr.TabIndex = 22
         Me.amountr.TabStop = False
+        Me.amountr.Text = "0"
         Me.amountr.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label21
@@ -564,6 +599,7 @@ Partial Class Pembelian
         Me.totalpcs.Size = New System.Drawing.Size(846, 22)
         Me.totalpcs.TabIndex = 20
         Me.totalpcs.TabStop = False
+        Me.totalpcs.Text = "0"
         Me.totalpcs.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label20
@@ -593,6 +629,7 @@ Partial Class Pembelian
         Me.totalset.Size = New System.Drawing.Size(846, 22)
         Me.totalset.TabIndex = 21
         Me.totalset.TabStop = False
+        Me.totalset.Text = "0"
         Me.totalset.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'ordered
@@ -629,40 +666,6 @@ Partial Class Pembelian
         Me.PrintForm1.PrintAction = System.Drawing.Printing.PrintAction.PrintToPrinter
         Me.PrintForm1.PrinterSettings = CType(resources.GetObject("PrintForm1.PrinterSettings"), System.Drawing.Printing.PrinterSettings)
         Me.PrintForm1.PrintFileName = Nothing
-        '
-        'delivery
-        '
-        Me.delivery.AutoSize = True
-        Me.delivery.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.delivery.Location = New System.Drawing.Point(237, 66)
-        Me.delivery.Name = "delivery"
-        Me.delivery.Size = New System.Drawing.Size(76, 20)
-        Me.delivery.TabIndex = 81
-        Me.delivery.TabStop = True
-        Me.delivery.Text = "Delivery"
-        Me.delivery.UseVisualStyleBackColor = True
-        '
-        'pickup
-        '
-        Me.pickup.AutoSize = True
-        Me.pickup.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.pickup.Location = New System.Drawing.Point(125, 66)
-        Me.pickup.Name = "pickup"
-        Me.pickup.Size = New System.Drawing.Size(73, 20)
-        Me.pickup.TabIndex = 80
-        Me.pickup.TabStop = True
-        Me.pickup.Text = "Pick Up"
-        Me.pickup.UseVisualStyleBackColor = True
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(4, 68)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(115, 16)
-        Me.Label11.TabIndex = 82
-        Me.Label11.Text = "Shipping Method :"
         '
         'Pembelian
         '

@@ -72,7 +72,46 @@
         TextBox61.Text = ""
         ordered.Text = ""
         proceeded.Text = ""
-        finalcheck.Text = ""
-        datainput.Text = ""
+    End Sub
+
+    Private Sub bca_CheckedChanged(sender As Object, e As EventArgs) Handles bca.CheckedChanged
+        If bca.Checked = True Then
+            catatan.Text &= " \\ Transfer BCA"
+        ElseIf bca.Checked = False Then
+            catatan.Text &= " "
+
+        End If
+    End Sub
+
+    Private Sub mandiri_CheckedChanged(sender As Object, e As EventArgs) Handles mandiri.CheckedChanged
+        If mandiri.Checked = True Then
+            catatan.Text &= " \\ Transfer Mandiri"
+        ElseIf mandiri.Checked = False Then
+            catatan.Text &= " "
+        End If
+    End Sub
+
+    Private Sub tunai_CheckedChanged(sender As Object, e As EventArgs) Handles tunai.CheckedChanged
+        If tunai.Checked = True Then
+            catatan.Text &= " \\ Tunai"
+        ElseIf tunai.Checked = False Then
+            catatan.Text &= " "
+        End If
+    End Sub
+
+    Private Sub pickup_CheckedChanged(sender As Object, e As EventArgs) Handles pickup.CheckedChanged
+        If pickup.Checked = True Then
+            catatan.Text &= " \\ Pick Up"
+        ElseIf pickup.Checked = False Then
+            catatan.Text &= " "
+        End If
+    End Sub
+
+    Private Sub delivery_CheckedChanged(sender As Object, e As EventArgs) Handles delivery.CheckedChanged
+        If delivery.Checked = True Then
+            catatan.Text &= " \\ Delivery"
+        ElseIf delivery.Checked = False Then
+            catatan.Text &= " "
+        End If
     End Sub
 End Class
