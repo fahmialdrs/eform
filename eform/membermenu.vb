@@ -35,6 +35,11 @@
 
     Private Sub BackupDatabaseToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BackupDatabaseToolStripMenuItem.Click
         backup.Show()
-        Me.Hide()
+        Me.Close()
+    End Sub
+
+    Private Sub mobiletmember_Click(sender As Object, e As EventArgs) Handles mobiletmember.Click
+        mobilestockistt.Show()
+        Me.Close()
     End Sub
 End Class
