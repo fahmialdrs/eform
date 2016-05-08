@@ -188,7 +188,7 @@ Partial Class mainmenu
         Me.Controls.Add(Me.MenuStrip)
         Me.Name = "mainmenu"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "mainmenu"
+        Me.Text = "Menu Utama"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip.ResumeLayout(False)
         Me.MenuStrip.PerformLayout()

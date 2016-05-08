@@ -292,7 +292,7 @@ Partial Class maintain
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.Location = New System.Drawing.Point(185, 127)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(34, 16)
+        Me.Label14.Size = New System.Drawing.Size(32, 16)
         Me.Label14.TabIndex = 85
         Me.Label14.Text = "Rp."
         '
@@ -333,7 +333,7 @@ Partial Class maintain
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.Location = New System.Drawing.Point(444, 12)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(84, 16)
+        Me.Label17.Size = New System.Drawing.Size(75, 16)
         Me.Label17.TabIndex = 68
         Me.Label17.Text = "FIRMAX 3"
         '
@@ -354,7 +354,7 @@ Partial Class maintain
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.Location = New System.Drawing.Point(52, 13)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(58, 16)
+        Me.Label18.Size = New System.Drawing.Size(57, 16)
         Me.Label18.TabIndex = 69
         Me.Label18.Text = "Produk"
         '
@@ -364,7 +364,7 @@ Partial Class maintain
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.Location = New System.Drawing.Point(46, 115)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(60, 16)
+        Me.Label19.Size = New System.Drawing.Size(59, 16)
         Me.Label19.TabIndex = 74
         Me.Label19.Text = "Amount"
         '
@@ -374,7 +374,7 @@ Partial Class maintain
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.Location = New System.Drawing.Point(748, 12)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(78, 16)
+        Me.Label20.Size = New System.Drawing.Size(70, 16)
         Me.Label20.TabIndex = 70
         Me.Label20.Text = "O2 MAX3"
         '
@@ -424,7 +424,7 @@ Partial Class maintain
         Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.Location = New System.Drawing.Point(46, 91)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(89, 16)
+        Me.Label21.Size = New System.Drawing.Size(84, 16)
         Me.Label21.TabIndex = 72
         Me.Label21.Text = "TOTAL Set"
         '
@@ -434,7 +434,7 @@ Partial Class maintain
         Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.Location = New System.Drawing.Point(46, 68)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(90, 16)
+        Me.Label26.Size = New System.Drawing.Size(86, 16)
         Me.Label26.TabIndex = 73
         Me.Label26.Text = "TOTAL pcs"
         '
