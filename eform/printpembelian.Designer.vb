@@ -41,6 +41,8 @@ Partial Class printpembelian
         Me.noform = New System.Windows.Forms.Label()
         Me.PrintForm1 = New Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(Me.components)
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
+        Me.PrintDocument1 = New System.Drawing.Printing.PrintDocument()
         Me.SuspendLayout()
         '
         'datainput
@@ -197,6 +199,10 @@ Partial Class printpembelian
         Me.Button1.Text = "Print"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'PrintDialog1
+        '
+        Me.PrintDialog1.UseEXDialog = True
+        '
         'printpembelian
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -245,4 +251,6 @@ Partial Class printpembelian
     Friend WithEvents noform As System.Windows.Forms.Label
     Public WithEvents PrintForm1 As PowerPacks.Printing.PrintForm
     Friend WithEvents Button1 As Button
+    Friend WithEvents PrintDialog1 As System.Windows.Forms.PrintDialog
+    Friend WithEvents PrintDocument1 As System.Drawing.Printing.PrintDocument
 End Class
