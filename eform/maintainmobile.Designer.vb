@@ -39,76 +39,6 @@ Partial Class maintainmobile
         Me.Label24 = New System.Windows.Forms.Label()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
-        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
-        Me.TextBox30 = New System.Windows.Forms.TextBox()
-        Me.TextBox29 = New System.Windows.Forms.TextBox()
-        Me.TextBox27 = New System.Windows.Forms.TextBox()
-        Me.TextBox26 = New System.Windows.Forms.TextBox()
-        Me.TextBox25 = New System.Windows.Forms.TextBox()
-        Me.TextBox24 = New System.Windows.Forms.TextBox()
-        Me.TextBox23 = New System.Windows.Forms.TextBox()
-        Me.TextBox22 = New System.Windows.Forms.TextBox()
-        Me.TextBox21 = New System.Windows.Forms.TextBox()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
-        Me.TextBox19 = New System.Windows.Forms.TextBox()
-        Me.TextBox18 = New System.Windows.Forms.TextBox()
-        Me.TextBox17 = New System.Windows.Forms.TextBox()
-        Me.TextBox16 = New System.Windows.Forms.TextBox()
-        Me.TextBox15 = New System.Windows.Forms.TextBox()
-        Me.TextBox14 = New System.Windows.Forms.TextBox()
-        Me.TextBox13 = New System.Windows.Forms.TextBox()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox28 = New System.Windows.Forms.TextBox()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox31 = New System.Windows.Forms.TextBox()
-        Me.TextBox32 = New System.Windows.Forms.TextBox()
-        Me.TextBox33 = New System.Windows.Forms.TextBox()
-        Me.TextBox34 = New System.Windows.Forms.TextBox()
-        Me.TextBox36 = New System.Windows.Forms.TextBox()
-        Me.TextBox37 = New System.Windows.Forms.TextBox()
-        Me.TextBox35 = New System.Windows.Forms.TextBox()
-        Me.TextBox38 = New System.Windows.Forms.TextBox()
-        Me.TextBox39 = New System.Windows.Forms.TextBox()
-        Me.TextBox40 = New System.Windows.Forms.TextBox()
-        Me.TextBox41 = New System.Windows.Forms.TextBox()
-        Me.TextBox42 = New System.Windows.Forms.TextBox()
-        Me.TextBox43 = New System.Windows.Forms.TextBox()
-        Me.TextBox44 = New System.Windows.Forms.TextBox()
-        Me.TextBox45 = New System.Windows.Forms.TextBox()
-        Me.TextBox46 = New System.Windows.Forms.TextBox()
-        Me.TextBox47 = New System.Windows.Forms.TextBox()
-        Me.TextBox48 = New System.Windows.Forms.TextBox()
-        Me.TextBox49 = New System.Windows.Forms.TextBox()
-        Me.TextBox50 = New System.Windows.Forms.TextBox()
-        Me.TextBox51 = New System.Windows.Forms.TextBox()
-        Me.TextBox52 = New System.Windows.Forms.TextBox()
-        Me.TextBox53 = New System.Windows.Forms.TextBox()
-        Me.TextBox54 = New System.Windows.Forms.TextBox()
-        Me.TextBox55 = New System.Windows.Forms.TextBox()
-        Me.Label15 = New System.Windows.Forms.Label()
-        Me.TextBox56 = New System.Windows.Forms.TextBox()
-        Me.TextBox57 = New System.Windows.Forms.TextBox()
-        Me.TextBox58 = New System.Windows.Forms.TextBox()
-        Me.TextBox59 = New System.Windows.Forms.TextBox()
-        Me.TextBox60 = New System.Windows.Forms.TextBox()
-        Me.TextBox61 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.Label31 = New System.Windows.Forms.Label()
@@ -130,10 +60,75 @@ Partial Class maintainmobile
         Me.bca = New System.Windows.Forms.RadioButton()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label27 = New System.Windows.Forms.Label()
+        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.O6 = New System.Windows.Forms.TextBox()
+        Me.F6 = New System.Windows.Forms.TextBox()
+        Me.M6 = New System.Windows.Forms.TextBox()
+        Me.memberid6 = New System.Windows.Forms.TextBox()
+        Me.O5 = New System.Windows.Forms.TextBox()
+        Me.F5 = New System.Windows.Forms.TextBox()
+        Me.R5 = New System.Windows.Forms.TextBox()
+        Me.M5 = New System.Windows.Forms.TextBox()
+        Me.memberid5 = New System.Windows.Forms.TextBox()
+        Me.O4 = New System.Windows.Forms.TextBox()
+        Me.F4 = New System.Windows.Forms.TextBox()
+        Me.R4 = New System.Windows.Forms.TextBox()
+        Me.M4 = New System.Windows.Forms.TextBox()
+        Me.memberid4 = New System.Windows.Forms.TextBox()
+        Me.O3 = New System.Windows.Forms.TextBox()
+        Me.F3 = New System.Windows.Forms.TextBox()
+        Me.R3 = New System.Windows.Forms.TextBox()
+        Me.M3 = New System.Windows.Forms.TextBox()
+        Me.memberid3 = New System.Windows.Forms.TextBox()
+        Me.O2 = New System.Windows.Forms.TextBox()
+        Me.F2 = New System.Windows.Forms.TextBox()
+        Me.R2 = New System.Windows.Forms.TextBox()
+        Me.M2 = New System.Windows.Forms.TextBox()
+        Me.memberid2 = New System.Windows.Forms.TextBox()
+        Me.O1 = New System.Windows.Forms.TextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.R6 = New System.Windows.Forms.TextBox()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.memberid1 = New System.Windows.Forms.TextBox()
+        Me.M1 = New System.Windows.Forms.TextBox()
+        Me.F1 = New System.Windows.Forms.TextBox()
+        Me.R1 = New System.Windows.Forms.TextBox()
+        Me.memberid7 = New System.Windows.Forms.TextBox()
+        Me.M7 = New System.Windows.Forms.TextBox()
+        Me.R7 = New System.Windows.Forms.TextBox()
+        Me.F7 = New System.Windows.Forms.TextBox()
+        Me.memberid8 = New System.Windows.Forms.TextBox()
+        Me.M8 = New System.Windows.Forms.TextBox()
+        Me.O7 = New System.Windows.Forms.TextBox()
+        Me.R8 = New System.Windows.Forms.TextBox()
+        Me.F8 = New System.Windows.Forms.TextBox()
+        Me.O8 = New System.Windows.Forms.TextBox()
+        Me.memberid9 = New System.Windows.Forms.TextBox()
+        Me.M9 = New System.Windows.Forms.TextBox()
+        Me.R9 = New System.Windows.Forms.TextBox()
+        Me.F9 = New System.Windows.Forms.TextBox()
+        Me.O9 = New System.Windows.Forms.TextBox()
+        Me.memberid10 = New System.Windows.Forms.TextBox()
+        Me.M10 = New System.Windows.Forms.TextBox()
+        Me.R10 = New System.Windows.Forms.TextBox()
+        Me.F10 = New System.Windows.Forms.TextBox()
+        Me.O10 = New System.Windows.Forms.TextBox()
+        Me.Label15 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
-        Me.TableLayoutPanel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        Me.TableLayoutPanel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label7
@@ -206,7 +201,7 @@ Partial Class maintainmobile
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(3, 3)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(76, 16)
+        Me.Label3.Size = New System.Drawing.Size(74, 16)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Tanggal :"
         '
@@ -216,7 +211,7 @@ Partial Class maintainmobile
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(3, 29)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(74, 16)
+        Me.Label4.Size = New System.Drawing.Size(68, 16)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "User ID :"
         '
@@ -250,7 +245,7 @@ Partial Class maintainmobile
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(3, 84)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(98, 16)
+        Me.Label6.Size = New System.Drawing.Size(93, 16)
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "No. Telpon :"
         '
@@ -260,7 +255,7 @@ Partial Class maintainmobile
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(3, 55)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(60, 16)
+        Me.Label5.Size = New System.Drawing.Size(57, 16)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Nama :"
         '
@@ -305,891 +300,6 @@ Partial Class maintainmobile
         Me.Label22.Size = New System.Drawing.Size(51, 16)
         Me.Label22.TabIndex = 62
         Me.Label22.Text = "Nama :"
-        '
-        'TableLayoutPanel1
-        '
-        Me.TableLayoutPanel1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TableLayoutPanel1.AutoScroll = True
-        Me.TableLayoutPanel1.ColumnCount = 5
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox30, 4, 6)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox29, 3, 6)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox27, 1, 6)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox26, 0, 6)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox25, 4, 5)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox24, 3, 5)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox23, 2, 5)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox22, 1, 5)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox21, 0, 5)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox20, 4, 4)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox19, 3, 4)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox18, 2, 4)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox17, 1, 4)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox16, 0, 4)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox15, 4, 3)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox14, 3, 3)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox13, 2, 3)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox12, 1, 3)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox11, 0, 3)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox10, 4, 2)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox9, 3, 2)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox8, 2, 2)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox7, 1, 2)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox6, 0, 2)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox5, 4, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label12, 4, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label11, 3, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label10, 2, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label9, 1, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label8, 0, 0)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox28, 2, 6)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label14, 0, 13)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label13, 0, 12)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox1, 0, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox2, 1, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox4, 3, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox3, 2, 1)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox31, 0, 7)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox32, 1, 7)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox33, 2, 7)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox34, 3, 7)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox36, 0, 8)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox37, 1, 8)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox35, 4, 7)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox38, 2, 8)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox39, 3, 8)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox40, 4, 8)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox41, 0, 9)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox42, 1, 9)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox43, 2, 9)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox44, 3, 9)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox45, 4, 9)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox46, 0, 10)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox47, 1, 10)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox48, 2, 10)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox49, 3, 10)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox50, 4, 10)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox51, 0, 11)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox52, 1, 11)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox53, 2, 11)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox54, 3, 11)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox55, 4, 11)
-        Me.TableLayoutPanel1.Controls.Add(Me.Label15, 0, 14)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox56, 1, 12)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox57, 2, 12)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox58, 3, 12)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox59, 4, 12)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox60, 1, 13)
-        Me.TableLayoutPanel1.Controls.Add(Me.TextBox61, 1, 14)
-        Me.TableLayoutPanel1.Location = New System.Drawing.Point(12, 293)
-        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
-        Me.TableLayoutPanel1.RowCount = 15
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
-        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1041, 215)
-        Me.TableLayoutPanel1.TabIndex = 70
-        '
-        'TextBox30
-        '
-        Me.TextBox30.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox30.Location = New System.Drawing.Point(835, 123)
-        Me.TextBox30.Name = "TextBox30"
-        Me.TextBox30.Size = New System.Drawing.Size(203, 20)
-        Me.TextBox30.TabIndex = 37
-        Me.TextBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox29
-        '
-        Me.TextBox29.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox29.Location = New System.Drawing.Point(627, 123)
-        Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox29.TabIndex = 36
-        Me.TextBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox27
-        '
-        Me.TextBox27.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox27.Location = New System.Drawing.Point(211, 123)
-        Me.TextBox27.Name = "TextBox27"
-        Me.TextBox27.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox27.TabIndex = 34
-        Me.TextBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox26
-        '
-        Me.TextBox26.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox26.Location = New System.Drawing.Point(3, 123)
-        Me.TextBox26.Name = "TextBox26"
-        Me.TextBox26.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox26.TabIndex = 33
-        Me.TextBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox25
-        '
-        Me.TextBox25.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox25.Location = New System.Drawing.Point(835, 103)
-        Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.Size = New System.Drawing.Size(203, 20)
-        Me.TextBox25.TabIndex = 32
-        Me.TextBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox24
-        '
-        Me.TextBox24.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox24.Location = New System.Drawing.Point(627, 103)
-        Me.TextBox24.Name = "TextBox24"
-        Me.TextBox24.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox24.TabIndex = 31
-        Me.TextBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox23
-        '
-        Me.TextBox23.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox23.Location = New System.Drawing.Point(419, 103)
-        Me.TextBox23.Name = "TextBox23"
-        Me.TextBox23.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox23.TabIndex = 30
-        Me.TextBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox22
-        '
-        Me.TextBox22.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox22.Location = New System.Drawing.Point(211, 103)
-        Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox22.TabIndex = 29
-        Me.TextBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox21
-        '
-        Me.TextBox21.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox21.Location = New System.Drawing.Point(3, 103)
-        Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox21.TabIndex = 28
-        Me.TextBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox20
-        '
-        Me.TextBox20.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox20.Location = New System.Drawing.Point(835, 83)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(203, 20)
-        Me.TextBox20.TabIndex = 27
-        Me.TextBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox19
-        '
-        Me.TextBox19.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox19.Location = New System.Drawing.Point(627, 83)
-        Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox19.TabIndex = 26
-        Me.TextBox19.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox18
-        '
-        Me.TextBox18.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox18.Location = New System.Drawing.Point(419, 83)
-        Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox18.TabIndex = 25
-        Me.TextBox18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox17
-        '
-        Me.TextBox17.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox17.Location = New System.Drawing.Point(211, 83)
-        Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox17.TabIndex = 24
-        Me.TextBox17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox16
-        '
-        Me.TextBox16.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox16.Location = New System.Drawing.Point(3, 83)
-        Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox16.TabIndex = 23
-        Me.TextBox16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox15
-        '
-        Me.TextBox15.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox15.Location = New System.Drawing.Point(835, 63)
-        Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(203, 20)
-        Me.TextBox15.TabIndex = 22
-        Me.TextBox15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox14
-        '
-        Me.TextBox14.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox14.Location = New System.Drawing.Point(627, 63)
-        Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox14.TabIndex = 21
-        Me.TextBox14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox13
-        '
-        Me.TextBox13.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox13.Location = New System.Drawing.Point(419, 63)
-        Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox13.TabIndex = 20
-        Me.TextBox13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox12
-        '
-        Me.TextBox12.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox12.Location = New System.Drawing.Point(211, 63)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox12.TabIndex = 19
-        Me.TextBox12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox11
-        '
-        Me.TextBox11.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox11.Location = New System.Drawing.Point(3, 63)
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox11.TabIndex = 18
-        Me.TextBox11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox10
-        '
-        Me.TextBox10.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox10.Location = New System.Drawing.Point(835, 43)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(203, 20)
-        Me.TextBox10.TabIndex = 17
-        Me.TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox9
-        '
-        Me.TextBox9.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox9.Location = New System.Drawing.Point(627, 43)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox9.TabIndex = 16
-        Me.TextBox9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox8
-        '
-        Me.TextBox8.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox8.Location = New System.Drawing.Point(419, 43)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox8.TabIndex = 15
-        Me.TextBox8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox7
-        '
-        Me.TextBox7.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox7.Location = New System.Drawing.Point(211, 43)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox7.TabIndex = 14
-        Me.TextBox7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox6
-        '
-        Me.TextBox6.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox6.Location = New System.Drawing.Point(3, 43)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox6.TabIndex = 13
-        Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox5
-        '
-        Me.TextBox5.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox5.Location = New System.Drawing.Point(835, 23)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(203, 20)
-        Me.TextBox5.TabIndex = 12
-        Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Label12
-        '
-        Me.Label12.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label12.AutoSize = True
-        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(835, 0)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(203, 20)
-        Me.Label12.TabIndex = 5
-        Me.Label12.Text = "O2MAX3"
-        Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label11
-        '
-        Me.Label11.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label11.AutoSize = True
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.Location = New System.Drawing.Point(627, 0)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(202, 20)
-        Me.Label11.TabIndex = 4
-        Me.Label11.Text = "FIRMAX3"
-        Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label10
-        '
-        Me.Label10.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label10.AutoSize = True
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(419, 0)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(202, 20)
-        Me.Label10.TabIndex = 3
-        Me.Label10.Text = "R-WALLET TERPAKAI"
-        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label9
-        '
-        Me.Label9.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label9.AutoSize = True
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(211, 0)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(202, 20)
-        Me.Label9.TabIndex = 2
-        Me.Label9.Text = "M-WALLET"
-        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label8
-        '
-        Me.Label8.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(3, 0)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(202, 20)
-        Me.Label8.TabIndex = 1
-        Me.Label8.Text = "MEMBER ID"
-        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'TextBox28
-        '
-        Me.TextBox28.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox28.Location = New System.Drawing.Point(419, 123)
-        Me.TextBox28.Name = "TextBox28"
-        Me.TextBox28.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox28.TabIndex = 35
-        Me.TextBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Label14
-        '
-        Me.Label14.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label14.AutoSize = True
-        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label14.Location = New System.Drawing.Point(3, 260)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(202, 20)
-        Me.Label14.TabIndex = 7
-        Me.Label14.Text = "TOTAL ( Rp )"
-        Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label13
-        '
-        Me.Label13.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label13.AutoSize = True
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(3, 240)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(202, 20)
-        Me.Label13.TabIndex = 6
-        Me.Label13.Text = "TOTAL ( RM )"
-        Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox1.Location = New System.Drawing.Point(3, 23)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox1.TabIndex = 0
-        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox2.Location = New System.Drawing.Point(211, 23)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox2.TabIndex = 9
-        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox4.Location = New System.Drawing.Point(627, 23)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox4.TabIndex = 11
-        Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox3.Location = New System.Drawing.Point(419, 23)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox3.TabIndex = 10
-        Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox31
-        '
-        Me.TextBox31.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox31.Location = New System.Drawing.Point(3, 143)
-        Me.TextBox31.Name = "TextBox31"
-        Me.TextBox31.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox31.TabIndex = 38
-        Me.TextBox31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox32
-        '
-        Me.TextBox32.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox32.Location = New System.Drawing.Point(211, 143)
-        Me.TextBox32.Name = "TextBox32"
-        Me.TextBox32.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox32.TabIndex = 39
-        Me.TextBox32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox33
-        '
-        Me.TextBox33.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox33.Location = New System.Drawing.Point(419, 143)
-        Me.TextBox33.Name = "TextBox33"
-        Me.TextBox33.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox33.TabIndex = 40
-        Me.TextBox33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox34
-        '
-        Me.TextBox34.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox34.Location = New System.Drawing.Point(627, 143)
-        Me.TextBox34.Name = "TextBox34"
-        Me.TextBox34.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox34.TabIndex = 41
-        Me.TextBox34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox36
-        '
-        Me.TextBox36.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox36.Location = New System.Drawing.Point(3, 163)
-        Me.TextBox36.Name = "TextBox36"
-        Me.TextBox36.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox36.TabIndex = 43
-        Me.TextBox36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox37
-        '
-        Me.TextBox37.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox37.Location = New System.Drawing.Point(211, 163)
-        Me.TextBox37.Name = "TextBox37"
-        Me.TextBox37.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox37.TabIndex = 44
-        Me.TextBox37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox35
-        '
-        Me.TextBox35.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox35.Location = New System.Drawing.Point(835, 143)
-        Me.TextBox35.Name = "TextBox35"
-        Me.TextBox35.Size = New System.Drawing.Size(203, 20)
-        Me.TextBox35.TabIndex = 42
-        Me.TextBox35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox38
-        '
-        Me.TextBox38.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox38.Location = New System.Drawing.Point(419, 163)
-        Me.TextBox38.Name = "TextBox38"
-        Me.TextBox38.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox38.TabIndex = 45
-        Me.TextBox38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox39
-        '
-        Me.TextBox39.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox39.Location = New System.Drawing.Point(627, 163)
-        Me.TextBox39.Name = "TextBox39"
-        Me.TextBox39.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox39.TabIndex = 46
-        Me.TextBox39.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox40
-        '
-        Me.TextBox40.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox40.Location = New System.Drawing.Point(835, 163)
-        Me.TextBox40.Name = "TextBox40"
-        Me.TextBox40.Size = New System.Drawing.Size(203, 20)
-        Me.TextBox40.TabIndex = 47
-        Me.TextBox40.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox41
-        '
-        Me.TextBox41.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox41.Location = New System.Drawing.Point(3, 183)
-        Me.TextBox41.Name = "TextBox41"
-        Me.TextBox41.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox41.TabIndex = 48
-        Me.TextBox41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox42
-        '
-        Me.TextBox42.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox42.Location = New System.Drawing.Point(211, 183)
-        Me.TextBox42.Name = "TextBox42"
-        Me.TextBox42.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox42.TabIndex = 49
-        Me.TextBox42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox43
-        '
-        Me.TextBox43.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox43.Location = New System.Drawing.Point(419, 183)
-        Me.TextBox43.Name = "TextBox43"
-        Me.TextBox43.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox43.TabIndex = 50
-        Me.TextBox43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox44
-        '
-        Me.TextBox44.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox44.Location = New System.Drawing.Point(627, 183)
-        Me.TextBox44.Name = "TextBox44"
-        Me.TextBox44.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox44.TabIndex = 51
-        Me.TextBox44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox45
-        '
-        Me.TextBox45.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox45.Location = New System.Drawing.Point(835, 183)
-        Me.TextBox45.Name = "TextBox45"
-        Me.TextBox45.Size = New System.Drawing.Size(203, 20)
-        Me.TextBox45.TabIndex = 52
-        Me.TextBox45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox46
-        '
-        Me.TextBox46.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox46.Location = New System.Drawing.Point(3, 203)
-        Me.TextBox46.Name = "TextBox46"
-        Me.TextBox46.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox46.TabIndex = 53
-        Me.TextBox46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox47
-        '
-        Me.TextBox47.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox47.Location = New System.Drawing.Point(211, 203)
-        Me.TextBox47.Name = "TextBox47"
-        Me.TextBox47.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox47.TabIndex = 54
-        Me.TextBox47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox48
-        '
-        Me.TextBox48.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox48.Location = New System.Drawing.Point(419, 203)
-        Me.TextBox48.Name = "TextBox48"
-        Me.TextBox48.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox48.TabIndex = 55
-        Me.TextBox48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox49
-        '
-        Me.TextBox49.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox49.Location = New System.Drawing.Point(627, 203)
-        Me.TextBox49.Name = "TextBox49"
-        Me.TextBox49.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox49.TabIndex = 56
-        Me.TextBox49.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox50
-        '
-        Me.TextBox50.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox50.Location = New System.Drawing.Point(835, 203)
-        Me.TextBox50.Name = "TextBox50"
-        Me.TextBox50.Size = New System.Drawing.Size(203, 20)
-        Me.TextBox50.TabIndex = 78
-        Me.TextBox50.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox51
-        '
-        Me.TextBox51.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox51.Location = New System.Drawing.Point(3, 223)
-        Me.TextBox51.Name = "TextBox51"
-        Me.TextBox51.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox51.TabIndex = 79
-        Me.TextBox51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox52
-        '
-        Me.TextBox52.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox52.Location = New System.Drawing.Point(211, 223)
-        Me.TextBox52.Name = "TextBox52"
-        Me.TextBox52.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox52.TabIndex = 80
-        Me.TextBox52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox53
-        '
-        Me.TextBox53.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox53.Location = New System.Drawing.Point(419, 223)
-        Me.TextBox53.Name = "TextBox53"
-        Me.TextBox53.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox53.TabIndex = 89
-        Me.TextBox53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox54
-        '
-        Me.TextBox54.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox54.Location = New System.Drawing.Point(627, 223)
-        Me.TextBox54.Name = "TextBox54"
-        Me.TextBox54.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox54.TabIndex = 78
-        Me.TextBox54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox55
-        '
-        Me.TextBox55.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox55.Location = New System.Drawing.Point(835, 223)
-        Me.TextBox55.Name = "TextBox55"
-        Me.TextBox55.Size = New System.Drawing.Size(203, 20)
-        Me.TextBox55.TabIndex = 82
-        Me.TextBox55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Label15
-        '
-        Me.Label15.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label15.Location = New System.Drawing.Point(3, 280)
-        Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(202, 23)
-        Me.Label15.TabIndex = 8
-        Me.Label15.Text = "YANG DIBAYAR"
-        Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'TextBox56
-        '
-        Me.TextBox56.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox56.Location = New System.Drawing.Point(211, 243)
-        Me.TextBox56.Name = "TextBox56"
-        Me.TextBox56.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox56.TabIndex = 78
-        Me.TextBox56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox57
-        '
-        Me.TextBox57.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox57.Location = New System.Drawing.Point(419, 243)
-        Me.TextBox57.Name = "TextBox57"
-        Me.TextBox57.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox57.TabIndex = 78
-        Me.TextBox57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox58
-        '
-        Me.TextBox58.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox58.Location = New System.Drawing.Point(627, 243)
-        Me.TextBox58.Name = "TextBox58"
-        Me.TextBox58.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox58.TabIndex = 83
-        Me.TextBox58.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox59
-        '
-        Me.TextBox59.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox59.Location = New System.Drawing.Point(835, 243)
-        Me.TextBox59.Name = "TextBox59"
-        Me.TextBox59.Size = New System.Drawing.Size(203, 20)
-        Me.TextBox59.TabIndex = 90
-        Me.TextBox59.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox60
-        '
-        Me.TextBox60.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox60.Location = New System.Drawing.Point(211, 263)
-        Me.TextBox60.Name = "TextBox60"
-        Me.TextBox60.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox60.TabIndex = 84
-        Me.TextBox60.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'TextBox61
-        '
-        Me.TextBox61.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox61.Location = New System.Drawing.Point(211, 283)
-        Me.TextBox61.Name = "TextBox61"
-        Me.TextBox61.Size = New System.Drawing.Size(202, 20)
-        Me.TextBox61.TabIndex = 78
-        Me.TextBox61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label1
         '
@@ -1429,12 +539,838 @@ Partial Class maintainmobile
         Me.Label27.TabIndex = 33
         Me.Label27.Text = "Note :"
         '
+        'TableLayoutPanel1
+        '
+        Me.TableLayoutPanel1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TableLayoutPanel1.AutoScroll = True
+        Me.TableLayoutPanel1.ColumnCount = 5
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.0!))
+        Me.TableLayoutPanel1.Controls.Add(Me.O6, 4, 6)
+        Me.TableLayoutPanel1.Controls.Add(Me.F6, 3, 6)
+        Me.TableLayoutPanel1.Controls.Add(Me.M6, 1, 6)
+        Me.TableLayoutPanel1.Controls.Add(Me.memberid6, 0, 6)
+        Me.TableLayoutPanel1.Controls.Add(Me.O5, 4, 5)
+        Me.TableLayoutPanel1.Controls.Add(Me.F5, 3, 5)
+        Me.TableLayoutPanel1.Controls.Add(Me.R5, 2, 5)
+        Me.TableLayoutPanel1.Controls.Add(Me.M5, 1, 5)
+        Me.TableLayoutPanel1.Controls.Add(Me.memberid5, 0, 5)
+        Me.TableLayoutPanel1.Controls.Add(Me.O4, 4, 4)
+        Me.TableLayoutPanel1.Controls.Add(Me.F4, 3, 4)
+        Me.TableLayoutPanel1.Controls.Add(Me.R4, 2, 4)
+        Me.TableLayoutPanel1.Controls.Add(Me.M4, 1, 4)
+        Me.TableLayoutPanel1.Controls.Add(Me.memberid4, 0, 4)
+        Me.TableLayoutPanel1.Controls.Add(Me.O3, 4, 3)
+        Me.TableLayoutPanel1.Controls.Add(Me.F3, 3, 3)
+        Me.TableLayoutPanel1.Controls.Add(Me.R3, 2, 3)
+        Me.TableLayoutPanel1.Controls.Add(Me.M3, 1, 3)
+        Me.TableLayoutPanel1.Controls.Add(Me.memberid3, 0, 3)
+        Me.TableLayoutPanel1.Controls.Add(Me.O2, 4, 2)
+        Me.TableLayoutPanel1.Controls.Add(Me.F2, 3, 2)
+        Me.TableLayoutPanel1.Controls.Add(Me.R2, 2, 2)
+        Me.TableLayoutPanel1.Controls.Add(Me.M2, 1, 2)
+        Me.TableLayoutPanel1.Controls.Add(Me.memberid2, 0, 2)
+        Me.TableLayoutPanel1.Controls.Add(Me.O1, 4, 1)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label12, 4, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label11, 3, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label10, 2, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label9, 1, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label8, 0, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.R6, 2, 6)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label14, 0, 13)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label13, 0, 12)
+        Me.TableLayoutPanel1.Controls.Add(Me.memberid1, 0, 1)
+        Me.TableLayoutPanel1.Controls.Add(Me.M1, 1, 1)
+        Me.TableLayoutPanel1.Controls.Add(Me.F1, 3, 1)
+        Me.TableLayoutPanel1.Controls.Add(Me.R1, 2, 1)
+        Me.TableLayoutPanel1.Controls.Add(Me.memberid7, 0, 7)
+        Me.TableLayoutPanel1.Controls.Add(Me.M7, 1, 7)
+        Me.TableLayoutPanel1.Controls.Add(Me.R7, 2, 7)
+        Me.TableLayoutPanel1.Controls.Add(Me.F7, 3, 7)
+        Me.TableLayoutPanel1.Controls.Add(Me.memberid8, 0, 8)
+        Me.TableLayoutPanel1.Controls.Add(Me.M8, 1, 8)
+        Me.TableLayoutPanel1.Controls.Add(Me.O7, 4, 7)
+        Me.TableLayoutPanel1.Controls.Add(Me.R8, 2, 8)
+        Me.TableLayoutPanel1.Controls.Add(Me.F8, 3, 8)
+        Me.TableLayoutPanel1.Controls.Add(Me.O8, 4, 8)
+        Me.TableLayoutPanel1.Controls.Add(Me.memberid9, 0, 9)
+        Me.TableLayoutPanel1.Controls.Add(Me.M9, 1, 9)
+        Me.TableLayoutPanel1.Controls.Add(Me.R9, 2, 9)
+        Me.TableLayoutPanel1.Controls.Add(Me.F9, 3, 9)
+        Me.TableLayoutPanel1.Controls.Add(Me.O9, 4, 9)
+        Me.TableLayoutPanel1.Controls.Add(Me.memberid10, 0, 10)
+        Me.TableLayoutPanel1.Controls.Add(Me.M10, 1, 10)
+        Me.TableLayoutPanel1.Controls.Add(Me.R10, 2, 10)
+        Me.TableLayoutPanel1.Controls.Add(Me.F10, 3, 10)
+        Me.TableLayoutPanel1.Controls.Add(Me.O10, 4, 10)
+        Me.TableLayoutPanel1.Controls.Add(Me.Label15, 0, 14)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox2, 2, 12)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox3, 3, 12)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox4, 4, 12)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox6, 1, 14)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox5, 1, 13)
+        Me.TableLayoutPanel1.Controls.Add(Me.TextBox1, 1, 12)
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(12, 291)
+        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
+        Me.TableLayoutPanel1.RowCount = 15
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 24.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 18.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1041, 215)
+        Me.TableLayoutPanel1.TabIndex = 81
+        '
+        'O6
+        '
+        Me.O6.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.O6.Location = New System.Drawing.Point(835, 123)
+        Me.O6.Name = "O6"
+        Me.O6.Size = New System.Drawing.Size(203, 20)
+        Me.O6.TabIndex = 37
+        Me.O6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'F6
+        '
+        Me.F6.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.F6.Location = New System.Drawing.Point(627, 123)
+        Me.F6.Name = "F6"
+        Me.F6.Size = New System.Drawing.Size(202, 20)
+        Me.F6.TabIndex = 36
+        Me.F6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'M6
+        '
+        Me.M6.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.M6.Location = New System.Drawing.Point(211, 123)
+        Me.M6.Name = "M6"
+        Me.M6.Size = New System.Drawing.Size(202, 20)
+        Me.M6.TabIndex = 34
+        Me.M6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'memberid6
+        '
+        Me.memberid6.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.memberid6.Location = New System.Drawing.Point(3, 123)
+        Me.memberid6.Name = "memberid6"
+        Me.memberid6.Size = New System.Drawing.Size(202, 20)
+        Me.memberid6.TabIndex = 33
+        Me.memberid6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'O5
+        '
+        Me.O5.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.O5.Location = New System.Drawing.Point(835, 103)
+        Me.O5.Name = "O5"
+        Me.O5.Size = New System.Drawing.Size(203, 20)
+        Me.O5.TabIndex = 32
+        Me.O5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'F5
+        '
+        Me.F5.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.F5.Location = New System.Drawing.Point(627, 103)
+        Me.F5.Name = "F5"
+        Me.F5.Size = New System.Drawing.Size(202, 20)
+        Me.F5.TabIndex = 31
+        Me.F5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'R5
+        '
+        Me.R5.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.R5.Location = New System.Drawing.Point(419, 103)
+        Me.R5.Name = "R5"
+        Me.R5.Size = New System.Drawing.Size(202, 20)
+        Me.R5.TabIndex = 30
+        Me.R5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'M5
+        '
+        Me.M5.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.M5.Location = New System.Drawing.Point(211, 103)
+        Me.M5.Name = "M5"
+        Me.M5.Size = New System.Drawing.Size(202, 20)
+        Me.M5.TabIndex = 29
+        Me.M5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'memberid5
+        '
+        Me.memberid5.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.memberid5.Location = New System.Drawing.Point(3, 103)
+        Me.memberid5.Name = "memberid5"
+        Me.memberid5.Size = New System.Drawing.Size(202, 20)
+        Me.memberid5.TabIndex = 28
+        Me.memberid5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'O4
+        '
+        Me.O4.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.O4.Location = New System.Drawing.Point(835, 83)
+        Me.O4.Name = "O4"
+        Me.O4.Size = New System.Drawing.Size(203, 20)
+        Me.O4.TabIndex = 27
+        Me.O4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'F4
+        '
+        Me.F4.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.F4.Location = New System.Drawing.Point(627, 83)
+        Me.F4.Name = "F4"
+        Me.F4.Size = New System.Drawing.Size(202, 20)
+        Me.F4.TabIndex = 26
+        Me.F4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'R4
+        '
+        Me.R4.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.R4.Location = New System.Drawing.Point(419, 83)
+        Me.R4.Name = "R4"
+        Me.R4.Size = New System.Drawing.Size(202, 20)
+        Me.R4.TabIndex = 25
+        Me.R4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'M4
+        '
+        Me.M4.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.M4.Location = New System.Drawing.Point(211, 83)
+        Me.M4.Name = "M4"
+        Me.M4.Size = New System.Drawing.Size(202, 20)
+        Me.M4.TabIndex = 24
+        Me.M4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'memberid4
+        '
+        Me.memberid4.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.memberid4.Location = New System.Drawing.Point(3, 83)
+        Me.memberid4.Name = "memberid4"
+        Me.memberid4.Size = New System.Drawing.Size(202, 20)
+        Me.memberid4.TabIndex = 23
+        Me.memberid4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'O3
+        '
+        Me.O3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.O3.Location = New System.Drawing.Point(835, 63)
+        Me.O3.Name = "O3"
+        Me.O3.Size = New System.Drawing.Size(203, 20)
+        Me.O3.TabIndex = 22
+        Me.O3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'F3
+        '
+        Me.F3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.F3.Location = New System.Drawing.Point(627, 63)
+        Me.F3.Name = "F3"
+        Me.F3.Size = New System.Drawing.Size(202, 20)
+        Me.F3.TabIndex = 21
+        Me.F3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'R3
+        '
+        Me.R3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.R3.Location = New System.Drawing.Point(419, 63)
+        Me.R3.Name = "R3"
+        Me.R3.Size = New System.Drawing.Size(202, 20)
+        Me.R3.TabIndex = 20
+        Me.R3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'M3
+        '
+        Me.M3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.M3.Location = New System.Drawing.Point(211, 63)
+        Me.M3.Name = "M3"
+        Me.M3.Size = New System.Drawing.Size(202, 20)
+        Me.M3.TabIndex = 19
+        Me.M3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'memberid3
+        '
+        Me.memberid3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.memberid3.Location = New System.Drawing.Point(3, 63)
+        Me.memberid3.Name = "memberid3"
+        Me.memberid3.Size = New System.Drawing.Size(202, 20)
+        Me.memberid3.TabIndex = 18
+        Me.memberid3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'O2
+        '
+        Me.O2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.O2.Location = New System.Drawing.Point(835, 43)
+        Me.O2.Name = "O2"
+        Me.O2.Size = New System.Drawing.Size(203, 20)
+        Me.O2.TabIndex = 17
+        Me.O2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'F2
+        '
+        Me.F2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.F2.Location = New System.Drawing.Point(627, 43)
+        Me.F2.Name = "F2"
+        Me.F2.Size = New System.Drawing.Size(202, 20)
+        Me.F2.TabIndex = 16
+        Me.F2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'R2
+        '
+        Me.R2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.R2.Location = New System.Drawing.Point(419, 43)
+        Me.R2.Name = "R2"
+        Me.R2.Size = New System.Drawing.Size(202, 20)
+        Me.R2.TabIndex = 15
+        Me.R2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'M2
+        '
+        Me.M2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.M2.Location = New System.Drawing.Point(211, 43)
+        Me.M2.Name = "M2"
+        Me.M2.Size = New System.Drawing.Size(202, 20)
+        Me.M2.TabIndex = 14
+        Me.M2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'memberid2
+        '
+        Me.memberid2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.memberid2.Location = New System.Drawing.Point(3, 43)
+        Me.memberid2.Name = "memberid2"
+        Me.memberid2.Size = New System.Drawing.Size(202, 20)
+        Me.memberid2.TabIndex = 13
+        Me.memberid2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'O1
+        '
+        Me.O1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.O1.Location = New System.Drawing.Point(835, 23)
+        Me.O1.Name = "O1"
+        Me.O1.Size = New System.Drawing.Size(203, 20)
+        Me.O1.TabIndex = 12
+        Me.O1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label12
+        '
+        Me.Label12.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(835, 0)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(203, 20)
+        Me.Label12.TabIndex = 5
+        Me.Label12.Text = "O2MAX3"
+        Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label11
+        '
+        Me.Label11.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(627, 0)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(202, 20)
+        Me.Label11.TabIndex = 4
+        Me.Label11.Text = "FIRMAX3"
+        Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label10
+        '
+        Me.Label10.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(419, 0)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(202, 20)
+        Me.Label10.TabIndex = 3
+        Me.Label10.Text = "R-WALLET TERPAKAI"
+        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label9
+        '
+        Me.Label9.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(211, 0)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(202, 20)
+        Me.Label9.TabIndex = 2
+        Me.Label9.Text = "M-WALLET"
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label8
+        '
+        Me.Label8.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(3, 0)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(202, 20)
+        Me.Label8.TabIndex = 1
+        Me.Label8.Text = "MEMBER ID"
+        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'R6
+        '
+        Me.R6.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.R6.Location = New System.Drawing.Point(419, 123)
+        Me.R6.Name = "R6"
+        Me.R6.Size = New System.Drawing.Size(202, 20)
+        Me.R6.TabIndex = 35
+        Me.R6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label14
+        '
+        Me.Label14.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label14.AutoSize = True
+        Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label14.Location = New System.Drawing.Point(3, 262)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(202, 18)
+        Me.Label14.TabIndex = 7
+        Me.Label14.Text = "TOTAL ( Rp )"
+        Me.Label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label13
+        '
+        Me.Label13.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(3, 244)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(202, 18)
+        Me.Label13.TabIndex = 6
+        Me.Label13.Text = "TOTAL ( RM )"
+        Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'memberid1
+        '
+        Me.memberid1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.memberid1.Location = New System.Drawing.Point(3, 23)
+        Me.memberid1.Name = "memberid1"
+        Me.memberid1.Size = New System.Drawing.Size(202, 20)
+        Me.memberid1.TabIndex = 0
+        Me.memberid1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'M1
+        '
+        Me.M1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.M1.Location = New System.Drawing.Point(211, 23)
+        Me.M1.Name = "M1"
+        Me.M1.Size = New System.Drawing.Size(202, 20)
+        Me.M1.TabIndex = 9
+        Me.M1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'F1
+        '
+        Me.F1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.F1.Location = New System.Drawing.Point(627, 23)
+        Me.F1.Name = "F1"
+        Me.F1.Size = New System.Drawing.Size(202, 20)
+        Me.F1.TabIndex = 11
+        Me.F1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'R1
+        '
+        Me.R1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.R1.Location = New System.Drawing.Point(419, 23)
+        Me.R1.Name = "R1"
+        Me.R1.Size = New System.Drawing.Size(202, 20)
+        Me.R1.TabIndex = 10
+        Me.R1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'memberid7
+        '
+        Me.memberid7.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.memberid7.Location = New System.Drawing.Point(3, 143)
+        Me.memberid7.Name = "memberid7"
+        Me.memberid7.Size = New System.Drawing.Size(202, 20)
+        Me.memberid7.TabIndex = 38
+        Me.memberid7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'M7
+        '
+        Me.M7.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.M7.Location = New System.Drawing.Point(211, 143)
+        Me.M7.Name = "M7"
+        Me.M7.Size = New System.Drawing.Size(202, 20)
+        Me.M7.TabIndex = 39
+        Me.M7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'R7
+        '
+        Me.R7.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.R7.Location = New System.Drawing.Point(419, 143)
+        Me.R7.Name = "R7"
+        Me.R7.Size = New System.Drawing.Size(202, 20)
+        Me.R7.TabIndex = 40
+        Me.R7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'F7
+        '
+        Me.F7.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.F7.Location = New System.Drawing.Point(627, 143)
+        Me.F7.Name = "F7"
+        Me.F7.Size = New System.Drawing.Size(202, 20)
+        Me.F7.TabIndex = 41
+        Me.F7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'memberid8
+        '
+        Me.memberid8.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.memberid8.Location = New System.Drawing.Point(3, 163)
+        Me.memberid8.Name = "memberid8"
+        Me.memberid8.Size = New System.Drawing.Size(202, 20)
+        Me.memberid8.TabIndex = 43
+        Me.memberid8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'M8
+        '
+        Me.M8.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.M8.Location = New System.Drawing.Point(211, 163)
+        Me.M8.Name = "M8"
+        Me.M8.Size = New System.Drawing.Size(202, 20)
+        Me.M8.TabIndex = 44
+        Me.M8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'O7
+        '
+        Me.O7.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.O7.Location = New System.Drawing.Point(835, 143)
+        Me.O7.Name = "O7"
+        Me.O7.Size = New System.Drawing.Size(203, 20)
+        Me.O7.TabIndex = 42
+        Me.O7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'R8
+        '
+        Me.R8.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.R8.Location = New System.Drawing.Point(419, 163)
+        Me.R8.Name = "R8"
+        Me.R8.Size = New System.Drawing.Size(202, 20)
+        Me.R8.TabIndex = 45
+        Me.R8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'F8
+        '
+        Me.F8.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.F8.Location = New System.Drawing.Point(627, 163)
+        Me.F8.Name = "F8"
+        Me.F8.Size = New System.Drawing.Size(202, 20)
+        Me.F8.TabIndex = 46
+        Me.F8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'O8
+        '
+        Me.O8.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.O8.Location = New System.Drawing.Point(835, 163)
+        Me.O8.Name = "O8"
+        Me.O8.Size = New System.Drawing.Size(203, 20)
+        Me.O8.TabIndex = 47
+        Me.O8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'memberid9
+        '
+        Me.memberid9.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.memberid9.Location = New System.Drawing.Point(3, 183)
+        Me.memberid9.Name = "memberid9"
+        Me.memberid9.Size = New System.Drawing.Size(202, 20)
+        Me.memberid9.TabIndex = 48
+        Me.memberid9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'M9
+        '
+        Me.M9.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.M9.Location = New System.Drawing.Point(211, 183)
+        Me.M9.Name = "M9"
+        Me.M9.Size = New System.Drawing.Size(202, 20)
+        Me.M9.TabIndex = 49
+        Me.M9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'R9
+        '
+        Me.R9.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.R9.Location = New System.Drawing.Point(419, 183)
+        Me.R9.Name = "R9"
+        Me.R9.Size = New System.Drawing.Size(202, 20)
+        Me.R9.TabIndex = 50
+        Me.R9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'F9
+        '
+        Me.F9.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.F9.Location = New System.Drawing.Point(627, 183)
+        Me.F9.Name = "F9"
+        Me.F9.Size = New System.Drawing.Size(202, 20)
+        Me.F9.TabIndex = 51
+        Me.F9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'O9
+        '
+        Me.O9.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.O9.Location = New System.Drawing.Point(835, 183)
+        Me.O9.Name = "O9"
+        Me.O9.Size = New System.Drawing.Size(203, 20)
+        Me.O9.TabIndex = 52
+        Me.O9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'memberid10
+        '
+        Me.memberid10.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.memberid10.Location = New System.Drawing.Point(3, 203)
+        Me.memberid10.Name = "memberid10"
+        Me.memberid10.Size = New System.Drawing.Size(202, 20)
+        Me.memberid10.TabIndex = 53
+        Me.memberid10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'M10
+        '
+        Me.M10.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.M10.Location = New System.Drawing.Point(211, 203)
+        Me.M10.Name = "M10"
+        Me.M10.Size = New System.Drawing.Size(202, 20)
+        Me.M10.TabIndex = 54
+        Me.M10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'R10
+        '
+        Me.R10.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.R10.Location = New System.Drawing.Point(419, 203)
+        Me.R10.Name = "R10"
+        Me.R10.Size = New System.Drawing.Size(202, 20)
+        Me.R10.TabIndex = 55
+        Me.R10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'F10
+        '
+        Me.F10.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.F10.Location = New System.Drawing.Point(627, 203)
+        Me.F10.Name = "F10"
+        Me.F10.Size = New System.Drawing.Size(202, 20)
+        Me.F10.TabIndex = 56
+        Me.F10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'O10
+        '
+        Me.O10.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.O10.Location = New System.Drawing.Point(835, 203)
+        Me.O10.Name = "O10"
+        Me.O10.Size = New System.Drawing.Size(203, 20)
+        Me.O10.TabIndex = 78
+        Me.O10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label15
+        '
+        Me.Label15.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label15.AutoSize = True
+        Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Location = New System.Drawing.Point(3, 280)
+        Me.Label15.Name = "Label15"
+        Me.Label15.Size = New System.Drawing.Size(202, 23)
+        Me.Label15.TabIndex = 8
+        Me.Label15.Text = "YANG DIBAYAR"
+        Me.Label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox1.Location = New System.Drawing.Point(211, 247)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(202, 20)
+        Me.TextBox1.TabIndex = 85
+        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox2.Location = New System.Drawing.Point(419, 247)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(202, 20)
+        Me.TextBox2.TabIndex = 86
+        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox3.Location = New System.Drawing.Point(627, 247)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(202, 20)
+        Me.TextBox3.TabIndex = 87
+        Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox4.Location = New System.Drawing.Point(835, 247)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(203, 20)
+        Me.TextBox4.TabIndex = 88
+        Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox5
+        '
+        Me.TextBox5.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox5.Location = New System.Drawing.Point(211, 265)
+        Me.TextBox5.Name = "TextBox5"
+        Me.TextBox5.Size = New System.Drawing.Size(202, 20)
+        Me.TextBox5.TabIndex = 89
+        Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox6.Location = New System.Drawing.Point(211, 283)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(202, 20)
+        Me.TextBox6.TabIndex = 90
+        Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'maintainmobile
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.proceeded)
         Me.Controls.Add(Me.ordered)
@@ -1445,7 +1381,6 @@ Partial Class maintainmobile
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label32)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.TableLayoutPanel1)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.noform)
         Me.Controls.Add(Me.Label2)
@@ -1460,10 +1395,10 @@ Partial Class maintainmobile
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        Me.TableLayoutPanel1.ResumeLayout(False)
-        Me.TableLayoutPanel1.PerformLayout()
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        Me.TableLayoutPanel1.ResumeLayout(False)
+        Me.TableLayoutPanel1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1485,57 +1420,6 @@ Partial Class maintainmobile
     Friend WithEvents Label24 As Label
     Friend WithEvents Label23 As Label
     Friend WithEvents Label22 As Label
-    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
-    Friend WithEvents TextBox42 As TextBox
-    Friend WithEvents TextBox41 As TextBox
-    Friend WithEvents TextBox40 As TextBox
-    Friend WithEvents TextBox39 As TextBox
-    Friend WithEvents TextBox38 As TextBox
-    Friend WithEvents TextBox37 As TextBox
-    Friend WithEvents TextBox36 As TextBox
-    Friend WithEvents TextBox35 As TextBox
-    Friend WithEvents TextBox34 As TextBox
-    Friend WithEvents TextBox33 As TextBox
-    Friend WithEvents TextBox32 As TextBox
-    Friend WithEvents TextBox31 As TextBox
-    Friend WithEvents TextBox30 As TextBox
-    Friend WithEvents TextBox29 As TextBox
-    Friend WithEvents TextBox28 As TextBox
-    Friend WithEvents TextBox27 As TextBox
-    Friend WithEvents TextBox26 As TextBox
-    Friend WithEvents TextBox25 As TextBox
-    Friend WithEvents TextBox24 As TextBox
-    Friend WithEvents TextBox23 As TextBox
-    Friend WithEvents TextBox22 As TextBox
-    Friend WithEvents TextBox21 As TextBox
-    Friend WithEvents TextBox20 As TextBox
-    Friend WithEvents TextBox19 As TextBox
-    Friend WithEvents TextBox18 As TextBox
-    Friend WithEvents TextBox17 As TextBox
-    Friend WithEvents TextBox16 As TextBox
-    Friend WithEvents TextBox15 As TextBox
-    Friend WithEvents TextBox14 As TextBox
-    Friend WithEvents TextBox13 As TextBox
-    Friend WithEvents TextBox12 As TextBox
-    Friend WithEvents TextBox11 As TextBox
-    Friend WithEvents TextBox10 As TextBox
-    Friend WithEvents TextBox9 As TextBox
-    Friend WithEvents TextBox8 As TextBox
-    Friend WithEvents TextBox7 As TextBox
-    Friend WithEvents TextBox6 As TextBox
-    Friend WithEvents TextBox5 As TextBox
-    Friend WithEvents TextBox4 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents Label12 As Label
-    Friend WithEvents Label11 As Label
-    Friend WithEvents Label10 As Label
-    Friend WithEvents Label9 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents Label8 As Label
-    Friend WithEvents Label13 As Label
-    Friend WithEvents Label14 As Label
-    Friend WithEvents Label15 As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents Label32 As Label
     Friend WithEvents Label31 As Label
@@ -1543,27 +1427,8 @@ Partial Class maintainmobile
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
-    Friend WithEvents TextBox61 As TextBox
-    Friend WithEvents TextBox60 As TextBox
-    Friend WithEvents TextBox57 As TextBox
-    Friend WithEvents TextBox56 As TextBox
-    Friend WithEvents TextBox54 As TextBox
-    Friend WithEvents TextBox50 As TextBox
-    Friend WithEvents TextBox43 As TextBox
-    Friend WithEvents TextBox44 As TextBox
-    Friend WithEvents TextBox45 As TextBox
-    Friend WithEvents TextBox46 As TextBox
-    Friend WithEvents TextBox47 As TextBox
-    Friend WithEvents TextBox48 As TextBox
-    Friend WithEvents TextBox49 As TextBox
-    Friend WithEvents TextBox51 As TextBox
-    Friend WithEvents TextBox52 As TextBox
-    Friend WithEvents TextBox55 As TextBox
-    Friend WithEvents TextBox58 As TextBox
     Friend WithEvents proceeded As TextBox
     Friend WithEvents ordered As TextBox
-    Friend WithEvents TextBox53 As TextBox
-    Friend WithEvents TextBox59 As TextBox
     Friend WithEvents Panel2 As System.Windows.Forms.Panel
     Friend WithEvents delivery As System.Windows.Forms.RadioButton
     Friend WithEvents pickup As System.Windows.Forms.RadioButton
@@ -1576,4 +1441,69 @@ Partial Class maintainmobile
     Friend WithEvents bca As System.Windows.Forms.RadioButton
     Friend WithEvents Label28 As System.Windows.Forms.Label
     Friend WithEvents Label27 As System.Windows.Forms.Label
+    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
+    Friend WithEvents O6 As TextBox
+    Friend WithEvents F6 As TextBox
+    Friend WithEvents M6 As TextBox
+    Friend WithEvents memberid6 As TextBox
+    Friend WithEvents O5 As TextBox
+    Friend WithEvents F5 As TextBox
+    Friend WithEvents R5 As TextBox
+    Friend WithEvents M5 As TextBox
+    Friend WithEvents memberid5 As TextBox
+    Friend WithEvents O4 As TextBox
+    Friend WithEvents F4 As TextBox
+    Friend WithEvents R4 As TextBox
+    Friend WithEvents M4 As TextBox
+    Friend WithEvents memberid4 As TextBox
+    Friend WithEvents O3 As TextBox
+    Friend WithEvents F3 As TextBox
+    Friend WithEvents R3 As TextBox
+    Friend WithEvents M3 As TextBox
+    Friend WithEvents memberid3 As TextBox
+    Friend WithEvents O2 As TextBox
+    Friend WithEvents F2 As TextBox
+    Friend WithEvents R2 As TextBox
+    Friend WithEvents M2 As TextBox
+    Friend WithEvents memberid2 As TextBox
+    Friend WithEvents O1 As TextBox
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents R6 As TextBox
+    Friend WithEvents Label14 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents memberid1 As TextBox
+    Friend WithEvents M1 As TextBox
+    Friend WithEvents F1 As TextBox
+    Friend WithEvents R1 As TextBox
+    Friend WithEvents memberid7 As TextBox
+    Friend WithEvents M7 As TextBox
+    Friend WithEvents R7 As TextBox
+    Friend WithEvents F7 As TextBox
+    Friend WithEvents memberid8 As TextBox
+    Friend WithEvents M8 As TextBox
+    Friend WithEvents O7 As TextBox
+    Friend WithEvents R8 As TextBox
+    Friend WithEvents F8 As TextBox
+    Friend WithEvents O8 As TextBox
+    Friend WithEvents memberid9 As TextBox
+    Friend WithEvents M9 As TextBox
+    Friend WithEvents R9 As TextBox
+    Friend WithEvents F9 As TextBox
+    Friend WithEvents O9 As TextBox
+    Friend WithEvents memberid10 As TextBox
+    Friend WithEvents M10 As TextBox
+    Friend WithEvents R10 As TextBox
+    Friend WithEvents F10 As TextBox
+    Friend WithEvents O10 As TextBox
+    Friend WithEvents Label15 As Label
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents TextBox5 As TextBox
 End Class

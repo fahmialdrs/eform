@@ -122,12 +122,13 @@
         printpembelian.proceededby.Text = Me.proceeded.Text
         printpembelian.note.Text = Me.catatan.Text
 
-        'printpembelian.Show()
+
+        printpembelian.Show()
         'print
-        PrintForm1.PrintAction = Printing.PrintAction.PrintToPreview
-        PrintForm1.Print()
         'printpembelian.Hide()
+
     End Sub
+
 
     Private Sub bca_CheckedChanged(sender As Object, e As EventArgs) Handles bca.CheckedChanged
         If bca.Checked = True Then
