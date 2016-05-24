@@ -2,7 +2,7 @@
 
 
 
-    Private Sub Timer1_Tick(sender As Object, e As EventArgs) 
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -32,6 +32,10 @@
     End Sub
 
     Private Sub note_Click(sender As Object, e As EventArgs) Handles note.Click
+
+    End Sub
+
+    Private Sub o2max3_Click(sender As Object, e As EventArgs) Handles o2max3.Click
 
     End Sub
 End Class

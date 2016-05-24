@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class mobilestockist
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,8 +20,9 @@ Partial Class mobilestockist
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(mobilestockist))
         Me.Label22 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
@@ -68,6 +69,7 @@ Partial Class mobilestockist
         Me.proceeded = New System.Windows.Forms.TextBox()
         Me.ordered = New System.Windows.Forms.TextBox()
         Me.Label31 = New System.Windows.Forms.Label()
+        Me.PrintForm1 = New Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -150,7 +152,7 @@ Partial Class mobilestockist
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(3, 3)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(76, 16)
+        Me.Label3.Size = New System.Drawing.Size(74, 16)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Tanggal :"
         '
@@ -160,7 +162,7 @@ Partial Class mobilestockist
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(3, 29)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(74, 16)
+        Me.Label4.Size = New System.Drawing.Size(68, 16)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "User ID :"
         '
@@ -182,7 +184,7 @@ Partial Class mobilestockist
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(3, 84)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(98, 16)
+        Me.Label6.Size = New System.Drawing.Size(93, 16)
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "No. Telpon :"
         '
@@ -192,7 +194,7 @@ Partial Class mobilestockist
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(3, 55)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(60, 16)
+        Me.Label5.Size = New System.Drawing.Size(57, 16)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Nama :"
         '
@@ -347,7 +349,7 @@ Partial Class mobilestockist
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label11.Location = New System.Drawing.Point(206, 222)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(33, 16)
+        Me.Label11.Size = New System.Drawing.Size(31, 16)
         Me.Label11.TabIndex = 67
         Me.Label11.Text = "RM"
         '
@@ -358,7 +360,7 @@ Partial Class mobilestockist
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.Location = New System.Drawing.Point(206, 181)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(34, 16)
+        Me.Label10.Size = New System.Drawing.Size(32, 16)
         Me.Label10.TabIndex = 66
         Me.Label10.Text = "Rp."
         '
@@ -404,7 +406,7 @@ Partial Class mobilestockist
         Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label28.Location = New System.Drawing.Point(28, 234)
         Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(134, 16)
+        Me.Label28.Size = New System.Drawing.Size(130, 16)
         Me.Label28.TabIndex = 71
         Me.Label28.Text = "Transfer R-Wallet"
         '
@@ -424,7 +426,7 @@ Partial Class mobilestockist
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.Location = New System.Drawing.Point(336, 36)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(84, 16)
+        Me.Label17.Size = New System.Drawing.Size(75, 16)
         Me.Label17.TabIndex = 59
         Me.Label17.Text = "FIRMAX 3"
         '
@@ -448,7 +450,7 @@ Partial Class mobilestockist
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.Location = New System.Drawing.Point(49, 42)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(58, 16)
+        Me.Label18.Size = New System.Drawing.Size(57, 16)
         Me.Label18.TabIndex = 60
         Me.Label18.Text = "Produk"
         '
@@ -458,7 +460,7 @@ Partial Class mobilestockist
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.Location = New System.Drawing.Point(49, 184)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(60, 16)
+        Me.Label19.Size = New System.Drawing.Size(59, 16)
         Me.Label19.TabIndex = 65
         Me.Label19.Text = "Amount"
         '
@@ -468,7 +470,7 @@ Partial Class mobilestockist
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.Location = New System.Drawing.Point(640, 36)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(78, 16)
+        Me.Label20.Size = New System.Drawing.Size(70, 16)
         Me.Label20.TabIndex = 61
         Me.Label20.Text = "O2 MAX3"
         '
@@ -530,7 +532,7 @@ Partial Class mobilestockist
         Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label21.Location = New System.Drawing.Point(49, 147)
         Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(89, 16)
+        Me.Label21.Size = New System.Drawing.Size(84, 16)
         Me.Label21.TabIndex = 63
         Me.Label21.Text = "TOTAL Set"
         '
@@ -540,7 +542,7 @@ Partial Class mobilestockist
         Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.Location = New System.Drawing.Point(49, 112)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(90, 16)
+        Me.Label26.Size = New System.Drawing.Size(86, 16)
         Me.Label26.TabIndex = 64
         Me.Label26.Text = "TOTAL pcs"
         '
@@ -586,6 +588,14 @@ Partial Class mobilestockist
         Me.Label31.Size = New System.Drawing.Size(212, 18)
         Me.Label31.TabIndex = 78
         Me.Label31.Text = "BACK TO MEMBER MENU"
+        '
+        'PrintForm1
+        '
+        Me.PrintForm1.DocumentName = "document"
+        Me.PrintForm1.Form = Me
+        Me.PrintForm1.PrintAction = System.Drawing.Printing.PrintAction.PrintToPreview
+        Me.PrintForm1.PrinterSettings = CType(resources.GetObject("PrintForm1.PrinterSettings"), System.Drawing.Printing.PrinterSettings)
+        Me.PrintForm1.PrintFileName = Nothing
         '
         'mobilestockist
         '
@@ -670,4 +680,5 @@ Partial Class mobilestockist
     Friend WithEvents Label9 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label31 As Label
+    Friend WithEvents PrintForm1 As PowerPacks.Printing.PrintForm
 End Class

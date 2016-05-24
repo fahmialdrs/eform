@@ -139,4 +139,26 @@ Public Class maintain
             catatan.Text &= " "
         End If
     End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        'transfer value to form pembelian
+        printAM.tanggal.Text = Me.tanggal.Text
+        printAM.no.Text = Me.noform.Text
+        printAM.userid.Text = Me.userid.Text
+        printAM.nama.Text = Me.nama.Text
+        printAM.notelp.Text = Me.notelpon.Text
+        printAM.saldomaintain.Text = Me.saldomaintainrm.Text
+        printAM.saldomaintain2.Text = Me.saldomaintainidr.Text
+        printAM.totalpcs.Text = Me.totalpcs.Text
+        printAM.totalset.Text = Me.totalset.Text
+        printAM.kurangbayar.Text = Me.kurangbayar.Text
+        printAM.firmax3.Text = Me.firmax3r.Text
+        printAM.o2max3.Text = Me.o2max3r.Text
+        printAM.amount.Text = Me.amountr.Text
+        printAM.ordered.Text = Me.ordered.Text
+        printAM.proceeded.Text = Me.proceeded.Text
+        printAM.catatan.Text = Me.catatan.Text
+        printAM.Show()
+
+    End Sub
 End Class

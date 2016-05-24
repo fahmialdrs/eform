@@ -109,6 +109,7 @@
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         'transfer value to form pembelian
+        printpembelian.tanggal.Text = Me.tanggal.Text
         printpembelian.noform.Text = Me.noform.Text
         printpembelian.userid.Text = Me.userid.Text
         printpembelian.nama.Text = Me.nama.Text

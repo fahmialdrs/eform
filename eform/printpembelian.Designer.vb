@@ -43,6 +43,11 @@ Partial Class printpembelian
         Me.Button1 = New System.Windows.Forms.Button()
         Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
         Me.PrintDocument1 = New System.Drawing.Printing.PrintDocument()
+        Me.firmax3_2 = New System.Windows.Forms.Label()
+        Me.o2max3_2 = New System.Windows.Forms.Label()
+        Me.totalpcs_2 = New System.Windows.Forms.Label()
+        Me.totalset_2 = New System.Windows.Forms.Label()
+        Me.amount_2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'datainput
@@ -75,7 +80,7 @@ Partial Class printpembelian
         'proceededby
         '
         Me.proceededby.AutoSize = True
-        Me.proceededby.Location = New System.Drawing.Point(1001, 533)
+        Me.proceededby.Location = New System.Drawing.Point(378, 587)
         Me.proceededby.Name = "proceededby"
         Me.proceededby.Size = New System.Drawing.Size(10, 13)
         Me.proceededby.TabIndex = 26
@@ -84,7 +89,7 @@ Partial Class printpembelian
         'orderedby
         '
         Me.orderedby.AutoSize = True
-        Me.orderedby.Location = New System.Drawing.Point(137, 542)
+        Me.orderedby.Location = New System.Drawing.Point(108, 587)
         Me.orderedby.Name = "orderedby"
         Me.orderedby.Size = New System.Drawing.Size(10, 13)
         Me.orderedby.TabIndex = 25
@@ -102,7 +107,7 @@ Partial Class printpembelian
         'totalset
         '
         Me.totalset.AutoSize = True
-        Me.totalset.Location = New System.Drawing.Point(997, 483)
+        Me.totalset.Location = New System.Drawing.Point(224, 285)
         Me.totalset.Name = "totalset"
         Me.totalset.Size = New System.Drawing.Size(10, 13)
         Me.totalset.TabIndex = 23
@@ -111,7 +116,7 @@ Partial Class printpembelian
         'totalpcs
         '
         Me.totalpcs.AutoSize = True
-        Me.totalpcs.Location = New System.Drawing.Point(869, 130)
+        Me.totalpcs.Location = New System.Drawing.Point(224, 257)
         Me.totalpcs.Name = "totalpcs"
         Me.totalpcs.Size = New System.Drawing.Size(10, 13)
         Me.totalpcs.TabIndex = 22
@@ -120,7 +125,7 @@ Partial Class printpembelian
         'o2max3
         '
         Me.o2max3.AutoSize = True
-        Me.o2max3.Location = New System.Drawing.Point(1003, 176)
+        Me.o2max3.Location = New System.Drawing.Point(359, 233)
         Me.o2max3.Name = "o2max3"
         Me.o2max3.Size = New System.Drawing.Size(10, 13)
         Me.o2max3.TabIndex = 21
@@ -203,6 +208,51 @@ Partial Class printpembelian
         '
         Me.PrintDialog1.UseEXDialog = True
         '
+        'firmax3_2
+        '
+        Me.firmax3_2.AutoSize = True
+        Me.firmax3_2.Location = New System.Drawing.Point(224, 415)
+        Me.firmax3_2.Name = "firmax3_2"
+        Me.firmax3_2.Size = New System.Drawing.Size(10, 13)
+        Me.firmax3_2.TabIndex = 31
+        Me.firmax3_2.Text = " "
+        '
+        'o2max3_2
+        '
+        Me.o2max3_2.AutoSize = True
+        Me.o2max3_2.Location = New System.Drawing.Point(355, 415)
+        Me.o2max3_2.Name = "o2max3_2"
+        Me.o2max3_2.Size = New System.Drawing.Size(10, 13)
+        Me.o2max3_2.TabIndex = 32
+        Me.o2max3_2.Text = " "
+        '
+        'totalpcs_2
+        '
+        Me.totalpcs_2.AutoSize = True
+        Me.totalpcs_2.Location = New System.Drawing.Point(224, 443)
+        Me.totalpcs_2.Name = "totalpcs_2"
+        Me.totalpcs_2.Size = New System.Drawing.Size(10, 13)
+        Me.totalpcs_2.TabIndex = 33
+        Me.totalpcs_2.Text = " "
+        '
+        'totalset_2
+        '
+        Me.totalset_2.AutoSize = True
+        Me.totalset_2.Location = New System.Drawing.Point(224, 468)
+        Me.totalset_2.Name = "totalset_2"
+        Me.totalset_2.Size = New System.Drawing.Size(10, 13)
+        Me.totalset_2.TabIndex = 34
+        Me.totalset_2.Text = " "
+        '
+        'amount_2
+        '
+        Me.amount_2.AutoSize = True
+        Me.amount_2.Location = New System.Drawing.Point(247, 503)
+        Me.amount_2.Name = "amount_2"
+        Me.amount_2.Size = New System.Drawing.Size(10, 13)
+        Me.amount_2.TabIndex = 35
+        Me.amount_2.Text = " "
+        '
         'printpembelian
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -211,6 +261,11 @@ Partial Class printpembelian
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(543, 741)
+        Me.Controls.Add(Me.amount_2)
+        Me.Controls.Add(Me.totalset_2)
+        Me.Controls.Add(Me.totalpcs_2)
+        Me.Controls.Add(Me.o2max3_2)
+        Me.Controls.Add(Me.firmax3_2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.datainput)
         Me.Controls.Add(Me.finalcheck)
@@ -253,4 +308,9 @@ Partial Class printpembelian
     Friend WithEvents Button1 As Button
     Friend WithEvents PrintDialog1 As System.Windows.Forms.PrintDialog
     Friend WithEvents PrintDocument1 As System.Drawing.Printing.PrintDocument
+    Friend WithEvents amount_2 As Label
+    Friend WithEvents totalset_2 As Label
+    Friend WithEvents totalpcs_2 As Label
+    Friend WithEvents o2max3_2 As Label
+    Friend WithEvents firmax3_2 As Label
 End Class

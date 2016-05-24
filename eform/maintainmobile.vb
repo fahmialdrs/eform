@@ -78,10 +78,12 @@
         TextBox4.Text = ""
         TextBox5.Text = ""
         TextBox6.Text = ""
-
+        catatan.Text = ""
         ordered.Text = ""
         proceeded.Text = ""
     End Sub
+
+
 
     Private Sub bca_CheckedChanged(sender As Object, e As EventArgs) Handles bca.CheckedChanged
         If bca.Checked = True Then
@@ -127,34 +129,70 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim x, y As Integer
         y = 0
-
-        If memberid2.Text = "" Then
-            x = 1
-        ElseIf memberid3.Text = "" Then
-            x = 2
-        ElseIf memberid4.Text = "" Then
-            x = 3
-        ElseIf memberid5.Text = "" Then
-            x = 4
-        ElseIf memberid6.Text = "" Then
-            x = 5
-        ElseIf memberid7.Text = "" Then
-            x = 6
-        ElseIf memberid8.Text = "" Then
-            x = 7
-        ElseIf memberid9.Text = "" Then
-            x = 8
-        ElseIf memberid10.Text = "" Then
-            x = 9
+        If noform.Text = "" Then
+            MessageBox.Show("No Form tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
+            noform.Focus()
+            Exit Sub
+        ElseIf userid.Text = "" Then
+            MessageBox.Show("User ID tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
+            userid.Focus()
+            Exit Sub
+        ElseIf nama.Text = "" Then
+            MessageBox.Show("Nama tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
+            nama.Focus()
+            Exit Sub
+        ElseIf notelpon.Text = "" Then
+            MessageBox.Show("No Telpon tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
+            notelpon.Focus()
+            Exit Sub
+        ElseIf ordered.Text = "" Then
+            MessageBox.Show("Kolom Nama Ordered By tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
+            ordered.Focus()
+            Exit Sub
+        ElseIf proceeded.Text = "" Then
+            MessageBox.Show("Kolom Nama Proceeded By tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
+            proceeded.Focus()
+            Exit Sub
+        ElseIf catatan.Text = "" Then
+            MessageBox.Show("Kolom Note By tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
+            catatan.Focus()
+            Exit Sub
+            'ElseIf bca.Checked = False Or mandiri.Checked = False Or tunai.Checked = False Then
+            'MessageBox.Show("Kolom Payment Method By tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
+            'Exit Sub
+            'ElseIf pickup.Checked = False Or delivery.Checked = False Then
+            'MessageBox.Show("Kolom Shipping Method By tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
+            'Exit Sub
         Else
-            x = 10
-        End If
 
+
+            If memberid2.Text = "" Then
+                x = 1
+            ElseIf memberid3.Text = "" Then
+                x = 2
+            ElseIf memberid4.Text = "" Then
+                x = 3
+            ElseIf memberid5.Text = "" Then
+                x = 4
+            ElseIf memberid6.Text = "" Then
+                x = 5
+            ElseIf memberid7.Text = "" Then
+                x = 6
+            ElseIf memberid8.Text = "" Then
+                x = 7
+            ElseIf memberid9.Text = "" Then
+                x = 8
+            ElseIf memberid10.Text = "" Then
+                x = 9
+            Else
+                x = 10
+            End If
+        End If
         While y < x
             If y = 0 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp,Prod_firmax3, Prod_o2_max3) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F1.Text & "', '" & O1.Text & "') "
+                simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp,Prod_firmax3, Prod_o2_max3,ordered_by,proceed_by,catatan) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F1.Text & "', '" & O1.Text & "','" & ordered.Text & "','" & proceeded.Text & "','" & catatan.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -248,6 +286,74 @@
     End Sub
 
     Private Sub userid_TextChanged(sender As Object, e As EventArgs) Handles userid.TextChanged
+
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        'transfer value to form pembelian
+        printCMMS.tanggal.Text = Me.tanggal.Text
+        printCMMS.noform.Text = Me.noform.Text
+        printCMMS.userid.Text = Me.userid.Text
+        printCMMS.nama.Text = Me.nama.Text
+        printCMMS.notelp.Text = Me.notelpon.Text
+        printCMMS.memberid1.Text = Me.memberid1.Text
+        printCMMS.memberid2.Text = Me.memberid2.Text
+        printCMMS.memberid3.Text = Me.memberid3.Text
+        printCMMS.memberid4.Text = Me.memberid4.Text
+        printCMMS.memberid5.Text = Me.memberid5.Text
+        printCMMS.memberid6.Text = Me.memberid6.Text
+        printCMMS.memberid7.Text = Me.memberid7.Text
+        printCMMS.memberid8.Text = Me.memberid8.Text
+        printCMMS.memberid9.Text = Me.memberid9.Text
+        printCMMS.memberid10.Text = Me.memberid10.Text
+        printCMMS.m1.Text = Me.M1.Text
+        printCMMS.m2.Text = Me.M2.Text
+        printCMMS.m3.Text = Me.M3.Text
+        printCMMS.m4.Text = Me.M4.Text
+        printCMMS.m5.Text = Me.M5.Text
+        printCMMS.m6.Text = Me.M6.Text
+        printCMMS.m7.Text = Me.M7.Text
+        printCMMS.m8.Text = Me.M8.Text
+        printCMMS.m9.Text = Me.M9.Text
+        printCMMS.m10.Text = Me.M10.Text
+        printCMMS.r1.Text = Me.R1.Text
+        printCMMS.r2.Text = Me.R2.Text
+        printCMMS.r3.Text = Me.R3.Text
+        printCMMS.r4.Text = Me.R4.Text
+        printCMMS.r5.Text = Me.R5.Text
+        printCMMS.r6.Text = Me.R6.Text
+        printCMMS.r7.Text = Me.R7.Text
+        printCMMS.r8.Text = Me.R8.Text
+        printCMMS.r9.Text = Me.R9.Text
+        printCMMS.r10.Text = Me.R10.Text
+        printCMMS.f1.Text = Me.F1.Text
+        printCMMS.f2.Text = Me.F2.Text
+        printCMMS.f3.Text = Me.F3.Text
+        printCMMS.f4.Text = Me.F4.Text
+        printCMMS.f5.Text = Me.F5.Text
+        printCMMS.f6.Text = Me.F6.Text
+        printCMMS.f7.Text = Me.F7.Text
+        printCMMS.f8.Text = Me.F8.Text
+        printCMMS.f9.Text = Me.F9.Text
+        printCMMS.f10.Text = Me.F10.Text
+        printCMMS.o1.Text = Me.O1.Text
+        printCMMS.o2.Text = Me.O2.Text
+        printCMMS.o3.Text = Me.O3.Text
+        printCMMS.o4.Text = Me.O4.Text
+        printCMMS.o5.Text = Me.O5.Text
+        printCMMS.o6.Text = Me.O6.Text
+        printCMMS.o7.Text = Me.O7.Text
+        printCMMS.o8.Text = Me.O8.Text
+        printCMMS.o9.Text = Me.O9.Text
+        printCMMS.o10.Text = Me.O10.Text
+        printCMMS.ordered.Text = Me.ordered.Text
+        printCMMS.proceeded.Text = Me.proceeded.Text
+        printCMMS.catatan.Text = Me.catatan.Text
+
+
+        printCMMS.Show()
+        'print
+        'printpembelian.Hide()
 
     End Sub
 End Class

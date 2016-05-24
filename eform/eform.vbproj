@@ -117,6 +117,18 @@
     <Compile Include="finance.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="printAM.Designer.vb">
+      <DependentUpon>printAM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="printAM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printCMMS.Designer.vb">
+      <DependentUpon>printCMMS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="printCMMS.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="gudang.Designer.vb">
       <DependentUpon>gudang.vb</DependentUpon>
     </Compile>
@@ -238,6 +250,9 @@
     <EmbeddedResource Include="finance.resx">
       <DependentUpon>finance.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="printAM.resx">
+      <DependentUpon>printAM.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="gudang.resx">
       <DependentUpon>gudang.vb</DependentUpon>
     </EmbeddedResource>
@@ -280,6 +295,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="pembelianewmember.resx">
       <DependentUpon>pembelianewmember.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printCMMS.resx">
+      <DependentUpon>printCMMS.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="printpembelian.resx">
       <DependentUpon>printpembelian.vb</DependentUpon>

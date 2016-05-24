@@ -22,6 +22,7 @@ Partial Class maintain
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(maintain))
         Me.Label7 = New System.Windows.Forms.Label()
         Me.noform = New System.Windows.Forms.TextBox()
@@ -86,6 +87,7 @@ Partial Class maintain
         Me.bca = New System.Windows.Forms.RadioButton()
         Me.Label28 = New System.Windows.Forms.Label()
         Me.Label33 = New System.Windows.Forms.Label()
+        Me.PrintForm1 = New Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -813,6 +815,14 @@ Partial Class maintain
         Me.Label33.TabIndex = 33
         Me.Label33.Text = "Note :"
         '
+        'PrintForm1
+        '
+        Me.PrintForm1.DocumentName = "document"
+        Me.PrintForm1.Form = Me
+        Me.PrintForm1.PrintAction = System.Drawing.Printing.PrintAction.PrintToPreview
+        Me.PrintForm1.PrinterSettings = CType(resources.GetObject("PrintForm1.PrinterSettings"), System.Drawing.Printing.PrinterSettings)
+        Me.PrintForm1.PrintFileName = Nothing
+        '
         'maintain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -921,4 +931,5 @@ Partial Class maintain
     Friend WithEvents bca As System.Windows.Forms.RadioButton
     Friend WithEvents Label28 As System.Windows.Forms.Label
     Friend WithEvents Label33 As System.Windows.Forms.Label
+    Friend WithEvents PrintForm1 As PowerPacks.Printing.PrintForm
 End Class
