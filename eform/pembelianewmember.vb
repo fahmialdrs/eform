@@ -126,8 +126,6 @@ Public Class pembelianewmember
 
         printpembelian.Show()
         'print
-        printpembelian.PrintForm1.PrintAction = Printing.PrintAction.PrintToPreview
-        printpembelian.PrintForm1.Print()
         'printpembelian.Hide()
     End Sub
 
