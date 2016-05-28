@@ -22,6 +22,7 @@ Partial Class printAM
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(printAM))
         Me.no = New System.Windows.Forms.Label()
         Me.tanggal = New System.Windows.Forms.Label()
@@ -40,6 +41,9 @@ Partial Class printAM
         Me.proceeded = New System.Windows.Forms.Label()
         Me.catatan = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.PrintForm1 = New Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(Me.components)
+        Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
+        Me.PrintDocument1 = New System.Drawing.Printing.PrintDocument()
         Me.SuspendLayout()
         '
         'no
@@ -195,13 +199,25 @@ Partial Class printAM
         Me.Button1.Text = "print"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'PrintForm1
+        '
+        Me.PrintForm1.DocumentName = "document"
+        Me.PrintForm1.Form = Me
+        Me.PrintForm1.PrintAction = System.Drawing.Printing.PrintAction.PrintToPrinter
+        Me.PrintForm1.PrinterSettings = CType(resources.GetObject("PrintForm1.PrinterSettings"), System.Drawing.Printing.PrinterSettings)
+        Me.PrintForm1.PrintFileName = Nothing
+        '
+        'PrintDialog1
+        '
+        Me.PrintDialog1.UseEXDialog = True
+        '
         'printAM
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(543, 741)
+        Me.ClientSize = New System.Drawing.Size(543, 733)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.catatan)
         Me.Controls.Add(Me.proceeded)
@@ -243,4 +259,7 @@ Partial Class printAM
     Friend WithEvents proceeded As Label
     Friend WithEvents catatan As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents PrintForm1 As Microsoft.VisualBasic.PowerPacks.Printing.PrintForm
+    Friend WithEvents PrintDialog1 As System.Windows.Forms.PrintDialog
+    Friend WithEvents PrintDocument1 As System.Drawing.Printing.PrintDocument
 End Class

@@ -22,6 +22,7 @@ Partial Class printCMMS
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(printCMMS))
         Me.noform = New System.Windows.Forms.Label()
         Me.tanggal = New System.Windows.Forms.Label()
@@ -88,6 +89,9 @@ Partial Class printCMMS
         Me.proceeded = New System.Windows.Forms.Label()
         Me.catatan = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.PrintDocument1 = New System.Drawing.Printing.PrintDocument()
+        Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
+        Me.PrintForm1 = New Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(Me.components)
         Me.SuspendLayout()
         '
         'noform
@@ -675,13 +679,25 @@ Partial Class printCMMS
         Me.Button1.Text = "print"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'PrintDialog1
+        '
+        Me.PrintDialog1.UseEXDialog = True
+        '
+        'PrintForm1
+        '
+        Me.PrintForm1.DocumentName = "document"
+        Me.PrintForm1.Form = Me
+        Me.PrintForm1.PrintAction = System.Drawing.Printing.PrintAction.PrintToPrinter
+        Me.PrintForm1.PrinterSettings = CType(resources.GetObject("PrintForm1.PrinterSettings"), System.Drawing.Printing.PrinterSettings)
+        Me.PrintForm1.PrintFileName = Nothing
+        '
         'printCMMS
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(543, 741)
+        Me.ClientSize = New System.Drawing.Size(543, 733)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.catatan)
         Me.Controls.Add(Me.proceeded)
@@ -819,4 +835,7 @@ Partial Class printCMMS
     Friend WithEvents proceeded As Label
     Friend WithEvents catatan As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents PrintDocument1 As System.Drawing.Printing.PrintDocument
+    Friend WithEvents PrintDialog1 As System.Windows.Forms.PrintDialog
+    Friend WithEvents PrintForm1 As Microsoft.VisualBasic.PowerPacks.Printing.PrintForm
 End Class
