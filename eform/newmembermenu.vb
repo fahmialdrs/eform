@@ -27,4 +27,11 @@
         backup.Show()
         Me.Hide()
     End Sub
+    Private Sub pembeliannewmember_MouseHover(sender As Object, e As EventArgs) Handles pembeliannewmember.MouseHover
+        lblpembelian.Visible = True
+    End Sub
+
+    Private Sub pembeliannewmember_MouseLeave(sender As Object, e As EventArgs) Handles pembeliannewmember.MouseLeave
+        lblpembelian.Visible = False
+    End Sub
 End Class

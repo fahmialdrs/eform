@@ -112,6 +112,7 @@ Partial Class maintain
         Me.noform.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.noform.Location = New System.Drawing.Point(605, 66)
         Me.noform.Name = "noform"
+        Me.noform.ReadOnly = True
         Me.noform.Size = New System.Drawing.Size(253, 22)
         Me.noform.TabIndex = 57
         Me.noform.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -167,6 +168,7 @@ Partial Class maintain
         Me.tanggal.Name = "tanggal"
         Me.tanggal.Size = New System.Drawing.Size(927, 20)
         Me.tanggal.TabIndex = 5
+        Me.tanggal.Value = New Date(2016, 5, 28, 16, 16, 57, 0)
         '
         'Label3
         '
@@ -608,7 +610,7 @@ Partial Class maintain
         Me.back.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.back.Image = CType(resources.GetObject("back.Image"), System.Drawing.Image)
-        Me.back.Location = New System.Drawing.Point(1189, 579)
+        Me.back.Location = New System.Drawing.Point(1189, 511)
         Me.back.Name = "back"
         Me.back.Size = New System.Drawing.Size(77, 72)
         Me.back.TabIndex = 81
@@ -618,7 +620,7 @@ Partial Class maintain
         '
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
-        Me.Button3.Location = New System.Drawing.Point(1177, 448)
+        Me.Button3.Location = New System.Drawing.Point(1177, 380)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(98, 97)
         Me.Button3.TabIndex = 80
@@ -630,7 +632,7 @@ Partial Class maintain
         '
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.Location = New System.Drawing.Point(1177, 348)
+        Me.Button2.Location = New System.Drawing.Point(1177, 280)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(98, 97)
         Me.Button2.TabIndex = 79
@@ -643,7 +645,7 @@ Partial Class maintain
         Me.Button1.FlatAppearance.BorderSize = 0
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.Location = New System.Drawing.Point(1177, 245)
+        Me.Button1.Location = New System.Drawing.Point(1177, 177)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(98, 97)
         Me.Button1.TabIndex = 78
@@ -657,7 +659,7 @@ Partial Class maintain
         Me.Label31.AutoSize = True
         Me.Label31.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(1121, 675)
+        Me.Label31.Location = New System.Drawing.Point(1121, 607)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(212, 18)
         Me.Label31.TabIndex = 82
@@ -850,7 +852,7 @@ Partial Class maintain
         Me.Controls.Add(Me.Label23)
         Me.Controls.Add(Me.Label22)
         Me.Name = "maintain"
-        Me.Text = "0"
+        Me.Text = "Form Pembelian Maintain"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)

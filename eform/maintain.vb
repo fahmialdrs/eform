@@ -1,4 +1,5 @@
-﻿
+﻿Imports System.Data
+Imports System.Data.OleDb
 Public Class maintain
     Private Sub jalankansql(ByVal sQl As String)
         Dim objcmd As New System.Data.OleDb.OleDbCommand
@@ -12,6 +13,20 @@ Public Class maintain
             MsgBox("Data Sudah Disimpan", vbInformation)
         Catch ex As Exception
             MsgBox("Tidak Bisa Menyimpan data ke Database" & ex.Message)
+        End Try
+    End Sub
+    Sub tampilTextBox()
+        Try
+            Call konek()
+            Dim str As String
+            str = "SELECT TOP 1 NoForm FROM e_form ORDER BY NoForm DESC;"
+            CMD = New OleDbCommand(str, conn)
+            RD = CMD.ExecuteReader
+            RD.Read()
+            If RD.HasRows Then
+                noform.Text = RD.Item("NoForm")
+            End If
+        Catch ex As Exception
         End Try
     End Sub
     Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
@@ -56,11 +71,7 @@ Public Class maintain
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If noform.Text = "" Then
-            MessageBox.Show("No Form tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
-            noform.Focus()
-            Exit Sub
-        ElseIf userid.Text = "" Then
+        If userid.Text = "" Then
             MessageBox.Show("User ID tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
             userid.Focus()
             Exit Sub
@@ -92,11 +103,14 @@ Public Class maintain
         Else
             Dim simpan As String
             Me.Cursor = Cursors.WaitCursor
-            simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3,Total_pcs,Total_set, Amount , catatan , Ordered_by, Proceed_by,saldo_maintainRM,saldo_maintainIDR,kurang_bayar ) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & firmax3r.Text & "', '" & o2max3r.Text & "', '" & totalpcs.Text & "','" & totalset.Text & "', '" & amountr.Text & "', '" & catatan.Text & "', '" & ordered.Text & "','" & proceeded.Text & "', '" & saldomaintainrm.Text & "','" & saldomaintainidr.Text & "','" & kurangbayar.Text & "') "
+            simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3,Total_pcs,Total_set, Amount , catatan , Ordered_by, Proceed_by,saldo_maintainRM,saldo_maintainIDR,kurang_bayar ) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & firmax3r.Text & "', '" & o2max3r.Text & "', '" & totalpcs.Text & "','" & totalset.Text & "', '" & amountr.Text & "', '" & catatan.Text & "', '" & ordered.Text & "','" & proceeded.Text & "', '" & saldomaintainrm.Text & "','" & saldomaintainidr.Text & "','" & kurangbayar.Text & "') "
             jalankansql(simpan)
             noform.Focus()
+            If noform.Text = "" Then
+                Call tampilTextBox()
+            End If
             Me.Cursor = Cursors.Default
-        End If
+            End If
     End Sub
 
     Private Sub bca_CheckedChanged(sender As Object, e As EventArgs) Handles bca.CheckedChanged

@@ -1,4 +1,5 @@
-﻿
+﻿Imports System.Data
+Imports System.Data.OleDb
 Public Class pembelianewmember
     Private Sub jalankansql(ByVal sQl As String)
         Dim objcmd As New System.Data.OleDb.OleDbCommand
@@ -12,6 +13,20 @@ Public Class pembelianewmember
             MsgBox("Data Sudah Disimpan", vbInformation)
         Catch ex As Exception
             MsgBox("Tidak Bisa Menyimpan data ke Database" & ex.Message)
+        End Try
+    End Sub
+    Sub tampilTextBox()
+        Try
+            Call konek()
+            Dim str As String
+            str = "SELECT TOP 1 NoForm FROM e_form ORDER BY NoForm DESC;"
+            CMD = New OleDbCommand(str, conn)
+            RD = CMD.ExecuteReader
+            RD.Read()
+            If RD.HasRows Then
+                noform.Text = RD.Item("NoForm")
+            End If
+        Catch ex As Exception
         End Try
     End Sub
 
@@ -102,6 +117,9 @@ Public Class pembelianewmember
             simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3,Total_pcs,Total_set, Amount , catatan , Ordered_by, Proceed_by ) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & firmax3r.Text & "', '" & o2max3r.Text & "', '" & totalpcs.Text & "','" & totalset.Text & "', '" & amountr.Text & "', '" & catatan.Text & "', '" & ordered.Text & "','" & proceeded.Text & "') "
             jalankansql(simpan)
             noform.Focus()
+            If noform.Text = "" Then
+                Call tampilTextBox()
+            End If
             Me.Cursor = Cursors.Default
             gudang.ReportViewer1.Refresh()
             finance.ReportViewer1.RefreshReport()
