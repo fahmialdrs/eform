@@ -99,22 +99,23 @@ Public Class mobilestockist
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         'transfer value to form pembelian
-        printpembelian.tanggal.Text = Me.tanggal.Text
-        printpembelian.noform.Text = Me.noform.Text
-        printpembelian.userid.Text = Me.userid.Text
-        printpembelian.nama.Text = Me.nama.Text
-        printpembelian.notelfon.Text = Me.notelpon.Text
-        printpembelian.firmax3_2.Text = Me.firmax3r.Value
-        printpembelian.o2max3_2.Text = Me.o2max3r.Value
-        printpembelian.totalpcs_2.Text = Me.totalpcs.Text
-        printpembelian.totalset_2.Text = Me.totalset.Text
-        printpembelian.amount_2.Text = Me.amountr.Text
-        printpembelian.orderedby.Text = Me.ordered.Text
-        printpembelian.proceededby.Text = Me.proceeded.Text
+        printPMS.tanggal.Text = Me.tanggal.Text
+        printPMS.Noform.Text = Me.noform.Text
+        printPMS.userid.Text = Me.userid.Text
+        printPMS.nama.Text = Me.nama.Text
+        printPMS.notelp.Text = Me.notelpon.Text
+        printPMS.firmax3_2.Text = Me.firmax3r.Value
+        printPMS.o2max_2.Text = Me.o2max3r.Value
+        printPMS.totalpcs_2.Text = Me.totalpcs.Text
+        printPMS.totalset_2.Text = Me.totalset.Text
+        printPMS.amount_2.Text = Me.amountr.Text
+        printPMS.ordered.Text = Me.ordered.Text
+        printPMS.proceeded.Text = Me.proceeded.Text
+        printPMS.catatan.Text = Me.catatan.Text
         ' printpembelian.note.Text = Me.catatan.Text
 
 
-        printpembelian.Show()
+        printPMS.Show()
         'print
         'printpembelian.Hide()
     End Sub

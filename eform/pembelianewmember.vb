@@ -115,11 +115,11 @@ Public Class pembelianewmember
         printpembelian.userid.Text = Me.userid.Text
         printpembelian.nama.Text = Me.nama.Text
         printpembelian.notelfon.Text = Me.notelpon.Text
-        printpembelian.firmax3_2.Text = Me.firmax3r.Value
-        printpembelian.o2max3_2.Text = Me.o2max3r.Value
-        printpembelian.totalpcs_2.Text = Me.totalpcs.Text
-        printpembelian.totalset_2.Text = Me.totalset.Text
-        printpembelian.amount_2.Text = Me.amountr.Text
+        printpembelian.firmax3.Text = Me.firmax3r.Value
+        printpembelian.o2max3.Text = Me.o2max3r.Value
+        printpembelian.totalpcs.Text = Me.totalpcs.Text
+        printpembelian.totalset.Text = Me.totalset.Text
+        printpembelian.amount.Text = Me.amountr.Text
         printpembelian.orderedby.Text = Me.ordered.Text
         printpembelian.proceededby.Text = Me.proceeded.Text
         printpembelian.note.Text = Me.catatan.Text

@@ -70,18 +70,31 @@ Partial Class mobilestockist
         Me.ordered = New System.Windows.Forms.TextBox()
         Me.Label31 = New System.Windows.Forms.Label()
         Me.PrintForm1 = New Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(Me.components)
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.delivery = New System.Windows.Forms.RadioButton()
+        Me.pickup = New System.Windows.Forms.RadioButton()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.catatan = New System.Windows.Forms.TextBox()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Label29 = New System.Windows.Forms.Label()
+        Me.tunai = New System.Windows.Forms.RadioButton()
+        Me.mandiri = New System.Windows.Forms.RadioButton()
+        Me.bca = New System.Windows.Forms.RadioButton()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
         CType(Me.firmax3r, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.o2max3r, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label22
         '
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(97, 653)
+        Me.Label22.Location = New System.Drawing.Point(99, 600)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(51, 16)
         Me.Label22.TabIndex = 46
@@ -91,7 +104,7 @@ Partial Class mobilestockist
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(615, 653)
+        Me.Label7.Location = New System.Drawing.Point(617, 600)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(51, 16)
         Me.Label7.TabIndex = 47
@@ -214,7 +227,7 @@ Partial Class mobilestockist
         '
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(727, 556)
+        Me.Label24.Location = New System.Drawing.Point(724, 535)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(101, 16)
         Me.Label24.TabIndex = 44
@@ -224,7 +237,7 @@ Partial Class mobilestockist
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(209, 556)
+        Me.Label23.Location = New System.Drawing.Point(209, 535)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(83, 16)
         Me.Label23.TabIndex = 43
@@ -339,7 +352,7 @@ Partial Class mobilestockist
         Me.Panel3.Controls.Add(Me.Label15)
         Me.Panel3.Location = New System.Drawing.Point(13, 260)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(1061, 267)
+        Me.Panel3.Size = New System.Drawing.Size(1061, 260)
         Me.Panel3.TabIndex = 61
         '
         'Label11
@@ -561,7 +574,7 @@ Partial Class mobilestockist
         Me.proceeded.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.proceeded.Location = New System.Drawing.Point(685, 652)
+        Me.proceeded.Location = New System.Drawing.Point(687, 599)
         Me.proceeded.Name = "proceeded"
         Me.proceeded.Size = New System.Drawing.Size(188, 20)
         Me.proceeded.TabIndex = 63
@@ -572,7 +585,7 @@ Partial Class mobilestockist
         Me.ordered.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ordered.Location = New System.Drawing.Point(175, 652)
+        Me.ordered.Location = New System.Drawing.Point(177, 599)
         Me.ordered.Name = "ordered"
         Me.ordered.Size = New System.Drawing.Size(172, 20)
         Me.ordered.TabIndex = 62
@@ -597,12 +610,149 @@ Partial Class mobilestockist
         Me.PrintForm1.PrinterSettings = CType(resources.GetObject("PrintForm1.PrinterSettings"), System.Drawing.Printing.PrinterSettings)
         Me.PrintForm1.PrintFileName = Nothing
         '
+        'Panel2
+        '
+        Me.Panel2.Controls.Add(Me.delivery)
+        Me.Panel2.Controls.Add(Me.pickup)
+        Me.Panel2.Controls.Add(Me.Label12)
+        Me.Panel2.Controls.Add(Me.catatan)
+        Me.Panel2.Controls.Add(Me.Label30)
+        Me.Panel2.Controls.Add(Me.Label29)
+        Me.Panel2.Controls.Add(Me.tunai)
+        Me.Panel2.Controls.Add(Me.mandiri)
+        Me.Panel2.Controls.Add(Me.bca)
+        Me.Panel2.Controls.Add(Me.Label13)
+        Me.Panel2.Controls.Add(Me.Label27)
+        Me.Panel2.Location = New System.Drawing.Point(13, 634)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(968, 95)
+        Me.Panel2.TabIndex = 79
+        '
+        'delivery
+        '
+        Me.delivery.AutoSize = True
+        Me.delivery.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.delivery.Location = New System.Drawing.Point(237, 66)
+        Me.delivery.Name = "delivery"
+        Me.delivery.Size = New System.Drawing.Size(76, 20)
+        Me.delivery.TabIndex = 81
+        Me.delivery.TabStop = True
+        Me.delivery.Text = "Delivery"
+        Me.delivery.UseVisualStyleBackColor = True
+        '
+        'pickup
+        '
+        Me.pickup.AutoSize = True
+        Me.pickup.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.pickup.Location = New System.Drawing.Point(125, 66)
+        Me.pickup.Name = "pickup"
+        Me.pickup.Size = New System.Drawing.Size(73, 20)
+        Me.pickup.TabIndex = 80
+        Me.pickup.TabStop = True
+        Me.pickup.Text = "Pick Up"
+        Me.pickup.UseVisualStyleBackColor = True
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(4, 68)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(115, 16)
+        Me.Label12.TabIndex = 82
+        Me.Label12.Text = "Shipping Method :"
+        '
+        'catatan
+        '
+        Me.catatan.Location = New System.Drawing.Point(124, 3)
+        Me.catatan.Name = "catatan"
+        Me.catatan.Size = New System.Drawing.Size(307, 20)
+        Me.catatan.TabIndex = 79
+        Me.catatan.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.Location = New System.Drawing.Point(783, 3)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(68, 16)
+        Me.Label30.TabIndex = 35
+        Me.Label30.Text = "Data Input"
+        '
+        'Label29
+        '
+        Me.Label29.AutoSize = True
+        Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label29.Location = New System.Drawing.Point(525, 3)
+        Me.Label29.Name = "Label29"
+        Me.Label29.Size = New System.Drawing.Size(78, 16)
+        Me.Label29.TabIndex = 34
+        Me.Label29.Text = "Final Check"
+        '
+        'tunai
+        '
+        Me.tunai.AutoSize = True
+        Me.tunai.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tunai.Location = New System.Drawing.Point(371, 41)
+        Me.tunai.Name = "tunai"
+        Me.tunai.Size = New System.Drawing.Size(60, 20)
+        Me.tunai.TabIndex = 13
+        Me.tunai.TabStop = True
+        Me.tunai.Text = "Tunai"
+        Me.tunai.UseVisualStyleBackColor = True
+        '
+        'mandiri
+        '
+        Me.mandiri.AutoSize = True
+        Me.mandiri.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.mandiri.Location = New System.Drawing.Point(236, 41)
+        Me.mandiri.Name = "mandiri"
+        Me.mandiri.Size = New System.Drawing.Size(123, 20)
+        Me.mandiri.TabIndex = 12
+        Me.mandiri.TabStop = True
+        Me.mandiri.Text = "Transfer Mandiri"
+        Me.mandiri.UseVisualStyleBackColor = True
+        '
+        'bca
+        '
+        Me.bca.AutoSize = True
+        Me.bca.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.bca.Location = New System.Drawing.Point(124, 41)
+        Me.bca.Name = "bca"
+        Me.bca.Size = New System.Drawing.Size(106, 20)
+        Me.bca.TabIndex = 11
+        Me.bca.TabStop = True
+        Me.bca.Text = "Transfer BCA"
+        Me.bca.UseVisualStyleBackColor = True
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(3, 43)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(115, 16)
+        Me.Label13.TabIndex = 34
+        Me.Label13.Text = "Payment Method :"
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.Location = New System.Drawing.Point(3, 7)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(43, 16)
+        Me.Label27.TabIndex = 33
+        Me.Label27.Text = "Note :"
+        '
         'mobilestockist
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Label31)
         Me.Controls.Add(Me.proceeded)
         Me.Controls.Add(Me.ordered)
@@ -631,6 +781,8 @@ Partial Class mobilestockist
         Me.Panel3.PerformLayout()
         CType(Me.firmax3r, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.o2max3r, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -681,4 +833,16 @@ Partial Class mobilestockist
     Friend WithEvents Label8 As Label
     Friend WithEvents Label31 As Label
     Friend WithEvents PrintForm1 As PowerPacks.Printing.PrintForm
+    Friend WithEvents Panel2 As Panel
+    Friend WithEvents delivery As RadioButton
+    Friend WithEvents pickup As RadioButton
+    Friend WithEvents Label12 As Label
+    Friend WithEvents catatan As TextBox
+    Friend WithEvents Label30 As Label
+    Friend WithEvents Label29 As Label
+    Friend WithEvents tunai As RadioButton
+    Friend WithEvents mandiri As RadioButton
+    Friend WithEvents bca As RadioButton
+    Friend WithEvents Label13 As Label
+    Friend WithEvents Label27 As Label
 End Class

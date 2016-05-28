@@ -223,6 +223,12 @@
     <Compile Include="printpembelian.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="printPMS.Designer.vb">
+      <DependentUpon>printPMS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="printPMS.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="register.Designer.vb">
       <DependentUpon>register.vb</DependentUpon>
     </Compile>
@@ -301,6 +307,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="printpembelian.resx">
       <DependentUpon>printpembelian.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printPMS.resx">
+      <DependentUpon>printPMS.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="register.resx">
       <DependentUpon>register.vb</DependentUpon>
