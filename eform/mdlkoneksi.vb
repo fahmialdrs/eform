@@ -9,7 +9,7 @@ Module MdlKoneksi
     Public lokasidata As String
 
     Public Sub konek()
-        lokasidata = "provider=microsoft.jet.oledb.4.0;data source=C:\Users\fahmi\Documents\Visual Studio 2013\Projects\eform new\eform\eform\bin\Debug\database.mdb"
+        lokasidata = "provider=microsoft.jet.oledb.4.0;data source= |DataDirectory|\database.mdb"
         conn = New OleDbConnection(lokasidata)
         If conn.State = ConnectionState.Closed Then
             conn.Open()

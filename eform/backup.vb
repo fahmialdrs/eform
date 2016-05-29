@@ -51,7 +51,7 @@ Public Class backup
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Try
             Dim sDBFile As String = txt_filename.Text
-            Dim sBackUpFile As String = "C:\Users\fahmi\Documents\Visual Studio 2013\Projects\eform new\eform\eform\bin\Debug\database.mdb"
+            Dim sBackUpFile As String = "" & System.Environment.CurrentDirectory & "\database.mdb"
             If Not System.IO.Directory.Exists(sDBFile) Then
                 System.IO.Directory.CreateDirectory(sDBFile)
             End If
