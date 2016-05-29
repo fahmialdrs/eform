@@ -31,7 +31,7 @@ Public Class mobilestockistt
     End Sub
     Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
         membermenu.Show()
-        Me.Hide()
+        Me.Close()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -96,7 +96,7 @@ Public Class mobilestockistt
         Else
             Dim simpan As String
             Me.Cursor = Cursors.WaitCursor
-            simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3,Total_pcs,Total_set, Amount , trsf_wallet , Ordered_by, Proceed_by ) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & firmax3r.Text & "', '" & o2max3r.Text & "', '" & totalpcs.Text & "','" & totalset.Text & "', '" & amountr.Text & "', '" & transferrwallet.Text & "','" & ordered.Text & "','" & proceeded.Text & "') "
+            simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3,Total_pcs,Total_set, Amount , trsf_wallet , Ordered_by, Proceed_by ) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & firmax3r.Text & "', '" & o2max3r.Text & "', '" & totalpcs.Text & "','" & totalset.Text & "', '" & amountr.Text & "', '" & transferrwallet.Text & "','" & ordered.Text & "','" & proceeded.Text & "') "
             jalankansql(simpan)
             noform.Focus()
             If noform.Text = "" Then
@@ -173,5 +173,9 @@ Public Class mobilestockistt
         ElseIf delivery.Checked = False Then
             catatan.Text &= " "
         End If
+    End Sub
+
+    Private Sub mobilestockistt_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        userid.Focus()
     End Sub
 End Class

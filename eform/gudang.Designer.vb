@@ -25,8 +25,6 @@ Partial Class gudang
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(gudang))
         Dim ReportDataSource1 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
-        Me.e_formBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.databaseDataSet = New eform.databaseDataSet()
         Me.MenuStrip = New System.Windows.Forms.MenuStrip()
         Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BackupDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -39,22 +37,14 @@ Partial Class gudang
         Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.e_formBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.databaseDataSet = New eform.databaseDataSet()
         Me.e_formTableAdapter = New eform.databaseDataSetTableAdapters.e_formTableAdapter()
-        CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.databaseDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.databaseDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'e_formBindingSource
-        '
-        Me.e_formBindingSource.DataMember = "e_form"
-        Me.e_formBindingSource.DataSource = Me.databaseDataSet
-        '
-        'databaseDataSet
-        '
-        Me.databaseDataSet.DataSetName = "databaseDataSet"
-        Me.databaseDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'MenuStrip
         '
@@ -176,6 +166,16 @@ Partial Class gudang
         Me.Label1.TabIndex = 89
         Me.Label1.Text = "PT. RF3 WORLD INDONESIA "
         '
+        'e_formBindingSource
+        '
+        Me.e_formBindingSource.DataMember = "e_form"
+        Me.e_formBindingSource.DataSource = Me.databaseDataSet
+        '
+        'databaseDataSet
+        '
+        Me.databaseDataSet.DataSetName = "databaseDataSet"
+        Me.databaseDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
         'e_formTableAdapter
         '
         Me.e_formTableAdapter.ClearBeforeFill = True
@@ -198,11 +198,11 @@ Partial Class gudang
         Me.Name = "gudang"
         Me.Text = "Menu Laporan Gudang"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
-        CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.databaseDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip.ResumeLayout(False)
         Me.MenuStrip.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.databaseDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

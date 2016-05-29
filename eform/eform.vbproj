@@ -108,9 +108,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>databaseDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="databaseDataSet.vb">
-      <DependentUpon>databaseDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="finance.Designer.vb">
       <DependentUpon>finance.vb</DependentUpon>
     </Compile>
@@ -314,7 +311,6 @@
     <EmbeddedResource Include="register.resx">
       <DependentUpon>register.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="gudang.rdlc" />
     <EmbeddedResource Include="akunting.rdlc" />
     <EmbeddedResource Include="gudang1.rdlc" />
     <EmbeddedResource Include="SplashScreen1.resx">
@@ -371,11 +367,6 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="database.mdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />

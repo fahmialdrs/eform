@@ -335,6 +335,7 @@ Partial Class pembelianewmember
         Me.noform.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.noform.Location = New System.Drawing.Point(505, 86)
         Me.noform.Name = "noform"
+        Me.noform.ReadOnly = True
         Me.noform.Size = New System.Drawing.Size(253, 22)
         Me.noform.TabIndex = 42
         '

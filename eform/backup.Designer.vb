@@ -177,6 +177,7 @@ Partial Class backup
         Me.Controls.Add(Me.MenuStrip)
         Me.Name = "backup"
         Me.Text = "Menu Backup Database"
+        Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip.ResumeLayout(False)
         Me.MenuStrip.PerformLayout()

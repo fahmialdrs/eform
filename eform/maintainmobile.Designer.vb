@@ -137,7 +137,7 @@ Partial Class maintainmobile
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(546, 588)
+        Me.Label7.Location = New System.Drawing.Point(564, 551)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(51, 16)
         Me.Label7.TabIndex = 63
@@ -151,6 +151,7 @@ Partial Class maintainmobile
         Me.noform.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.noform.Location = New System.Drawing.Point(559, 94)
         Me.noform.Name = "noform"
+        Me.noform.ReadOnly = True
         Me.noform.Size = New System.Drawing.Size(253, 22)
         Me.noform.TabIndex = 57
         Me.noform.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -297,7 +298,7 @@ Partial Class maintainmobile
         '
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(46, 588)
+        Me.Label22.Location = New System.Drawing.Point(43, 551)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(51, 16)
         Me.Label22.TabIndex = 62
@@ -328,7 +329,7 @@ Partial Class maintainmobile
         Me.Label31.AutoSize = True
         Me.Label31.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.Location = New System.Drawing.Point(1060, 677)
+        Me.Label31.Location = New System.Drawing.Point(1058, 590)
         Me.Label31.Name = "Label31"
         Me.Label31.Size = New System.Drawing.Size(212, 18)
         Me.Label31.TabIndex = 77
@@ -339,7 +340,7 @@ Partial Class maintainmobile
         Me.back.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.back.Image = CType(resources.GetObject("back.Image"), System.Drawing.Image)
-        Me.back.Location = New System.Drawing.Point(1121, 588)
+        Me.back.Location = New System.Drawing.Point(1119, 501)
         Me.back.Name = "back"
         Me.back.Size = New System.Drawing.Size(77, 72)
         Me.back.TabIndex = 76
@@ -349,7 +350,7 @@ Partial Class maintainmobile
         '
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
-        Me.Button3.Location = New System.Drawing.Point(1110, 468)
+        Me.Button3.Location = New System.Drawing.Point(1108, 381)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(98, 97)
         Me.Button3.TabIndex = 75
@@ -361,7 +362,7 @@ Partial Class maintainmobile
         '
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.Location = New System.Drawing.Point(1110, 368)
+        Me.Button2.Location = New System.Drawing.Point(1108, 281)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(98, 97)
         Me.Button2.TabIndex = 74
@@ -374,7 +375,7 @@ Partial Class maintainmobile
         Me.Button1.FlatAppearance.BorderSize = 0
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
-        Me.Button1.Location = New System.Drawing.Point(1110, 265)
+        Me.Button1.Location = New System.Drawing.Point(1108, 178)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(98, 97)
         Me.Button1.TabIndex = 73
@@ -388,7 +389,7 @@ Partial Class maintainmobile
         Me.proceeded.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.proceeded.Location = New System.Drawing.Point(644, 587)
+        Me.proceeded.Location = New System.Drawing.Point(662, 550)
         Me.proceeded.Name = "proceeded"
         Me.proceeded.Size = New System.Drawing.Size(172, 20)
         Me.proceeded.TabIndex = 79
@@ -399,7 +400,7 @@ Partial Class maintainmobile
         Me.ordered.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ordered.Location = New System.Drawing.Point(134, 587)
+        Me.ordered.Location = New System.Drawing.Point(131, 550)
         Me.ordered.Name = "ordered"
         Me.ordered.Size = New System.Drawing.Size(172, 20)
         Me.ordered.TabIndex = 78
@@ -418,7 +419,7 @@ Partial Class maintainmobile
         Me.Panel2.Controls.Add(Me.bca)
         Me.Panel2.Controls.Add(Me.Label28)
         Me.Panel2.Controls.Add(Me.Label27)
-        Me.Panel2.Location = New System.Drawing.Point(49, 626)
+        Me.Panel2.Location = New System.Drawing.Point(43, 603)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(968, 95)
         Me.Panel2.TabIndex = 80
@@ -459,7 +460,7 @@ Partial Class maintainmobile
         '
         'catatan
         '
-        Me.catatan.Location = New System.Drawing.Point(124, 3)
+        Me.catatan.Location = New System.Drawing.Point(85, 3)
         Me.catatan.Name = "catatan"
         Me.catatan.Size = New System.Drawing.Size(307, 20)
         Me.catatan.TabIndex = 79

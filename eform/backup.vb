@@ -24,6 +24,7 @@ Public Class backup
     End Sub
 
     Private Sub btn_backup_Click(sender As Object, e As EventArgs) Handles btn_backup.Click
+        Call diskonek()
         Try
             Dim sDBFile As String = "" & System.Environment.CurrentDirectory & "\database.mdb"
             Dim sBackUpFile As String = txt_filename.Text
@@ -51,7 +52,7 @@ Public Class backup
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Try
             Dim sDBFile As String = txt_filename.Text
-            Dim sBackUpFile As String = "C:\Users\fahmi\Documents\Visual Studio 2015\Projects\eform\eform\database.mdb"
+            Dim sBackUpFile As String = "" & System.Environment.CurrentDirectory & "\database.mdb"
             If Not System.IO.Directory.Exists(sDBFile) Then
                 System.IO.Directory.CreateDirectory(sDBFile)
             End If
@@ -70,5 +71,9 @@ Public Class backup
             MsgBox(ex.Message)
         End Try
         MsgBox("Database berhasil di Restore", MsgBoxStyle.Information)
+    End Sub
+
+    Private Sub backup_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Call konek()
     End Sub
 End Class
