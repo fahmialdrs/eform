@@ -31,7 +31,7 @@ Public Class maintain
     End Sub
     Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
         membermenu.Show()
-        Me.Hide()
+        Me.Close()
     End Sub
 
     Private Sub firmax3r_ValueChanged(sender As Object, e As EventArgs) Handles firmax3r.ValueChanged
@@ -64,10 +64,6 @@ Public Class maintain
         amountr.Text = ""
         ordered.Text = ""
         proceeded.Text = ""
-    End Sub
-
-    Private Sub TableLayoutPanel1_Paint(sender As Object, e As PaintEventArgs) Handles TableLayoutPanel1.Paint
-
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -174,5 +170,9 @@ Public Class maintain
         printAM.catatan.Text = Me.catatan.Text
         printAM.Show()
 
+    End Sub
+
+    Private Sub maintain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        userid.Focus()
     End Sub
 End Class

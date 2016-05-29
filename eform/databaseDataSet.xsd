@@ -92,7 +92,7 @@
                   </DbCommand>
                 </InsertCommand>
                 <SelectCommand>
-                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>SELECT NoForm, Tanggal, User_ID, Nama, No_Telp, Prod_firmax3, Prod_O2_max3, Total_pcs, Total_set, Amount, Catatan, trsf_wallet, saldo_maintainRM, saldo_maintainIDR, member_id, m_wallet, r_walletterpakai, totalrm, totalrp, yang_dibayar, kurang_bayar, Ordered_By, Proceed_By FROM e_form</CommandText>
                     <Parameters />
                   </DbCommand>
@@ -249,13 +249,7 @@
         <xs:element name="e_form" msprop:Generator_TableClassName="e_formDataTable" msprop:Generator_TableVarName="tablee_form" msprop:Generator_TablePropName="e_form" msprop:Generator_RowDeletingName="e_formRowDeleting" msprop:Generator_RowChangingName="e_formRowChanging" msprop:Generator_RowEvHandlerName="e_formRowChangeEventHandler" msprop:Generator_RowDeletedName="e_formRowDeleted" msprop:Generator_UserTableName="e_form" msprop:Generator_RowChangedName="e_formRowChanged" msprop:Generator_RowEvArgName="e_formRowChangeEvent" msprop:Generator_RowClassName="e_formRow">
           <xs:complexType>
             <xs:sequence>
-              <xs:element name="NoForm" msprop:Generator_ColumnVarNameInTable="columnNoForm" msprop:Generator_ColumnPropNameInRow="NoForm" msprop:Generator_ColumnPropNameInTable="NoFormColumn" msprop:Generator_UserColumnName="NoForm">
-                <xs:simpleType>
-                  <xs:restriction base="xs:string">
-                    <xs:maxLength value="255" />
-                  </xs:restriction>
-                </xs:simpleType>
-              </xs:element>
+              <xs:element name="NoForm" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnNoForm" msprop:Generator_ColumnPropNameInRow="NoForm" msprop:Generator_ColumnPropNameInTable="NoFormColumn" msprop:Generator_UserColumnName="NoForm" type="xs:int" />
               <xs:element name="Tanggal" msprop:Generator_ColumnVarNameInTable="columnTanggal" msprop:Generator_ColumnPropNameInRow="Tanggal" msprop:Generator_ColumnPropNameInTable="TanggalColumn" msprop:Generator_UserColumnName="Tanggal" minOccurs="0">
                 <xs:simpleType>
                   <xs:restriction base="xs:string">

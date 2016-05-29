@@ -3,7 +3,7 @@ Imports System.Data.OleDb
 Public Class maintainmobile
     Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
         membermenu.Show()
-        Me.Hide()
+        Me.Close()
     End Sub
     Private Sub jalankansql(ByVal sQl As String)
         Dim objcmd As New System.Data.OleDb.OleDbCommand
@@ -204,7 +204,7 @@ Public Class maintainmobile
             If y = 0 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp,Prod_firmax3, Prod_o2_max3,ordered_by,proceed_by,catatan) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F1.Text & "', '" & O1.Text & "','" & ordered.Text & "','" & proceeded.Text & "','" & catatan.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp,Prod_firmax3, Prod_o2_max3,ordered_by,proceed_by,catatan) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F1.Text & "', '" & O1.Text & "','" & ordered.Text & "','" & proceeded.Text & "','" & catatan.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -213,7 +213,7 @@ Public Class maintainmobile
             ElseIf y = 1 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F2.Text & "', '" & O2.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F2.Text & "', '" & O2.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -222,7 +222,7 @@ Public Class maintainmobile
             ElseIf y = 2 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F3.Text & "', '" & O3.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F3.Text & "', '" & O3.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -231,7 +231,7 @@ Public Class maintainmobile
             ElseIf y = 3 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F4.Text & "', '" & O4.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F4.Text & "', '" & O4.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -240,7 +240,7 @@ Public Class maintainmobile
             ElseIf y = 4 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F5.Text & "', '" & O5.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F5.Text & "', '" & O5.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -249,7 +249,7 @@ Public Class maintainmobile
             ElseIf y = 5 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F6.Text & "', '" & O6.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F6.Text & "', '" & O6.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -258,7 +258,7 @@ Public Class maintainmobile
             ElseIf y = 6 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F7.Text & "', '" & O7.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F7.Text & "', '" & O7.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -267,7 +267,7 @@ Public Class maintainmobile
             ElseIf y = 7 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F8.Text & "', '" & O8.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F8.Text & "', '" & O8.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -276,7 +276,7 @@ Public Class maintainmobile
             ElseIf y = 8 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F9.Text & "', '" & O9.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F9.Text & "', '" & O9.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -285,7 +285,7 @@ Public Class maintainmobile
             ElseIf y = 9 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F10.Text & "', '" & O10.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F10.Text & "', '" & O10.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -369,5 +369,9 @@ Public Class maintainmobile
         'print
         'printpembelian.Hide()
 
+    End Sub
+
+    Private Sub maintainmobile_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        userid.Focus()
     End Sub
 End Class

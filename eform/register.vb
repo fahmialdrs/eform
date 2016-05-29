@@ -9,6 +9,6 @@
 
     Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
         newmembermenu.Show()
-        Me.Hide()
+        Me.Close()
     End Sub
 End Class

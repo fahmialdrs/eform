@@ -25,8 +25,6 @@ Partial Class finance
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(finance))
         Dim ReportDataSource1 As Microsoft.Reporting.WinForms.ReportDataSource = New Microsoft.Reporting.WinForms.ReportDataSource()
-        Me.e_formBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.databaseDataSet = New eform.databaseDataSet()
         Me.MenuStrip = New System.Windows.Forms.MenuStrip()
         Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BackupDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -36,25 +34,17 @@ Partial Class finance
         Me.back = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
-        Me.e_formTableAdapter = New eform.databaseDataSetTableAdapters.e_formTableAdapter()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.databaseDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.e_formBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.databaseDataSet = New eform.databaseDataSet()
+        Me.e_formTableAdapter = New eform.databaseDataSetTableAdapters.e_formTableAdapter()
+        Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
         Me.MenuStrip.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.databaseDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'e_formBindingSource
-        '
-        Me.e_formBindingSource.DataMember = "e_form"
-        Me.e_formBindingSource.DataSource = Me.databaseDataSet
-        '
-        'databaseDataSet
-        '
-        Me.databaseDataSet.DataSetName = "databaseDataSet"
-        Me.databaseDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'MenuStrip
         '
@@ -140,21 +130,6 @@ Partial Class finance
         Me.PictureBox1.TabIndex = 75
         Me.PictureBox1.TabStop = False
         '
-        'ReportViewer1
-        '
-        ReportDataSource1.Name = "DataSet1"
-        ReportDataSource1.Value = Me.e_formBindingSource
-        Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource1)
-        Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "eform.akunting.rdlc"
-        Me.ReportViewer1.Location = New System.Drawing.Point(117, 229)
-        Me.ReportViewer1.Name = "ReportViewer1"
-        Me.ReportViewer1.Size = New System.Drawing.Size(1112, 301)
-        Me.ReportViewer1.TabIndex = 76
-        '
-        'e_formTableAdapter
-        '
-        Me.e_formTableAdapter.ClearBeforeFill = True
-        '
         'Label4
         '
         Me.Label4.AutoSize = True
@@ -180,6 +155,31 @@ Partial Class finance
         Me.Label1.TabIndex = 77
         Me.Label1.Text = "PT. RF3 WORLD INDONESIA "
         '
+        'e_formBindingSource
+        '
+        Me.e_formBindingSource.DataMember = "e_form"
+        Me.e_formBindingSource.DataSource = Me.databaseDataSet
+        '
+        'databaseDataSet
+        '
+        Me.databaseDataSet.DataSetName = "databaseDataSet"
+        Me.databaseDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'e_formTableAdapter
+        '
+        Me.e_formTableAdapter.ClearBeforeFill = True
+        '
+        'ReportViewer1
+        '
+        ReportDataSource1.Name = "DataSet1"
+        ReportDataSource1.Value = Me.e_formBindingSource
+        Me.ReportViewer1.LocalReport.DataSources.Add(ReportDataSource1)
+        Me.ReportViewer1.LocalReport.ReportEmbeddedResource = "eform.akunting.rdlc"
+        Me.ReportViewer1.Location = New System.Drawing.Point(184, 268)
+        Me.ReportViewer1.Name = "ReportViewer1"
+        Me.ReportViewer1.Size = New System.Drawing.Size(1035, 198)
+        Me.ReportViewer1.TabIndex = 79
+        '
         'finance
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -188,9 +188,9 @@ Partial Class finance
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.ReportViewer1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.ReportViewer1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label31)
@@ -199,11 +199,11 @@ Partial Class finance
         Me.Name = "finance"
         Me.Text = "Menu Laporan Akunting"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
-        CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.databaseDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip.ResumeLayout(False)
         Me.MenuStrip.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.databaseDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -218,10 +218,10 @@ Partial Class finance
     Friend WithEvents back As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents ReportViewer1 As Microsoft.Reporting.WinForms.ReportViewer
     Friend WithEvents e_formBindingSource As System.Windows.Forms.BindingSource
     Friend WithEvents databaseDataSet As eform.databaseDataSet
     Friend WithEvents e_formTableAdapter As eform.databaseDataSetTableAdapters.e_formTableAdapter
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents ReportViewer1 As Microsoft.Reporting.WinForms.ReportViewer
 End Class
