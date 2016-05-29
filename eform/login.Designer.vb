@@ -159,7 +159,7 @@ Partial Class login
         Me.Label4.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(203, 634)
+        Me.Label4.Location = New System.Drawing.Point(203, 624)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(897, 20)
         Me.Label4.TabIndex = 80
@@ -172,7 +172,7 @@ Partial Class login
         Me.Label5.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(445, 591)
+        Me.Label5.Location = New System.Drawing.Point(445, 581)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(413, 31)
         Me.Label5.TabIndex = 79
@@ -196,7 +196,7 @@ Partial Class login
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "login"
-        Me.Text = "login"
+        Me.Text = "Login"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip.ResumeLayout(False)

@@ -1,4 +1,5 @@
-﻿
+﻿Imports System.Data
+Imports System.Data.OleDb
 Public Class mobilestockist
     Private Sub jalankansql(ByVal sQl As String)
         Dim objcmd As New System.Data.OleDb.OleDbCommand
@@ -12,6 +13,20 @@ Public Class mobilestockist
             MsgBox("Data Sudah Disimpan", vbInformation)
         Catch ex As Exception
             MsgBox("Tidak Bisa Menyimpan data ke Database" & ex.Message)
+        End Try
+    End Sub
+    Sub tampilTextBox()
+        Try
+            Call konek()
+            Dim str As String
+            str = "SELECT TOP 1 NoForm FROM e_form ORDER BY NoForm DESC;"
+            CMD = New OleDbCommand(str, conn)
+            RD = CMD.ExecuteReader
+            RD.Read()
+            If RD.HasRows Then
+                noform.Text = RD.Item("NoForm")
+            End If
+        Catch ex As Exception
         End Try
     End Sub
     Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
@@ -49,11 +64,7 @@ Public Class mobilestockist
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If noform.Text = "" Then
-            MessageBox.Show("No Form tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
-            noform.Focus()
-            Exit Sub
-        ElseIf userid.Text = "" Then
+        If userid.Text = "" Then
             MessageBox.Show("User ID tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
             userid.Focus()
             Exit Sub
@@ -88,6 +99,9 @@ Public Class mobilestockist
             simpan = "INSERT INTO e_form(NoForm,Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3,Total_pcs,Total_set, Amount , trsf_wallet , Ordered_by, Proceed_by ) VALUES ('" & noform.Text & "','" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & firmax3r.Text & "', '" & o2max3r.Text & "', '" & totalpcs.Text & "','" & totalset.Text & "', '" & amountr.Text & "', '" & transferrwallet.Text & "','" & ordered.Text & "','" & proceeded.Text & "') "
             jalankansql(simpan)
             noform.Focus()
+            If noform.Text = "" Then
+                Call tampilTextBox()
+            End If
             Me.Cursor = Cursors.Default
 
         End If
@@ -118,5 +132,46 @@ Public Class mobilestockist
         printPMS.Show()
         'print
         'printpembelian.Hide()
+    End Sub
+
+    Private Sub bca_CheckedChanged(sender As Object, e As EventArgs) Handles bca.CheckedChanged
+        If bca.Checked = True Then
+            catatan.Text &= " \\ Transfer BCA"
+        ElseIf bca.Checked = False Then
+            catatan.Text &= " "
+
+        End If
+    End Sub
+
+    Private Sub mandiri_CheckedChanged(sender As Object, e As EventArgs) Handles mandiri.CheckedChanged
+        If mandiri.Checked = True Then
+            catatan.Text &= " \\ Transfer Mandiri"
+        ElseIf mandiri.Checked = False Then
+            catatan.Text &= " "
+        End If
+    End Sub
+
+    Private Sub tunai_CheckedChanged(sender As Object, e As EventArgs) Handles tunai.CheckedChanged
+        If tunai.Checked = True Then
+            catatan.Text &= " \\ Tunai"
+        ElseIf tunai.Checked = False Then
+            catatan.Text &= " "
+        End If
+    End Sub
+
+    Private Sub pickup_CheckedChanged(sender As Object, e As EventArgs) Handles pickup.CheckedChanged
+        If pickup.Checked = True Then
+            catatan.Text &= " \\ Pick Up"
+        ElseIf pickup.Checked = False Then
+            catatan.Text &= " "
+        End If
+    End Sub
+
+    Private Sub delivery_CheckedChanged(sender As Object, e As EventArgs) Handles delivery.CheckedChanged
+        If delivery.Checked = True Then
+            catatan.Text &= " \\ Delivery"
+        ElseIf delivery.Checked = False Then
+            catatan.Text &= " "
+        End If
     End Sub
 End Class

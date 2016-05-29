@@ -176,7 +176,7 @@ Partial Class backup
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MenuStrip)
         Me.Name = "backup"
-        Me.Text = "backup"
+        Me.Text = "Menu Backup Database"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip.ResumeLayout(False)
         Me.MenuStrip.PerformLayout()

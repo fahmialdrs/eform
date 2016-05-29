@@ -196,7 +196,7 @@ Partial Class gudang
         Me.Controls.Add(Me.Label31)
         Me.Controls.Add(Me.back)
         Me.Name = "gudang"
-        Me.Text = "gudang"
+        Me.Text = "Menu Laporan Gudang"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.databaseDataSet, System.ComponentModel.ISupportInitialize).EndInit()

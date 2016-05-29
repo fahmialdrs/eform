@@ -692,7 +692,7 @@ Partial Class Pembelian
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "Pembelian"
-        Me.Text = "Pembelian"
+        Me.Text = "Form Pembelian Member Lama"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)

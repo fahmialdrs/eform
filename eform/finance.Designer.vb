@@ -197,7 +197,7 @@ Partial Class finance
         Me.Controls.Add(Me.back)
         Me.Controls.Add(Me.MenuStrip)
         Me.Name = "finance"
-        Me.Text = "finance"
+        Me.Text = "Menu Laporan Akunting"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.databaseDataSet, System.ComponentModel.ISupportInitialize).EndInit()

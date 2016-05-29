@@ -37,6 +37,7 @@ Partial Class newmembermenu
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblpembelian = New System.Windows.Forms.Label()
         Me.MenuStrip.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -198,6 +199,16 @@ Partial Class newmembermenu
         Me.Label1.TabIndex = 79
         Me.Label1.Text = "PT. RF3 WORLD INDONESIA "
         '
+        'lblpembelian
+        '
+        Me.lblpembelian.AutoSize = True
+        Me.lblpembelian.Location = New System.Drawing.Point(782, 332)
+        Me.lblpembelian.Name = "lblpembelian"
+        Me.lblpembelian.Size = New System.Drawing.Size(82, 13)
+        Me.lblpembelian.TabIndex = 85
+        Me.lblpembelian.Text = "Form Pembelian"
+        Me.lblpembelian.Visible = False
+        '
         'newmembermenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -205,6 +216,7 @@ Partial Class newmembermenu
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.lblpembelian)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
@@ -216,7 +228,7 @@ Partial Class newmembermenu
         Me.Controls.Add(Me.pembeliannewmember)
         Me.Controls.Add(Me.formregister)
         Me.Name = "newmembermenu"
-        Me.Text = "newmembermenu"
+        Me.Text = "Menu Member Baru"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         Me.MenuStrip.ResumeLayout(False)
         Me.MenuStrip.PerformLayout()
@@ -240,4 +252,5 @@ Partial Class newmembermenu
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents lblpembelian As System.Windows.Forms.Label
 End Class

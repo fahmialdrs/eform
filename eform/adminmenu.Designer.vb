@@ -56,7 +56,6 @@ Partial Class adminmenu
         Me.newmember.BackColor = System.Drawing.SystemColors.Window
         Me.newmember.BackgroundImage = CType(resources.GetObject("newmember.BackgroundImage"), System.Drawing.Image)
         Me.newmember.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.newmember.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.newmember.Image = CType(resources.GetObject("newmember.Image"), System.Drawing.Image)
         Me.newmember.Location = New System.Drawing.Point(671, 306)
         Me.newmember.Name = "newmember"
@@ -81,7 +80,6 @@ Partial Class adminmenu
         Me.member.BackColor = System.Drawing.SystemColors.ControlDark
         Me.member.BackgroundImage = CType(resources.GetObject("member.BackgroundImage"), System.Drawing.Image)
         Me.member.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.member.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.member.Image = CType(resources.GetObject("member.Image"), System.Drawing.Image)
         Me.member.Location = New System.Drawing.Point(262, 306)
         Me.member.Name = "member"
@@ -146,7 +144,7 @@ Partial Class adminmenu
         Me.Label4.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(207, 653)
+        Me.Label4.Location = New System.Drawing.Point(207, 642)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(897, 20)
         Me.Label4.TabIndex = 80
@@ -159,7 +157,7 @@ Partial Class adminmenu
         Me.Label3.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(449, 610)
+        Me.Label3.Location = New System.Drawing.Point(449, 599)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(413, 31)
         Me.Label3.TabIndex = 79
@@ -181,7 +179,7 @@ Partial Class adminmenu
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.member)
         Me.Name = "adminmenu"
-        Me.Text = "adminmenu"
+        Me.Text = "Menu Admin"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip.ResumeLayout(False)

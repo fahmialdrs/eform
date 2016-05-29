@@ -94,7 +94,7 @@ Partial Class mobilestockist
         '
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(99, 600)
+        Me.Label22.Location = New System.Drawing.Point(99, 562)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(51, 16)
         Me.Label22.TabIndex = 46
@@ -104,7 +104,7 @@ Partial Class mobilestockist
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(617, 600)
+        Me.Label7.Location = New System.Drawing.Point(617, 562)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(51, 16)
         Me.Label7.TabIndex = 47
@@ -574,7 +574,7 @@ Partial Class mobilestockist
         Me.proceeded.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.proceeded.Location = New System.Drawing.Point(687, 599)
+        Me.proceeded.Location = New System.Drawing.Point(687, 561)
         Me.proceeded.Name = "proceeded"
         Me.proceeded.Size = New System.Drawing.Size(188, 20)
         Me.proceeded.TabIndex = 63
@@ -585,7 +585,7 @@ Partial Class mobilestockist
         Me.ordered.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.ordered.Location = New System.Drawing.Point(177, 599)
+        Me.ordered.Location = New System.Drawing.Point(177, 561)
         Me.ordered.Name = "ordered"
         Me.ordered.Size = New System.Drawing.Size(172, 20)
         Me.ordered.TabIndex = 62
@@ -623,7 +623,7 @@ Partial Class mobilestockist
         Me.Panel2.Controls.Add(Me.bca)
         Me.Panel2.Controls.Add(Me.Label13)
         Me.Panel2.Controls.Add(Me.Label27)
-        Me.Panel2.Location = New System.Drawing.Point(13, 634)
+        Me.Panel2.Location = New System.Drawing.Point(61, 600)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(968, 95)
         Me.Panel2.TabIndex = 79
@@ -772,7 +772,7 @@ Partial Class mobilestockist
         Me.Controls.Add(Me.Label23)
         Me.Controls.Add(Me.Panel1)
         Me.Name = "mobilestockist"
-        Me.Text = "mobilestockist"
+        Me.Text = "Form Mobile Stockist R-Wallet"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)

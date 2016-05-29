@@ -1,4 +1,6 @@
-﻿Public Class maintainmobile
+﻿Imports System.Data
+Imports System.Data.OleDb
+Public Class maintainmobile
     Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
         membermenu.Show()
         Me.Hide()
@@ -15,6 +17,20 @@
             MsgBox("Data Sudah Disimpan", vbInformation)
         Catch ex As Exception
             MsgBox("Tidak Bisa Menyimpan data ke Database" & ex.Message)
+        End Try
+    End Sub
+    Sub tampilTextBox()
+        Try
+            Call konek()
+            Dim str As String
+            str = "SELECT TOP 1 NoForm FROM e_form ORDER BY NoForm DESC;"
+            CMD = New OleDbCommand(str, conn)
+            RD = CMD.ExecuteReader
+            RD.Read()
+            If RD.HasRows Then
+                noform.Text = RD.Item("NoForm")
+            End If
+        Catch ex As Exception
         End Try
     End Sub
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -129,11 +145,7 @@
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim x, y As Integer
         y = 0
-        If noform.Text = "" Then
-            MessageBox.Show("No Form tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
-            noform.Focus()
-            Exit Sub
-        ElseIf userid.Text = "" Then
+        If userid.Text = "" Then
             MessageBox.Show("User ID tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
             userid.Focus()
             Exit Sub
@@ -278,7 +290,9 @@
                 noform.Focus()
                 Me.Cursor = Cursors.Default
             End If
-
+            If noform.Text = "" Then
+                Call tampilTextBox()
+            End If
 
             y = y + 1
         End While

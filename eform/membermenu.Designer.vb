@@ -281,7 +281,7 @@ Partial Class membermenu
         Me.Label1.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(237, 683)
+        Me.Label1.Location = New System.Drawing.Point(237, 678)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(897, 20)
         Me.Label1.TabIndex = 80
@@ -294,7 +294,7 @@ Partial Class membermenu
         Me.Label10.BackColor = System.Drawing.SystemColors.AppWorkspace
         Me.Label10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(479, 640)
+        Me.Label10.Location = New System.Drawing.Point(479, 635)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(413, 31)
         Me.Label10.TabIndex = 79
@@ -352,41 +352,41 @@ Partial Class membermenu
         'lblmobiler
         '
         Me.lblmobiler.AutoSize = True
-        Me.lblmobiler.Location = New System.Drawing.Point(820, 286)
+        Me.lblmobiler.Location = New System.Drawing.Point(747, 281)
         Me.lblmobiler.Name = "lblmobiler"
-        Me.lblmobiler.Size = New System.Drawing.Size(82, 13)
+        Me.lblmobiler.Size = New System.Drawing.Size(203, 13)
         Me.lblmobiler.TabIndex = 85
-        Me.lblmobiler.Text = "Form Pembelian"
+        Me.lblmobiler.Text = "Form Pembelian Mobile Stocikist R-Wallet"
         Me.lblmobiler.Visible = False
         '
         'lblmobilet
         '
         Me.lblmobilet.AutoSize = True
-        Me.lblmobilet.Location = New System.Drawing.Point(1161, 286)
+        Me.lblmobilet.Location = New System.Drawing.Point(1105, 269)
         Me.lblmobilet.Name = "lblmobilet"
-        Me.lblmobilet.Size = New System.Drawing.Size(82, 13)
+        Me.lblmobilet.Size = New System.Drawing.Size(202, 13)
         Me.lblmobilet.TabIndex = 86
-        Me.lblmobilet.Text = "Form Pembelian"
+        Me.lblmobilet.Text = "Form Pembelian Mobile Stocikist T-Wallet"
         Me.lblmobilet.Visible = False
         '
         'lblmaintain
         '
         Me.lblmaintain.AutoSize = True
-        Me.lblmaintain.Location = New System.Drawing.Point(598, 537)
+        Me.lblmaintain.Location = New System.Drawing.Point(574, 518)
         Me.lblmaintain.Name = "lblmaintain"
-        Me.lblmaintain.Size = New System.Drawing.Size(82, 13)
+        Me.lblmaintain.Size = New System.Drawing.Size(125, 13)
         Me.lblmaintain.TabIndex = 87
-        Me.lblmaintain.Text = "Form Pembelian"
+        Me.lblmaintain.Text = "Form Pembelian Maintain"
         Me.lblmaintain.Visible = False
         '
         'lblclaim
         '
         Me.lblclaim.AutoSize = True
-        Me.lblclaim.Location = New System.Drawing.Point(1025, 537)
+        Me.lblclaim.Location = New System.Drawing.Point(1007, 518)
         Me.lblclaim.Name = "lblclaim"
-        Me.lblclaim.Size = New System.Drawing.Size(82, 13)
+        Me.lblclaim.Size = New System.Drawing.Size(101, 13)
         Me.lblclaim.TabIndex = 88
-        Me.lblclaim.Text = "Form Pembelian"
+        Me.lblclaim.Text = "Form Claim Maintain"
         Me.lblclaim.Visible = False
         '
         'membermenu
