@@ -15,4 +15,9 @@ Module MdlKoneksi
             conn.Open()
         End If
     End Sub
+    Public Sub diskonek()
+        If conn.State = ConnectionState.Open Then
+            conn.Close()
+        End If
+    End Sub
 End Module

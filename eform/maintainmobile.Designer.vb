@@ -204,7 +204,7 @@ Partial Class maintainmobile
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(3, 3)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(76, 16)
+        Me.Label3.Size = New System.Drawing.Size(74, 16)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Tanggal :"
         '
@@ -214,7 +214,7 @@ Partial Class maintainmobile
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(3, 29)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(74, 16)
+        Me.Label4.Size = New System.Drawing.Size(68, 16)
         Me.Label4.TabIndex = 6
         Me.Label4.Text = "User ID :"
         '
@@ -248,7 +248,7 @@ Partial Class maintainmobile
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(3, 84)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(98, 16)
+        Me.Label6.Size = New System.Drawing.Size(93, 16)
         Me.Label6.TabIndex = 10
         Me.Label6.Text = "No. Telpon :"
         '
@@ -258,7 +258,7 @@ Partial Class maintainmobile
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(3, 55)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(60, 16)
+        Me.Label5.Size = New System.Drawing.Size(57, 16)
         Me.Label5.TabIndex = 8
         Me.Label5.Text = "Nama :"
         '

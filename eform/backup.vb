@@ -24,6 +24,7 @@ Public Class backup
     End Sub
 
     Private Sub btn_backup_Click(sender As Object, e As EventArgs) Handles btn_backup.Click
+        Call diskonek()
         Try
             Dim sDBFile As String = "" & System.Environment.CurrentDirectory & "\database.mdb"
             Dim sBackUpFile As String = txt_filename.Text
@@ -70,5 +71,9 @@ Public Class backup
             MsgBox(ex.Message)
         End Try
         MsgBox("Database berhasil di Restore", MsgBoxStyle.Information)
+    End Sub
+
+    Private Sub backup_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Call konek()
     End Sub
 End Class
