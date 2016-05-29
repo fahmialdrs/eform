@@ -311,7 +311,6 @@
     <EmbeddedResource Include="register.resx">
       <DependentUpon>register.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="gudang.rdlc" />
     <EmbeddedResource Include="akunting.rdlc" />
     <EmbeddedResource Include="gudang1.rdlc" />
     <EmbeddedResource Include="SplashScreen1.resx">
@@ -371,11 +370,6 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="database.mdb">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
