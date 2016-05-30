@@ -59,9 +59,10 @@ Partial Class membermenu
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label2.Location = New System.Drawing.Point(608, 196)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(270, 31)
@@ -103,9 +104,10 @@ Partial Class membermenu
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label3.Location = New System.Drawing.Point(257, 196)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(270, 31)
@@ -115,8 +117,9 @@ Partial Class membermenu
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label4.Location = New System.Drawing.Point(617, 227)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(254, 18)
@@ -126,8 +129,9 @@ Partial Class membermenu
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label5.Location = New System.Drawing.Point(454, 455)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(106, 18)
@@ -137,9 +141,10 @@ Partial Class membermenu
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label6.Location = New System.Drawing.Point(386, 424)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(270, 31)
@@ -149,9 +154,10 @@ Partial Class membermenu
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label7.Location = New System.Drawing.Point(744, 424)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(341, 31)
@@ -193,8 +199,9 @@ Partial Class membermenu
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label8.BackColor = System.Drawing.Color.Transparent
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label8.Location = New System.Drawing.Point(839, 455)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(179, 18)
@@ -203,7 +210,7 @@ Partial Class membermenu
         '
         'back
         '
-        Me.back.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.back.BackColor = System.Drawing.Color.Transparent
         Me.back.BackgroundImage = CType(resources.GetObject("back.BackgroundImage"), System.Drawing.Image)
         Me.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.back.Image = CType(resources.GetObject("back.Image"), System.Drawing.Image)
@@ -216,8 +223,9 @@ Partial Class membermenu
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label9.Location = New System.Drawing.Point(32, 593)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(179, 18)
@@ -278,9 +286,10 @@ Partial Class membermenu
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label1.Location = New System.Drawing.Point(237, 678)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(897, 20)
@@ -291,9 +300,10 @@ Partial Class membermenu
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
         Me.Label10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label10.Location = New System.Drawing.Point(479, 635)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(413, 31)
@@ -303,8 +313,9 @@ Partial Class membermenu
         'Label11
         '
         Me.Label11.AutoSize = True
-        Me.Label11.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label11.BackColor = System.Drawing.Color.Transparent
         Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label11.Location = New System.Drawing.Point(958, 227)
         Me.Label11.Name = "Label11"
         Me.Label11.Size = New System.Drawing.Size(252, 18)
@@ -314,9 +325,10 @@ Partial Class membermenu
         'Label12
         '
         Me.Label12.AutoSize = True
-        Me.Label12.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label12.BackColor = System.Drawing.Color.Transparent
         Me.Label12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label12.Location = New System.Drawing.Point(949, 196)
         Me.Label12.Name = "Label12"
         Me.Label12.Size = New System.Drawing.Size(270, 31)

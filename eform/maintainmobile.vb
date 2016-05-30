@@ -143,7 +143,7 @@ Public Class maintainmobile
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim x, y, z As Integer
+        Dim x, y As Integer
         y = 0
         If userid.Text = "" Then
             MessageBox.Show("User ID tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)

@@ -45,9 +45,10 @@ Partial Class newmembermenu
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label3.Location = New System.Drawing.Point(54, 210)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(254, 31)
@@ -58,9 +59,10 @@ Partial Class newmembermenu
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label2.Location = New System.Drawing.Point(594, 257)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(270, 31)
@@ -73,7 +75,7 @@ Partial Class newmembermenu
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.pembeliannewmember.AutoSize = True
-        Me.pembeliannewmember.BackColor = System.Drawing.SystemColors.Window
+        Me.pembeliannewmember.BackColor = System.Drawing.Color.Transparent
         Me.pembeliannewmember.BackgroundImage = CType(resources.GetObject("pembeliannewmember.BackgroundImage"), System.Drawing.Image)
         Me.pembeliannewmember.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.pembeliannewmember.Image = CType(resources.GetObject("pembeliannewmember.Image"), System.Drawing.Image)
@@ -89,7 +91,7 @@ Partial Class newmembermenu
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.formregister.AutoSize = True
-        Me.formregister.BackColor = System.Drawing.SystemColors.ControlDark
+        Me.formregister.BackColor = System.Drawing.Color.Transparent
         Me.formregister.BackgroundImage = CType(resources.GetObject("formregister.BackgroundImage"), System.Drawing.Image)
         Me.formregister.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
         Me.formregister.FlatStyle = System.Windows.Forms.FlatStyle.Flat
@@ -104,8 +106,9 @@ Partial Class newmembermenu
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label9.Location = New System.Drawing.Point(90, 509)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(179, 18)
@@ -152,7 +155,8 @@ Partial Class newmembermenu
         '
         'back
         '
-        Me.back.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.back.BackColor = System.Drawing.Color.Transparent
+        Me.back.BackgroundImage = CType(resources.GetObject("back.BackgroundImage"), System.Drawing.Image)
         Me.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.back.Image = CType(resources.GetObject("back.Image"), System.Drawing.Image)
         Me.back.Location = New System.Drawing.Point(137, 449)
@@ -177,9 +181,10 @@ Partial Class newmembermenu
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label4.Location = New System.Drawing.Point(209, 638)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(897, 20)
@@ -190,9 +195,10 @@ Partial Class newmembermenu
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ControlLightLight
         Me.Label1.Location = New System.Drawing.Point(451, 595)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(413, 31)

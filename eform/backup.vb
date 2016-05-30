@@ -24,12 +24,11 @@ Public Class backup
     End Sub
 
     Private Sub btn_backup_Click(sender As Object, e As EventArgs) Handles btn_backup.Click
-<<<<<<< HEAD
+
         'Call diskonek()
         conn.Close()
-=======
 
->>>>>>> 0b6744bd241b0446cc18f8d7941355090522cea0
+
         Try
             Dim sDBFile As String = "" & System.Environment.CurrentDirectory & "\database.mdb"
             Dim sBackUpFile As String = txt_filename.Text
