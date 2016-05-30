@@ -92,6 +92,16 @@ Partial Class printCMMS
         Me.PrintDocument1 = New System.Drawing.Printing.PrintDocument()
         Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
         Me.PrintForm1 = New Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(Me.components)
+        Me.angka1 = New System.Windows.Forms.Label()
+        Me.angka2 = New System.Windows.Forms.Label()
+        Me.angka3 = New System.Windows.Forms.Label()
+        Me.angka4 = New System.Windows.Forms.Label()
+        Me.angka5 = New System.Windows.Forms.Label()
+        Me.angka6 = New System.Windows.Forms.Label()
+        Me.angka7 = New System.Windows.Forms.Label()
+        Me.angka8 = New System.Windows.Forms.Label()
+        Me.angka9 = New System.Windows.Forms.Label()
+        Me.angka10 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'noform
@@ -143,7 +153,7 @@ Partial Class printCMMS
         '
         Me.memberid1.AutoSize = True
         Me.memberid1.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.memberid1.Location = New System.Drawing.Point(100, 247)
+        Me.memberid1.Location = New System.Drawing.Point(101, 247)
         Me.memberid1.Name = "memberid1"
         Me.memberid1.Size = New System.Drawing.Size(0, 13)
         Me.memberid1.TabIndex = 8
@@ -179,7 +189,7 @@ Partial Class printCMMS
         '
         Me.memberid7.AutoSize = True
         Me.memberid7.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.memberid7.Location = New System.Drawing.Point(102, 350)
+        Me.memberid7.Location = New System.Drawing.Point(101, 350)
         Me.memberid7.Name = "memberid7"
         Me.memberid7.Size = New System.Drawing.Size(0, 13)
         Me.memberid7.TabIndex = 12
@@ -188,7 +198,7 @@ Partial Class printCMMS
         '
         Me.memberid8.AutoSize = True
         Me.memberid8.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.memberid8.Location = New System.Drawing.Point(102, 367)
+        Me.memberid8.Location = New System.Drawing.Point(101, 367)
         Me.memberid8.Name = "memberid8"
         Me.memberid8.Size = New System.Drawing.Size(0, 13)
         Me.memberid8.TabIndex = 11
@@ -197,7 +207,7 @@ Partial Class printCMMS
         '
         Me.memberid6.AutoSize = True
         Me.memberid6.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.memberid6.Location = New System.Drawing.Point(102, 333)
+        Me.memberid6.Location = New System.Drawing.Point(101, 333)
         Me.memberid6.Name = "memberid6"
         Me.memberid6.Size = New System.Drawing.Size(0, 13)
         Me.memberid6.TabIndex = 10
@@ -503,7 +513,7 @@ Partial Class printCMMS
         '
         Me.o10.AutoSize = True
         Me.o10.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.o10.Location = New System.Drawing.Point(414, 401)
+        Me.o10.Location = New System.Drawing.Point(415, 401)
         Me.o10.Name = "o10"
         Me.o10.Size = New System.Drawing.Size(0, 13)
         Me.o10.TabIndex = 54
@@ -691,6 +701,86 @@ Partial Class printCMMS
         Me.PrintForm1.PrinterSettings = CType(resources.GetObject("PrintForm1.PrinterSettings"), System.Drawing.Printing.PrinterSettings)
         Me.PrintForm1.PrintFileName = Nothing
         '
+        'angka1
+        '
+        Me.angka1.AutoSize = True
+        Me.angka1.Location = New System.Drawing.Point(79, 246)
+        Me.angka1.Name = "angka1"
+        Me.angka1.Size = New System.Drawing.Size(0, 13)
+        Me.angka1.TabIndex = 65
+        '
+        'angka2
+        '
+        Me.angka2.AutoSize = True
+        Me.angka2.Location = New System.Drawing.Point(79, 263)
+        Me.angka2.Name = "angka2"
+        Me.angka2.Size = New System.Drawing.Size(0, 13)
+        Me.angka2.TabIndex = 66
+        '
+        'angka3
+        '
+        Me.angka3.AutoSize = True
+        Me.angka3.Location = New System.Drawing.Point(79, 281)
+        Me.angka3.Name = "angka3"
+        Me.angka3.Size = New System.Drawing.Size(0, 13)
+        Me.angka3.TabIndex = 67
+        '
+        'angka4
+        '
+        Me.angka4.AutoSize = True
+        Me.angka4.Location = New System.Drawing.Point(79, 298)
+        Me.angka4.Name = "angka4"
+        Me.angka4.Size = New System.Drawing.Size(0, 13)
+        Me.angka4.TabIndex = 68
+        '
+        'angka5
+        '
+        Me.angka5.AutoSize = True
+        Me.angka5.Location = New System.Drawing.Point(79, 314)
+        Me.angka5.Name = "angka5"
+        Me.angka5.Size = New System.Drawing.Size(0, 13)
+        Me.angka5.TabIndex = 69
+        '
+        'angka6
+        '
+        Me.angka6.AutoSize = True
+        Me.angka6.Location = New System.Drawing.Point(79, 331)
+        Me.angka6.Name = "angka6"
+        Me.angka6.Size = New System.Drawing.Size(0, 13)
+        Me.angka6.TabIndex = 70
+        '
+        'angka7
+        '
+        Me.angka7.AutoSize = True
+        Me.angka7.Location = New System.Drawing.Point(79, 348)
+        Me.angka7.Name = "angka7"
+        Me.angka7.Size = New System.Drawing.Size(0, 13)
+        Me.angka7.TabIndex = 71
+        '
+        'angka8
+        '
+        Me.angka8.AutoSize = True
+        Me.angka8.Location = New System.Drawing.Point(79, 366)
+        Me.angka8.Name = "angka8"
+        Me.angka8.Size = New System.Drawing.Size(0, 13)
+        Me.angka8.TabIndex = 72
+        '
+        'angka9
+        '
+        Me.angka9.AutoSize = True
+        Me.angka9.Location = New System.Drawing.Point(79, 383)
+        Me.angka9.Name = "angka9"
+        Me.angka9.Size = New System.Drawing.Size(0, 13)
+        Me.angka9.TabIndex = 73
+        '
+        'angka10
+        '
+        Me.angka10.AutoSize = True
+        Me.angka10.Location = New System.Drawing.Point(76, 399)
+        Me.angka10.Name = "angka10"
+        Me.angka10.Size = New System.Drawing.Size(0, 13)
+        Me.angka10.TabIndex = 74
+        '
         'printCMMS
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -699,6 +789,16 @@ Partial Class printCMMS
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(543, 733)
+        Me.Controls.Add(Me.angka10)
+        Me.Controls.Add(Me.angka9)
+        Me.Controls.Add(Me.angka8)
+        Me.Controls.Add(Me.angka7)
+        Me.Controls.Add(Me.angka6)
+        Me.Controls.Add(Me.angka5)
+        Me.Controls.Add(Me.angka4)
+        Me.Controls.Add(Me.angka3)
+        Me.Controls.Add(Me.angka2)
+        Me.Controls.Add(Me.angka1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.catatan)
         Me.Controls.Add(Me.proceeded)
@@ -839,4 +939,14 @@ Partial Class printCMMS
     Friend WithEvents PrintDocument1 As System.Drawing.Printing.PrintDocument
     Friend WithEvents PrintDialog1 As System.Windows.Forms.PrintDialog
     Friend WithEvents PrintForm1 As Microsoft.VisualBasic.PowerPacks.Printing.PrintForm
+    Friend WithEvents angka10 As Label
+    Friend WithEvents angka9 As Label
+    Friend WithEvents angka8 As Label
+    Friend WithEvents angka7 As Label
+    Friend WithEvents angka6 As Label
+    Friend WithEvents angka5 As Label
+    Friend WithEvents angka4 As Label
+    Friend WithEvents angka3 As Label
+    Friend WithEvents angka2 As Label
+    Friend WithEvents angka1 As Label
 End Class

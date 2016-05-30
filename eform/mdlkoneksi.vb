@@ -13,11 +13,14 @@ Module MdlKoneksi
         conn = New OleDbConnection(lokasidata)
         If conn.State = ConnectionState.Closed Then
             conn.Open()
+
         End If
     End Sub
-    Public Sub diskonek()
-        If conn.State = ConnectionState.Open Then
-            conn.Close()
-        End If
-    End Sub
+    'Public Sub diskonek()
+    '  lokasidata = "provider=microsoft.jet.oledb.4.0;data source= |DataDirectory|\database.mdb"
+    ' conn = New OleDbConnection(lokasidata)
+    ' If conn.State = ConnectionState.Open Then
+    'conn.Close()
+    ' End If
+    'End Sub
 End Module

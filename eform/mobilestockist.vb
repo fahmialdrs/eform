@@ -103,6 +103,7 @@ Public Class mobilestockist
                 Call tampilTextBox()
             End If
             Me.Cursor = Cursors.Default
+            conn.Close()
 
         End If
     End Sub

@@ -119,6 +119,7 @@ Public Class Pembelian
             Me.Cursor = Cursors.Default
             gudang.ReportViewer1.Refresh()
             finance.ReportViewer1.RefreshReport()
+            conn.Close()
         End If
     End Sub
 

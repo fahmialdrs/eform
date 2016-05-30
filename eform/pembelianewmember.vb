@@ -68,11 +68,7 @@ Public Class pembelianewmember
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        If noform.Text = "" Then
-            MessageBox.Show("No Form tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
-            noform.Focus()
-            Exit Sub
-        ElseIf userid.Text = "" Then
+        If userid.Text = "" Then
             MessageBox.Show("User ID tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
             userid.Focus()
             Exit Sub
@@ -123,6 +119,7 @@ Public Class pembelianewmember
             Me.Cursor = Cursors.Default
             gudang.ReportViewer1.Refresh()
             finance.ReportViewer1.RefreshReport()
+            conn.Close()
         End If
     End Sub
 

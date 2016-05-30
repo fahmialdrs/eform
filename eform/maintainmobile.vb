@@ -14,7 +14,7 @@ Public Class maintainmobile
             objcmd.CommandText = sQl
             objcmd.ExecuteNonQuery()
             objcmd.Dispose()
-            MsgBox("Data Sudah Disimpan", vbInformation)
+
         Catch ex As Exception
             MsgBox("Tidak Bisa Menyimpan data ke Database" & ex.Message)
         End Try
@@ -143,7 +143,7 @@ Public Class maintainmobile
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim x, y As Integer
+        Dim x, y, z As Integer
         y = 0
         If userid.Text = "" Then
             MessageBox.Show("User ID tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
@@ -210,6 +210,8 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
+                printCMMS.angka1.Text = "1"
+                conn.Close()
             ElseIf y = 1 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
@@ -219,6 +221,8 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
+                printCMMS.angka2.Text = "2"
+                conn.Close()
             ElseIf y = 2 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
@@ -228,6 +232,8 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
+                printCMMS.angka3.Text = "3"
+                conn.Close()
             ElseIf y = 3 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
@@ -237,6 +243,8 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
+                printCMMS.angka4.Text = "4"
+                conn.Close()
             ElseIf y = 4 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
@@ -246,6 +254,8 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
+                printCMMS.angka5.Text = "5"
+                conn.Close()
             ElseIf y = 5 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
@@ -255,6 +265,8 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
+                printCMMS.angka6.Text = "6"
+                conn.Close()
             ElseIf y = 6 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
@@ -264,6 +276,8 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
+                printCMMS.angka7.Text = "7"
+                conn.Close()
             ElseIf y = 7 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
@@ -273,6 +287,8 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
+                printCMMS.angka8.Text = "8"
+                conn.Close()
             ElseIf y = 8 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
@@ -282,6 +298,8 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
+                printCMMS.angka9.Text = "9"
+                conn.Close()
             ElseIf y = 9 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
@@ -289,6 +307,10 @@ Public Class maintainmobile
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
+                gudang.ReportViewer1.Refresh()
+                finance.ReportViewer1.RefreshReport()
+                printCMMS.angka10.Text = "10"
+                conn.Close()
             End If
             If noform.Text = "" Then
                 Call tampilTextBox()
@@ -296,7 +318,7 @@ Public Class maintainmobile
 
             y = y + 1
         End While
-
+        MsgBox("Data Sudah Disimpan", vbInformation)
     End Sub
 
     Private Sub userid_TextChanged(sender As Object, e As EventArgs) Handles userid.TextChanged

@@ -106,7 +106,9 @@ Public Class maintain
                 Call tampilTextBox()
             End If
             Me.Cursor = Cursors.Default
-            End If
+            conn.Close()
+        End If
+
     End Sub
 
     Private Sub bca_CheckedChanged(sender As Object, e As EventArgs) Handles bca.CheckedChanged
