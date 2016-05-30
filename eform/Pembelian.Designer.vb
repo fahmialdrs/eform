@@ -225,7 +225,7 @@ Partial Class Pembelian
         '
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label23.Location = New System.Drawing.Point(225, 477)
+        Me.Label23.Location = New System.Drawing.Point(273, 481)
         Me.Label23.Name = "Label23"
         Me.Label23.Size = New System.Drawing.Size(83, 16)
         Me.Label23.TabIndex = 27
@@ -235,7 +235,7 @@ Partial Class Pembelian
         '
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label24.Location = New System.Drawing.Point(719, 477)
+        Me.Label24.Location = New System.Drawing.Point(767, 481)
         Me.Label24.Name = "Label24"
         Me.Label24.Size = New System.Drawing.Size(101, 16)
         Me.Label24.TabIndex = 28
@@ -245,7 +245,7 @@ Partial Class Pembelian
         '
         Me.Label22.AutoSize = True
         Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.Location = New System.Drawing.Point(77, 551)
+        Me.Label22.Location = New System.Drawing.Point(125, 555)
         Me.Label22.Name = "Label22"
         Me.Label22.Size = New System.Drawing.Size(51, 16)
         Me.Label22.TabIndex = 30
@@ -255,7 +255,7 @@ Partial Class Pembelian
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(579, 551)
+        Me.Label7.Location = New System.Drawing.Point(627, 555)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(51, 16)
         Me.Label7.TabIndex = 31
@@ -635,7 +635,7 @@ Partial Class Pembelian
         '
         'ordered
         '
-        Me.ordered.Location = New System.Drawing.Point(176, 551)
+        Me.ordered.Location = New System.Drawing.Point(224, 555)
         Me.ordered.Name = "ordered"
         Me.ordered.Size = New System.Drawing.Size(172, 20)
         Me.ordered.TabIndex = 8
@@ -643,7 +643,7 @@ Partial Class Pembelian
         '
         'proceeded
         '
-        Me.proceeded.Location = New System.Drawing.Point(686, 551)
+        Me.proceeded.Location = New System.Drawing.Point(734, 555)
         Me.proceeded.Name = "proceeded"
         Me.proceeded.Size = New System.Drawing.Size(172, 20)
         Me.proceeded.TabIndex = 9
