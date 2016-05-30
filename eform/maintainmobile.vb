@@ -363,7 +363,12 @@ Public Class maintainmobile
         printCMMS.ordered.Text = Me.ordered.Text
         printCMMS.proceeded.Text = Me.proceeded.Text
         printCMMS.catatan.Text = Me.catatan.Text
-
+        printCMMS.total1.Text = Me.TextBox1.Text
+        printCMMS.total2.Text = Me.TextBox2.Text
+        printCMMS.total3.Text = Me.TextBox3.Text
+        printCMMS.total4.Text = Me.TextBox4.Text
+        printCMMS.total5.Text = Me.TextBox5.Text
+        printCMMS.yangdibayar.Text = Me.TextBox6.Text
 
         printCMMS.Show()
         'print
