@@ -41,7 +41,6 @@ Partial Class membermenu
         Me.SettingToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BackupDatabaseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
@@ -52,6 +51,7 @@ Partial Class membermenu
         Me.lblmobilet = New System.Windows.Forms.Label()
         Me.lblmaintain = New System.Windows.Forms.Label()
         Me.lblclaim = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -270,19 +270,6 @@ Partial Class membermenu
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(53, 20)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(594, 37)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(259, 107)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox1.TabIndex = 35
-        Me.PictureBox1.TabStop = False
-        '
         'Label1
         '
         Me.Label1.AutoSize = True
@@ -401,6 +388,20 @@ Partial Class membermenu
         Me.lblclaim.Text = "Form Claim Maintain"
         Me.lblclaim.Visible = False
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(614, 47)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(259, 107)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 94
+        Me.PictureBox1.TabStop = False
+        '
         'membermenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -408,6 +409,7 @@ Partial Class membermenu
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.lblclaim)
         Me.Controls.Add(Me.lblmaintain)
         Me.Controls.Add(Me.lblmobilet)
@@ -418,7 +420,6 @@ Partial Class membermenu
         Me.Controls.Add(Me.mobiletmember)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label10)
-        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.MenuStrip)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.back)
@@ -462,7 +463,6 @@ Partial Class membermenu
     Friend WithEvents SettingToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents BackupDatabaseToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label10 As System.Windows.Forms.Label
     Friend WithEvents Label11 As System.Windows.Forms.Label
@@ -473,4 +473,5 @@ Partial Class membermenu
     Friend WithEvents lblmobilet As System.Windows.Forms.Label
     Friend WithEvents lblmaintain As System.Windows.Forms.Label
     Friend WithEvents lblclaim As System.Windows.Forms.Label
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 End Class

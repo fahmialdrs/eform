@@ -35,11 +35,11 @@ Partial Class finance
         Me.Label31 = New System.Windows.Forms.Label()
         Me.back = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.e_formTableAdapter = New eform.databaseDataSetTableAdapters.e_formTableAdapter()
         Me.ReportViewer1 = New Microsoft.Reporting.WinForms.ReportViewer()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.e_formBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.databaseDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip.SuspendLayout()
@@ -108,7 +108,8 @@ Partial Class finance
         '
         'back
         '
-        Me.back.BackColor = System.Drawing.SystemColors.AppWorkspace
+        Me.back.BackColor = System.Drawing.SystemColors.Control
+        Me.back.BackgroundImage = CType(resources.GetObject("back.BackgroundImage"), System.Drawing.Image)
         Me.back.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.back.Image = CType(resources.GetObject("back.Image"), System.Drawing.Image)
         Me.back.Location = New System.Drawing.Point(638, 536)
@@ -128,19 +129,6 @@ Partial Class finance
         Me.Label3.Size = New System.Drawing.Size(272, 29)
         Me.Label3.TabIndex = 72
         Me.Label3.Text = "LAPORAN AKUNTING"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(522, 48)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(259, 107)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize
-        Me.PictureBox1.TabIndex = 75
-        Me.PictureBox1.TabStop = False
         '
         'Label4
         '
@@ -184,6 +172,20 @@ Partial Class finance
         Me.ReportViewer1.Size = New System.Drawing.Size(794, 281)
         Me.ReportViewer1.TabIndex = 79
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(532, 49)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(259, 107)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 80
+        Me.PictureBox1.TabStop = False
+        '
         'finance
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -192,10 +194,10 @@ Partial Class finance
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1354, 733)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.ReportViewer1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label31)
         Me.Controls.Add(Me.back)
@@ -221,11 +223,11 @@ Partial Class finance
     Friend WithEvents Label31 As Label
     Friend WithEvents back As Button
     Friend WithEvents Label3 As Label
-    Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents e_formBindingSource As System.Windows.Forms.BindingSource
     Friend WithEvents databaseDataSet As eform.databaseDataSet
     Friend WithEvents e_formTableAdapter As eform.databaseDataSetTableAdapters.e_formTableAdapter
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents ReportViewer1 As Microsoft.Reporting.WinForms.ReportViewer
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 End Class

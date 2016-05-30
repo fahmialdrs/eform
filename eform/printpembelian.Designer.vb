@@ -161,7 +161,7 @@ Partial Class printpembelian
         'userid
         '
         Me.userid.AutoSize = True
-        Me.userid.Location = New System.Drawing.Point(263, 99)
+        Me.userid.Location = New System.Drawing.Point(263, 102)
         Me.userid.Name = "userid"
         Me.userid.Size = New System.Drawing.Size(10, 13)
         Me.userid.TabIndex = 17
@@ -171,7 +171,7 @@ Partial Class printpembelian
         '
         Me.tanggal.AutoSize = True
         Me.tanggal.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.tanggal.Location = New System.Drawing.Point(263, 79)
+        Me.tanggal.Location = New System.Drawing.Point(263, 82)
         Me.tanggal.Name = "tanggal"
         Me.tanggal.Size = New System.Drawing.Size(10, 13)
         Me.tanggal.TabIndex = 16
@@ -180,7 +180,7 @@ Partial Class printpembelian
         'noform
         '
         Me.noform.AutoSize = True
-        Me.noform.Location = New System.Drawing.Point(398, 56)
+        Me.noform.Location = New System.Drawing.Point(402, 59)
         Me.noform.Name = "noform"
         Me.noform.Size = New System.Drawing.Size(10, 13)
         Me.noform.TabIndex = 15
