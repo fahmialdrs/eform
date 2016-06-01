@@ -1,6 +1,9 @@
 ﻿Imports System.Data
 Imports System.Data.OleDb
 Public Class maintainmobile
+    Dim mwallet, firmax, o2m As Integer
+
+    
     Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
         membermenu.Show()
         Me.Close()
@@ -97,6 +100,9 @@ Public Class maintainmobile
         catatan.Text = ""
         ordered.Text = ""
         proceeded.Text = ""
+        mwallet = 0
+        firmax = 0
+        o2m = 0
     End Sub
 
 
@@ -400,5 +406,154 @@ Public Class maintainmobile
 
     Private Sub maintainmobile_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         userid.Focus()
+    End Sub
+
+    Private Sub M1_TextChanged(sender As Object, e As EventArgs) Handles M1.TextChanged
+        mwallet = 0
+        mwallet = mwallet + M1.Text
+        TextBox1.Text = mwallet
+        TextBox5.Text = TextBox1.Text * 3300
+        TextBox6.Text = 1000000 - TextBox5.Text
+    End Sub
+
+    Private Sub M2_TextChanged(sender As Object, e As EventArgs) Handles M2.TextChanged
+        mwallet = mwallet + M2.Text
+        TextBox1.Text = mwallet
+        TextBox5.Text = TextBox1.Text * 3300
+        TextBox6.Text = 1000000 - TextBox5.Text
+    End Sub
+    Private Sub M3_TextChanged(sender As Object, e As EventArgs) Handles M3.TextChanged
+        mwallet = mwallet + M3.Text
+        TextBox1.Text = mwallet
+        TextBox5.Text = TextBox1.Text * 3300
+        TextBox6.Text = 1000000 - TextBox5.Text
+
+    End Sub
+    Private Sub M4_TextChanged(sender As Object, e As EventArgs) Handles M4.TextChanged
+        mwallet = mwallet + M4.Text
+        TextBox1.Text = mwallet
+        TextBox5.Text = TextBox1.Text * 3300
+        TextBox6.Text = 1000000 - TextBox5.Text
+
+    End Sub
+    Private Sub M5_TextChanged(sender As Object, e As EventArgs) Handles M5.TextChanged
+        mwallet = mwallet + M5.Text
+        TextBox1.Text = mwallet
+        TextBox5.Text = TextBox1.Text * 3300
+        TextBox6.Text = 1000000 - TextBox5.Text
+    End Sub
+    Private Sub M6_TextChanged(sender As Object, e As EventArgs) Handles M6.TextChanged
+        mwallet = mwallet + M6.Text
+        TextBox1.Text = mwallet
+        TextBox5.Text = TextBox1.Text * 3300
+        TextBox6.Text = 1000000 - TextBox5.Text
+    End Sub
+    Private Sub M7_TextChanged(sender As Object, e As EventArgs) Handles M7.TextChanged
+        mwallet = mwallet + M7.Text
+        TextBox1.Text = mwallet
+        TextBox5.Text = TextBox1.Text * 3300
+        TextBox6.Text = 1000000 - TextBox5.Text
+    End Sub
+    Private Sub M8_TextChanged(sender As Object, e As EventArgs) Handles M8.TextChanged
+        mwallet = mwallet + M8.Text
+        TextBox1.Text = mwallet
+        TextBox5.Text = TextBox1.Text * 3300
+        TextBox6.Text = 1000000 - TextBox5.Text
+    End Sub
+    Private Sub M9_TextChanged(sender As Object, e As EventArgs) Handles M9.TextChanged
+        mwallet = mwallet + M9.Text
+        TextBox1.Text = mwallet
+        TextBox5.Text = TextBox1.Text * 3300
+        TextBox6.Text = 1000000 - TextBox5.Text
+    End Sub
+    Private Sub M10_TextChanged(sender As Object, e As EventArgs) Handles M10.TextChanged
+        mwallet = mwallet + M10.Text
+        TextBox1.Text = mwallet
+        TextBox5.Text = TextBox1.Text * 3300
+        TextBox6.Text = 1000000 - TextBox5.Text
+    End Sub
+
+    Private Sub F1_TextChanged(sender As Object, e As EventArgs) Handles F1.TextChanged
+        firmax = 0
+        firmax = firmax + F1.Text
+        TextBox3.Text = firmax
+    End Sub
+    Private Sub F2_TextChanged(sender As Object, e As EventArgs) Handles F2.TextChanged
+        firmax = firmax + F2.Text
+        TextBox3.Text = firmax
+    End Sub
+    Private Sub F3_TextChanged(sender As Object, e As EventArgs) Handles F3.TextChanged
+        firmax = firmax + F3.Text
+        TextBox3.Text = firmax
+    End Sub
+    Private Sub F4_TextChanged(sender As Object, e As EventArgs) Handles F4.TextChanged
+        firmax = firmax + F4.Text
+        TextBox3.Text = firmax
+    End Sub
+    Private Sub F5_TextChanged(sender As Object, e As EventArgs) Handles F5.TextChanged
+        firmax = firmax + F5.Text
+        TextBox3.Text = firmax
+    End Sub
+    Private Sub F6_TextChanged(sender As Object, e As EventArgs) Handles F6.TextChanged
+        firmax = firmax + F6.Text
+        TextBox3.Text = firmax
+    End Sub
+    Private Sub F7_TextChanged(sender As Object, e As EventArgs) Handles F7.TextChanged
+        firmax = firmax + F7.Text
+        TextBox3.Text = firmax
+    End Sub
+    Private Sub F8_TextChanged(sender As Object, e As EventArgs) Handles F8.TextChanged
+        firmax = firmax + F8.Text
+        TextBox3.Text = firmax
+    End Sub
+    Private Sub F9_TextChanged(sender As Object, e As EventArgs) Handles F9.TextChanged
+        firmax = firmax + F9.Text
+        TextBox3.Text = firmax
+    End Sub
+    Private Sub F10_TextChanged(sender As Object, e As EventArgs) Handles F10.TextChanged
+        firmax = firmax + F10.Text
+        TextBox3.Text = firmax
+    End Sub
+
+    Private Sub O1_TextChanged(sender As Object, e As EventArgs) Handles O1.TextChanged
+        o2m = 0
+        o2m = o2m + O1.Text
+        TextBox4.Text = o2m
+    End Sub
+    Private Sub O2_TextChanged(sender As Object, e As EventArgs) Handles O2.TextChanged
+        o2m = o2m + O2.Text
+        TextBox4.Text = o2m
+    End Sub
+    Private Sub O3_TextChanged(sender As Object, e As EventArgs) Handles O3.TextChanged
+        o2m = o2m + O3.Text
+        TextBox4.Text = o2m
+    End Sub
+    Private Sub O4_TextChanged(sender As Object, e As EventArgs) Handles O4.TextChanged
+        o2m = o2m + O4.Text
+        TextBox4.Text = o2m
+    End Sub
+    Private Sub O5_TextChanged(sender As Object, e As EventArgs) Handles O5.TextChanged
+        o2m = o2m + O5.Text
+        TextBox4.Text = o2m
+    End Sub
+    Private Sub O6_TextChanged(sender As Object, e As EventArgs) Handles O6.TextChanged
+        o2m = o2m + O6.Text
+        TextBox4.Text = o2m
+    End Sub
+    Private Sub O7_TextChanged(sender As Object, e As EventArgs) Handles O7.TextChanged
+        o2m = o2m + O7.Text
+        TextBox4.Text = o2m
+    End Sub
+    Private Sub O8_TextChanged(sender As Object, e As EventArgs) Handles O8.TextChanged
+        o2m = o2m + O8.Text
+        TextBox4.Text = o2m
+    End Sub
+    Private Sub O9_TextChanged(sender As Object, e As EventArgs) Handles O9.TextChanged
+        o2m = o2m + O9.Text
+        TextBox4.Text = o2m
+    End Sub
+    Private Sub O10_TextChanged(sender As Object, e As EventArgs) Handles O10.TextChanged
+        o2m = o2m + O10.Text
+        TextBox4.Text = o2m
     End Sub
 End Class

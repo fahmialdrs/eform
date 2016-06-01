@@ -38,15 +38,12 @@ Public Class maintain
         totalpcs.Text = firmax3r.Value + o2max3r.Value
         totalset.Text = totalpcs.Text / 2
         amountr.Text = totalset.Text * 1000000
-        saldomaintainidr.Text = saldomaintainrm.Text * 3300
-        kurangbayar.Text = amountr.Text - saldomaintainidr.Text
 
     End Sub
     Private Sub o2max3r_ValueChanged(sender As Object, e As EventArgs) Handles o2max3r.ValueChanged
         totalpcs.Text = firmax3r.Value + o2max3r.Value
         totalset.Text = totalpcs.Text / 2
         amountr.Text = totalset.Text * 1000000
-        kurangbayar.Text = amountr.Text - saldomaintainidr.Text
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
@@ -79,11 +76,7 @@ Public Class maintain
             MessageBox.Show("No Telpon tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
             notelpon.Focus()
             Exit Sub
-        ElseIf totalpcs.Text Mod 2 <> 0 Then
-            MessageBox.Show("Pembelian minimal 1 pcs Firmax3 dan 1 pcs O2 MAX3 ...", "Peringatan", MessageBoxButtons.OK)
-            notelpon.Focus()
-            Exit Sub
-        ElseIf (firmax3r.Value + o2max3r.Value) = 0 Then
+        ElseIf totalpcs.Text > 2 Then
             MessageBox.Show("Pembelian minimal 1 pcs Firmax3 dan 1 pcs O2 MAX3 ...", "Peringatan", MessageBoxButtons.OK)
             firmax3r.Focus()
             o2max3r.Focus()
@@ -176,5 +169,10 @@ Public Class maintain
 
     Private Sub maintain_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         userid.Focus()
+    End Sub
+
+    Private Sub saldomaintainrm_TextChanged(sender As Object, e As EventArgs) Handles saldomaintainrm.TextChanged
+        saldomaintainidr.Text = saldomaintainrm.Text * 3300
+        kurangbayar.Text = 1000000 - saldomaintainidr.Text
     End Sub
 End Class

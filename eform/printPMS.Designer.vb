@@ -166,7 +166,7 @@ Partial Class printPMS
         '
         Me.firmax3_2.AutoSize = True
         Me.firmax3_2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.firmax3_2.Location = New System.Drawing.Point(193, 425)
+        Me.firmax3_2.Location = New System.Drawing.Point(193, 421)
         Me.firmax3_2.Name = "firmax3_2"
         Me.firmax3_2.Size = New System.Drawing.Size(0, 13)
         Me.firmax3_2.TabIndex = 42
@@ -175,7 +175,7 @@ Partial Class printPMS
         '
         Me.o2max_2.AutoSize = True
         Me.o2max_2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.o2max_2.Location = New System.Drawing.Point(314, 424)
+        Me.o2max_2.Location = New System.Drawing.Point(314, 420)
         Me.o2max_2.Name = "o2max_2"
         Me.o2max_2.Size = New System.Drawing.Size(0, 13)
         Me.o2max_2.TabIndex = 43
@@ -184,7 +184,7 @@ Partial Class printPMS
         '
         Me.totalpcs_2.AutoSize = True
         Me.totalpcs_2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.totalpcs_2.Location = New System.Drawing.Point(193, 443)
+        Me.totalpcs_2.Location = New System.Drawing.Point(193, 439)
         Me.totalpcs_2.Name = "totalpcs_2"
         Me.totalpcs_2.Size = New System.Drawing.Size(0, 13)
         Me.totalpcs_2.TabIndex = 44
@@ -193,7 +193,7 @@ Partial Class printPMS
         '
         Me.totalset_2.AutoSize = True
         Me.totalset_2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.totalset_2.Location = New System.Drawing.Point(193, 463)
+        Me.totalset_2.Location = New System.Drawing.Point(193, 459)
         Me.totalset_2.Name = "totalset_2"
         Me.totalset_2.Size = New System.Drawing.Size(0, 13)
         Me.totalset_2.TabIndex = 45
@@ -202,7 +202,7 @@ Partial Class printPMS
         '
         Me.amount_2.AutoSize = True
         Me.amount_2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.amount_2.Location = New System.Drawing.Point(220, 489)
+        Me.amount_2.Location = New System.Drawing.Point(220, 485)
         Me.amount_2.Name = "amount_2"
         Me.amount_2.Size = New System.Drawing.Size(0, 13)
         Me.amount_2.TabIndex = 46

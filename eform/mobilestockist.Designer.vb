@@ -397,10 +397,8 @@ Partial Class mobilestockist
         Me.transferrwallet.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.transferrwallet.Location = New System.Drawing.Point(199, 219)
         Me.transferrwallet.Name = "transferrwallet"
-        Me.transferrwallet.ReadOnly = True
         Me.transferrwallet.Size = New System.Drawing.Size(840, 22)
         Me.transferrwallet.TabIndex = 72
-        Me.transferrwallet.Text = "0"
         Me.transferrwallet.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label8
