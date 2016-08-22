@@ -62,7 +62,7 @@ Partial Class printpembelian
         'finalcheck
         '
         Me.finalcheck.AutoSize = True
-        Me.finalcheck.Location = New System.Drawing.Point(202, 674)
+        Me.finalcheck.Location = New System.Drawing.Point(201, 534)
         Me.finalcheck.Name = "finalcheck"
         Me.finalcheck.Size = New System.Drawing.Size(10, 13)
         Me.finalcheck.TabIndex = 28
@@ -71,7 +71,7 @@ Partial Class printpembelian
         'note
         '
         Me.note.AutoSize = True
-        Me.note.Location = New System.Drawing.Point(64, 680)
+        Me.note.Location = New System.Drawing.Point(53, 534)
         Me.note.Name = "note"
         Me.note.Size = New System.Drawing.Size(10, 13)
         Me.note.TabIndex = 27
@@ -80,7 +80,7 @@ Partial Class printpembelian
         'proceededby
         '
         Me.proceededby.AutoSize = True
-        Me.proceededby.Location = New System.Drawing.Point(356, 592)
+        Me.proceededby.Location = New System.Drawing.Point(337, 496)
         Me.proceededby.Name = "proceededby"
         Me.proceededby.Size = New System.Drawing.Size(10, 13)
         Me.proceededby.TabIndex = 26
@@ -89,7 +89,7 @@ Partial Class printpembelian
         'orderedby
         '
         Me.orderedby.AutoSize = True
-        Me.orderedby.Location = New System.Drawing.Point(118, 592)
+        Me.orderedby.Location = New System.Drawing.Point(19, 496)
         Me.orderedby.Name = "orderedby"
         Me.orderedby.Size = New System.Drawing.Size(10, 13)
         Me.orderedby.TabIndex = 25
@@ -98,7 +98,7 @@ Partial Class printpembelian
         'amount
         '
         Me.amount.AutoSize = True
-        Me.amount.Location = New System.Drawing.Point(225, 360)
+        Me.amount.Location = New System.Drawing.Point(252, 243)
         Me.amount.Name = "amount"
         Me.amount.Size = New System.Drawing.Size(10, 13)
         Me.amount.TabIndex = 24
@@ -107,7 +107,7 @@ Partial Class printpembelian
         'totalset
         '
         Me.totalset.AutoSize = True
-        Me.totalset.Location = New System.Drawing.Point(193, 334)
+        Me.totalset.Location = New System.Drawing.Point(220, 218)
         Me.totalset.Name = "totalset"
         Me.totalset.Size = New System.Drawing.Size(10, 13)
         Me.totalset.TabIndex = 23
@@ -116,7 +116,7 @@ Partial Class printpembelian
         'totalpcs
         '
         Me.totalpcs.AutoSize = True
-        Me.totalpcs.Location = New System.Drawing.Point(193, 318)
+        Me.totalpcs.Location = New System.Drawing.Point(220, 201)
         Me.totalpcs.Name = "totalpcs"
         Me.totalpcs.Size = New System.Drawing.Size(10, 13)
         Me.totalpcs.TabIndex = 22
@@ -125,7 +125,7 @@ Partial Class printpembelian
         'o2max3
         '
         Me.o2max3.AutoSize = True
-        Me.o2max3.Location = New System.Drawing.Point(314, 302)
+        Me.o2max3.Location = New System.Drawing.Point(341, 185)
         Me.o2max3.Name = "o2max3"
         Me.o2max3.Size = New System.Drawing.Size(10, 13)
         Me.o2max3.TabIndex = 21
@@ -134,7 +134,7 @@ Partial Class printpembelian
         'firmax3
         '
         Me.firmax3.AutoSize = True
-        Me.firmax3.Location = New System.Drawing.Point(193, 302)
+        Me.firmax3.Location = New System.Drawing.Point(220, 185)
         Me.firmax3.Name = "firmax3"
         Me.firmax3.Size = New System.Drawing.Size(10, 13)
         Me.firmax3.TabIndex = 20
@@ -143,7 +143,7 @@ Partial Class printpembelian
         'notelfon
         '
         Me.notelfon.AutoSize = True
-        Me.notelfon.Location = New System.Drawing.Point(193, 218)
+        Me.notelfon.Location = New System.Drawing.Point(201, 97)
         Me.notelfon.Name = "notelfon"
         Me.notelfon.Size = New System.Drawing.Size(10, 13)
         Me.notelfon.TabIndex = 19
@@ -152,7 +152,7 @@ Partial Class printpembelian
         'nama
         '
         Me.nama.AutoSize = True
-        Me.nama.Location = New System.Drawing.Point(193, 202)
+        Me.nama.Location = New System.Drawing.Point(201, 80)
         Me.nama.Name = "nama"
         Me.nama.Size = New System.Drawing.Size(10, 13)
         Me.nama.TabIndex = 18
@@ -161,7 +161,7 @@ Partial Class printpembelian
         'userid
         '
         Me.userid.AutoSize = True
-        Me.userid.Location = New System.Drawing.Point(193, 186)
+        Me.userid.Location = New System.Drawing.Point(201, 63)
         Me.userid.Name = "userid"
         Me.userid.Size = New System.Drawing.Size(10, 13)
         Me.userid.TabIndex = 17
@@ -171,7 +171,7 @@ Partial Class printpembelian
         '
         Me.tanggal.AutoSize = True
         Me.tanggal.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.tanggal.Location = New System.Drawing.Point(193, 170)
+        Me.tanggal.Location = New System.Drawing.Point(201, 44)
         Me.tanggal.Name = "tanggal"
         Me.tanggal.Size = New System.Drawing.Size(10, 13)
         Me.tanggal.TabIndex = 16
@@ -180,7 +180,7 @@ Partial Class printpembelian
         'noform
         '
         Me.noform.AutoSize = True
-        Me.noform.Location = New System.Drawing.Point(337, 82)
+        Me.noform.Location = New System.Drawing.Point(379, -47)
         Me.noform.Name = "noform"
         Me.noform.Size = New System.Drawing.Size(10, 13)
         Me.noform.TabIndex = 15
@@ -197,7 +197,7 @@ Partial Class printpembelian
         'Button1
         '
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button1.Location = New System.Drawing.Point(377, 706)
+        Me.Button1.Location = New System.Drawing.Point(409, 712)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 30
@@ -211,7 +211,7 @@ Partial Class printpembelian
         'firmax3_2
         '
         Me.firmax3_2.AutoSize = True
-        Me.firmax3_2.Location = New System.Drawing.Point(193, 450)
+        Me.firmax3_2.Location = New System.Drawing.Point(220, 342)
         Me.firmax3_2.Name = "firmax3_2"
         Me.firmax3_2.Size = New System.Drawing.Size(10, 13)
         Me.firmax3_2.TabIndex = 31
@@ -220,7 +220,7 @@ Partial Class printpembelian
         'o2max3_2
         '
         Me.o2max3_2.AutoSize = True
-        Me.o2max3_2.Location = New System.Drawing.Point(314, 450)
+        Me.o2max3_2.Location = New System.Drawing.Point(341, 342)
         Me.o2max3_2.Name = "o2max3_2"
         Me.o2max3_2.Size = New System.Drawing.Size(10, 13)
         Me.o2max3_2.TabIndex = 32
@@ -229,7 +229,7 @@ Partial Class printpembelian
         'totalpcs_2
         '
         Me.totalpcs_2.AutoSize = True
-        Me.totalpcs_2.Location = New System.Drawing.Point(193, 466)
+        Me.totalpcs_2.Location = New System.Drawing.Point(220, 358)
         Me.totalpcs_2.Name = "totalpcs_2"
         Me.totalpcs_2.Size = New System.Drawing.Size(10, 13)
         Me.totalpcs_2.TabIndex = 33
@@ -238,7 +238,7 @@ Partial Class printpembelian
         'totalset_2
         '
         Me.totalset_2.AutoSize = True
-        Me.totalset_2.Location = New System.Drawing.Point(193, 483)
+        Me.totalset_2.Location = New System.Drawing.Point(220, 375)
         Me.totalset_2.Name = "totalset_2"
         Me.totalset_2.Size = New System.Drawing.Size(10, 13)
         Me.totalset_2.TabIndex = 34
@@ -247,7 +247,7 @@ Partial Class printpembelian
         'amount_2
         '
         Me.amount_2.AutoSize = True
-        Me.amount_2.Location = New System.Drawing.Point(225, 508)
+        Me.amount_2.Location = New System.Drawing.Point(252, 400)
         Me.amount_2.Name = "amount_2"
         Me.amount_2.Size = New System.Drawing.Size(10, 13)
         Me.amount_2.TabIndex = 35
@@ -259,8 +259,8 @@ Partial Class printpembelian
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(477, 741)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(543, 733)
         Me.Controls.Add(Me.amount_2)
         Me.Controls.Add(Me.totalset_2)
         Me.Controls.Add(Me.totalpcs_2)

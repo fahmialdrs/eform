@@ -172,7 +172,7 @@ Public Class maintain
     End Sub
 
     Private Sub saldomaintainrm_TextChanged(sender As Object, e As EventArgs) Handles saldomaintainrm.TextChanged
-        saldomaintainidr.Text = saldomaintainrm.Text * 3300
-        kurangbayar.Text = 1000000 - saldomaintainidr.Text
+        'saldomaintainidr.Text = saldomaintainrm.Text * 3300
+        'kurangbayar.Text = 1000000 - saldomaintainidr.Text
     End Sub
 End Class

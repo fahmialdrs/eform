@@ -50,7 +50,7 @@ Partial Class printAM
         '
         Me.no.AutoSize = True
         Me.no.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.no.Location = New System.Drawing.Point(355, 66)
+        Me.no.Location = New System.Drawing.Point(337, -72)
         Me.no.Name = "no"
         Me.no.Size = New System.Drawing.Size(0, 13)
         Me.no.TabIndex = 0
@@ -59,7 +59,7 @@ Partial Class printAM
         '
         Me.tanggal.AutoSize = True
         Me.tanggal.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.tanggal.Location = New System.Drawing.Point(209, 93)
+        Me.tanggal.Location = New System.Drawing.Point(168, 37)
         Me.tanggal.Name = "tanggal"
         Me.tanggal.Size = New System.Drawing.Size(0, 13)
         Me.tanggal.TabIndex = 1
@@ -68,7 +68,7 @@ Partial Class printAM
         '
         Me.userid.AutoSize = True
         Me.userid.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.userid.Location = New System.Drawing.Point(209, 113)
+        Me.userid.Location = New System.Drawing.Point(168, 57)
         Me.userid.Name = "userid"
         Me.userid.Size = New System.Drawing.Size(0, 13)
         Me.userid.TabIndex = 2
@@ -77,7 +77,7 @@ Partial Class printAM
         '
         Me.nama.AutoSize = True
         Me.nama.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.nama.Location = New System.Drawing.Point(209, 137)
+        Me.nama.Location = New System.Drawing.Point(168, 81)
         Me.nama.Name = "nama"
         Me.nama.Size = New System.Drawing.Size(0, 13)
         Me.nama.TabIndex = 3
@@ -86,7 +86,7 @@ Partial Class printAM
         '
         Me.notelp.AutoSize = True
         Me.notelp.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.notelp.Location = New System.Drawing.Point(209, 160)
+        Me.notelp.Location = New System.Drawing.Point(168, 104)
         Me.notelp.Name = "notelp"
         Me.notelp.Size = New System.Drawing.Size(0, 13)
         Me.notelp.TabIndex = 4
@@ -95,7 +95,7 @@ Partial Class printAM
         '
         Me.kurangbayar.AutoSize = True
         Me.kurangbayar.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.kurangbayar.Location = New System.Drawing.Point(300, 270)
+        Me.kurangbayar.Location = New System.Drawing.Point(309, 205)
         Me.kurangbayar.Name = "kurangbayar"
         Me.kurangbayar.Size = New System.Drawing.Size(0, 13)
         Me.kurangbayar.TabIndex = 7
@@ -104,7 +104,7 @@ Partial Class printAM
         '
         Me.saldomaintain2.AutoSize = True
         Me.saldomaintain2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.saldomaintain2.Location = New System.Drawing.Point(300, 248)
+        Me.saldomaintain2.Location = New System.Drawing.Point(309, 183)
         Me.saldomaintain2.Name = "saldomaintain2"
         Me.saldomaintain2.Size = New System.Drawing.Size(0, 13)
         Me.saldomaintain2.TabIndex = 6
@@ -113,7 +113,7 @@ Partial Class printAM
         '
         Me.saldomaintain.AutoSize = True
         Me.saldomaintain.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.saldomaintain.Location = New System.Drawing.Point(300, 225)
+        Me.saldomaintain.Location = New System.Drawing.Point(309, 160)
         Me.saldomaintain.Name = "saldomaintain"
         Me.saldomaintain.Size = New System.Drawing.Size(0, 13)
         Me.saldomaintain.TabIndex = 5
@@ -122,7 +122,7 @@ Partial Class printAM
         '
         Me.firmax3.AutoSize = True
         Me.firmax3.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.firmax3.Location = New System.Drawing.Point(207, 335)
+        Me.firmax3.Location = New System.Drawing.Point(168, 265)
         Me.firmax3.Name = "firmax3"
         Me.firmax3.Size = New System.Drawing.Size(0, 13)
         Me.firmax3.TabIndex = 8
@@ -131,7 +131,7 @@ Partial Class printAM
         '
         Me.o2max3.AutoSize = True
         Me.o2max3.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.o2max3.Location = New System.Drawing.Point(328, 335)
+        Me.o2max3.Location = New System.Drawing.Point(309, 264)
         Me.o2max3.Name = "o2max3"
         Me.o2max3.Size = New System.Drawing.Size(0, 13)
         Me.o2max3.TabIndex = 9
@@ -140,7 +140,7 @@ Partial Class printAM
         '
         Me.totalpcs.AutoSize = True
         Me.totalpcs.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.totalpcs.Location = New System.Drawing.Point(207, 368)
+        Me.totalpcs.Location = New System.Drawing.Point(167, 285)
         Me.totalpcs.Name = "totalpcs"
         Me.totalpcs.Size = New System.Drawing.Size(0, 13)
         Me.totalpcs.TabIndex = 10
@@ -149,7 +149,7 @@ Partial Class printAM
         '
         Me.totalset.AutoSize = True
         Me.totalset.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.totalset.Location = New System.Drawing.Point(207, 404)
+        Me.totalset.Location = New System.Drawing.Point(167, 306)
         Me.totalset.Name = "totalset"
         Me.totalset.Size = New System.Drawing.Size(0, 13)
         Me.totalset.TabIndex = 11
@@ -158,7 +158,7 @@ Partial Class printAM
         '
         Me.amount.AutoSize = True
         Me.amount.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.amount.Location = New System.Drawing.Point(234, 442)
+        Me.amount.Location = New System.Drawing.Point(205, 337)
         Me.amount.Name = "amount"
         Me.amount.Size = New System.Drawing.Size(0, 13)
         Me.amount.TabIndex = 12
@@ -167,7 +167,7 @@ Partial Class printAM
         '
         Me.ordered.AutoSize = True
         Me.ordered.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.ordered.Location = New System.Drawing.Point(110, 553)
+        Me.ordered.Location = New System.Drawing.Point(53, 493)
         Me.ordered.Name = "ordered"
         Me.ordered.Size = New System.Drawing.Size(0, 13)
         Me.ordered.TabIndex = 13
@@ -176,7 +176,7 @@ Partial Class printAM
         '
         Me.proceeded.AutoSize = True
         Me.proceeded.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.proceeded.Location = New System.Drawing.Point(375, 553)
+        Me.proceeded.Location = New System.Drawing.Point(351, 493)
         Me.proceeded.Name = "proceeded"
         Me.proceeded.Size = New System.Drawing.Size(0, 13)
         Me.proceeded.TabIndex = 14
@@ -185,14 +185,14 @@ Partial Class printAM
         '
         Me.catatan.AutoSize = True
         Me.catatan.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.catatan.Location = New System.Drawing.Point(72, 613)
+        Me.catatan.Location = New System.Drawing.Point(43, 534)
         Me.catatan.Name = "catatan"
         Me.catatan.Size = New System.Drawing.Size(0, 13)
         Me.catatan.TabIndex = 15
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(410, 697)
+        Me.Button1.Location = New System.Drawing.Point(440, 710)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 16
@@ -217,7 +217,7 @@ Partial Class printAM
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(543, 733)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.catatan)

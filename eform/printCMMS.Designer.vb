@@ -108,7 +108,7 @@ Partial Class printCMMS
         '
         Me.noform.AutoSize = True
         Me.noform.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.noform.Location = New System.Drawing.Point(411, 104)
+        Me.noform.Location = New System.Drawing.Point(391, -41)
         Me.noform.Name = "noform"
         Me.noform.Size = New System.Drawing.Size(0, 13)
         Me.noform.TabIndex = 0
@@ -117,7 +117,7 @@ Partial Class printCMMS
         '
         Me.tanggal.AutoSize = True
         Me.tanggal.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.tanggal.Location = New System.Drawing.Point(221, 127)
+        Me.tanggal.Location = New System.Drawing.Point(166, 61)
         Me.tanggal.Name = "tanggal"
         Me.tanggal.Size = New System.Drawing.Size(0, 13)
         Me.tanggal.TabIndex = 1
@@ -126,7 +126,7 @@ Partial Class printCMMS
         '
         Me.userid.AutoSize = True
         Me.userid.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.userid.Location = New System.Drawing.Point(221, 143)
+        Me.userid.Location = New System.Drawing.Point(167, 79)
         Me.userid.Name = "userid"
         Me.userid.Size = New System.Drawing.Size(0, 13)
         Me.userid.TabIndex = 2
@@ -135,7 +135,7 @@ Partial Class printCMMS
         '
         Me.nama.AutoSize = True
         Me.nama.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.nama.Location = New System.Drawing.Point(221, 162)
+        Me.nama.Location = New System.Drawing.Point(166, 99)
         Me.nama.Name = "nama"
         Me.nama.Size = New System.Drawing.Size(0, 13)
         Me.nama.TabIndex = 4
@@ -144,7 +144,7 @@ Partial Class printCMMS
         '
         Me.notelp.AutoSize = True
         Me.notelp.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.notelp.Location = New System.Drawing.Point(221, 178)
+        Me.notelp.Location = New System.Drawing.Point(166, 118)
         Me.notelp.Name = "notelp"
         Me.notelp.Size = New System.Drawing.Size(0, 13)
         Me.notelp.TabIndex = 3
@@ -153,7 +153,7 @@ Partial Class printCMMS
         '
         Me.memberid1.AutoSize = True
         Me.memberid1.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.memberid1.Location = New System.Drawing.Point(101, 247)
+        Me.memberid1.Location = New System.Drawing.Point(28, 182)
         Me.memberid1.Name = "memberid1"
         Me.memberid1.Size = New System.Drawing.Size(0, 13)
         Me.memberid1.TabIndex = 8
@@ -162,7 +162,7 @@ Partial Class printCMMS
         '
         Me.memberid2.AutoSize = True
         Me.memberid2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.memberid2.Location = New System.Drawing.Point(101, 264)
+        Me.memberid2.Location = New System.Drawing.Point(28, 199)
         Me.memberid2.Name = "memberid2"
         Me.memberid2.Size = New System.Drawing.Size(0, 13)
         Me.memberid2.TabIndex = 7
@@ -171,7 +171,7 @@ Partial Class printCMMS
         '
         Me.memberid3.AutoSize = True
         Me.memberid3.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.memberid3.Location = New System.Drawing.Point(101, 281)
+        Me.memberid3.Location = New System.Drawing.Point(28, 216)
         Me.memberid3.Name = "memberid3"
         Me.memberid3.Size = New System.Drawing.Size(0, 13)
         Me.memberid3.TabIndex = 6
@@ -180,7 +180,7 @@ Partial Class printCMMS
         '
         Me.memberid4.AutoSize = True
         Me.memberid4.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.memberid4.Location = New System.Drawing.Point(101, 298)
+        Me.memberid4.Location = New System.Drawing.Point(28, 233)
         Me.memberid4.Name = "memberid4"
         Me.memberid4.Size = New System.Drawing.Size(0, 13)
         Me.memberid4.TabIndex = 5
@@ -189,7 +189,7 @@ Partial Class printCMMS
         '
         Me.memberid7.AutoSize = True
         Me.memberid7.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.memberid7.Location = New System.Drawing.Point(101, 350)
+        Me.memberid7.Location = New System.Drawing.Point(28, 285)
         Me.memberid7.Name = "memberid7"
         Me.memberid7.Size = New System.Drawing.Size(0, 13)
         Me.memberid7.TabIndex = 12
@@ -198,7 +198,7 @@ Partial Class printCMMS
         '
         Me.memberid8.AutoSize = True
         Me.memberid8.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.memberid8.Location = New System.Drawing.Point(101, 367)
+        Me.memberid8.Location = New System.Drawing.Point(28, 302)
         Me.memberid8.Name = "memberid8"
         Me.memberid8.Size = New System.Drawing.Size(0, 13)
         Me.memberid8.TabIndex = 11
@@ -207,7 +207,7 @@ Partial Class printCMMS
         '
         Me.memberid6.AutoSize = True
         Me.memberid6.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.memberid6.Location = New System.Drawing.Point(101, 333)
+        Me.memberid6.Location = New System.Drawing.Point(28, 268)
         Me.memberid6.Name = "memberid6"
         Me.memberid6.Size = New System.Drawing.Size(0, 13)
         Me.memberid6.TabIndex = 10
@@ -216,7 +216,7 @@ Partial Class printCMMS
         '
         Me.memberid5.AutoSize = True
         Me.memberid5.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.memberid5.Location = New System.Drawing.Point(101, 316)
+        Me.memberid5.Location = New System.Drawing.Point(28, 251)
         Me.memberid5.Name = "memberid5"
         Me.memberid5.Size = New System.Drawing.Size(0, 13)
         Me.memberid5.TabIndex = 9
@@ -225,7 +225,7 @@ Partial Class printCMMS
         '
         Me.memberid10.AutoSize = True
         Me.memberid10.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.memberid10.Location = New System.Drawing.Point(102, 399)
+        Me.memberid10.Location = New System.Drawing.Point(28, 334)
         Me.memberid10.Name = "memberid10"
         Me.memberid10.Size = New System.Drawing.Size(0, 13)
         Me.memberid10.TabIndex = 14
@@ -234,7 +234,7 @@ Partial Class printCMMS
         '
         Me.memberid9.AutoSize = True
         Me.memberid9.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.memberid9.Location = New System.Drawing.Point(101, 383)
+        Me.memberid9.Location = New System.Drawing.Point(28, 318)
         Me.memberid9.Name = "memberid9"
         Me.memberid9.Size = New System.Drawing.Size(0, 13)
         Me.memberid9.TabIndex = 13
@@ -243,7 +243,7 @@ Partial Class printCMMS
         '
         Me.m10.AutoSize = True
         Me.m10.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.m10.Location = New System.Drawing.Point(221, 400)
+        Me.m10.Location = New System.Drawing.Point(169, 335)
         Me.m10.Name = "m10"
         Me.m10.Size = New System.Drawing.Size(0, 13)
         Me.m10.TabIndex = 24
@@ -252,7 +252,7 @@ Partial Class printCMMS
         '
         Me.m9.AutoSize = True
         Me.m9.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.m9.Location = New System.Drawing.Point(221, 384)
+        Me.m9.Location = New System.Drawing.Point(169, 319)
         Me.m9.Name = "m9"
         Me.m9.Size = New System.Drawing.Size(0, 13)
         Me.m9.TabIndex = 23
@@ -261,7 +261,7 @@ Partial Class printCMMS
         '
         Me.m7.AutoSize = True
         Me.m7.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.m7.Location = New System.Drawing.Point(221, 349)
+        Me.m7.Location = New System.Drawing.Point(169, 284)
         Me.m7.Name = "m7"
         Me.m7.Size = New System.Drawing.Size(0, 13)
         Me.m7.TabIndex = 22
@@ -270,7 +270,7 @@ Partial Class printCMMS
         '
         Me.m8.AutoSize = True
         Me.m8.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.m8.Location = New System.Drawing.Point(221, 367)
+        Me.m8.Location = New System.Drawing.Point(169, 302)
         Me.m8.Name = "m8"
         Me.m8.Size = New System.Drawing.Size(0, 13)
         Me.m8.TabIndex = 21
@@ -279,7 +279,7 @@ Partial Class printCMMS
         '
         Me.m6.AutoSize = True
         Me.m6.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.m6.Location = New System.Drawing.Point(221, 332)
+        Me.m6.Location = New System.Drawing.Point(169, 267)
         Me.m6.Name = "m6"
         Me.m6.Size = New System.Drawing.Size(0, 13)
         Me.m6.TabIndex = 20
@@ -288,7 +288,7 @@ Partial Class printCMMS
         '
         Me.m5.AutoSize = True
         Me.m5.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.m5.Location = New System.Drawing.Point(221, 316)
+        Me.m5.Location = New System.Drawing.Point(169, 251)
         Me.m5.Name = "m5"
         Me.m5.Size = New System.Drawing.Size(0, 13)
         Me.m5.TabIndex = 19
@@ -297,7 +297,7 @@ Partial Class printCMMS
         '
         Me.m1.AutoSize = True
         Me.m1.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.m1.Location = New System.Drawing.Point(221, 246)
+        Me.m1.Location = New System.Drawing.Point(169, 181)
         Me.m1.Name = "m1"
         Me.m1.Size = New System.Drawing.Size(0, 13)
         Me.m1.TabIndex = 18
@@ -306,7 +306,7 @@ Partial Class printCMMS
         '
         Me.m2.AutoSize = True
         Me.m2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.m2.Location = New System.Drawing.Point(221, 263)
+        Me.m2.Location = New System.Drawing.Point(169, 198)
         Me.m2.Name = "m2"
         Me.m2.Size = New System.Drawing.Size(0, 13)
         Me.m2.TabIndex = 17
@@ -315,7 +315,7 @@ Partial Class printCMMS
         '
         Me.m3.AutoSize = True
         Me.m3.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.m3.Location = New System.Drawing.Point(221, 281)
+        Me.m3.Location = New System.Drawing.Point(169, 216)
         Me.m3.Name = "m3"
         Me.m3.Size = New System.Drawing.Size(0, 13)
         Me.m3.TabIndex = 16
@@ -324,7 +324,7 @@ Partial Class printCMMS
         '
         Me.m4.AutoSize = True
         Me.m4.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.m4.Location = New System.Drawing.Point(221, 298)
+        Me.m4.Location = New System.Drawing.Point(169, 233)
         Me.m4.Name = "m4"
         Me.m4.Size = New System.Drawing.Size(0, 13)
         Me.m4.TabIndex = 15
@@ -333,7 +333,7 @@ Partial Class printCMMS
         '
         Me.r10.AutoSize = True
         Me.r10.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.r10.Location = New System.Drawing.Point(290, 401)
+        Me.r10.Location = New System.Drawing.Point(246, 336)
         Me.r10.Name = "r10"
         Me.r10.Size = New System.Drawing.Size(0, 13)
         Me.r10.TabIndex = 34
@@ -342,7 +342,7 @@ Partial Class printCMMS
         '
         Me.r9.AutoSize = True
         Me.r9.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.r9.Location = New System.Drawing.Point(290, 384)
+        Me.r9.Location = New System.Drawing.Point(246, 319)
         Me.r9.Name = "r9"
         Me.r9.Size = New System.Drawing.Size(0, 13)
         Me.r9.TabIndex = 33
@@ -351,7 +351,7 @@ Partial Class printCMMS
         '
         Me.r7.AutoSize = True
         Me.r7.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.r7.Location = New System.Drawing.Point(290, 349)
+        Me.r7.Location = New System.Drawing.Point(246, 284)
         Me.r7.Name = "r7"
         Me.r7.Size = New System.Drawing.Size(0, 13)
         Me.r7.TabIndex = 32
@@ -360,7 +360,7 @@ Partial Class printCMMS
         '
         Me.r8.AutoSize = True
         Me.r8.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.r8.Location = New System.Drawing.Point(290, 366)
+        Me.r8.Location = New System.Drawing.Point(246, 301)
         Me.r8.Name = "r8"
         Me.r8.Size = New System.Drawing.Size(0, 13)
         Me.r8.TabIndex = 31
@@ -369,7 +369,7 @@ Partial Class printCMMS
         '
         Me.r6.AutoSize = True
         Me.r6.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.r6.Location = New System.Drawing.Point(290, 332)
+        Me.r6.Location = New System.Drawing.Point(246, 267)
         Me.r6.Name = "r6"
         Me.r6.Size = New System.Drawing.Size(0, 13)
         Me.r6.TabIndex = 30
@@ -378,7 +378,7 @@ Partial Class printCMMS
         '
         Me.r5.AutoSize = True
         Me.r5.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.r5.Location = New System.Drawing.Point(290, 315)
+        Me.r5.Location = New System.Drawing.Point(246, 250)
         Me.r5.Name = "r5"
         Me.r5.Size = New System.Drawing.Size(0, 13)
         Me.r5.TabIndex = 29
@@ -387,7 +387,7 @@ Partial Class printCMMS
         '
         Me.r1.AutoSize = True
         Me.r1.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.r1.Location = New System.Drawing.Point(290, 247)
+        Me.r1.Location = New System.Drawing.Point(246, 182)
         Me.r1.Name = "r1"
         Me.r1.Size = New System.Drawing.Size(0, 13)
         Me.r1.TabIndex = 28
@@ -396,7 +396,7 @@ Partial Class printCMMS
         '
         Me.r2.AutoSize = True
         Me.r2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.r2.Location = New System.Drawing.Point(290, 263)
+        Me.r2.Location = New System.Drawing.Point(246, 198)
         Me.r2.Name = "r2"
         Me.r2.Size = New System.Drawing.Size(0, 13)
         Me.r2.TabIndex = 27
@@ -405,7 +405,7 @@ Partial Class printCMMS
         '
         Me.r3.AutoSize = True
         Me.r3.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.r3.Location = New System.Drawing.Point(290, 281)
+        Me.r3.Location = New System.Drawing.Point(246, 216)
         Me.r3.Name = "r3"
         Me.r3.Size = New System.Drawing.Size(0, 13)
         Me.r3.TabIndex = 26
@@ -414,7 +414,7 @@ Partial Class printCMMS
         '
         Me.r4.AutoSize = True
         Me.r4.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.r4.Location = New System.Drawing.Point(290, 297)
+        Me.r4.Location = New System.Drawing.Point(246, 232)
         Me.r4.Name = "r4"
         Me.r4.Size = New System.Drawing.Size(0, 13)
         Me.r4.TabIndex = 25
@@ -423,7 +423,7 @@ Partial Class printCMMS
         '
         Me.f10.AutoSize = True
         Me.f10.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.f10.Location = New System.Drawing.Point(354, 400)
+        Me.f10.Location = New System.Drawing.Point(322, 335)
         Me.f10.Name = "f10"
         Me.f10.Size = New System.Drawing.Size(0, 13)
         Me.f10.TabIndex = 44
@@ -432,7 +432,7 @@ Partial Class printCMMS
         '
         Me.f9.AutoSize = True
         Me.f9.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.f9.Location = New System.Drawing.Point(355, 383)
+        Me.f9.Location = New System.Drawing.Point(323, 318)
         Me.f9.Name = "f9"
         Me.f9.Size = New System.Drawing.Size(0, 13)
         Me.f9.TabIndex = 43
@@ -441,7 +441,7 @@ Partial Class printCMMS
         '
         Me.f7.AutoSize = True
         Me.f7.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.f7.Location = New System.Drawing.Point(356, 349)
+        Me.f7.Location = New System.Drawing.Point(324, 284)
         Me.f7.Name = "f7"
         Me.f7.Size = New System.Drawing.Size(0, 13)
         Me.f7.TabIndex = 42
@@ -450,7 +450,7 @@ Partial Class printCMMS
         '
         Me.f8.AutoSize = True
         Me.f8.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.f8.Location = New System.Drawing.Point(356, 367)
+        Me.f8.Location = New System.Drawing.Point(324, 302)
         Me.f8.Name = "f8"
         Me.f8.Size = New System.Drawing.Size(0, 13)
         Me.f8.TabIndex = 41
@@ -459,7 +459,7 @@ Partial Class printCMMS
         '
         Me.f6.AutoSize = True
         Me.f6.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.f6.Location = New System.Drawing.Point(356, 332)
+        Me.f6.Location = New System.Drawing.Point(324, 267)
         Me.f6.Name = "f6"
         Me.f6.Size = New System.Drawing.Size(0, 13)
         Me.f6.TabIndex = 40
@@ -468,7 +468,7 @@ Partial Class printCMMS
         '
         Me.f5.AutoSize = True
         Me.f5.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.f5.Location = New System.Drawing.Point(355, 315)
+        Me.f5.Location = New System.Drawing.Point(323, 250)
         Me.f5.Name = "f5"
         Me.f5.Size = New System.Drawing.Size(0, 13)
         Me.f5.TabIndex = 39
@@ -477,7 +477,7 @@ Partial Class printCMMS
         '
         Me.f1.AutoSize = True
         Me.f1.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.f1.Location = New System.Drawing.Point(354, 246)
+        Me.f1.Location = New System.Drawing.Point(322, 181)
         Me.f1.Name = "f1"
         Me.f1.Size = New System.Drawing.Size(0, 13)
         Me.f1.TabIndex = 38
@@ -486,7 +486,7 @@ Partial Class printCMMS
         '
         Me.f2.AutoSize = True
         Me.f2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.f2.Location = New System.Drawing.Point(354, 264)
+        Me.f2.Location = New System.Drawing.Point(322, 199)
         Me.f2.Name = "f2"
         Me.f2.Size = New System.Drawing.Size(0, 13)
         Me.f2.TabIndex = 37
@@ -495,7 +495,7 @@ Partial Class printCMMS
         '
         Me.f3.AutoSize = True
         Me.f3.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.f3.Location = New System.Drawing.Point(354, 281)
+        Me.f3.Location = New System.Drawing.Point(322, 216)
         Me.f3.Name = "f3"
         Me.f3.Size = New System.Drawing.Size(0, 13)
         Me.f3.TabIndex = 36
@@ -504,7 +504,7 @@ Partial Class printCMMS
         '
         Me.f4.AutoSize = True
         Me.f4.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.f4.Location = New System.Drawing.Point(355, 298)
+        Me.f4.Location = New System.Drawing.Point(323, 233)
         Me.f4.Name = "f4"
         Me.f4.Size = New System.Drawing.Size(0, 13)
         Me.f4.TabIndex = 35
@@ -513,7 +513,7 @@ Partial Class printCMMS
         '
         Me.o10.AutoSize = True
         Me.o10.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.o10.Location = New System.Drawing.Point(415, 401)
+        Me.o10.Location = New System.Drawing.Point(391, 336)
         Me.o10.Name = "o10"
         Me.o10.Size = New System.Drawing.Size(0, 13)
         Me.o10.TabIndex = 54
@@ -522,7 +522,7 @@ Partial Class printCMMS
         '
         Me.o9.AutoSize = True
         Me.o9.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.o9.Location = New System.Drawing.Point(415, 383)
+        Me.o9.Location = New System.Drawing.Point(391, 318)
         Me.o9.Name = "o9"
         Me.o9.Size = New System.Drawing.Size(0, 13)
         Me.o9.TabIndex = 53
@@ -531,7 +531,7 @@ Partial Class printCMMS
         '
         Me.o7.AutoSize = True
         Me.o7.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.o7.Location = New System.Drawing.Point(415, 348)
+        Me.o7.Location = New System.Drawing.Point(391, 283)
         Me.o7.Name = "o7"
         Me.o7.Size = New System.Drawing.Size(0, 13)
         Me.o7.TabIndex = 52
@@ -540,7 +540,7 @@ Partial Class printCMMS
         '
         Me.o8.AutoSize = True
         Me.o8.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.o8.Location = New System.Drawing.Point(415, 366)
+        Me.o8.Location = New System.Drawing.Point(391, 301)
         Me.o8.Name = "o8"
         Me.o8.Size = New System.Drawing.Size(0, 13)
         Me.o8.TabIndex = 51
@@ -549,7 +549,7 @@ Partial Class printCMMS
         '
         Me.o6.AutoSize = True
         Me.o6.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.o6.Location = New System.Drawing.Point(415, 332)
+        Me.o6.Location = New System.Drawing.Point(391, 267)
         Me.o6.Name = "o6"
         Me.o6.Size = New System.Drawing.Size(0, 13)
         Me.o6.TabIndex = 50
@@ -558,7 +558,7 @@ Partial Class printCMMS
         '
         Me.o5.AutoSize = True
         Me.o5.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.o5.Location = New System.Drawing.Point(415, 314)
+        Me.o5.Location = New System.Drawing.Point(391, 249)
         Me.o5.Name = "o5"
         Me.o5.Size = New System.Drawing.Size(0, 13)
         Me.o5.TabIndex = 49
@@ -567,7 +567,7 @@ Partial Class printCMMS
         '
         Me.o1.AutoSize = True
         Me.o1.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.o1.Location = New System.Drawing.Point(415, 246)
+        Me.o1.Location = New System.Drawing.Point(391, 181)
         Me.o1.Name = "o1"
         Me.o1.Size = New System.Drawing.Size(0, 13)
         Me.o1.TabIndex = 48
@@ -576,7 +576,7 @@ Partial Class printCMMS
         '
         Me.o2.AutoSize = True
         Me.o2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.o2.Location = New System.Drawing.Point(415, 264)
+        Me.o2.Location = New System.Drawing.Point(391, 199)
         Me.o2.Name = "o2"
         Me.o2.Size = New System.Drawing.Size(0, 13)
         Me.o2.TabIndex = 47
@@ -585,7 +585,7 @@ Partial Class printCMMS
         '
         Me.o3.AutoSize = True
         Me.o3.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.o3.Location = New System.Drawing.Point(415, 281)
+        Me.o3.Location = New System.Drawing.Point(391, 216)
         Me.o3.Name = "o3"
         Me.o3.Size = New System.Drawing.Size(0, 13)
         Me.o3.TabIndex = 46
@@ -594,7 +594,7 @@ Partial Class printCMMS
         '
         Me.o4.AutoSize = True
         Me.o4.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.o4.Location = New System.Drawing.Point(415, 298)
+        Me.o4.Location = New System.Drawing.Point(391, 233)
         Me.o4.Name = "o4"
         Me.o4.Size = New System.Drawing.Size(0, 13)
         Me.o4.TabIndex = 45
@@ -603,7 +603,7 @@ Partial Class printCMMS
         '
         Me.total4.AutoSize = True
         Me.total4.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.total4.Location = New System.Drawing.Point(414, 417)
+        Me.total4.Location = New System.Drawing.Point(392, 352)
         Me.total4.Name = "total4"
         Me.total4.Size = New System.Drawing.Size(0, 13)
         Me.total4.TabIndex = 58
@@ -612,7 +612,7 @@ Partial Class printCMMS
         '
         Me.total3.AutoSize = True
         Me.total3.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.total3.Location = New System.Drawing.Point(355, 417)
+        Me.total3.Location = New System.Drawing.Point(323, 352)
         Me.total3.Name = "total3"
         Me.total3.Size = New System.Drawing.Size(0, 13)
         Me.total3.TabIndex = 57
@@ -621,7 +621,7 @@ Partial Class printCMMS
         '
         Me.total2.AutoSize = True
         Me.total2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.total2.Location = New System.Drawing.Point(290, 417)
+        Me.total2.Location = New System.Drawing.Point(246, 352)
         Me.total2.Name = "total2"
         Me.total2.Size = New System.Drawing.Size(0, 13)
         Me.total2.TabIndex = 56
@@ -630,7 +630,7 @@ Partial Class printCMMS
         '
         Me.total1.AutoSize = True
         Me.total1.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.total1.Location = New System.Drawing.Point(220, 417)
+        Me.total1.Location = New System.Drawing.Point(168, 352)
         Me.total1.Name = "total1"
         Me.total1.Size = New System.Drawing.Size(0, 13)
         Me.total1.TabIndex = 55
@@ -639,7 +639,7 @@ Partial Class printCMMS
         '
         Me.total5.AutoSize = True
         Me.total5.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.total5.Location = New System.Drawing.Point(220, 435)
+        Me.total5.Location = New System.Drawing.Point(168, 370)
         Me.total5.Name = "total5"
         Me.total5.Size = New System.Drawing.Size(0, 13)
         Me.total5.TabIndex = 59
@@ -648,7 +648,7 @@ Partial Class printCMMS
         '
         Me.yangdibayar.AutoSize = True
         Me.yangdibayar.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.yangdibayar.Location = New System.Drawing.Point(221, 452)
+        Me.yangdibayar.Location = New System.Drawing.Point(169, 387)
         Me.yangdibayar.Name = "yangdibayar"
         Me.yangdibayar.Size = New System.Drawing.Size(0, 13)
         Me.yangdibayar.TabIndex = 60
@@ -657,7 +657,7 @@ Partial Class printCMMS
         '
         Me.ordered.AutoSize = True
         Me.ordered.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.ordered.Location = New System.Drawing.Point(75, 542)
+        Me.ordered.Location = New System.Drawing.Point(91, 624)
         Me.ordered.Name = "ordered"
         Me.ordered.Size = New System.Drawing.Size(0, 13)
         Me.ordered.TabIndex = 61
@@ -666,7 +666,7 @@ Partial Class printCMMS
         '
         Me.proceeded.AutoSize = True
         Me.proceeded.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.proceeded.Location = New System.Drawing.Point(354, 542)
+        Me.proceeded.Location = New System.Drawing.Point(414, 625)
         Me.proceeded.Name = "proceeded"
         Me.proceeded.Size = New System.Drawing.Size(0, 13)
         Me.proceeded.TabIndex = 62
@@ -675,14 +675,14 @@ Partial Class printCMMS
         '
         Me.catatan.AutoSize = True
         Me.catatan.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.catatan.Location = New System.Drawing.Point(80, 627)
+        Me.catatan.Location = New System.Drawing.Point(79, 665)
         Me.catatan.Name = "catatan"
         Me.catatan.Size = New System.Drawing.Size(0, 13)
         Me.catatan.TabIndex = 63
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(414, 706)
+        Me.Button1.Location = New System.Drawing.Point(431, 715)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 64
@@ -704,7 +704,7 @@ Partial Class printCMMS
         'angka1
         '
         Me.angka1.AutoSize = True
-        Me.angka1.Location = New System.Drawing.Point(79, 246)
+        Me.angka1.Location = New System.Drawing.Point(8, 181)
         Me.angka1.Name = "angka1"
         Me.angka1.Size = New System.Drawing.Size(0, 13)
         Me.angka1.TabIndex = 65
@@ -712,7 +712,7 @@ Partial Class printCMMS
         'angka2
         '
         Me.angka2.AutoSize = True
-        Me.angka2.Location = New System.Drawing.Point(79, 263)
+        Me.angka2.Location = New System.Drawing.Point(8, 198)
         Me.angka2.Name = "angka2"
         Me.angka2.Size = New System.Drawing.Size(0, 13)
         Me.angka2.TabIndex = 66
@@ -720,7 +720,7 @@ Partial Class printCMMS
         'angka3
         '
         Me.angka3.AutoSize = True
-        Me.angka3.Location = New System.Drawing.Point(79, 281)
+        Me.angka3.Location = New System.Drawing.Point(8, 216)
         Me.angka3.Name = "angka3"
         Me.angka3.Size = New System.Drawing.Size(0, 13)
         Me.angka3.TabIndex = 67
@@ -728,7 +728,7 @@ Partial Class printCMMS
         'angka4
         '
         Me.angka4.AutoSize = True
-        Me.angka4.Location = New System.Drawing.Point(79, 298)
+        Me.angka4.Location = New System.Drawing.Point(8, 233)
         Me.angka4.Name = "angka4"
         Me.angka4.Size = New System.Drawing.Size(0, 13)
         Me.angka4.TabIndex = 68
@@ -736,7 +736,7 @@ Partial Class printCMMS
         'angka5
         '
         Me.angka5.AutoSize = True
-        Me.angka5.Location = New System.Drawing.Point(79, 314)
+        Me.angka5.Location = New System.Drawing.Point(8, 249)
         Me.angka5.Name = "angka5"
         Me.angka5.Size = New System.Drawing.Size(0, 13)
         Me.angka5.TabIndex = 69
@@ -744,7 +744,7 @@ Partial Class printCMMS
         'angka6
         '
         Me.angka6.AutoSize = True
-        Me.angka6.Location = New System.Drawing.Point(79, 331)
+        Me.angka6.Location = New System.Drawing.Point(8, 266)
         Me.angka6.Name = "angka6"
         Me.angka6.Size = New System.Drawing.Size(0, 13)
         Me.angka6.TabIndex = 70
@@ -752,7 +752,7 @@ Partial Class printCMMS
         'angka7
         '
         Me.angka7.AutoSize = True
-        Me.angka7.Location = New System.Drawing.Point(79, 348)
+        Me.angka7.Location = New System.Drawing.Point(8, 283)
         Me.angka7.Name = "angka7"
         Me.angka7.Size = New System.Drawing.Size(0, 13)
         Me.angka7.TabIndex = 71
@@ -760,7 +760,7 @@ Partial Class printCMMS
         'angka8
         '
         Me.angka8.AutoSize = True
-        Me.angka8.Location = New System.Drawing.Point(79, 366)
+        Me.angka8.Location = New System.Drawing.Point(8, 301)
         Me.angka8.Name = "angka8"
         Me.angka8.Size = New System.Drawing.Size(0, 13)
         Me.angka8.TabIndex = 72
@@ -768,7 +768,7 @@ Partial Class printCMMS
         'angka9
         '
         Me.angka9.AutoSize = True
-        Me.angka9.Location = New System.Drawing.Point(79, 383)
+        Me.angka9.Location = New System.Drawing.Point(8, 318)
         Me.angka9.Name = "angka9"
         Me.angka9.Size = New System.Drawing.Size(0, 13)
         Me.angka9.TabIndex = 73
@@ -776,7 +776,7 @@ Partial Class printCMMS
         'angka10
         '
         Me.angka10.AutoSize = True
-        Me.angka10.Location = New System.Drawing.Point(76, 399)
+        Me.angka10.Location = New System.Drawing.Point(7, 334)
         Me.angka10.Name = "angka10"
         Me.angka10.Size = New System.Drawing.Size(0, 13)
         Me.angka10.TabIndex = 74
@@ -787,7 +787,7 @@ Partial Class printCMMS
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(543, 733)
         Me.Controls.Add(Me.angka10)
         Me.Controls.Add(Me.angka9)

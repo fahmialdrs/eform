@@ -65,7 +65,7 @@ Partial Class printPMS
         'Button1
         '
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button1.Location = New System.Drawing.Point(409, 689)
+        Me.Button1.Location = New System.Drawing.Point(407, 715)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 31
@@ -76,7 +76,7 @@ Partial Class printPMS
         '
         Me.Noform.AutoSize = True
         Me.Noform.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Noform.Location = New System.Drawing.Point(335, 79)
+        Me.Noform.Location = New System.Drawing.Point(383, -43)
         Me.Noform.Name = "Noform"
         Me.Noform.Size = New System.Drawing.Size(0, 13)
         Me.Noform.TabIndex = 32
@@ -85,7 +85,7 @@ Partial Class printPMS
         '
         Me.tanggal.AutoSize = True
         Me.tanggal.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.tanggal.Location = New System.Drawing.Point(191, 102)
+        Me.tanggal.Location = New System.Drawing.Point(204, 47)
         Me.tanggal.Name = "tanggal"
         Me.tanggal.Size = New System.Drawing.Size(0, 13)
         Me.tanggal.TabIndex = 33
@@ -94,7 +94,7 @@ Partial Class printPMS
         '
         Me.userid.AutoSize = True
         Me.userid.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.userid.Location = New System.Drawing.Point(191, 122)
+        Me.userid.Location = New System.Drawing.Point(204, 67)
         Me.userid.Name = "userid"
         Me.userid.Size = New System.Drawing.Size(0, 13)
         Me.userid.TabIndex = 34
@@ -103,7 +103,7 @@ Partial Class printPMS
         '
         Me.nama.AutoSize = True
         Me.nama.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.nama.Location = New System.Drawing.Point(191, 141)
+        Me.nama.Location = New System.Drawing.Point(204, 86)
         Me.nama.Name = "nama"
         Me.nama.Size = New System.Drawing.Size(0, 13)
         Me.nama.TabIndex = 35
@@ -112,7 +112,7 @@ Partial Class printPMS
         '
         Me.notelp.AutoSize = True
         Me.notelp.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.notelp.Location = New System.Drawing.Point(191, 161)
+        Me.notelp.Location = New System.Drawing.Point(204, 106)
         Me.notelp.Name = "notelp"
         Me.notelp.Size = New System.Drawing.Size(0, 13)
         Me.notelp.TabIndex = 36
@@ -121,7 +121,7 @@ Partial Class printPMS
         '
         Me.firmax3.AutoSize = True
         Me.firmax3.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.firmax3.Location = New System.Drawing.Point(193, 253)
+        Me.firmax3.Location = New System.Drawing.Point(213, 193)
         Me.firmax3.Name = "firmax3"
         Me.firmax3.Size = New System.Drawing.Size(0, 13)
         Me.firmax3.TabIndex = 37
@@ -130,7 +130,7 @@ Partial Class printPMS
         '
         Me.O2max.AutoSize = True
         Me.O2max.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.O2max.Location = New System.Drawing.Point(314, 254)
+        Me.O2max.Location = New System.Drawing.Point(356, 193)
         Me.O2max.Name = "O2max"
         Me.O2max.Size = New System.Drawing.Size(0, 13)
         Me.O2max.TabIndex = 38
@@ -139,7 +139,7 @@ Partial Class printPMS
         '
         Me.totalpcs.AutoSize = True
         Me.totalpcs.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.totalpcs.Location = New System.Drawing.Point(193, 272)
+        Me.totalpcs.Location = New System.Drawing.Point(213, 208)
         Me.totalpcs.Name = "totalpcs"
         Me.totalpcs.Size = New System.Drawing.Size(0, 13)
         Me.totalpcs.TabIndex = 39
@@ -148,7 +148,7 @@ Partial Class printPMS
         '
         Me.totalset.AutoSize = True
         Me.totalset.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.totalset.Location = New System.Drawing.Point(193, 292)
+        Me.totalset.Location = New System.Drawing.Point(213, 228)
         Me.totalset.Name = "totalset"
         Me.totalset.Size = New System.Drawing.Size(0, 13)
         Me.totalset.TabIndex = 40
@@ -157,7 +157,7 @@ Partial Class printPMS
         '
         Me.amount.AutoSize = True
         Me.amount.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.amount.Location = New System.Drawing.Point(217, 319)
+        Me.amount.Location = New System.Drawing.Point(240, 253)
         Me.amount.Name = "amount"
         Me.amount.Size = New System.Drawing.Size(0, 13)
         Me.amount.TabIndex = 41
@@ -166,7 +166,7 @@ Partial Class printPMS
         '
         Me.firmax3_2.AutoSize = True
         Me.firmax3_2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.firmax3_2.Location = New System.Drawing.Point(193, 421)
+        Me.firmax3_2.Location = New System.Drawing.Point(213, 349)
         Me.firmax3_2.Name = "firmax3_2"
         Me.firmax3_2.Size = New System.Drawing.Size(0, 13)
         Me.firmax3_2.TabIndex = 42
@@ -175,7 +175,7 @@ Partial Class printPMS
         '
         Me.o2max_2.AutoSize = True
         Me.o2max_2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.o2max_2.Location = New System.Drawing.Point(314, 420)
+        Me.o2max_2.Location = New System.Drawing.Point(356, 348)
         Me.o2max_2.Name = "o2max_2"
         Me.o2max_2.Size = New System.Drawing.Size(0, 13)
         Me.o2max_2.TabIndex = 43
@@ -184,7 +184,7 @@ Partial Class printPMS
         '
         Me.totalpcs_2.AutoSize = True
         Me.totalpcs_2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.totalpcs_2.Location = New System.Drawing.Point(193, 439)
+        Me.totalpcs_2.Location = New System.Drawing.Point(213, 367)
         Me.totalpcs_2.Name = "totalpcs_2"
         Me.totalpcs_2.Size = New System.Drawing.Size(0, 13)
         Me.totalpcs_2.TabIndex = 44
@@ -193,7 +193,7 @@ Partial Class printPMS
         '
         Me.totalset_2.AutoSize = True
         Me.totalset_2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.totalset_2.Location = New System.Drawing.Point(193, 459)
+        Me.totalset_2.Location = New System.Drawing.Point(213, 387)
         Me.totalset_2.Name = "totalset_2"
         Me.totalset_2.Size = New System.Drawing.Size(0, 13)
         Me.totalset_2.TabIndex = 45
@@ -202,7 +202,7 @@ Partial Class printPMS
         '
         Me.amount_2.AutoSize = True
         Me.amount_2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.amount_2.Location = New System.Drawing.Point(220, 485)
+        Me.amount_2.Location = New System.Drawing.Point(240, 413)
         Me.amount_2.Name = "amount_2"
         Me.amount_2.Size = New System.Drawing.Size(0, 13)
         Me.amount_2.TabIndex = 46
@@ -211,7 +211,7 @@ Partial Class printPMS
         '
         Me.ordered.AutoSize = True
         Me.ordered.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.ordered.Location = New System.Drawing.Point(102, 576)
+        Me.ordered.Location = New System.Drawing.Point(78, 525)
         Me.ordered.Name = "ordered"
         Me.ordered.Size = New System.Drawing.Size(0, 13)
         Me.ordered.TabIndex = 47
@@ -220,7 +220,7 @@ Partial Class printPMS
         '
         Me.proceeded.AutoSize = True
         Me.proceeded.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.proceeded.Location = New System.Drawing.Point(348, 576)
+        Me.proceeded.Location = New System.Drawing.Point(396, 525)
         Me.proceeded.Name = "proceeded"
         Me.proceeded.Size = New System.Drawing.Size(0, 13)
         Me.proceeded.TabIndex = 48
@@ -229,7 +229,7 @@ Partial Class printPMS
         '
         Me.catatan.AutoSize = True
         Me.catatan.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.catatan.Location = New System.Drawing.Point(99, 619)
+        Me.catatan.Location = New System.Drawing.Point(66, 556)
         Me.catatan.Name = "catatan"
         Me.catatan.Size = New System.Drawing.Size(0, 13)
         Me.catatan.TabIndex = 49
@@ -238,7 +238,7 @@ Partial Class printPMS
         '
         Me.finalcheck.AutoSize = True
         Me.finalcheck.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.finalcheck.Location = New System.Drawing.Point(193, 619)
+        Me.finalcheck.Location = New System.Drawing.Point(221, 684)
         Me.finalcheck.Name = "finalcheck"
         Me.finalcheck.Size = New System.Drawing.Size(0, 13)
         Me.finalcheck.TabIndex = 50
@@ -247,7 +247,7 @@ Partial Class printPMS
         '
         Me.datainput.AutoSize = True
         Me.datainput.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.datainput.Location = New System.Drawing.Point(307, 619)
+        Me.datainput.Location = New System.Drawing.Point(356, 684)
         Me.datainput.Name = "datainput"
         Me.datainput.Size = New System.Drawing.Size(0, 13)
         Me.datainput.TabIndex = 51
@@ -258,7 +258,7 @@ Partial Class printPMS
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(543, 733)
         Me.Controls.Add(Me.datainput)
         Me.Controls.Add(Me.finalcheck)

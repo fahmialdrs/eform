@@ -2,7 +2,7 @@
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Button1.Visible = False
-        'BackgroundImage = Nothing
+        BackgroundImage = Nothing
 
         PrintDialog1.PrinterSettings = PrintForm1.PrinterSettings
         PrintDialog1.AllowSomePages = True
