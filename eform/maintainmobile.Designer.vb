@@ -648,6 +648,7 @@ Partial Class maintainmobile
         Me.O6.Name = "O6"
         Me.O6.Size = New System.Drawing.Size(203, 20)
         Me.O6.TabIndex = 37
+        Me.O6.Text = "0"
         Me.O6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'F6
@@ -659,6 +660,7 @@ Partial Class maintainmobile
         Me.F6.Name = "F6"
         Me.F6.Size = New System.Drawing.Size(202, 20)
         Me.F6.TabIndex = 36
+        Me.F6.Text = "0"
         Me.F6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'M6
@@ -670,6 +672,7 @@ Partial Class maintainmobile
         Me.M6.Name = "M6"
         Me.M6.Size = New System.Drawing.Size(202, 20)
         Me.M6.TabIndex = 34
+        Me.M6.Text = "0"
         Me.M6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'memberid6
@@ -692,6 +695,7 @@ Partial Class maintainmobile
         Me.O5.Name = "O5"
         Me.O5.Size = New System.Drawing.Size(203, 20)
         Me.O5.TabIndex = 32
+        Me.O5.Text = "0"
         Me.O5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'F5
@@ -703,6 +707,7 @@ Partial Class maintainmobile
         Me.F5.Name = "F5"
         Me.F5.Size = New System.Drawing.Size(202, 20)
         Me.F5.TabIndex = 31
+        Me.F5.Text = "0"
         Me.F5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'R5
@@ -714,6 +719,7 @@ Partial Class maintainmobile
         Me.R5.Name = "R5"
         Me.R5.Size = New System.Drawing.Size(202, 20)
         Me.R5.TabIndex = 30
+        Me.R5.Text = "0"
         Me.R5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'M5
@@ -725,6 +731,7 @@ Partial Class maintainmobile
         Me.M5.Name = "M5"
         Me.M5.Size = New System.Drawing.Size(202, 20)
         Me.M5.TabIndex = 29
+        Me.M5.Text = "0"
         Me.M5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'memberid5
@@ -747,6 +754,7 @@ Partial Class maintainmobile
         Me.O4.Name = "O4"
         Me.O4.Size = New System.Drawing.Size(203, 20)
         Me.O4.TabIndex = 27
+        Me.O4.Text = "0"
         Me.O4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'F4
@@ -758,6 +766,7 @@ Partial Class maintainmobile
         Me.F4.Name = "F4"
         Me.F4.Size = New System.Drawing.Size(202, 20)
         Me.F4.TabIndex = 26
+        Me.F4.Text = "0"
         Me.F4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'R4
@@ -769,6 +778,7 @@ Partial Class maintainmobile
         Me.R4.Name = "R4"
         Me.R4.Size = New System.Drawing.Size(202, 20)
         Me.R4.TabIndex = 25
+        Me.R4.Text = "0"
         Me.R4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'M4
@@ -780,6 +790,7 @@ Partial Class maintainmobile
         Me.M4.Name = "M4"
         Me.M4.Size = New System.Drawing.Size(202, 20)
         Me.M4.TabIndex = 24
+        Me.M4.Text = "0"
         Me.M4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'memberid4
@@ -802,6 +813,7 @@ Partial Class maintainmobile
         Me.O3.Name = "O3"
         Me.O3.Size = New System.Drawing.Size(203, 20)
         Me.O3.TabIndex = 22
+        Me.O3.Text = "0"
         Me.O3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'F3
@@ -813,6 +825,7 @@ Partial Class maintainmobile
         Me.F3.Name = "F3"
         Me.F3.Size = New System.Drawing.Size(202, 20)
         Me.F3.TabIndex = 21
+        Me.F3.Text = "0"
         Me.F3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'R3
@@ -824,6 +837,7 @@ Partial Class maintainmobile
         Me.R3.Name = "R3"
         Me.R3.Size = New System.Drawing.Size(202, 20)
         Me.R3.TabIndex = 20
+        Me.R3.Text = "0"
         Me.R3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'M3
@@ -835,6 +849,7 @@ Partial Class maintainmobile
         Me.M3.Name = "M3"
         Me.M3.Size = New System.Drawing.Size(202, 20)
         Me.M3.TabIndex = 19
+        Me.M3.Text = "0"
         Me.M3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'memberid3
@@ -857,6 +872,7 @@ Partial Class maintainmobile
         Me.O2.Name = "O2"
         Me.O2.Size = New System.Drawing.Size(203, 20)
         Me.O2.TabIndex = 17
+        Me.O2.Text = "0"
         Me.O2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'F2
@@ -868,6 +884,7 @@ Partial Class maintainmobile
         Me.F2.Name = "F2"
         Me.F2.Size = New System.Drawing.Size(202, 20)
         Me.F2.TabIndex = 16
+        Me.F2.Text = "0"
         Me.F2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'R2
@@ -879,6 +896,7 @@ Partial Class maintainmobile
         Me.R2.Name = "R2"
         Me.R2.Size = New System.Drawing.Size(202, 20)
         Me.R2.TabIndex = 15
+        Me.R2.Text = "0"
         Me.R2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'M2
@@ -890,6 +908,7 @@ Partial Class maintainmobile
         Me.M2.Name = "M2"
         Me.M2.Size = New System.Drawing.Size(202, 20)
         Me.M2.TabIndex = 14
+        Me.M2.Text = "0"
         Me.M2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'memberid2
@@ -912,6 +931,7 @@ Partial Class maintainmobile
         Me.O1.Name = "O1"
         Me.O1.Size = New System.Drawing.Size(203, 20)
         Me.O1.TabIndex = 12
+        Me.O1.Text = "0"
         Me.O1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label12
@@ -993,6 +1013,7 @@ Partial Class maintainmobile
         Me.R6.Name = "R6"
         Me.R6.Size = New System.Drawing.Size(202, 20)
         Me.R6.TabIndex = 35
+        Me.R6.Text = "0"
         Me.R6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label14
@@ -1043,6 +1064,7 @@ Partial Class maintainmobile
         Me.M1.Name = "M1"
         Me.M1.Size = New System.Drawing.Size(202, 20)
         Me.M1.TabIndex = 9
+        Me.M1.Text = "0"
         Me.M1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'F1
@@ -1054,6 +1076,7 @@ Partial Class maintainmobile
         Me.F1.Name = "F1"
         Me.F1.Size = New System.Drawing.Size(202, 20)
         Me.F1.TabIndex = 11
+        Me.F1.Text = "0"
         Me.F1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'R1
@@ -1065,6 +1088,7 @@ Partial Class maintainmobile
         Me.R1.Name = "R1"
         Me.R1.Size = New System.Drawing.Size(202, 20)
         Me.R1.TabIndex = 10
+        Me.R1.Text = "0"
         Me.R1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'memberid7
@@ -1087,6 +1111,7 @@ Partial Class maintainmobile
         Me.M7.Name = "M7"
         Me.M7.Size = New System.Drawing.Size(202, 20)
         Me.M7.TabIndex = 39
+        Me.M7.Text = "0"
         Me.M7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'R7
@@ -1098,6 +1123,7 @@ Partial Class maintainmobile
         Me.R7.Name = "R7"
         Me.R7.Size = New System.Drawing.Size(202, 20)
         Me.R7.TabIndex = 40
+        Me.R7.Text = "0"
         Me.R7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'F7
@@ -1109,6 +1135,7 @@ Partial Class maintainmobile
         Me.F7.Name = "F7"
         Me.F7.Size = New System.Drawing.Size(202, 20)
         Me.F7.TabIndex = 41
+        Me.F7.Text = "0"
         Me.F7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'memberid8
@@ -1131,6 +1158,7 @@ Partial Class maintainmobile
         Me.M8.Name = "M8"
         Me.M8.Size = New System.Drawing.Size(202, 20)
         Me.M8.TabIndex = 44
+        Me.M8.Text = "0"
         Me.M8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'O7
@@ -1142,6 +1170,7 @@ Partial Class maintainmobile
         Me.O7.Name = "O7"
         Me.O7.Size = New System.Drawing.Size(203, 20)
         Me.O7.TabIndex = 42
+        Me.O7.Text = "0"
         Me.O7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'R8
@@ -1153,6 +1182,7 @@ Partial Class maintainmobile
         Me.R8.Name = "R8"
         Me.R8.Size = New System.Drawing.Size(202, 20)
         Me.R8.TabIndex = 45
+        Me.R8.Text = "0"
         Me.R8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'F8
@@ -1164,6 +1194,7 @@ Partial Class maintainmobile
         Me.F8.Name = "F8"
         Me.F8.Size = New System.Drawing.Size(202, 20)
         Me.F8.TabIndex = 46
+        Me.F8.Text = "0"
         Me.F8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'O8
@@ -1175,6 +1206,7 @@ Partial Class maintainmobile
         Me.O8.Name = "O8"
         Me.O8.Size = New System.Drawing.Size(203, 20)
         Me.O8.TabIndex = 47
+        Me.O8.Text = "0"
         Me.O8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'memberid9
@@ -1197,6 +1229,7 @@ Partial Class maintainmobile
         Me.M9.Name = "M9"
         Me.M9.Size = New System.Drawing.Size(202, 20)
         Me.M9.TabIndex = 49
+        Me.M9.Text = "0"
         Me.M9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'R9
@@ -1208,6 +1241,7 @@ Partial Class maintainmobile
         Me.R9.Name = "R9"
         Me.R9.Size = New System.Drawing.Size(202, 20)
         Me.R9.TabIndex = 50
+        Me.R9.Text = "0"
         Me.R9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'F9
@@ -1219,6 +1253,7 @@ Partial Class maintainmobile
         Me.F9.Name = "F9"
         Me.F9.Size = New System.Drawing.Size(202, 20)
         Me.F9.TabIndex = 51
+        Me.F9.Text = "0"
         Me.F9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'O9
@@ -1230,6 +1265,7 @@ Partial Class maintainmobile
         Me.O9.Name = "O9"
         Me.O9.Size = New System.Drawing.Size(203, 20)
         Me.O9.TabIndex = 52
+        Me.O9.Text = "0"
         Me.O9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'memberid10
@@ -1252,6 +1288,7 @@ Partial Class maintainmobile
         Me.M10.Name = "M10"
         Me.M10.Size = New System.Drawing.Size(202, 20)
         Me.M10.TabIndex = 54
+        Me.M10.Text = "0"
         Me.M10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'R10
@@ -1263,6 +1300,7 @@ Partial Class maintainmobile
         Me.R10.Name = "R10"
         Me.R10.Size = New System.Drawing.Size(202, 20)
         Me.R10.TabIndex = 55
+        Me.R10.Text = "0"
         Me.R10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'F10
@@ -1274,6 +1312,7 @@ Partial Class maintainmobile
         Me.F10.Name = "F10"
         Me.F10.Size = New System.Drawing.Size(202, 20)
         Me.F10.TabIndex = 56
+        Me.F10.Text = "0"
         Me.F10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'O10
@@ -1285,6 +1324,7 @@ Partial Class maintainmobile
         Me.O10.Name = "O10"
         Me.O10.Size = New System.Drawing.Size(203, 20)
         Me.O10.TabIndex = 78
+        Me.O10.Text = "0"
         Me.O10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label15
@@ -1310,6 +1350,7 @@ Partial Class maintainmobile
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(202, 20)
         Me.TextBox2.TabIndex = 86
+        Me.TextBox2.Text = "0"
         Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox3
@@ -1321,6 +1362,7 @@ Partial Class maintainmobile
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(202, 20)
         Me.TextBox3.TabIndex = 87
+        Me.TextBox3.Text = "0"
         Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox4
@@ -1332,6 +1374,7 @@ Partial Class maintainmobile
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(203, 20)
         Me.TextBox4.TabIndex = 88
+        Me.TextBox4.Text = "0"
         Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox6
@@ -1343,6 +1386,7 @@ Partial Class maintainmobile
         Me.TextBox6.Name = "TextBox6"
         Me.TextBox6.Size = New System.Drawing.Size(202, 20)
         Me.TextBox6.TabIndex = 90
+        Me.TextBox6.Text = "0"
         Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox5
@@ -1354,6 +1398,7 @@ Partial Class maintainmobile
         Me.TextBox5.Name = "TextBox5"
         Me.TextBox5.Size = New System.Drawing.Size(202, 20)
         Me.TextBox5.TabIndex = 89
+        Me.TextBox5.Text = "0"
         Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'TextBox1
@@ -1365,6 +1410,7 @@ Partial Class maintainmobile
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(202, 20)
         Me.TextBox1.TabIndex = 85
+        Me.TextBox1.Text = "0"
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'PrintForm1

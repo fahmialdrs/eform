@@ -1,7 +1,7 @@
 ﻿Imports System.Data
 Imports System.Data.OleDb
 Public Class maintainmobile
-    Dim mwallet, mwallet1, firmax, o2m As Integer
+    Dim mwallet, firmax, o2m, rwallet As Integer
 
     
     Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
@@ -42,61 +42,61 @@ Public Class maintainmobile
         nama.Text = ""
         notelpon.Text = ""
         memberid1.Text = ""
-        M1.Text = ""
-        R1.Text = ""
-        F1.Text = ""
-        O1.Text = ""
+        M1.Text = 0
+        R1.Text = 0
+        F1.Text = 0
+        O1.Text = 0
         memberid2.Text = ""
-        M2.Text = ""
-        R2.Text = ""
-        F2.Text = ""
-        O2.Text = ""
+        M2.Text = 0
+        R2.Text = 0
+        F2.Text = 0
+        O2.Text = 0
         memberid3.Text = ""
-        M3.Text = ""
-        R3.Text = ""
-        F3.Text = ""
-        O3.Text = ""
+        M3.Text = 0
+        R3.Text = 0
+        F3.Text = 0
+        O3.Text = 0
         memberid4.Text = ""
-        M4.Text = ""
-        R4.Text = ""
-        F4.Text = ""
-        O4.Text = ""
+        M4.Text = 0
+        R4.Text = 0
+        F4.Text = 0
+        O4.Text = 0
         memberid5.Text = ""
-        M5.Text = ""
-        R5.Text = ""
-        F5.Text = ""
-        O5.Text = ""
+        M5.Text = 0
+        R5.Text = 0
+        F5.Text = 0
+        O5.Text = 0
         memberid6.Text = ""
-        M6.Text = ""
-        R6.Text = ""
-        F6.Text = ""
-        O6.Text = ""
+        M6.Text = 0
+        R6.Text = 0
+        F6.Text = 0
+        O6.Text = 0
         memberid7.Text = ""
-        M7.Text = ""
-        R7.Text = ""
-        F7.Text = ""
-        O7.Text = ""
+        M7.Text = 0
+        R7.Text = 0
+        F7.Text = 0
+        O7.Text = 0
         memberid8.Text = ""
-        M8.Text = ""
-        R8.Text = ""
-        F8.Text = ""
-        O8.Text = ""
+        M8.Text = 0
+        R8.Text = 0
+        F8.Text = 0
+        O8.Text = 0
         memberid9.Text = ""
-        M9.Text = ""
-        R9.Text = ""
-        F9.Text = ""
-        O9.Text = ""
+        M9.Text = 0
+        R9.Text = 0
+        F9.Text = 0
+        O9.Text = 0
         memberid10.Text = ""
-        M10.Text = ""
-        R10.Text = ""
-        F10.Text = ""
-        O10.Text = ""
-        TextBox1.Text = ""
-        TextBox2.Text = ""
-        TextBox3.Text = ""
-        TextBox4.Text = ""
-        TextBox5.Text = ""
-        TextBox6.Text = ""
+        M10.Text = 0
+        R10.Text = 0
+        F10.Text = 0
+        O10.Text = 0
+        TextBox1.Text = 0
+        TextBox2.Text = 0
+        TextBox3.Text = 0
+        TextBox4.Text = 0
+        TextBox5.Text = 0
+        TextBox6.Text = 0
         catatan.Text = ""
         ordered.Text = ""
         proceeded.Text = ""
@@ -408,222 +408,73 @@ Public Class maintainmobile
         userid.Focus()
     End Sub
 
-    Private Sub M1_TextChanged(sender As Object, e As EventArgs) Handles M1.TextChanged
-        If M1.Text <> "" Then
-            mwallet = 0
-            mwallet = mwallet + M1.Text
-            mwallet1 = mwallet
-            TextBox1.Text = mwallet1
-            TextBox5.Text = TextBox1.Text * 3300
-            TextBox6.Text = 1000000 - TextBox5.Text
-        End If
+    Private Sub TextBox1_Click(sender As Object, e As EventArgs) Handles TextBox1.Click
+        Dim a, b, c, d, x, f, g, h, i, j As Integer
+        a = M1.Text
+        b = M2.Text
+        c = M3.Text
+        d = M4.Text
+        x = M5.Text
+        f = M6.Text
+        g = M7.Text
+        h = M8.Text
+        i = M9.Text
+        j = M10.Text
+
+        mwallet = a + b + c + d + x + f + g + h + i + j
+        TextBox1.Text = mwallet
+        TextBox5.Text = TextBox1.Text * 3300
+        TextBox6.Text = 1000000 - TextBox5.Text
     End Sub
 
-    Private Sub M2_TextChanged(sender As Object, e As EventArgs) Handles M2.TextChanged
-        If M2.Text <> "" Then
-            mwallet = mwallet + M2.Text
-            mwallet1 = mwallet
-            TextBox1.Text = mwallet1
-            TextBox5.Text = TextBox1.Text * 3300
-            TextBox6.Text = 1000000 - TextBox5.Text
-        End If
-    End Sub
-    Private Sub M3_TextChanged(sender As Object, e As EventArgs) Handles M3.TextChanged
-        If M3.Text <> "" Then
-            mwallet = mwallet + M3.Text
-            mwallet1 = mwallet
-            TextBox1.Text = mwallet1
-            TextBox5.Text = TextBox1.Text * 3300
-            TextBox6.Text = 1000000 - TextBox5.Text
-        End If
+    Private Sub TextBox4_Click(sender As Object, e As EventArgs) Handles TextBox4.Click
+        Dim a, b, c, d, x, f, g, h, i, j As Integer
+        a = O1.Text
+        b = O2.Text
+        c = O3.Text
+        d = O4.Text
+        x = O5.Text
+        f = O6.Text
+        g = O7.Text
+        h = O8.Text
+        i = O9.Text
+        j = O10.Text
 
-    End Sub
-    Private Sub M4_TextChanged(sender As Object, e As EventArgs) Handles M4.TextChanged
-        If M4.Text <> "" Then
-            mwallet = mwallet + M4.Text
-            mwallet1 = mwallet
-            TextBox1.Text = mwallet1
-            TextBox5.Text = TextBox1.Text * 3300
-            TextBox6.Text = 1000000 - TextBox5.Text
-        End If
-
-    End Sub
-    Private Sub M5_TextChanged(sender As Object, e As EventArgs) Handles M5.TextChanged
-        If M5.Text <> "" Then
-            mwallet = mwallet + M5.Text
-            mwallet1 = mwallet
-            TextBox1.Text = mwallet1
-            TextBox5.Text = TextBox1.Text * 3300
-            TextBox6.Text = 1000000 - TextBox5.Text
-        End If
-    End Sub
-    Private Sub M6_TextChanged(sender As Object, e As EventArgs) Handles M6.TextChanged
-        If M6.Text <> "" Then
-            mwallet = mwallet + M6.Text
-            mwallet1 = mwallet
-            TextBox1.Text = mwallet1
-            TextBox5.Text = TextBox1.Text * 3300
-            TextBox6.Text = 1000000 - TextBox5.Text
-        End If
-    End Sub
-    Private Sub M7_TextChanged(sender As Object, e As EventArgs) Handles M7.TextChanged
-        If M7.Text <> "" Then
-            mwallet = mwallet + M7.Text
-            mwallet1 = mwallet
-            TextBox1.Text = mwallet1
-            TextBox5.Text = TextBox1.Text * 3300
-            TextBox6.Text = 1000000 - TextBox5.Text
-        End If
-    End Sub
-    Private Sub M8_TextChanged(sender As Object, e As EventArgs) Handles M8.TextChanged
-        If M8.Text <> "" Then
-            mwallet = mwallet + M8.Text
-            mwallet1 = mwallet
-            TextBox1.Text = mwallet1
-            TextBox5.Text = TextBox1.Text * 3300
-            TextBox6.Text = 1000000 - TextBox5.Text
-        End If
-    End Sub
-    Private Sub M9_TextChanged(sender As Object, e As EventArgs) Handles M9.TextChanged
-        If M9.Text <> "" Then
-            mwallet = mwallet + M9.Text
-            mwallet1 = mwallet
-            TextBox1.Text = mwallet1
-            TextBox5.Text = TextBox1.Text * 3300
-            TextBox6.Text = 1000000 - TextBox5.Text
-        End If
-    End Sub
-    Private Sub M10_TextChanged(sender As Object, e As EventArgs) Handles M10.TextChanged
-        If M10.Text <> "" Then
-            mwallet = mwallet + M10.Text
-            mwallet1 = mwallet
-            TextBox1.Text = mwallet1
-            TextBox5.Text = TextBox1.Text * 3300
-            TextBox6.Text = 1000000 - TextBox5.Text
-        End If
+        o2m = a + b + c + d + x + f + g + h + i + j
+        TextBox4.Text = o2m
     End Sub
 
-    Private Sub F1_TextChanged(sender As Object, e As EventArgs) Handles F1.TextChanged
-        If F1.Text <> "" Then
-            firmax = 0
-            firmax = firmax + F1.Text
-            TextBox3.Text = firmax
-        End If
-    End Sub
-    Private Sub F2_TextChanged(sender As Object, e As EventArgs) Handles F2.TextChanged
-        If F2.Text <> "" Then
-            firmax = firmax + F2.Text
-            TextBox3.Text = firmax
-        End If
-    End Sub
-    Private Sub F3_TextChanged(sender As Object, e As EventArgs) Handles F3.TextChanged
-        If F3.Text <> "" Then
-            firmax = firmax + F3.Text
-            TextBox3.Text = firmax
-        End If
-    End Sub
-    Private Sub F4_TextChanged(sender As Object, e As EventArgs) Handles F4.TextChanged
-        If F4.Text <> "" Then
-            firmax = firmax + F4.Text
-            TextBox3.Text = firmax
-        End If
-    End Sub
-    Private Sub F5_TextChanged(sender As Object, e As EventArgs) Handles F5.TextChanged
-        If F5.Text <> "" Then
-            firmax = firmax + F5.Text
-            TextBox3.Text = firmax
-        End If
-    End Sub
-    Private Sub F6_TextChanged(sender As Object, e As EventArgs) Handles F6.TextChanged
-        If F6.Text <> "" Then
-            firmax = firmax + F6.Text
-            TextBox3.Text = firmax
-        End If
-    End Sub
-    Private Sub F7_TextChanged(sender As Object, e As EventArgs) Handles F7.TextChanged
-        If F7.Text <> "" Then
-            firmax = firmax + F7.Text
-            TextBox3.Text = firmax
-        End If
-    End Sub
-    Private Sub F8_TextChanged(sender As Object, e As EventArgs) Handles F8.TextChanged
-        If F8.Text <> "" Then
-            firmax = firmax + F8.Text
-            TextBox3.Text = firmax
-        End If
-    End Sub
-    Private Sub F9_TextChanged(sender As Object, e As EventArgs) Handles F9.TextChanged
-        If F9.Text <> "" Then
-            firmax = firmax + F9.Text
-            TextBox3.Text = firmax
-        End If
-    End Sub
-    Private Sub F10_TextChanged(sender As Object, e As EventArgs) Handles F10.TextChanged
-        If F10.Text <> "" Then
-            firmax = firmax + F10.Text
-            TextBox3.Text = firmax
-        End If
+    Private Sub TextBox3_Click(sender As Object, e As EventArgs) Handles TextBox3.Click
+        Dim a, b, c, d, x, f, g, h, i, j As Integer
+        a = F1.Text
+        b = F2.Text
+        c = F3.Text
+        d = F4.Text
+        x = F5.Text
+        f = F6.Text
+        g = F7.Text
+        h = F8.Text
+        i = F9.Text
+        j = F10.Text
+
+        firmax = a + b + c + d + x + f + g + h + i + j
+        TextBox3.Text = firmax
     End Sub
 
-    Private Sub O1_TextChanged(sender As Object, e As EventArgs) Handles O1.TextChanged
-        If O1.Text <> "" Then
-            o2m = 0
-            o2m = o2m + O1.Text
-            TextBox4.Text = o2m
-        End If
-    End Sub
-    Private Sub O2_TextChanged(sender As Object, e As EventArgs) Handles O2.TextChanged
-        If O2.Text <> "" Then
-            o2m = o2m + O2.Text
-            TextBox4.Text = o2m
-        End If
-    End Sub
-    Private Sub O3_TextChanged(sender As Object, e As EventArgs) Handles O3.TextChanged
-        If O3.Text <> "" Then
-            o2m = o2m + O3.Text
-            TextBox4.Text = o2m
-        End If
-    End Sub
-    Private Sub O4_TextChanged(sender As Object, e As EventArgs) Handles O4.TextChanged
-        If O4.Text <> "" Then
-            o2m = o2m + O4.Text
-            TextBox4.Text = o2m
-        End If
-    End Sub
-    Private Sub O5_TextChanged(sender As Object, e As EventArgs) Handles O5.TextChanged
-        If O5.Text <> "" Then
-            o2m = o2m + O5.Text
-            TextBox4.Text = o2m
-        End If
-    End Sub
-    Private Sub O6_TextChanged(sender As Object, e As EventArgs) Handles O6.TextChanged
-        If O6.Text <> "" Then
-            o2m = o2m + O6.Text
-            TextBox4.Text = o2m
-        End If
-    End Sub
-    Private Sub O7_TextChanged(sender As Object, e As EventArgs) Handles O7.TextChanged
-        If O7.Text <> "" Then
-            o2m = o2m + O7.Text
-            TextBox4.Text = o2m
-        End If
-    End Sub
-    Private Sub O8_TextChanged(sender As Object, e As EventArgs) Handles O8.TextChanged
-        If O8.Text <> "" Then
-            o2m = o2m + O8.Text
-            TextBox4.Text = o2m
-        End If
-    End Sub
-    Private Sub O9_TextChanged(sender As Object, e As EventArgs) Handles O9.TextChanged
-        If O9.Text <> "" Then
-            o2m = o2m + O9.Text
-            TextBox4.Text = o2m
-        End If
-    End Sub
-    Private Sub O10_TextChanged(sender As Object, e As EventArgs) Handles O10.TextChanged
-        If O10.Text <> "" Then
-            o2m = o2m + O10.Text
-            TextBox4.Text = o2m
-        End If
+    Private Sub TextBox2_Click(sender As Object, e As EventArgs) Handles TextBox2.Click
+        Dim a, b, c, d, x, f, g, h, i, j As Integer
+        a = R1.Text
+        b = R2.Text
+        c = R3.Text
+        d = R4.Text
+        x = R5.Text
+        f = R6.Text
+        g = R7.Text
+        h = R8.Text
+        i = R9.Text
+        j = R10.Text
+
+        rwallet = a + b + c + d + x + f + g + h + i + j
+        TextBox2.Text = rwallet
     End Sub
 End Class
