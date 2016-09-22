@@ -216,6 +216,7 @@ Partial Class pembelianewmember
         '
         Me.o2max3r.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.o2max3r.Location = New System.Drawing.Point(610, 58)
+        Me.o2max3r.Maximum = New Decimal(New Integer() {1215752191, 23, 0, 0})
         Me.o2max3r.Name = "o2max3r"
         Me.o2max3r.Size = New System.Drawing.Size(262, 22)
         Me.o2max3r.TabIndex = 68
@@ -255,6 +256,7 @@ Partial Class pembelianewmember
         '
         Me.firmax3r.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.firmax3r.Location = New System.Drawing.Point(316, 58)
+        Me.firmax3r.Maximum = New Decimal(New Integer() {1215752191, 23, 0, 0})
         Me.firmax3r.Name = "firmax3r"
         Me.firmax3r.Size = New System.Drawing.Size(260, 22)
         Me.firmax3r.TabIndex = 65

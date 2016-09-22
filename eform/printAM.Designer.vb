@@ -192,7 +192,7 @@ Partial Class printAM
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(440, 710)
+        Me.Button1.Location = New System.Drawing.Point(425, 123)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 16

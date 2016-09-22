@@ -197,7 +197,7 @@ Partial Class printpembelian
         'Button1
         '
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button1.Location = New System.Drawing.Point(409, 712)
+        Me.Button1.Location = New System.Drawing.Point(426, 125)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 30

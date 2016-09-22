@@ -1,7 +1,7 @@
 ﻿Imports System.Data
 Imports System.Data.OleDb
 Public Class maintainmobile
-    Dim mwallet, firmax, o2m As Integer
+    Dim mwallet, mwallet1, firmax, o2m As Integer
 
     
     Private Sub back_Click(sender As Object, e As EventArgs) Handles back.Click
@@ -210,7 +210,7 @@ Public Class maintainmobile
             If y = 0 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp,Prod_firmax3, Prod_o2_max3,ordered_by,proceed_by,catatan) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F1.Text & "', '" & O1.Text & "','" & ordered.Text & "','" & proceeded.Text & "','" & catatan.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, amount, Prod_firmax3, Prod_o2_max3, saldo_maintainIDR, kurang_bayar, ordered_by,proceed_by,catatan) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "', '1000000','" & F1.Text & "', '" & O1.Text & "','" & TextBox5.Text & "', '" & TextBox6.Text & "','" & ordered.Text & "','" & proceeded.Text & "','" & catatan.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -221,7 +221,7 @@ Public Class maintainmobile
             ElseIf y = 1 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F2.Text & "', '" & O2.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, amount, Prod_firmax3, Prod_o2_max3, saldo_maintainIDR, kurang_bayar, ordered_by,proceed_by,catatan) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "', '1000000', '" & F2.Text & "', '" & O2.Text & "','" & TextBox5.Text & "', '" & TextBox6.Text & "','" & ordered.Text & "','" & proceeded.Text & "','" & catatan.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -232,7 +232,7 @@ Public Class maintainmobile
             ElseIf y = 2 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F3.Text & "', '" & O3.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, amount, Prod_firmax3, Prod_o2_max3, saldo_maintainIDR, kurang_bayar, ordered_by,proceed_by,catatan) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "', '1000000', '" & F3.Text & "', '" & O3.Text & "','" & TextBox5.Text & "', '" & TextBox6.Text & "','" & ordered.Text & "','" & proceeded.Text & "','" & catatan.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -243,7 +243,7 @@ Public Class maintainmobile
             ElseIf y = 3 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F4.Text & "', '" & O4.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, amount, Prod_firmax3, Prod_o2_max3, saldo_maintainIDR, kurang_bayar, ordered_by,proceed_by,catatan) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "', '1000000', '" & F4.Text & "', '" & O4.Text & "','" & TextBox5.Text & "', '" & TextBox6.Text & "','" & ordered.Text & "','" & proceeded.Text & "','" & catatan.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -254,7 +254,7 @@ Public Class maintainmobile
             ElseIf y = 4 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F5.Text & "', '" & O5.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, amount, Prod_firmax3, Prod_o2_max3, saldo_maintainIDR, kurang_bayar, ordered_by,proceed_by,catatan) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "', '1000000', '" & F5.Text & "', '" & O5.Text & "','" & TextBox5.Text & "', '" & TextBox6.Text & "','" & ordered.Text & "','" & proceeded.Text & "','" & catatan.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -265,7 +265,7 @@ Public Class maintainmobile
             ElseIf y = 5 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F6.Text & "', '" & O6.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, amount, Prod_firmax3, Prod_o2_max3, saldo_maintainIDR, kurang_bayar, ordered_by,proceed_by,catatan) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "', '1000000', '" & F6.Text & "', '" & O6.Text & "','" & TextBox5.Text & "', '" & TextBox6.Text & "','" & ordered.Text & "','" & proceeded.Text & "','" & catatan.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -276,7 +276,7 @@ Public Class maintainmobile
             ElseIf y = 6 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F7.Text & "', '" & O7.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, amount, Prod_firmax3, Prod_o2_max3, saldo_maintainIDR, kurang_bayar, ordered_by,proceed_by,catatan) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "', '1000000', '" & F7.Text & "', '" & O7.Text & "','" & TextBox5.Text & "', '" & TextBox6.Text & "','" & ordered.Text & "','" & proceeded.Text & "','" & catatan.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -287,7 +287,7 @@ Public Class maintainmobile
             ElseIf y = 7 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F8.Text & "', '" & O8.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, amount, Prod_firmax3, Prod_o2_max3, saldo_maintainIDR, kurang_bayar, ordered_by,proceed_by,catatan) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "', '1000000', '" & F8.Text & "', '" & O8.Text & "','" & TextBox5.Text & "', '" & TextBox6.Text & "','" & ordered.Text & "','" & proceeded.Text & "','" & catatan.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -298,7 +298,7 @@ Public Class maintainmobile
             ElseIf y = 8 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F9.Text & "', '" & O9.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, amount, Prod_firmax3, Prod_o2_max3, saldo_maintainIDR, kurang_bayar, ordered_by,proceed_by,catatan) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "', '1000000', '" & F9.Text & "', '" & O9.Text & "','" & TextBox5.Text & "', '" & TextBox6.Text & "','" & ordered.Text & "','" & proceeded.Text & "','" & catatan.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -309,7 +309,7 @@ Public Class maintainmobile
             ElseIf y = 9 Then
                 Dim simpan As String
                 Me.Cursor = Cursors.WaitCursor
-                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, Prod_firmax3, Prod_o2_max3) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "','" & F10.Text & "', '" & O10.Text & "') "
+                simpan = "INSERT INTO e_form(Tanggal,user_id,nama, No_Telp, amount, Prod_firmax3, Prod_o2_max3, saldo_maintainIDR, kurang_bayar, ordered_by,proceed_by,catatan) VALUES ('" & tanggal.Text & "','" & userid.Text & "','" & nama.Text & "','" & notelpon.Text & "', '1000000', '" & F10.Text & "', '" & O10.Text & "','" & TextBox5.Text & "', '" & TextBox6.Text & "','" & ordered.Text & "','" & proceeded.Text & "','" & catatan.Text & "') "
                 jalankansql(simpan)
                 noform.Focus()
                 Me.Cursor = Cursors.Default
@@ -412,7 +412,8 @@ Public Class maintainmobile
         If M1.Text <> "" Then
             mwallet = 0
             mwallet = mwallet + M1.Text
-            TextBox1.Text = mwallet
+            mwallet1 = mwallet
+            TextBox1.Text = mwallet1
             TextBox5.Text = TextBox1.Text * 3300
             TextBox6.Text = 1000000 - TextBox5.Text
         End If
@@ -421,7 +422,8 @@ Public Class maintainmobile
     Private Sub M2_TextChanged(sender As Object, e As EventArgs) Handles M2.TextChanged
         If M2.Text <> "" Then
             mwallet = mwallet + M2.Text
-            TextBox1.Text = mwallet
+            mwallet1 = mwallet
+            TextBox1.Text = mwallet1
             TextBox5.Text = TextBox1.Text * 3300
             TextBox6.Text = 1000000 - TextBox5.Text
         End If
@@ -429,7 +431,8 @@ Public Class maintainmobile
     Private Sub M3_TextChanged(sender As Object, e As EventArgs) Handles M3.TextChanged
         If M3.Text <> "" Then
             mwallet = mwallet + M3.Text
-            TextBox1.Text = mwallet
+            mwallet1 = mwallet
+            TextBox1.Text = mwallet1
             TextBox5.Text = TextBox1.Text * 3300
             TextBox6.Text = 1000000 - TextBox5.Text
         End If
@@ -438,7 +441,8 @@ Public Class maintainmobile
     Private Sub M4_TextChanged(sender As Object, e As EventArgs) Handles M4.TextChanged
         If M4.Text <> "" Then
             mwallet = mwallet + M4.Text
-            TextBox1.Text = mwallet
+            mwallet1 = mwallet
+            TextBox1.Text = mwallet1
             TextBox5.Text = TextBox1.Text * 3300
             TextBox6.Text = 1000000 - TextBox5.Text
         End If
@@ -447,7 +451,8 @@ Public Class maintainmobile
     Private Sub M5_TextChanged(sender As Object, e As EventArgs) Handles M5.TextChanged
         If M5.Text <> "" Then
             mwallet = mwallet + M5.Text
-            TextBox1.Text = mwallet
+            mwallet1 = mwallet
+            TextBox1.Text = mwallet1
             TextBox5.Text = TextBox1.Text * 3300
             TextBox6.Text = 1000000 - TextBox5.Text
         End If
@@ -455,7 +460,8 @@ Public Class maintainmobile
     Private Sub M6_TextChanged(sender As Object, e As EventArgs) Handles M6.TextChanged
         If M6.Text <> "" Then
             mwallet = mwallet + M6.Text
-            TextBox1.Text = mwallet
+            mwallet1 = mwallet
+            TextBox1.Text = mwallet1
             TextBox5.Text = TextBox1.Text * 3300
             TextBox6.Text = 1000000 - TextBox5.Text
         End If
@@ -463,7 +469,8 @@ Public Class maintainmobile
     Private Sub M7_TextChanged(sender As Object, e As EventArgs) Handles M7.TextChanged
         If M7.Text <> "" Then
             mwallet = mwallet + M7.Text
-            TextBox1.Text = mwallet
+            mwallet1 = mwallet
+            TextBox1.Text = mwallet1
             TextBox5.Text = TextBox1.Text * 3300
             TextBox6.Text = 1000000 - TextBox5.Text
         End If
@@ -471,7 +478,8 @@ Public Class maintainmobile
     Private Sub M8_TextChanged(sender As Object, e As EventArgs) Handles M8.TextChanged
         If M8.Text <> "" Then
             mwallet = mwallet + M8.Text
-            TextBox1.Text = mwallet
+            mwallet1 = mwallet
+            TextBox1.Text = mwallet1
             TextBox5.Text = TextBox1.Text * 3300
             TextBox6.Text = 1000000 - TextBox5.Text
         End If
@@ -479,7 +487,8 @@ Public Class maintainmobile
     Private Sub M9_TextChanged(sender As Object, e As EventArgs) Handles M9.TextChanged
         If M9.Text <> "" Then
             mwallet = mwallet + M9.Text
-            TextBox1.Text = mwallet
+            mwallet1 = mwallet
+            TextBox1.Text = mwallet1
             TextBox5.Text = TextBox1.Text * 3300
             TextBox6.Text = 1000000 - TextBox5.Text
         End If
@@ -487,7 +496,8 @@ Public Class maintainmobile
     Private Sub M10_TextChanged(sender As Object, e As EventArgs) Handles M10.TextChanged
         If M10.Text <> "" Then
             mwallet = mwallet + M10.Text
-            TextBox1.Text = mwallet
+            mwallet1 = mwallet
+            TextBox1.Text = mwallet1
             TextBox5.Text = TextBox1.Text * 3300
             TextBox6.Text = 1000000 - TextBox5.Text
         End If
@@ -616,30 +626,4 @@ Public Class maintainmobile
             TextBox4.Text = o2m
         End If
     End Sub
-
-    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
-
-    End Sub
-
-    Private Sub TextBox2_TextChanged(sender As Object, e As EventArgs) Handles TextBox2.TextChanged
-
-    End Sub
-
-    Private Sub TextBox3_TextChanged(sender As Object, e As EventArgs) Handles TextBox3.TextChanged
-
-    End Sub
-
-    Private Sub TextBox4_TextChanged(sender As Object, e As EventArgs) Handles TextBox4.TextChanged
-
-    End Sub
-
-    Private Sub TextBox5_TextChanged(sender As Object, e As EventArgs) Handles TextBox5.TextChanged
-
-    End Sub
-
-    Private Sub TextBox6_TextChanged(sender As Object, e As EventArgs) Handles TextBox6.TextChanged
-
-    End Sub
-
-
 End Class

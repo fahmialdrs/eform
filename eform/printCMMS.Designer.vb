@@ -682,7 +682,7 @@ Partial Class printCMMS
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(431, 715)
+        Me.Button1.Location = New System.Drawing.Point(430, 143)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 64

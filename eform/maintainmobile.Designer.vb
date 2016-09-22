@@ -1308,7 +1308,6 @@ Partial Class maintainmobile
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox2.Location = New System.Drawing.Point(419, 247)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.ReadOnly = True
         Me.TextBox2.Size = New System.Drawing.Size(202, 20)
         Me.TextBox2.TabIndex = 86
         Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1320,7 +1319,6 @@ Partial Class maintainmobile
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox3.Location = New System.Drawing.Point(627, 247)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.ReadOnly = True
         Me.TextBox3.Size = New System.Drawing.Size(202, 20)
         Me.TextBox3.TabIndex = 87
         Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1332,7 +1330,6 @@ Partial Class maintainmobile
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox4.Location = New System.Drawing.Point(835, 247)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.ReadOnly = True
         Me.TextBox4.Size = New System.Drawing.Size(203, 20)
         Me.TextBox4.TabIndex = 88
         Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1344,7 +1341,6 @@ Partial Class maintainmobile
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox6.Location = New System.Drawing.Point(211, 283)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.ReadOnly = True
         Me.TextBox6.Size = New System.Drawing.Size(202, 20)
         Me.TextBox6.TabIndex = 90
         Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1356,7 +1352,6 @@ Partial Class maintainmobile
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox5.Location = New System.Drawing.Point(211, 265)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.ReadOnly = True
         Me.TextBox5.Size = New System.Drawing.Size(202, 20)
         Me.TextBox5.TabIndex = 89
         Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
@@ -1368,7 +1363,6 @@ Partial Class maintainmobile
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox1.Location = New System.Drawing.Point(211, 247)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.ReadOnly = True
         Me.TextBox1.Size = New System.Drawing.Size(202, 20)
         Me.TextBox1.TabIndex = 85
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center

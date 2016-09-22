@@ -89,6 +89,7 @@ Public Class maintain
             MessageBox.Show("Kolom Nama Proceeded By tidak boleh kosong ...", "Peringatan", MessageBoxButtons.OK)
             proceeded.Focus()
             Exit Sub
+            
         Else
             Dim simpan As String
             Me.Cursor = Cursors.WaitCursor
@@ -172,7 +173,13 @@ Public Class maintain
     End Sub
 
     Private Sub saldomaintainrm_TextChanged(sender As Object, e As EventArgs) Handles saldomaintainrm.TextChanged
-        'saldomaintainidr.Text = saldomaintainrm.Text * 3300
-        'kurangbayar.Text = 1000000 - saldomaintainidr.Text
+        Try
+            If saldomaintainrm.Text >= 0 Or saldomaintainrm.Text <> "" Then
+                saldomaintainidr.Text = saldomaintainrm.Text * 3300
+                kurangbayar.Text = 1000000 - saldomaintainidr.Text
+            End If
+        Catch ex As Exception
+            MessageBox.Show("Kolom Saldo Maintain RM tidak boleh kosong" & ex.Message, "Peringatan", MessageBoxButtons.OK)
+        End Try
     End Sub
 End Class
