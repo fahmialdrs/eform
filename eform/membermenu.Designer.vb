@@ -281,7 +281,7 @@ Partial Class membermenu
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(897, 20)
         Me.Label1.TabIndex = 80
-        Me.Label1.Text = "Gedung Gajah Unit AP - Jl. Dr. Sahardjo No.111, Tebet Barat, Tebet 12810 Jakarta " & _
+        Me.Label1.Text = "Gedung Gajah Unit AP - Jl. Dr. Sahardjo No.111, Tebet Barat, Tebet 12810 Jakarta " &
     "Selatan Telp. 021-8310351"
         '
         'Label10
@@ -341,6 +341,8 @@ Partial Class membermenu
         'lblpembelian
         '
         Me.lblpembelian.AutoSize = True
+        Me.lblpembelian.BackColor = System.Drawing.SystemColors.Control
+        Me.lblpembelian.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.lblpembelian.Location = New System.Drawing.Point(466, 269)
         Me.lblpembelian.Name = "lblpembelian"
         Me.lblpembelian.Size = New System.Drawing.Size(82, 13)

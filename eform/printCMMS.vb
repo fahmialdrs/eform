@@ -12,16 +12,17 @@
         If PrintDialog1.ShowDialog = DialogResult.OK Then
 
             PrintForm1.PrinterSettings = PrintDialog1.PrinterSettings
+            PrintDocument1.DefaultPageSettings.Landscape = True
             PrintForm1.Print()
         End If
         Button1.Visible = True
     End Sub
 
-    Private Sub Label9_Click(sender As Object, e As EventArgs) Handles angka9.Click
+    Private Sub Label9_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles angka2.Click
+    Private Sub Label2_Click(sender As Object, e As EventArgs)
 
     End Sub
 End Class

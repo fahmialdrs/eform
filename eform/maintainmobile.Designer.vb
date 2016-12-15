@@ -193,6 +193,8 @@ Partial Class maintainmobile
         '
         'tanggal
         '
+        Me.tanggal.CustomFormat = "dd-MMM-yy"
+        Me.tanggal.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.tanggal.Location = New System.Drawing.Point(128, 3)
         Me.tanggal.Name = "tanggal"
         Me.tanggal.Size = New System.Drawing.Size(881, 20)
@@ -650,6 +652,7 @@ Partial Class maintainmobile
         Me.O6.TabIndex = 37
         Me.O6.Text = "0"
         Me.O6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.O6.Visible = False
         '
         'F6
         '
@@ -662,6 +665,7 @@ Partial Class maintainmobile
         Me.F6.TabIndex = 36
         Me.F6.Text = "0"
         Me.F6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.F6.Visible = False
         '
         'M6
         '
@@ -674,6 +678,7 @@ Partial Class maintainmobile
         Me.M6.TabIndex = 34
         Me.M6.Text = "0"
         Me.M6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.M6.Visible = False
         '
         'memberid6
         '
@@ -685,6 +690,7 @@ Partial Class maintainmobile
         Me.memberid6.Size = New System.Drawing.Size(202, 20)
         Me.memberid6.TabIndex = 33
         Me.memberid6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.memberid6.Visible = False
         '
         'O5
         '
@@ -697,6 +703,7 @@ Partial Class maintainmobile
         Me.O5.TabIndex = 32
         Me.O5.Text = "0"
         Me.O5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.O5.Visible = False
         '
         'F5
         '
@@ -709,6 +716,7 @@ Partial Class maintainmobile
         Me.F5.TabIndex = 31
         Me.F5.Text = "0"
         Me.F5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.F5.Visible = False
         '
         'R5
         '
@@ -721,6 +729,7 @@ Partial Class maintainmobile
         Me.R5.TabIndex = 30
         Me.R5.Text = "0"
         Me.R5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.R5.Visible = False
         '
         'M5
         '
@@ -733,6 +742,7 @@ Partial Class maintainmobile
         Me.M5.TabIndex = 29
         Me.M5.Text = "0"
         Me.M5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.M5.Visible = False
         '
         'memberid5
         '
@@ -744,6 +754,7 @@ Partial Class maintainmobile
         Me.memberid5.Size = New System.Drawing.Size(202, 20)
         Me.memberid5.TabIndex = 28
         Me.memberid5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.memberid5.Visible = False
         '
         'O4
         '
@@ -1015,6 +1026,7 @@ Partial Class maintainmobile
         Me.R6.TabIndex = 35
         Me.R6.Text = "0"
         Me.R6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.R6.Visible = False
         '
         'Label14
         '
@@ -1101,6 +1113,7 @@ Partial Class maintainmobile
         Me.memberid7.Size = New System.Drawing.Size(202, 20)
         Me.memberid7.TabIndex = 38
         Me.memberid7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.memberid7.Visible = False
         '
         'M7
         '
@@ -1113,6 +1126,7 @@ Partial Class maintainmobile
         Me.M7.TabIndex = 39
         Me.M7.Text = "0"
         Me.M7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.M7.Visible = False
         '
         'R7
         '
@@ -1125,6 +1139,7 @@ Partial Class maintainmobile
         Me.R7.TabIndex = 40
         Me.R7.Text = "0"
         Me.R7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.R7.Visible = False
         '
         'F7
         '
@@ -1137,6 +1152,7 @@ Partial Class maintainmobile
         Me.F7.TabIndex = 41
         Me.F7.Text = "0"
         Me.F7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.F7.Visible = False
         '
         'memberid8
         '
@@ -1148,6 +1164,7 @@ Partial Class maintainmobile
         Me.memberid8.Size = New System.Drawing.Size(202, 20)
         Me.memberid8.TabIndex = 43
         Me.memberid8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.memberid8.Visible = False
         '
         'M8
         '
@@ -1160,6 +1177,7 @@ Partial Class maintainmobile
         Me.M8.TabIndex = 44
         Me.M8.Text = "0"
         Me.M8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.M8.Visible = False
         '
         'O7
         '
@@ -1172,6 +1190,7 @@ Partial Class maintainmobile
         Me.O7.TabIndex = 42
         Me.O7.Text = "0"
         Me.O7.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.O7.Visible = False
         '
         'R8
         '
@@ -1184,6 +1203,7 @@ Partial Class maintainmobile
         Me.R8.TabIndex = 45
         Me.R8.Text = "0"
         Me.R8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.R8.Visible = False
         '
         'F8
         '
@@ -1196,6 +1216,7 @@ Partial Class maintainmobile
         Me.F8.TabIndex = 46
         Me.F8.Text = "0"
         Me.F8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.F8.Visible = False
         '
         'O8
         '
@@ -1208,6 +1229,7 @@ Partial Class maintainmobile
         Me.O8.TabIndex = 47
         Me.O8.Text = "0"
         Me.O8.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.O8.Visible = False
         '
         'memberid9
         '
@@ -1219,6 +1241,7 @@ Partial Class maintainmobile
         Me.memberid9.Size = New System.Drawing.Size(202, 20)
         Me.memberid9.TabIndex = 48
         Me.memberid9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.memberid9.Visible = False
         '
         'M9
         '
@@ -1231,6 +1254,7 @@ Partial Class maintainmobile
         Me.M9.TabIndex = 49
         Me.M9.Text = "0"
         Me.M9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.M9.Visible = False
         '
         'R9
         '
@@ -1243,6 +1267,7 @@ Partial Class maintainmobile
         Me.R9.TabIndex = 50
         Me.R9.Text = "0"
         Me.R9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.R9.Visible = False
         '
         'F9
         '
@@ -1255,6 +1280,7 @@ Partial Class maintainmobile
         Me.F9.TabIndex = 51
         Me.F9.Text = "0"
         Me.F9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.F9.Visible = False
         '
         'O9
         '
@@ -1267,6 +1293,7 @@ Partial Class maintainmobile
         Me.O9.TabIndex = 52
         Me.O9.Text = "0"
         Me.O9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.O9.Visible = False
         '
         'memberid10
         '
@@ -1278,6 +1305,7 @@ Partial Class maintainmobile
         Me.memberid10.Size = New System.Drawing.Size(202, 20)
         Me.memberid10.TabIndex = 53
         Me.memberid10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.memberid10.Visible = False
         '
         'M10
         '
@@ -1290,6 +1318,7 @@ Partial Class maintainmobile
         Me.M10.TabIndex = 54
         Me.M10.Text = "0"
         Me.M10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.M10.Visible = False
         '
         'R10
         '
@@ -1302,6 +1331,7 @@ Partial Class maintainmobile
         Me.R10.TabIndex = 55
         Me.R10.Text = "0"
         Me.R10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.R10.Visible = False
         '
         'F10
         '
@@ -1314,6 +1344,7 @@ Partial Class maintainmobile
         Me.F10.TabIndex = 56
         Me.F10.Text = "0"
         Me.F10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.F10.Visible = False
         '
         'O10
         '
@@ -1326,6 +1357,7 @@ Partial Class maintainmobile
         Me.O10.TabIndex = 78
         Me.O10.Text = "0"
         Me.O10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.O10.Visible = False
         '
         'Label15
         '
@@ -1506,7 +1538,6 @@ Partial Class maintainmobile
     Friend WithEvents O5 As TextBox
     Friend WithEvents F5 As TextBox
     Friend WithEvents R5 As TextBox
-    Friend WithEvents M5 As TextBox
     Friend WithEvents memberid5 As TextBox
     Friend WithEvents O4 As TextBox
     Friend WithEvents F4 As TextBox
@@ -1564,4 +1595,5 @@ Partial Class maintainmobile
     Friend WithEvents TextBox6 As TextBox
     Friend WithEvents TextBox5 As TextBox
     Friend WithEvents PrintForm1 As PowerPacks.Printing.PrintForm
+    Friend WithEvents M5 As TextBox
 End Class

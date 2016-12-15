@@ -187,4 +187,8 @@ Public Class Pembelian
             catatan.Text &= " "
         End If
     End Sub
+
+    Private Sub tanggal_ValueChanged(sender As Object, e As EventArgs) Handles tanggal.ValueChanged
+        Dim tanggal As String = DateTime.Now.ToString("yyyy-MM-dd")
+    End Sub
 End Class

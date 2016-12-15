@@ -164,11 +164,13 @@ Partial Class maintain
         '
         'tanggal
         '
+        Me.tanggal.CustomFormat = "dd-MMM-yy"
+        Me.tanggal.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.tanggal.Location = New System.Drawing.Point(89, 3)
         Me.tanggal.Name = "tanggal"
         Me.tanggal.Size = New System.Drawing.Size(927, 20)
         Me.tanggal.TabIndex = 5
-        Me.tanggal.Value = New Date(2016, 5, 28, 16, 16, 57, 0)
+        Me.tanggal.Value = New Date(2016, 12, 15, 0, 0, 0, 0)
         '
         'Label3
         '

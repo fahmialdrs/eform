@@ -155,6 +155,8 @@ Partial Class mobilestockist
         '
         'tanggal
         '
+        Me.tanggal.CustomFormat = "dd-MMM-yy"
+        Me.tanggal.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.tanggal.Location = New System.Drawing.Point(199, 3)
         Me.tanggal.Name = "tanggal"
         Me.tanggal.Size = New System.Drawing.Size(840, 20)

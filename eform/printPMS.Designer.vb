@@ -65,9 +65,11 @@ Partial Class printPMS
         'Button1
         '
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button1.Location = New System.Drawing.Point(425, 124)
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(778, 18)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(0)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(87, 33)
         Me.Button1.TabIndex = 31
         Me.Button1.Text = "Print"
         Me.Button1.UseVisualStyleBackColor = True
@@ -76,190 +78,210 @@ Partial Class printPMS
         '
         Me.Noform.AutoSize = True
         Me.Noform.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Noform.Location = New System.Drawing.Point(383, -43)
+        Me.Noform.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Noform.Location = New System.Drawing.Point(549, 99)
         Me.Noform.Name = "Noform"
-        Me.Noform.Size = New System.Drawing.Size(0, 13)
+        Me.Noform.Size = New System.Drawing.Size(0, 19)
         Me.Noform.TabIndex = 32
         '
         'tanggal
         '
         Me.tanggal.AutoSize = True
         Me.tanggal.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.tanggal.Location = New System.Drawing.Point(204, 47)
+        Me.tanggal.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tanggal.Location = New System.Drawing.Point(647, 104)
         Me.tanggal.Name = "tanggal"
-        Me.tanggal.Size = New System.Drawing.Size(0, 13)
+        Me.tanggal.Size = New System.Drawing.Size(0, 17)
         Me.tanggal.TabIndex = 33
         '
         'userid
         '
         Me.userid.AutoSize = True
         Me.userid.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.userid.Location = New System.Drawing.Point(204, 67)
+        Me.userid.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.userid.Location = New System.Drawing.Point(196, 96)
         Me.userid.Name = "userid"
-        Me.userid.Size = New System.Drawing.Size(0, 13)
+        Me.userid.Size = New System.Drawing.Size(0, 19)
         Me.userid.TabIndex = 34
         '
         'nama
         '
         Me.nama.AutoSize = True
         Me.nama.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.nama.Location = New System.Drawing.Point(204, 86)
+        Me.nama.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.nama.Location = New System.Drawing.Point(196, 126)
         Me.nama.Name = "nama"
-        Me.nama.Size = New System.Drawing.Size(0, 13)
+        Me.nama.Size = New System.Drawing.Size(0, 19)
         Me.nama.TabIndex = 35
         '
         'notelp
         '
         Me.notelp.AutoSize = True
         Me.notelp.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.notelp.Location = New System.Drawing.Point(204, 106)
+        Me.notelp.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.notelp.Location = New System.Drawing.Point(596, 135)
         Me.notelp.Name = "notelp"
-        Me.notelp.Size = New System.Drawing.Size(0, 13)
+        Me.notelp.Size = New System.Drawing.Size(0, 19)
         Me.notelp.TabIndex = 36
         '
         'firmax3
         '
         Me.firmax3.AutoSize = True
         Me.firmax3.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.firmax3.Location = New System.Drawing.Point(213, 193)
+        Me.firmax3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.firmax3.Location = New System.Drawing.Point(197, 237)
         Me.firmax3.Name = "firmax3"
-        Me.firmax3.Size = New System.Drawing.Size(0, 13)
+        Me.firmax3.Size = New System.Drawing.Size(0, 19)
         Me.firmax3.TabIndex = 37
         '
         'O2max
         '
         Me.O2max.AutoSize = True
         Me.O2max.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.O2max.Location = New System.Drawing.Point(356, 193)
+        Me.O2max.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.O2max.Location = New System.Drawing.Point(321, 237)
         Me.O2max.Name = "O2max"
-        Me.O2max.Size = New System.Drawing.Size(0, 13)
+        Me.O2max.Size = New System.Drawing.Size(0, 19)
         Me.O2max.TabIndex = 38
         '
         'totalpcs
         '
         Me.totalpcs.AutoSize = True
         Me.totalpcs.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.totalpcs.Location = New System.Drawing.Point(213, 208)
+        Me.totalpcs.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.totalpcs.Location = New System.Drawing.Point(196, 264)
         Me.totalpcs.Name = "totalpcs"
-        Me.totalpcs.Size = New System.Drawing.Size(0, 13)
+        Me.totalpcs.Size = New System.Drawing.Size(0, 19)
         Me.totalpcs.TabIndex = 39
         '
         'totalset
         '
         Me.totalset.AutoSize = True
         Me.totalset.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.totalset.Location = New System.Drawing.Point(213, 228)
+        Me.totalset.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.totalset.Location = New System.Drawing.Point(197, 291)
         Me.totalset.Name = "totalset"
-        Me.totalset.Size = New System.Drawing.Size(0, 13)
+        Me.totalset.Size = New System.Drawing.Size(0, 19)
         Me.totalset.TabIndex = 40
         '
         'amount
         '
         Me.amount.AutoSize = True
         Me.amount.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.amount.Location = New System.Drawing.Point(240, 253)
+        Me.amount.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.amount.Location = New System.Drawing.Point(232, 330)
         Me.amount.Name = "amount"
-        Me.amount.Size = New System.Drawing.Size(0, 13)
+        Me.amount.Size = New System.Drawing.Size(0, 19)
         Me.amount.TabIndex = 41
         '
         'firmax3_2
         '
         Me.firmax3_2.AutoSize = True
         Me.firmax3_2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.firmax3_2.Location = New System.Drawing.Point(213, 349)
+        Me.firmax3_2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.firmax3_2.Location = New System.Drawing.Point(596, 237)
         Me.firmax3_2.Name = "firmax3_2"
-        Me.firmax3_2.Size = New System.Drawing.Size(0, 13)
+        Me.firmax3_2.Size = New System.Drawing.Size(0, 19)
         Me.firmax3_2.TabIndex = 42
         '
         'o2max_2
         '
         Me.o2max_2.AutoSize = True
         Me.o2max_2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.o2max_2.Location = New System.Drawing.Point(356, 348)
+        Me.o2max_2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.o2max_2.Location = New System.Drawing.Point(719, 237)
         Me.o2max_2.Name = "o2max_2"
-        Me.o2max_2.Size = New System.Drawing.Size(0, 13)
+        Me.o2max_2.Size = New System.Drawing.Size(0, 19)
         Me.o2max_2.TabIndex = 43
         '
         'totalpcs_2
         '
         Me.totalpcs_2.AutoSize = True
         Me.totalpcs_2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.totalpcs_2.Location = New System.Drawing.Point(213, 367)
+        Me.totalpcs_2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.totalpcs_2.Location = New System.Drawing.Point(596, 264)
         Me.totalpcs_2.Name = "totalpcs_2"
-        Me.totalpcs_2.Size = New System.Drawing.Size(0, 13)
+        Me.totalpcs_2.Size = New System.Drawing.Size(0, 19)
         Me.totalpcs_2.TabIndex = 44
         '
         'totalset_2
         '
         Me.totalset_2.AutoSize = True
         Me.totalset_2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.totalset_2.Location = New System.Drawing.Point(213, 387)
+        Me.totalset_2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.totalset_2.Location = New System.Drawing.Point(597, 291)
         Me.totalset_2.Name = "totalset_2"
-        Me.totalset_2.Size = New System.Drawing.Size(0, 13)
+        Me.totalset_2.Size = New System.Drawing.Size(0, 19)
         Me.totalset_2.TabIndex = 45
         '
         'amount_2
         '
         Me.amount_2.AutoSize = True
         Me.amount_2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.amount_2.Location = New System.Drawing.Point(240, 413)
+        Me.amount_2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.amount_2.Location = New System.Drawing.Point(633, 330)
         Me.amount_2.Name = "amount_2"
-        Me.amount_2.Size = New System.Drawing.Size(0, 13)
+        Me.amount_2.Size = New System.Drawing.Size(0, 19)
         Me.amount_2.TabIndex = 46
         '
         'ordered
         '
         Me.ordered.AutoSize = True
         Me.ordered.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.ordered.Location = New System.Drawing.Point(78, 525)
+        Me.ordered.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ordered.Location = New System.Drawing.Point(353, 468)
         Me.ordered.Name = "ordered"
-        Me.ordered.Size = New System.Drawing.Size(0, 13)
+        Me.ordered.Size = New System.Drawing.Size(0, 19)
         Me.ordered.TabIndex = 47
         '
         'proceeded
         '
         Me.proceeded.AutoSize = True
         Me.proceeded.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.proceeded.Location = New System.Drawing.Point(396, 525)
+        Me.proceeded.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.proceeded.Location = New System.Drawing.Point(97, 468)
         Me.proceeded.Name = "proceeded"
-        Me.proceeded.Size = New System.Drawing.Size(0, 13)
+        Me.proceeded.Size = New System.Drawing.Size(0, 19)
         Me.proceeded.TabIndex = 48
         '
         'catatan
         '
         Me.catatan.AutoSize = True
         Me.catatan.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.catatan.Location = New System.Drawing.Point(66, 556)
+        Me.catatan.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.catatan.Location = New System.Drawing.Point(495, 470)
         Me.catatan.Name = "catatan"
-        Me.catatan.Size = New System.Drawing.Size(0, 13)
+        Me.catatan.Size = New System.Drawing.Size(0, 19)
         Me.catatan.TabIndex = 49
         '
         'finalcheck
         '
         Me.finalcheck.AutoSize = True
         Me.finalcheck.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.finalcheck.Location = New System.Drawing.Point(221, 684)
+        Me.finalcheck.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.finalcheck.Location = New System.Drawing.Point(317, 834)
         Me.finalcheck.Name = "finalcheck"
-        Me.finalcheck.Size = New System.Drawing.Size(0, 13)
+        Me.finalcheck.Size = New System.Drawing.Size(0, 19)
         Me.finalcheck.TabIndex = 50
         '
         'datainput
         '
         Me.datainput.AutoSize = True
         Me.datainput.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.datainput.Location = New System.Drawing.Point(356, 684)
+        Me.datainput.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.datainput.Location = New System.Drawing.Point(475, 834)
         Me.datainput.Name = "datainput"
-        Me.datainput.Size = New System.Drawing.Size(0, 13)
+        Me.datainput.Size = New System.Drawing.Size(0, 19)
         Me.datainput.TabIndex = 51
         '
         'printPMS
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(543, 733)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.ClientSize = New System.Drawing.Size(882, 585)
         Me.Controls.Add(Me.datainput)
         Me.Controls.Add(Me.finalcheck)
         Me.Controls.Add(Me.catatan)
@@ -281,6 +303,8 @@ Partial Class printPMS
         Me.Controls.Add(Me.tanggal)
         Me.Controls.Add(Me.Noform)
         Me.Controls.Add(Me.Button1)
+        Me.DoubleBuffered = True
+        Me.Font = New System.Drawing.Font("Times New Roman", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Name = "printPMS"
         Me.Text = "printPMS"
         Me.ResumeLayout(False)

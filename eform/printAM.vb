@@ -9,8 +9,13 @@
         If PrintDialog1.ShowDialog = DialogResult.OK Then
 
             PrintForm1.PrinterSettings = PrintDialog1.PrinterSettings
+            PrintDocument1.DefaultPageSettings.Landscape = True
             PrintForm1.Print()
         End If
         Button1.Visible = True
+    End Sub
+
+    Private Sub printAM_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class

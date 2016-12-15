@@ -420,6 +420,8 @@ Partial Class mobilestockistt
         Me.tanggal.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.tanggal.CustomFormat = "dd-MMM-yy"
+        Me.tanggal.Format = System.Windows.Forms.DateTimePickerFormat.Custom
         Me.tanggal.Location = New System.Drawing.Point(199, 3)
         Me.tanggal.Name = "tanggal"
         Me.tanggal.Size = New System.Drawing.Size(840, 20)

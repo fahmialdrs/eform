@@ -216,7 +216,7 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
-                printCMMS.angka1.Text = "1"
+                'printCMMS.angka1.Text = "1"
                 conn.Close()
             ElseIf y = 1 Then
                 Dim simpan As String
@@ -227,7 +227,7 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
-                printCMMS.angka2.Text = "2"
+                'printCMMS.angka2.Text = "2"
                 conn.Close()
             ElseIf y = 2 Then
                 Dim simpan As String
@@ -238,7 +238,7 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
-                printCMMS.angka3.Text = "3"
+                ' printCMMS.angka3.Text = "3"
                 conn.Close()
             ElseIf y = 3 Then
                 Dim simpan As String
@@ -249,7 +249,7 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
-                printCMMS.angka4.Text = "4"
+                'printCMMS.angka4.Text = "4"
                 conn.Close()
             ElseIf y = 4 Then
                 Dim simpan As String
@@ -260,7 +260,7 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
-                printCMMS.angka5.Text = "5"
+                'printCMMS.angka5.Text = "5"
                 conn.Close()
             ElseIf y = 5 Then
                 Dim simpan As String
@@ -271,7 +271,7 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
-                printCMMS.angka6.Text = "6"
+                'printCMMS.angka6.Text = "6"
                 conn.Close()
             ElseIf y = 6 Then
                 Dim simpan As String
@@ -282,7 +282,7 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
-                printCMMS.angka7.Text = "7"
+                'printCMMS.angka7.Text = "7"
                 conn.Close()
             ElseIf y = 7 Then
                 Dim simpan As String
@@ -293,7 +293,7 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
-                printCMMS.angka8.Text = "8"
+                'printCMMS.angka8.Text = "8"
                 conn.Close()
             ElseIf y = 8 Then
                 Dim simpan As String
@@ -304,7 +304,7 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
-                printCMMS.angka9.Text = "9"
+                'printCMMS.angka9.Text = "9"
                 conn.Close()
             ElseIf y = 9 Then
                 Dim simpan As String
@@ -315,7 +315,7 @@ Public Class maintainmobile
                 Me.Cursor = Cursors.Default
                 gudang.ReportViewer1.Refresh()
                 finance.ReportViewer1.RefreshReport()
-                printCMMS.angka10.Text = "10"
+                'printCMMS.angka10.Text = "10"
                 conn.Close()
             End If
             If noform.Text = "" Then
@@ -342,52 +342,52 @@ Public Class maintainmobile
         printCMMS.memberid2.Text = Me.memberid2.Text
         printCMMS.memberid3.Text = Me.memberid3.Text
         printCMMS.memberid4.Text = Me.memberid4.Text
-        printCMMS.memberid5.Text = Me.memberid5.Text
-        printCMMS.memberid6.Text = Me.memberid6.Text
-        printCMMS.memberid7.Text = Me.memberid7.Text
-        printCMMS.memberid8.Text = Me.memberid8.Text
-        printCMMS.memberid9.Text = Me.memberid9.Text
-        printCMMS.memberid10.Text = Me.memberid10.Text
+        'printCMMS.memberid5.Text = Me.memberid5.Text
+        'printCMMS.memberid6.Text = Me.memberid6.Text
+        'printCMMS.memberid7.Text = Me.memberid7.Text
+        'printCMMS.memberid8.Text = Me.memberid8.Text
+        'printCMMS.memberid9.Text = Me.memberid9.Text
+        'printCMMS.memberid10.Text = Me.memberid10.Text
         printCMMS.m1.Text = Me.M1.Text
         printCMMS.m2.Text = Me.M2.Text
         printCMMS.m3.Text = Me.M3.Text
         printCMMS.m4.Text = Me.M4.Text
-        printCMMS.m5.Text = Me.M5.Text
-        printCMMS.m6.Text = Me.M6.Text
-        printCMMS.m7.Text = Me.M7.Text
-        printCMMS.m8.Text = Me.M8.Text
-        printCMMS.m9.Text = Me.M9.Text
-        printCMMS.m10.Text = Me.M10.Text
+        'printCMMS.m5.Text = Me.M5.Text
+        'printCMMS.m6.Text = Me.M6.Text
+        'printCMMS.m7.Text = Me.M7.Text
+        'printCMMS.m8.Text = Me.M8.Text
+        'printCMMS.m9.Text = Me.M9.Text
+        'printCMMS.m10.Text = Me.M10.Text
         printCMMS.r1.Text = Me.R1.Text
         printCMMS.r2.Text = Me.R2.Text
         printCMMS.r3.Text = Me.R3.Text
         printCMMS.r4.Text = Me.R4.Text
-        printCMMS.r5.Text = Me.R5.Text
-        printCMMS.r6.Text = Me.R6.Text
-        printCMMS.r7.Text = Me.R7.Text
-        printCMMS.r8.Text = Me.R8.Text
-        printCMMS.r9.Text = Me.R9.Text
-        printCMMS.r10.Text = Me.R10.Text
+        'printCMMS.r5.Text = Me.R5.Text
+        'printCMMS.r6.Text = Me.R6.Text
+        'printCMMS.r7.Text = Me.R7.Text
+        'printCMMS.r8.Text = Me.R8.Text
+        'printCMMS.r9.Text = Me.R9.Text
+        'printCMMS.r10.Text = Me.R10.Text
         printCMMS.f1.Text = Me.F1.Text
         printCMMS.f2.Text = Me.F2.Text
         printCMMS.f3.Text = Me.F3.Text
         printCMMS.f4.Text = Me.F4.Text
-        printCMMS.f5.Text = Me.F5.Text
-        printCMMS.f6.Text = Me.F6.Text
-        printCMMS.f7.Text = Me.F7.Text
-        printCMMS.f8.Text = Me.F8.Text
-        printCMMS.f9.Text = Me.F9.Text
-        printCMMS.f10.Text = Me.F10.Text
+        'printCMMS.f5.Text = Me.F5.Text
+        'printCMMS.f6.Text = Me.F6.Text
+        'printCMMS.f7.Text = Me.F7.Text
+        'printCMMS.f8.Text = Me.F8.Text
+        'printCMMS.f9.Text = Me.F9.Text
+        'printCMMS.f10.Text = Me.F10.Text
         printCMMS.o1.Text = Me.O1.Text
         printCMMS.o2.Text = Me.O2.Text
         printCMMS.o3.Text = Me.O3.Text
         printCMMS.o4.Text = Me.O4.Text
-        printCMMS.o5.Text = Me.O5.Text
-        printCMMS.o6.Text = Me.O6.Text
-        printCMMS.o7.Text = Me.O7.Text
-        printCMMS.o8.Text = Me.O8.Text
-        printCMMS.o9.Text = Me.O9.Text
-        printCMMS.o10.Text = Me.O10.Text
+        'printCMMS.o5.Text = Me.O5.Text
+        'printCMMS.o6.Text = Me.O6.Text
+        'printCMMS.o7.Text = Me.O7.Text
+        'printCMMS.o8.Text = Me.O8.Text
+        'printCMMS.o9.Text = Me.O9.Text
+        'printCMMS.o10.Text = Me.O10.Text
         printCMMS.ordered.Text = Me.ordered.Text
         printCMMS.proceeded.Text = Me.proceeded.Text
         printCMMS.catatan.Text = Me.catatan.Text
@@ -425,6 +425,10 @@ Public Class maintainmobile
         TextBox1.Text = mwallet
         TextBox5.Text = TextBox1.Text * 3300
         TextBox6.Text = 1000000 - TextBox5.Text
+    End Sub
+
+    Private Sub M5_TextChanged(sender As Object, e As EventArgs) Handles M5.TextChanged
+
     End Sub
 
     Private Sub TextBox4_Click(sender As Object, e As EventArgs) Handles TextBox4.Click

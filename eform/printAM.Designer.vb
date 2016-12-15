@@ -40,164 +40,107 @@ Partial Class printAM
         Me.ordered = New System.Windows.Forms.Label()
         Me.proceeded = New System.Windows.Forms.Label()
         Me.catatan = New System.Windows.Forms.Label()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.PrintForm1 = New Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(Me.components)
         Me.PrintDialog1 = New System.Windows.Forms.PrintDialog()
         Me.PrintDocument1 = New System.Drawing.Printing.PrintDocument()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'no
         '
-        Me.no.AutoSize = True
-        Me.no.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.no.Location = New System.Drawing.Point(337, -72)
+        resources.ApplyResources(Me.no, "no")
+        Me.no.BackColor = System.Drawing.Color.Transparent
         Me.no.Name = "no"
-        Me.no.Size = New System.Drawing.Size(0, 13)
-        Me.no.TabIndex = 0
         '
         'tanggal
         '
-        Me.tanggal.AutoSize = True
-        Me.tanggal.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.tanggal.Location = New System.Drawing.Point(168, 37)
+        resources.ApplyResources(Me.tanggal, "tanggal")
+        Me.tanggal.BackColor = System.Drawing.Color.Transparent
         Me.tanggal.Name = "tanggal"
-        Me.tanggal.Size = New System.Drawing.Size(0, 13)
-        Me.tanggal.TabIndex = 1
         '
         'userid
         '
-        Me.userid.AutoSize = True
-        Me.userid.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.userid.Location = New System.Drawing.Point(168, 57)
+        resources.ApplyResources(Me.userid, "userid")
+        Me.userid.BackColor = System.Drawing.Color.Transparent
         Me.userid.Name = "userid"
-        Me.userid.Size = New System.Drawing.Size(0, 13)
-        Me.userid.TabIndex = 2
         '
         'nama
         '
-        Me.nama.AutoSize = True
-        Me.nama.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.nama.Location = New System.Drawing.Point(168, 81)
+        resources.ApplyResources(Me.nama, "nama")
+        Me.nama.BackColor = System.Drawing.Color.Transparent
         Me.nama.Name = "nama"
-        Me.nama.Size = New System.Drawing.Size(0, 13)
-        Me.nama.TabIndex = 3
         '
         'notelp
         '
-        Me.notelp.AutoSize = True
-        Me.notelp.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.notelp.Location = New System.Drawing.Point(168, 104)
+        resources.ApplyResources(Me.notelp, "notelp")
+        Me.notelp.BackColor = System.Drawing.Color.Transparent
         Me.notelp.Name = "notelp"
-        Me.notelp.Size = New System.Drawing.Size(0, 13)
-        Me.notelp.TabIndex = 4
         '
         'kurangbayar
         '
-        Me.kurangbayar.AutoSize = True
-        Me.kurangbayar.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.kurangbayar.Location = New System.Drawing.Point(309, 205)
+        resources.ApplyResources(Me.kurangbayar, "kurangbayar")
+        Me.kurangbayar.BackColor = System.Drawing.Color.Transparent
         Me.kurangbayar.Name = "kurangbayar"
-        Me.kurangbayar.Size = New System.Drawing.Size(0, 13)
-        Me.kurangbayar.TabIndex = 7
         '
         'saldomaintain2
         '
-        Me.saldomaintain2.AutoSize = True
-        Me.saldomaintain2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.saldomaintain2.Location = New System.Drawing.Point(309, 183)
+        resources.ApplyResources(Me.saldomaintain2, "saldomaintain2")
+        Me.saldomaintain2.BackColor = System.Drawing.Color.Transparent
         Me.saldomaintain2.Name = "saldomaintain2"
-        Me.saldomaintain2.Size = New System.Drawing.Size(0, 13)
-        Me.saldomaintain2.TabIndex = 6
         '
         'saldomaintain
         '
-        Me.saldomaintain.AutoSize = True
-        Me.saldomaintain.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.saldomaintain.Location = New System.Drawing.Point(309, 160)
+        resources.ApplyResources(Me.saldomaintain, "saldomaintain")
+        Me.saldomaintain.BackColor = System.Drawing.Color.Transparent
         Me.saldomaintain.Name = "saldomaintain"
-        Me.saldomaintain.Size = New System.Drawing.Size(0, 13)
-        Me.saldomaintain.TabIndex = 5
         '
         'firmax3
         '
-        Me.firmax3.AutoSize = True
-        Me.firmax3.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.firmax3.Location = New System.Drawing.Point(168, 265)
+        resources.ApplyResources(Me.firmax3, "firmax3")
+        Me.firmax3.BackColor = System.Drawing.Color.Transparent
         Me.firmax3.Name = "firmax3"
-        Me.firmax3.Size = New System.Drawing.Size(0, 13)
-        Me.firmax3.TabIndex = 8
         '
         'o2max3
         '
-        Me.o2max3.AutoSize = True
-        Me.o2max3.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.o2max3.Location = New System.Drawing.Point(309, 264)
+        resources.ApplyResources(Me.o2max3, "o2max3")
+        Me.o2max3.BackColor = System.Drawing.Color.Transparent
         Me.o2max3.Name = "o2max3"
-        Me.o2max3.Size = New System.Drawing.Size(0, 13)
-        Me.o2max3.TabIndex = 9
         '
         'totalpcs
         '
-        Me.totalpcs.AutoSize = True
-        Me.totalpcs.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.totalpcs.Location = New System.Drawing.Point(167, 285)
+        resources.ApplyResources(Me.totalpcs, "totalpcs")
+        Me.totalpcs.BackColor = System.Drawing.Color.Transparent
         Me.totalpcs.Name = "totalpcs"
-        Me.totalpcs.Size = New System.Drawing.Size(0, 13)
-        Me.totalpcs.TabIndex = 10
         '
         'totalset
         '
-        Me.totalset.AutoSize = True
-        Me.totalset.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.totalset.Location = New System.Drawing.Point(167, 306)
+        resources.ApplyResources(Me.totalset, "totalset")
+        Me.totalset.BackColor = System.Drawing.Color.Transparent
         Me.totalset.Name = "totalset"
-        Me.totalset.Size = New System.Drawing.Size(0, 13)
-        Me.totalset.TabIndex = 11
         '
         'amount
         '
-        Me.amount.AutoSize = True
-        Me.amount.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.amount.Location = New System.Drawing.Point(205, 337)
+        resources.ApplyResources(Me.amount, "amount")
+        Me.amount.BackColor = System.Drawing.Color.Transparent
         Me.amount.Name = "amount"
-        Me.amount.Size = New System.Drawing.Size(0, 13)
-        Me.amount.TabIndex = 12
         '
         'ordered
         '
-        Me.ordered.AutoSize = True
-        Me.ordered.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.ordered.Location = New System.Drawing.Point(53, 493)
+        resources.ApplyResources(Me.ordered, "ordered")
+        Me.ordered.BackColor = System.Drawing.Color.Transparent
         Me.ordered.Name = "ordered"
-        Me.ordered.Size = New System.Drawing.Size(0, 13)
-        Me.ordered.TabIndex = 13
         '
         'proceeded
         '
-        Me.proceeded.AutoSize = True
-        Me.proceeded.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.proceeded.Location = New System.Drawing.Point(351, 493)
+        resources.ApplyResources(Me.proceeded, "proceeded")
+        Me.proceeded.BackColor = System.Drawing.Color.Transparent
         Me.proceeded.Name = "proceeded"
-        Me.proceeded.Size = New System.Drawing.Size(0, 13)
-        Me.proceeded.TabIndex = 14
         '
         'catatan
         '
-        Me.catatan.AutoSize = True
-        Me.catatan.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.catatan.Location = New System.Drawing.Point(43, 534)
+        resources.ApplyResources(Me.catatan, "catatan")
+        Me.catatan.BackColor = System.Drawing.Color.Transparent
         Me.catatan.Name = "catatan"
-        Me.catatan.Size = New System.Drawing.Size(0, 13)
-        Me.catatan.TabIndex = 15
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(425, 123)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 16
-        Me.Button1.Text = "print"
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'PrintForm1
         '
@@ -211,14 +154,18 @@ Partial Class printAM
         '
         Me.PrintDialog1.UseEXDialog = True
         '
+        'Button1
+        '
+        resources.ApplyResources(Me.Button1, "Button1")
+        Me.Button1.Cursor = System.Windows.Forms.Cursors.Default
+        Me.Button1.Name = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'printAM
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(543, 733)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.catatan)
         Me.Controls.Add(Me.proceeded)
@@ -236,8 +183,10 @@ Partial Class printAM
         Me.Controls.Add(Me.userid)
         Me.Controls.Add(Me.tanggal)
         Me.Controls.Add(Me.no)
+        Me.Cursor = System.Windows.Forms.Cursors.SizeAll
+        Me.DoubleBuffered = True
+        Me.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Name = "printAM"
-        Me.Text = "printAM"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -259,8 +208,8 @@ Partial Class printAM
     Friend WithEvents ordered As Label
     Friend WithEvents proceeded As Label
     Friend WithEvents catatan As Label
-    Friend WithEvents Button1 As Button
     Friend WithEvents PrintForm1 As Microsoft.VisualBasic.PowerPacks.Printing.PrintForm
     Friend WithEvents PrintDialog1 As System.Windows.Forms.PrintDialog
     Friend WithEvents PrintDocument1 As System.Drawing.Printing.PrintDocument
+    Friend WithEvents Button1 As Button
 End Class
