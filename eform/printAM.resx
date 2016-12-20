@@ -153,7 +153,7 @@
     <value>Times New Roman, 11.25pt</value>
   </data>
   <data name="tanggal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>566, 117</value>
+    <value>557, 117</value>
   </data>
   <data name="tanggal.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 17</value>
@@ -234,7 +234,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="notelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>520, 127</value>
+    <value>520, 132</value>
   </data>
   <data name="notelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
@@ -486,7 +486,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="ordered.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 413</value>
+    <value>89, 416</value>
   </data>
   <data name="ordered.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
@@ -513,7 +513,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="proceeded.Location" type="System.Drawing.Point, System.Drawing">
-    <value>303, 413</value>
+    <value>310, 416</value>
   </data>
   <data name="proceeded.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
@@ -540,7 +540,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="catatan.Location" type="System.Drawing.Point, System.Drawing">
-    <value>397, 413</value>
+    <value>404, 416</value>
   </data>
   <data name="catatan.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
