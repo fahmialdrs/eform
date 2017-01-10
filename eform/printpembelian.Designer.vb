@@ -55,7 +55,7 @@ Partial Class printpembelian
         Me.datainput.BackColor = System.Drawing.Color.Transparent
         Me.datainput.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.datainput.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.datainput.Location = New System.Drawing.Point(1122, 766)
+        Me.datainput.Location = New System.Drawing.Point(1112, 766)
         Me.datainput.Name = "datainput"
         Me.datainput.Size = New System.Drawing.Size(13, 19)
         Me.datainput.TabIndex = 29
@@ -67,7 +67,7 @@ Partial Class printpembelian
         Me.proceededby.BackColor = System.Drawing.Color.Transparent
         Me.proceededby.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.proceededby.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.proceededby.Location = New System.Drawing.Point(289, 422)
+        Me.proceededby.Location = New System.Drawing.Point(279, 422)
         Me.proceededby.Name = "proceededby"
         Me.proceededby.Size = New System.Drawing.Size(13, 19)
         Me.proceededby.TabIndex = 26
@@ -79,7 +79,7 @@ Partial Class printpembelian
         Me.orderedby.BackColor = System.Drawing.Color.Transparent
         Me.orderedby.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.orderedby.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.orderedby.Location = New System.Drawing.Point(64, 422)
+        Me.orderedby.Location = New System.Drawing.Point(54, 422)
         Me.orderedby.Name = "orderedby"
         Me.orderedby.Size = New System.Drawing.Size(13, 19)
         Me.orderedby.TabIndex = 25
@@ -91,7 +91,7 @@ Partial Class printpembelian
         Me.amount.BackColor = System.Drawing.Color.Transparent
         Me.amount.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.amount.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.amount.Location = New System.Drawing.Point(213, 303)
+        Me.amount.Location = New System.Drawing.Point(203, 303)
         Me.amount.Name = "amount"
         Me.amount.Size = New System.Drawing.Size(13, 19)
         Me.amount.TabIndex = 24
@@ -103,7 +103,7 @@ Partial Class printpembelian
         Me.totalset.BackColor = System.Drawing.Color.Transparent
         Me.totalset.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.totalset.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.totalset.Location = New System.Drawing.Point(168, 270)
+        Me.totalset.Location = New System.Drawing.Point(158, 270)
         Me.totalset.Name = "totalset"
         Me.totalset.Size = New System.Drawing.Size(13, 19)
         Me.totalset.TabIndex = 23
@@ -115,7 +115,7 @@ Partial Class printpembelian
         Me.totalpcs.BackColor = System.Drawing.Color.Transparent
         Me.totalpcs.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.totalpcs.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.totalpcs.Location = New System.Drawing.Point(168, 247)
+        Me.totalpcs.Location = New System.Drawing.Point(158, 247)
         Me.totalpcs.Name = "totalpcs"
         Me.totalpcs.Size = New System.Drawing.Size(13, 19)
         Me.totalpcs.TabIndex = 22
@@ -127,7 +127,7 @@ Partial Class printpembelian
         Me.o2max3.BackColor = System.Drawing.Color.Transparent
         Me.o2max3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.o2max3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.o2max3.Location = New System.Drawing.Point(295, 225)
+        Me.o2max3.Location = New System.Drawing.Point(285, 225)
         Me.o2max3.Name = "o2max3"
         Me.o2max3.Size = New System.Drawing.Size(13, 19)
         Me.o2max3.TabIndex = 21
@@ -139,7 +139,7 @@ Partial Class printpembelian
         Me.firmax3.BackColor = System.Drawing.Color.Transparent
         Me.firmax3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.firmax3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.firmax3.Location = New System.Drawing.Point(168, 225)
+        Me.firmax3.Location = New System.Drawing.Point(158, 225)
         Me.firmax3.Name = "firmax3"
         Me.firmax3.Size = New System.Drawing.Size(13, 19)
         Me.firmax3.TabIndex = 20
@@ -151,7 +151,7 @@ Partial Class printpembelian
         Me.notelfon.BackColor = System.Drawing.Color.Transparent
         Me.notelfon.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.notelfon.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.notelfon.Location = New System.Drawing.Point(520, 136)
+        Me.notelfon.Location = New System.Drawing.Point(510, 136)
         Me.notelfon.Name = "notelfon"
         Me.notelfon.Size = New System.Drawing.Size(13, 19)
         Me.notelfon.TabIndex = 19
@@ -163,7 +163,7 @@ Partial Class printpembelian
         Me.nama.BackColor = System.Drawing.Color.Transparent
         Me.nama.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.nama.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.nama.Location = New System.Drawing.Point(168, 134)
+        Me.nama.Location = New System.Drawing.Point(158, 134)
         Me.nama.Name = "nama"
         Me.nama.Size = New System.Drawing.Size(13, 19)
         Me.nama.TabIndex = 18
@@ -175,7 +175,7 @@ Partial Class printpembelian
         Me.userid.BackColor = System.Drawing.Color.Transparent
         Me.userid.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.userid.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.userid.Location = New System.Drawing.Point(168, 107)
+        Me.userid.Location = New System.Drawing.Point(158, 107)
         Me.userid.Name = "userid"
         Me.userid.Size = New System.Drawing.Size(13, 19)
         Me.userid.TabIndex = 17
@@ -187,7 +187,7 @@ Partial Class printpembelian
         Me.tanggal.BackColor = System.Drawing.Color.Transparent
         Me.tanggal.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.tanggal.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tanggal.Location = New System.Drawing.Point(556, 110)
+        Me.tanggal.Location = New System.Drawing.Point(546, 110)
         Me.tanggal.Name = "tanggal"
         Me.tanggal.Size = New System.Drawing.Size(12, 17)
         Me.tanggal.TabIndex = 16
@@ -199,7 +199,7 @@ Partial Class printpembelian
         Me.noform.BackColor = System.Drawing.Color.Transparent
         Me.noform.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.noform.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.noform.Location = New System.Drawing.Point(475, 103)
+        Me.noform.Location = New System.Drawing.Point(465, 103)
         Me.noform.Name = "noform"
         Me.noform.Size = New System.Drawing.Size(13, 19)
         Me.noform.TabIndex = 15
@@ -216,7 +216,7 @@ Partial Class printpembelian
         'Button1
         '
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Button1.Location = New System.Drawing.Point(668, 22)
+        Me.Button1.Location = New System.Drawing.Point(658, 22)
         Me.Button1.Margin = New System.Windows.Forms.Padding(0)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
@@ -234,7 +234,7 @@ Partial Class printpembelian
         Me.firmax3_2.BackColor = System.Drawing.Color.Transparent
         Me.firmax3_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.firmax3_2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.firmax3_2.Location = New System.Drawing.Point(520, 225)
+        Me.firmax3_2.Location = New System.Drawing.Point(510, 225)
         Me.firmax3_2.Name = "firmax3_2"
         Me.firmax3_2.Size = New System.Drawing.Size(13, 19)
         Me.firmax3_2.TabIndex = 31
@@ -246,7 +246,7 @@ Partial Class printpembelian
         Me.o2max3_2.BackColor = System.Drawing.Color.Transparent
         Me.o2max3_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.o2max3_2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.o2max3_2.Location = New System.Drawing.Point(615, 225)
+        Me.o2max3_2.Location = New System.Drawing.Point(605, 225)
         Me.o2max3_2.Name = "o2max3_2"
         Me.o2max3_2.Size = New System.Drawing.Size(13, 19)
         Me.o2max3_2.TabIndex = 32
@@ -258,7 +258,7 @@ Partial Class printpembelian
         Me.totalpcs_2.BackColor = System.Drawing.Color.Transparent
         Me.totalpcs_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.totalpcs_2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.totalpcs_2.Location = New System.Drawing.Point(520, 247)
+        Me.totalpcs_2.Location = New System.Drawing.Point(510, 247)
         Me.totalpcs_2.Name = "totalpcs_2"
         Me.totalpcs_2.Size = New System.Drawing.Size(13, 19)
         Me.totalpcs_2.TabIndex = 33
@@ -270,7 +270,7 @@ Partial Class printpembelian
         Me.totalset_2.BackColor = System.Drawing.Color.Transparent
         Me.totalset_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.totalset_2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.totalset_2.Location = New System.Drawing.Point(520, 270)
+        Me.totalset_2.Location = New System.Drawing.Point(510, 270)
         Me.totalset_2.Name = "totalset_2"
         Me.totalset_2.Size = New System.Drawing.Size(13, 19)
         Me.totalset_2.TabIndex = 34
@@ -282,7 +282,7 @@ Partial Class printpembelian
         Me.amount_2.BackColor = System.Drawing.Color.Transparent
         Me.amount_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.amount_2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.amount_2.Location = New System.Drawing.Point(556, 303)
+        Me.amount_2.Location = New System.Drawing.Point(546, 303)
         Me.amount_2.Name = "amount_2"
         Me.amount_2.Size = New System.Drawing.Size(13, 19)
         Me.amount_2.TabIndex = 35
@@ -294,7 +294,7 @@ Partial Class printpembelian
         Me.note.BackColor = System.Drawing.Color.Transparent
         Me.note.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.note.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.note.Location = New System.Drawing.Point(415, 407)
+        Me.note.Location = New System.Drawing.Point(405, 407)
         Me.note.Name = "note"
         Me.note.Size = New System.Drawing.Size(13, 19)
         Me.note.TabIndex = 27
