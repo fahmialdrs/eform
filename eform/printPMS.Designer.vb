@@ -66,7 +66,7 @@ Partial Class printPMS
         '
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(762, 9)
+        Me.Button1.Location = New System.Drawing.Point(717, 9)
         Me.Button1.Margin = New System.Windows.Forms.Padding(0)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(87, 33)
@@ -80,7 +80,7 @@ Partial Class printPMS
         Me.Noform.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.Noform.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Noform.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Noform.Location = New System.Drawing.Point(489, 86)
+        Me.Noform.Location = New System.Drawing.Point(444, 86)
         Me.Noform.Name = "Noform"
         Me.Noform.Size = New System.Drawing.Size(0, 19)
         Me.Noform.TabIndex = 32
@@ -91,7 +91,7 @@ Partial Class printPMS
         Me.userid.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.userid.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.userid.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.userid.Location = New System.Drawing.Point(180, 84)
+        Me.userid.Location = New System.Drawing.Point(135, 81)
         Me.userid.Name = "userid"
         Me.userid.Size = New System.Drawing.Size(0, 19)
         Me.userid.TabIndex = 34
@@ -102,7 +102,7 @@ Partial Class printPMS
         Me.nama.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.nama.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.nama.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.nama.Location = New System.Drawing.Point(180, 114)
+        Me.nama.Location = New System.Drawing.Point(135, 111)
         Me.nama.Name = "nama"
         Me.nama.Size = New System.Drawing.Size(0, 19)
         Me.nama.TabIndex = 35
@@ -113,7 +113,7 @@ Partial Class printPMS
         Me.notelp.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.notelp.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.notelp.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.notelp.Location = New System.Drawing.Point(536, 122)
+        Me.notelp.Location = New System.Drawing.Point(491, 114)
         Me.notelp.Name = "notelp"
         Me.notelp.Size = New System.Drawing.Size(0, 19)
         Me.notelp.TabIndex = 36
@@ -124,7 +124,7 @@ Partial Class printPMS
         Me.firmax3.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.firmax3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.firmax3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.firmax3.Location = New System.Drawing.Point(181, 199)
+        Me.firmax3.Location = New System.Drawing.Point(136, 199)
         Me.firmax3.Name = "firmax3"
         Me.firmax3.Size = New System.Drawing.Size(0, 19)
         Me.firmax3.TabIndex = 37
@@ -135,7 +135,7 @@ Partial Class printPMS
         Me.O2max.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.O2max.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.O2max.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.O2max.Location = New System.Drawing.Point(305, 199)
+        Me.O2max.Location = New System.Drawing.Point(260, 199)
         Me.O2max.Name = "O2max"
         Me.O2max.Size = New System.Drawing.Size(0, 19)
         Me.O2max.TabIndex = 38
@@ -146,7 +146,7 @@ Partial Class printPMS
         Me.totalpcs.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.totalpcs.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.totalpcs.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.totalpcs.Location = New System.Drawing.Point(180, 226)
+        Me.totalpcs.Location = New System.Drawing.Point(135, 226)
         Me.totalpcs.Name = "totalpcs"
         Me.totalpcs.Size = New System.Drawing.Size(0, 19)
         Me.totalpcs.TabIndex = 39
@@ -157,7 +157,7 @@ Partial Class printPMS
         Me.totalset.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.totalset.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.totalset.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.totalset.Location = New System.Drawing.Point(181, 253)
+        Me.totalset.Location = New System.Drawing.Point(136, 253)
         Me.totalset.Name = "totalset"
         Me.totalset.Size = New System.Drawing.Size(0, 19)
         Me.totalset.TabIndex = 40
@@ -168,7 +168,7 @@ Partial Class printPMS
         Me.amount.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.amount.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.amount.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.amount.Location = New System.Drawing.Point(216, 292)
+        Me.amount.Location = New System.Drawing.Point(171, 292)
         Me.amount.Name = "amount"
         Me.amount.Size = New System.Drawing.Size(0, 19)
         Me.amount.TabIndex = 41
@@ -179,7 +179,7 @@ Partial Class printPMS
         Me.firmax3_2.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.firmax3_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.firmax3_2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.firmax3_2.Location = New System.Drawing.Point(536, 199)
+        Me.firmax3_2.Location = New System.Drawing.Point(491, 201)
         Me.firmax3_2.Name = "firmax3_2"
         Me.firmax3_2.Size = New System.Drawing.Size(0, 19)
         Me.firmax3_2.TabIndex = 42
@@ -190,7 +190,7 @@ Partial Class printPMS
         Me.o2max_2.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.o2max_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.o2max_2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.o2max_2.Location = New System.Drawing.Point(659, 199)
+        Me.o2max_2.Location = New System.Drawing.Point(603, 201)
         Me.o2max_2.Name = "o2max_2"
         Me.o2max_2.Size = New System.Drawing.Size(0, 19)
         Me.o2max_2.TabIndex = 43
@@ -201,7 +201,7 @@ Partial Class printPMS
         Me.totalpcs_2.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.totalpcs_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.totalpcs_2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.totalpcs_2.Location = New System.Drawing.Point(536, 226)
+        Me.totalpcs_2.Location = New System.Drawing.Point(491, 228)
         Me.totalpcs_2.Name = "totalpcs_2"
         Me.totalpcs_2.Size = New System.Drawing.Size(0, 19)
         Me.totalpcs_2.TabIndex = 44
@@ -212,7 +212,7 @@ Partial Class printPMS
         Me.totalset_2.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.totalset_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.totalset_2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.totalset_2.Location = New System.Drawing.Point(537, 253)
+        Me.totalset_2.Location = New System.Drawing.Point(492, 255)
         Me.totalset_2.Name = "totalset_2"
         Me.totalset_2.Size = New System.Drawing.Size(0, 19)
         Me.totalset_2.TabIndex = 45
@@ -223,7 +223,7 @@ Partial Class printPMS
         Me.amount_2.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.amount_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.amount_2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.amount_2.Location = New System.Drawing.Point(573, 292)
+        Me.amount_2.Location = New System.Drawing.Point(528, 292)
         Me.amount_2.Name = "amount_2"
         Me.amount_2.Size = New System.Drawing.Size(0, 19)
         Me.amount_2.TabIndex = 46
@@ -234,7 +234,7 @@ Partial Class printPMS
         Me.ordered.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ordered.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.ordered.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ordered.Location = New System.Drawing.Point(314, 413)
+        Me.ordered.Location = New System.Drawing.Point(44, 413)
         Me.ordered.Name = "ordered"
         Me.ordered.Size = New System.Drawing.Size(0, 19)
         Me.ordered.TabIndex = 47
@@ -245,7 +245,7 @@ Partial Class printPMS
         Me.proceeded.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.proceeded.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.proceeded.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.proceeded.Location = New System.Drawing.Point(80, 413)
+        Me.proceeded.Location = New System.Drawing.Point(269, 413)
         Me.proceeded.Name = "proceeded"
         Me.proceeded.Size = New System.Drawing.Size(0, 19)
         Me.proceeded.TabIndex = 48
@@ -256,7 +256,7 @@ Partial Class printPMS
         Me.catatan.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.catatan.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.catatan.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.catatan.Location = New System.Drawing.Point(432, 411)
+        Me.catatan.Location = New System.Drawing.Point(371, 405)
         Me.catatan.Name = "catatan"
         Me.catatan.Size = New System.Drawing.Size(0, 19)
         Me.catatan.TabIndex = 49
@@ -267,7 +267,7 @@ Partial Class printPMS
         Me.finalcheck.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.finalcheck.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.finalcheck.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.finalcheck.Location = New System.Drawing.Point(301, 826)
+        Me.finalcheck.Location = New System.Drawing.Point(256, 826)
         Me.finalcheck.Name = "finalcheck"
         Me.finalcheck.Size = New System.Drawing.Size(0, 19)
         Me.finalcheck.TabIndex = 50
@@ -278,7 +278,7 @@ Partial Class printPMS
         Me.datainput.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.datainput.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.datainput.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.datainput.Location = New System.Drawing.Point(459, 826)
+        Me.datainput.Location = New System.Drawing.Point(414, 826)
         Me.datainput.Name = "datainput"
         Me.datainput.Size = New System.Drawing.Size(0, 19)
         Me.datainput.TabIndex = 51
@@ -289,7 +289,7 @@ Partial Class printPMS
         Me.tanggal.BackColor = System.Drawing.Color.Transparent
         Me.tanggal.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.tanggal.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tanggal.Location = New System.Drawing.Point(574, 89)
+        Me.tanggal.Location = New System.Drawing.Point(529, 89)
         Me.tanggal.Name = "tanggal"
         Me.tanggal.Size = New System.Drawing.Size(12, 17)
         Me.tanggal.TabIndex = 52

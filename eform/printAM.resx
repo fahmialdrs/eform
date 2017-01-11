@@ -126,7 +126,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="no.Location" type="System.Drawing.Point, System.Drawing">
-    <value>467, 103</value>
+    <value>447, 103</value>
   </data>
   <data name="no.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
@@ -153,7 +153,7 @@
     <value>Times New Roman, 11.25pt</value>
   </data>
   <data name="tanggal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>557, 117</value>
+    <value>537, 112</value>
   </data>
   <data name="tanggal.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 17</value>
@@ -180,7 +180,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="userid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>181, 105</value>
+    <value>161, 105</value>
   </data>
   <data name="userid.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
@@ -207,7 +207,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="nama.Location" type="System.Drawing.Point, System.Drawing">
-    <value>181, 131</value>
+    <value>161, 131</value>
   </data>
   <data name="nama.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
@@ -234,7 +234,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="notelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>520, 132</value>
+    <value>500, 132</value>
   </data>
   <data name="notelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
@@ -261,7 +261,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="kurangbayar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>181, 251</value>
+    <value>161, 251</value>
   </data>
   <data name="kurangbayar.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
@@ -288,7 +288,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="saldomaintain2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>181, 227</value>
+    <value>161, 227</value>
   </data>
   <data name="saldomaintain2.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
@@ -315,7 +315,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="saldomaintain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>181, 204</value>
+    <value>161, 204</value>
   </data>
   <data name="saldomaintain.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
@@ -342,7 +342,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="firmax3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>516, 230</value>
+    <value>496, 230</value>
   </data>
   <data name="firmax3.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
@@ -369,7 +369,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="o2max3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>614, 230</value>
+    <value>594, 230</value>
   </data>
   <data name="o2max3.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
@@ -396,7 +396,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="totalpcs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>604, 254</value>
+    <value>584, 254</value>
   </data>
   <data name="totalpcs.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
@@ -426,7 +426,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="totalset.Location" type="System.Drawing.Point, System.Drawing">
-    <value>604, 279</value>
+    <value>584, 279</value>
   </data>
   <data name="totalset.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
@@ -456,7 +456,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="amount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>558, 307</value>
+    <value>538, 307</value>
   </data>
   <data name="amount.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
@@ -486,7 +486,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="ordered.Location" type="System.Drawing.Point, System.Drawing">
-    <value>89, 416</value>
+    <value>59, 416</value>
   </data>
   <data name="ordered.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
@@ -513,7 +513,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="proceeded.Location" type="System.Drawing.Point, System.Drawing">
-    <value>310, 416</value>
+    <value>280, 416</value>
   </data>
   <data name="proceeded.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
@@ -540,7 +540,7 @@
     <value>Times New Roman, 12pt</value>
   </data>
   <data name="catatan.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 416</value>
+    <value>374, 411</value>
   </data>
   <data name="catatan.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 19</value>
@@ -561,7 +561,7 @@
     <value>1</value>
   </data>
   <metadata name="PrintForm1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+    <value>-3, 17</value>
   </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -12933,7 +12933,7 @@
     <value>NoControl</value>
   </data>
   <data name="Button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>669, 27</value>
+    <value>649, 27</value>
   </data>
   <data name="Button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
@@ -13015,9 +13015,9 @@
 </value>
   </data>
   <metadata name="PrintDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>129, 17</value>
+    <value>109, 17</value>
   </metadata>
   <metadata name="PrintDocument1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>248, 17</value>
+    <value>228, 17</value>
   </metadata>
 </root>

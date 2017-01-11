@@ -69,7 +69,7 @@ Partial Class printCMMS
         Me.noform.AutoSize = True
         Me.noform.BackColor = System.Drawing.Color.Transparent
         Me.noform.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.noform.Location = New System.Drawing.Point(465, 81)
+        Me.noform.Location = New System.Drawing.Point(455, 81)
         Me.noform.Name = "noform"
         Me.noform.Size = New System.Drawing.Size(0, 19)
         Me.noform.TabIndex = 0
@@ -79,7 +79,7 @@ Partial Class printCMMS
         Me.tanggal.AutoSize = True
         Me.tanggal.BackColor = System.Drawing.Color.Transparent
         Me.tanggal.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tanggal.Location = New System.Drawing.Point(548, 95)
+        Me.tanggal.Location = New System.Drawing.Point(538, 90)
         Me.tanggal.Name = "tanggal"
         Me.tanggal.Size = New System.Drawing.Size(0, 17)
         Me.tanggal.TabIndex = 1
@@ -89,7 +89,7 @@ Partial Class printCMMS
         Me.userid.AutoSize = True
         Me.userid.BackColor = System.Drawing.Color.Transparent
         Me.userid.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.userid.Location = New System.Drawing.Point(168, 87)
+        Me.userid.Location = New System.Drawing.Point(158, 87)
         Me.userid.Name = "userid"
         Me.userid.Size = New System.Drawing.Size(0, 19)
         Me.userid.TabIndex = 2
@@ -99,7 +99,7 @@ Partial Class printCMMS
         Me.nama.AutoSize = True
         Me.nama.BackColor = System.Drawing.Color.Transparent
         Me.nama.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.nama.Location = New System.Drawing.Point(168, 112)
+        Me.nama.Location = New System.Drawing.Point(158, 112)
         Me.nama.Name = "nama"
         Me.nama.Size = New System.Drawing.Size(0, 19)
         Me.nama.TabIndex = 4
@@ -109,7 +109,7 @@ Partial Class printCMMS
         Me.notelp.AutoSize = True
         Me.notelp.BackColor = System.Drawing.Color.Transparent
         Me.notelp.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.notelp.Location = New System.Drawing.Point(509, 112)
+        Me.notelp.Location = New System.Drawing.Point(499, 112)
         Me.notelp.Name = "notelp"
         Me.notelp.Size = New System.Drawing.Size(0, 19)
         Me.notelp.TabIndex = 3
@@ -119,7 +119,7 @@ Partial Class printCMMS
         Me.memberid1.AutoSize = True
         Me.memberid1.BackColor = System.Drawing.Color.Transparent
         Me.memberid1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.memberid1.Location = New System.Drawing.Point(65, 184)
+        Me.memberid1.Location = New System.Drawing.Point(55, 184)
         Me.memberid1.Name = "memberid1"
         Me.memberid1.Size = New System.Drawing.Size(0, 19)
         Me.memberid1.TabIndex = 8
@@ -129,7 +129,7 @@ Partial Class printCMMS
         Me.memberid2.AutoSize = True
         Me.memberid2.BackColor = System.Drawing.Color.Transparent
         Me.memberid2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.memberid2.Location = New System.Drawing.Point(65, 201)
+        Me.memberid2.Location = New System.Drawing.Point(55, 201)
         Me.memberid2.Name = "memberid2"
         Me.memberid2.Size = New System.Drawing.Size(0, 19)
         Me.memberid2.TabIndex = 7
@@ -139,7 +139,7 @@ Partial Class printCMMS
         Me.memberid3.AutoSize = True
         Me.memberid3.BackColor = System.Drawing.Color.Transparent
         Me.memberid3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.memberid3.Location = New System.Drawing.Point(65, 220)
+        Me.memberid3.Location = New System.Drawing.Point(55, 220)
         Me.memberid3.Name = "memberid3"
         Me.memberid3.Size = New System.Drawing.Size(0, 19)
         Me.memberid3.TabIndex = 6
@@ -149,7 +149,7 @@ Partial Class printCMMS
         Me.memberid4.AutoSize = True
         Me.memberid4.BackColor = System.Drawing.Color.Transparent
         Me.memberid4.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.memberid4.Location = New System.Drawing.Point(65, 240)
+        Me.memberid4.Location = New System.Drawing.Point(55, 240)
         Me.memberid4.Name = "memberid4"
         Me.memberid4.Size = New System.Drawing.Size(0, 19)
         Me.memberid4.TabIndex = 5
@@ -159,7 +159,7 @@ Partial Class printCMMS
         Me.m1.AutoSize = True
         Me.m1.BackColor = System.Drawing.Color.Transparent
         Me.m1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.m1.Location = New System.Drawing.Point(170, 183)
+        Me.m1.Location = New System.Drawing.Point(160, 183)
         Me.m1.Name = "m1"
         Me.m1.Size = New System.Drawing.Size(0, 19)
         Me.m1.TabIndex = 18
@@ -169,7 +169,7 @@ Partial Class printCMMS
         Me.m2.AutoSize = True
         Me.m2.BackColor = System.Drawing.Color.Transparent
         Me.m2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.m2.Location = New System.Drawing.Point(170, 200)
+        Me.m2.Location = New System.Drawing.Point(160, 200)
         Me.m2.Name = "m2"
         Me.m2.Size = New System.Drawing.Size(0, 19)
         Me.m2.TabIndex = 17
@@ -179,7 +179,7 @@ Partial Class printCMMS
         Me.m3.AutoSize = True
         Me.m3.BackColor = System.Drawing.Color.Transparent
         Me.m3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.m3.Location = New System.Drawing.Point(170, 219)
+        Me.m3.Location = New System.Drawing.Point(160, 219)
         Me.m3.Name = "m3"
         Me.m3.Size = New System.Drawing.Size(0, 19)
         Me.m3.TabIndex = 16
@@ -189,7 +189,7 @@ Partial Class printCMMS
         Me.m4.AutoSize = True
         Me.m4.BackColor = System.Drawing.Color.Transparent
         Me.m4.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.m4.Location = New System.Drawing.Point(170, 239)
+        Me.m4.Location = New System.Drawing.Point(160, 239)
         Me.m4.Name = "m4"
         Me.m4.Size = New System.Drawing.Size(0, 19)
         Me.m4.TabIndex = 15
@@ -199,7 +199,7 @@ Partial Class printCMMS
         Me.r1.AutoSize = True
         Me.r1.BackColor = System.Drawing.Color.Transparent
         Me.r1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.r1.Location = New System.Drawing.Point(273, 183)
+        Me.r1.Location = New System.Drawing.Point(263, 183)
         Me.r1.Name = "r1"
         Me.r1.Size = New System.Drawing.Size(0, 19)
         Me.r1.TabIndex = 28
@@ -209,7 +209,7 @@ Partial Class printCMMS
         Me.r2.AutoSize = True
         Me.r2.BackColor = System.Drawing.Color.Transparent
         Me.r2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.r2.Location = New System.Drawing.Point(273, 204)
+        Me.r2.Location = New System.Drawing.Point(263, 204)
         Me.r2.Name = "r2"
         Me.r2.Size = New System.Drawing.Size(0, 19)
         Me.r2.TabIndex = 27
@@ -219,7 +219,7 @@ Partial Class printCMMS
         Me.r3.AutoSize = True
         Me.r3.BackColor = System.Drawing.Color.Transparent
         Me.r3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.r3.Location = New System.Drawing.Point(273, 222)
+        Me.r3.Location = New System.Drawing.Point(263, 222)
         Me.r3.Name = "r3"
         Me.r3.Size = New System.Drawing.Size(0, 19)
         Me.r3.TabIndex = 26
@@ -229,7 +229,7 @@ Partial Class printCMMS
         Me.r4.AutoSize = True
         Me.r4.BackColor = System.Drawing.Color.Transparent
         Me.r4.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.r4.Location = New System.Drawing.Point(273, 240)
+        Me.r4.Location = New System.Drawing.Point(263, 240)
         Me.r4.Name = "r4"
         Me.r4.Size = New System.Drawing.Size(0, 19)
         Me.r4.TabIndex = 25
@@ -239,7 +239,7 @@ Partial Class printCMMS
         Me.f1.AutoSize = True
         Me.f1.BackColor = System.Drawing.Color.Transparent
         Me.f1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.f1.Location = New System.Drawing.Point(413, 185)
+        Me.f1.Location = New System.Drawing.Point(403, 185)
         Me.f1.Name = "f1"
         Me.f1.Size = New System.Drawing.Size(0, 19)
         Me.f1.TabIndex = 38
@@ -249,7 +249,7 @@ Partial Class printCMMS
         Me.f2.AutoSize = True
         Me.f2.BackColor = System.Drawing.Color.Transparent
         Me.f2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.f2.Location = New System.Drawing.Point(414, 204)
+        Me.f2.Location = New System.Drawing.Point(404, 204)
         Me.f2.Name = "f2"
         Me.f2.Size = New System.Drawing.Size(0, 19)
         Me.f2.TabIndex = 37
@@ -259,7 +259,7 @@ Partial Class printCMMS
         Me.f3.AutoSize = True
         Me.f3.BackColor = System.Drawing.Color.Transparent
         Me.f3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.f3.Location = New System.Drawing.Point(414, 223)
+        Me.f3.Location = New System.Drawing.Point(404, 223)
         Me.f3.Name = "f3"
         Me.f3.Size = New System.Drawing.Size(0, 19)
         Me.f3.TabIndex = 36
@@ -269,7 +269,7 @@ Partial Class printCMMS
         Me.f4.AutoSize = True
         Me.f4.BackColor = System.Drawing.Color.Transparent
         Me.f4.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.f4.Location = New System.Drawing.Point(414, 242)
+        Me.f4.Location = New System.Drawing.Point(404, 242)
         Me.f4.Name = "f4"
         Me.f4.Size = New System.Drawing.Size(0, 19)
         Me.f4.TabIndex = 35
@@ -279,7 +279,7 @@ Partial Class printCMMS
         Me.o1.AutoSize = True
         Me.o1.BackColor = System.Drawing.Color.Transparent
         Me.o1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.o1.Location = New System.Drawing.Point(512, 183)
+        Me.o1.Location = New System.Drawing.Point(502, 183)
         Me.o1.Name = "o1"
         Me.o1.Size = New System.Drawing.Size(0, 19)
         Me.o1.TabIndex = 48
@@ -289,7 +289,7 @@ Partial Class printCMMS
         Me.o2.AutoSize = True
         Me.o2.BackColor = System.Drawing.Color.Transparent
         Me.o2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.o2.Location = New System.Drawing.Point(512, 201)
+        Me.o2.Location = New System.Drawing.Point(502, 201)
         Me.o2.Name = "o2"
         Me.o2.Size = New System.Drawing.Size(0, 19)
         Me.o2.TabIndex = 47
@@ -299,7 +299,7 @@ Partial Class printCMMS
         Me.o3.AutoSize = True
         Me.o3.BackColor = System.Drawing.Color.Transparent
         Me.o3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.o3.Location = New System.Drawing.Point(512, 219)
+        Me.o3.Location = New System.Drawing.Point(502, 219)
         Me.o3.Name = "o3"
         Me.o3.Size = New System.Drawing.Size(0, 19)
         Me.o3.TabIndex = 46
@@ -309,7 +309,7 @@ Partial Class printCMMS
         Me.o4.AutoSize = True
         Me.o4.BackColor = System.Drawing.Color.Transparent
         Me.o4.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.o4.Location = New System.Drawing.Point(512, 238)
+        Me.o4.Location = New System.Drawing.Point(502, 238)
         Me.o4.Name = "o4"
         Me.o4.Size = New System.Drawing.Size(0, 19)
         Me.o4.TabIndex = 45
@@ -319,7 +319,7 @@ Partial Class printCMMS
         Me.total4.AutoSize = True
         Me.total4.BackColor = System.Drawing.Color.Transparent
         Me.total4.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.total4.Location = New System.Drawing.Point(414, 260)
+        Me.total4.Location = New System.Drawing.Point(404, 260)
         Me.total4.Name = "total4"
         Me.total4.Size = New System.Drawing.Size(0, 19)
         Me.total4.TabIndex = 58
@@ -329,7 +329,7 @@ Partial Class printCMMS
         Me.total3.AutoSize = True
         Me.total3.BackColor = System.Drawing.Color.Transparent
         Me.total3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.total3.Location = New System.Drawing.Point(171, 277)
+        Me.total3.Location = New System.Drawing.Point(161, 277)
         Me.total3.Name = "total3"
         Me.total3.Size = New System.Drawing.Size(0, 19)
         Me.total3.TabIndex = 57
@@ -339,7 +339,7 @@ Partial Class printCMMS
         Me.total2.AutoSize = True
         Me.total2.BackColor = System.Drawing.Color.Transparent
         Me.total2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.total2.Location = New System.Drawing.Point(273, 259)
+        Me.total2.Location = New System.Drawing.Point(263, 259)
         Me.total2.Name = "total2"
         Me.total2.Size = New System.Drawing.Size(0, 19)
         Me.total2.TabIndex = 56
@@ -349,7 +349,7 @@ Partial Class printCMMS
         Me.total1.AutoSize = True
         Me.total1.BackColor = System.Drawing.Color.Transparent
         Me.total1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.total1.Location = New System.Drawing.Point(171, 257)
+        Me.total1.Location = New System.Drawing.Point(161, 257)
         Me.total1.Name = "total1"
         Me.total1.Size = New System.Drawing.Size(0, 19)
         Me.total1.TabIndex = 55
@@ -359,7 +359,7 @@ Partial Class printCMMS
         Me.total5.AutoSize = True
         Me.total5.BackColor = System.Drawing.Color.Transparent
         Me.total5.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.total5.Location = New System.Drawing.Point(512, 257)
+        Me.total5.Location = New System.Drawing.Point(502, 257)
         Me.total5.Name = "total5"
         Me.total5.Size = New System.Drawing.Size(0, 19)
         Me.total5.TabIndex = 59
@@ -369,7 +369,7 @@ Partial Class printCMMS
         Me.yangdibayar.AutoSize = True
         Me.yangdibayar.BackColor = System.Drawing.Color.Transparent
         Me.yangdibayar.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.yangdibayar.Location = New System.Drawing.Point(171, 296)
+        Me.yangdibayar.Location = New System.Drawing.Point(161, 296)
         Me.yangdibayar.Name = "yangdibayar"
         Me.yangdibayar.Size = New System.Drawing.Size(0, 19)
         Me.yangdibayar.TabIndex = 60
@@ -379,7 +379,7 @@ Partial Class printCMMS
         Me.ordered.AutoSize = True
         Me.ordered.BackColor = System.Drawing.Color.Transparent
         Me.ordered.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ordered.Location = New System.Drawing.Point(90, 404)
+        Me.ordered.Location = New System.Drawing.Point(65, 409)
         Me.ordered.Name = "ordered"
         Me.ordered.Size = New System.Drawing.Size(0, 19)
         Me.ordered.TabIndex = 61
@@ -389,7 +389,7 @@ Partial Class printCMMS
         Me.proceeded.AutoSize = True
         Me.proceeded.BackColor = System.Drawing.Color.Transparent
         Me.proceeded.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.proceeded.Location = New System.Drawing.Point(302, 404)
+        Me.proceeded.Location = New System.Drawing.Point(277, 409)
         Me.proceeded.Name = "proceeded"
         Me.proceeded.Size = New System.Drawing.Size(0, 19)
         Me.proceeded.TabIndex = 62
@@ -399,7 +399,7 @@ Partial Class printCMMS
         Me.catatan.AutoSize = True
         Me.catatan.BackColor = System.Drawing.Color.Transparent
         Me.catatan.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.catatan.Location = New System.Drawing.Point(411, 393)
+        Me.catatan.Location = New System.Drawing.Point(381, 398)
         Me.catatan.Name = "catatan"
         Me.catatan.Size = New System.Drawing.Size(0, 19)
         Me.catatan.TabIndex = 63
@@ -407,7 +407,7 @@ Partial Class printCMMS
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(669, 14)
+        Me.Button1.Location = New System.Drawing.Point(659, 14)
         Me.Button1.Margin = New System.Windows.Forms.Padding(0)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 32)
