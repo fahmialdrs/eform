@@ -58,13 +58,13 @@ Public Class pembelianewmember
     Private Sub firmax3r_ValueChanged(sender As Object, e As EventArgs) Handles firmax3r.ValueChanged
         totalpcs.Text = firmax3r.Value + o2max3r.Value
         totalset.Text = totalpcs.Text / 2
-        amountr.Text = totalset.Text * 1000000
+        amountr.Text = totalset.Text * 1300000
     End Sub
 
     Private Sub o2max3r_ValueChanged(sender As Object, e As EventArgs) Handles o2max3r.ValueChanged
         totalpcs.Text = firmax3r.Value + o2max3r.Value
         totalset.Text = totalpcs.Text / 2
-        amountr.Text = totalset.Text * 1000000
+        amountr.Text = totalset.Text * 1300000
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -183,5 +183,9 @@ Public Class pembelianewmember
         ElseIf delivery.Checked = False Then
             catatan.Text &= " "
         End If
+    End Sub
+
+    Private Sub amountr_TextChanged(sender As Object, e As EventArgs) Handles amountr.TextChanged
+
     End Sub
 End Class
