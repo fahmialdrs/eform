@@ -319,7 +319,7 @@ Partial Class printCMMS
         Me.total4.AutoSize = True
         Me.total4.BackColor = System.Drawing.Color.Transparent
         Me.total4.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.total4.Location = New System.Drawing.Point(404, 260)
+        Me.total4.Location = New System.Drawing.Point(502, 257)
         Me.total4.Name = "total4"
         Me.total4.Size = New System.Drawing.Size(0, 19)
         Me.total4.TabIndex = 58
@@ -329,7 +329,7 @@ Partial Class printCMMS
         Me.total3.AutoSize = True
         Me.total3.BackColor = System.Drawing.Color.Transparent
         Me.total3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.total3.Location = New System.Drawing.Point(161, 277)
+        Me.total3.Location = New System.Drawing.Point(404, 260)
         Me.total3.Name = "total3"
         Me.total3.Size = New System.Drawing.Size(0, 19)
         Me.total3.TabIndex = 57
@@ -359,7 +359,7 @@ Partial Class printCMMS
         Me.total5.AutoSize = True
         Me.total5.BackColor = System.Drawing.Color.Transparent
         Me.total5.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.total5.Location = New System.Drawing.Point(502, 257)
+        Me.total5.Location = New System.Drawing.Point(161, 277)
         Me.total5.Name = "total5"
         Me.total5.Size = New System.Drawing.Size(0, 19)
         Me.total5.TabIndex = 59
